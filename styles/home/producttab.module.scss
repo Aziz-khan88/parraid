@@ -1,0 +1,71 @@
+.productTabSec {
+  .customTabs {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    position: relative;
+
+    .tabButton {
+      flex: 0 0 auto;
+      border: 1px solid #8c8c8c;
+      border-radius: 80px;
+      height: 65px;
+      padding: 0 30px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #c0c0c0;
+      cursor: pointer;
+      background: transparent;
+      position: relative;
+      transition: all 0.3s ease;
+      overflow: hidden;
+
+      &:hover {
+        background: #0061fe;
+        border: 1px solid #0061fe;
+        color: #ffffff;
+        transform: translateY(-3px);
+        box-shadow: 0 8px 15px rgba(0, 97, 254, 0.3);
+      }
+
+      &.active {
+        background: #0061fe;
+        border: 1px solid #0061fe;
+        color: #ffffff;
+        transform: scale(1.05);
+        box-shadow: 0 8px 20px rgba(0, 97, 254, 0.35);
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          120deg,
+          transparent,
+          rgba(255, 255, 255, 0.3),
+          transparent
+        );
+        transition: left 0.5s ease;
+      }
+
+      &:hover::after {
+        left: 100%;
+      }
+    }
+  }
+  .tabContent {
+    margin: 50px 0px;
+  }
+}

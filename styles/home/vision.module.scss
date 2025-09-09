@@ -1,0 +1,59 @@
+.visionSection {
+  background: #fff;
+  height: 450px;
+  .visionBG {
+    position: relative;
+    overflow: hidden;
+    height: 680px;
+    top: -300px;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        360deg,
+        rgba(0, 0, 0, 0.42) 21.3%,
+        rgba(0, 0, 0, 0) 108%
+      );
+      border-radius: 40px;
+      z-index: 1;
+    }
+    .visionBox {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      z-index: 1;
+      padding: 50px;
+      .visionTitle {
+        flex: 0 0 400px;
+      }
+      .visionTxt {
+        flex: 0 0 400px;
+      }
+    }
+    .bannerVideo {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      border-radius: 40px;
+      overflow: hidden;
+      img {
+        object-fit: cover;
+        border-radius: 40px;
+        width: 100%;
+        height: 100%;
+      }
+      video {
+        object-fit: cover;
+        border-radius: 40px;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

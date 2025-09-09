@@ -1,0 +1,41 @@
+.contactFormSection {
+  .contactBg {
+    padding: 50px;
+    border-radius: 40px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .footerWapper {
+      border-top: 2px solid rgba(255, 255, 255, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 50px;
+      margin-top: 50px;
+      li {
+        .footerInfo {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 22px;
+          letter-spacing: -0.45px;
+          color: #ffffff;
+          svg {
+            width: auto;
+            height: 20px;
+          }
+          a {
+            margin-top: 10px;
+            display: block;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: -0.45px;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}

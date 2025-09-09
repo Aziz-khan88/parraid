@@ -1,0 +1,91 @@
+.teamSection {
+  .teamBg {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    border-radius: 40px;
+    padding: 70px;
+    margin-top: -300px;
+    h2 {
+      color: #fff;
+    }
+    p {
+      color: #fff;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 36px;
+      letter-spacing: -0.153379px;
+    }
+  }
+  .teamWapper {
+    margin-top: 30px;
+
+    .teamItem {
+      background: #f6f6f6;
+      border-radius: 30px;
+      padding: 30px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      height: 425px;
+      margin-bottom: 20px;
+      transition: all 0.4s ease;
+      transform: scale(1);
+
+      &:hover {
+        background: #0061fe;
+        transform: scale(1.03);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+      }
+
+      .title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 41px;
+        letter-spacing: -1.41622px;
+        text-transform: capitalize;
+        color: #000000;
+        position: relative;
+        margin-bottom: 30px;
+        transition: all 0.4s ease;
+
+        &::after {
+          content: "";
+          background: #0061fe;
+          width: 100px;
+          height: 4px;
+          display: block;
+          margin-top: 20px;
+          transition: background 0.4s ease;
+        }
+      }
+
+      &:hover .title {
+        color: #ffffff;
+        margin-bottom: 50px;
+        transform: translateY(5px);
+      }
+
+      &:hover .title::after {
+        background: #ffffff;
+      }
+
+      .txt {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.127809px;
+        color: #64748b;
+        transition: color 0.4s ease;
+      }
+
+      &:hover .txt {
+        color: #ffffff;
+      }
+    }
+  }
+}

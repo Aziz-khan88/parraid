@@ -1,0 +1,131 @@
+.eventSection {
+  padding: 100px 0px 400px;
+  .eventWapper {
+    border: 1px solid #272829;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: all 0.4s ease-in-out;
+
+    &:hover {
+      background: #fff;
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+
+      .eventContent {
+        ul li {
+          color: #272829;
+          border-right: 2px solid #0061fe;
+        }
+        h2 {
+          color: #000;
+        }
+        .locaiotn {
+          color: #272829;
+          a {
+            color: #0061fe;
+            transition: color 0.3s ease;
+            &:hover {
+              color: #272829;
+            }
+          }
+        }
+      }
+
+      .eventbtn {
+        button,
+        a {
+          background: #0061fe;
+          color: #fff;
+          transform: scale(1.05);
+        }
+      }
+    }
+
+    .eventImg {
+      flex: 0 0 240px;
+      height: 270px;
+      background: #fff;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: transform 0.4s ease;
+
+      img {
+        width: auto;
+        height: 140px;
+        transition: transform 0.4s ease;
+      }
+    }
+
+    &:hover .eventImg img {
+      transform: scale(1.1);
+    }
+
+    .eventContent {
+      flex: 0 0 calc(100% - 270px);
+      h2 {
+        color: #fff;
+      }
+
+      ul {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 20px;
+
+        li {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 20px;
+          color: #ffffff;
+          padding-right: 25px;
+          margin-right: 25px;
+          border-right: 2px solid #0061fe;
+          transition: all 0.3s ease;
+
+          &:last-child {
+            padding-right: 0px;
+            margin-right: 0px;
+            border-right: 0px;
+          }
+        }
+      }
+
+      .locaiotn {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        color: #ffffff;
+        transition: color 0.3s ease;
+
+        a {
+          color: #0061fe;
+          transition: color 0.3s ease;
+
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
+
+      .eventbtn {
+        position: absolute;
+        right: 30px;
+        top: 30px;
+      }
+    }
+  }
+  .viewMore {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+}

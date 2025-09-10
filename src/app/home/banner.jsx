@@ -4,14 +4,14 @@ import styles from "@/styles/home/banner.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
 import BannerPoster from "media/home/HomeBanner.webp";
 import Image from "next/image";
-import SingleButton from "../components/singlebutton";
+import SingleButton from "@/src/app/components/singlebutton";
 
 const Banner = () => {
     const [showVideo, setShowVideo] = useState(false);
 
     useEffect(() => {
         const timeout = setTimeout(() => {
-            setShowVideo(true); // load video after 1.5s
+            setShowVideo(true);
         }, 1500);
         return () => clearTimeout(timeout);
     }, []);
@@ -19,7 +19,7 @@ const Banner = () => {
         <section className={styles.bannerSection}>
             <Container className="h-100">
                 <Row className="h-100">
-                    <Col md={6} className="my-auto">
+                    <Col md={8} lg={7} xl={6} className="my-auto">
                         <div className={styles.bannerText}>
                             <h1>Next-Gen Telemetry & Connectivity.</h1>
                             <p>Powering secure, real-time data transmission across land, sea, and sky. Our solutions are engineered for precision, reliability, and mission success.</p>

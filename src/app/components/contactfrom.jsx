@@ -10,7 +10,7 @@ const ContactFrom = () => {
         <section className={`${styles.contactFormSection}`}>
             <Container className={styles.contactBg} style={{ backgroundImage: `url('${BGIMG.src}')` }}>
                 <Row>
-                    <Col md={6} lg={5} xl={5}>
+                    <Col md={12} lg={5} xl={5}>
                         <h2>For More Information</h2>
                         <p>Please contact our experienced Sales Team for more product information, to request brochures or spec sheets, or to set up a demo or site visit.</p>
                         <ul className={styles.footerWapper}>
@@ -28,8 +28,7 @@ const ContactFrom = () => {
                             </li>
                         </ul>
                     </Col>
-                    <Col md={6} lg={6} xl={6} className="offset-lg-1">
-
+                    <Col md={12} lg={7} xl={6} className="offset-xl-1">
                         <ContactForm />
                     </Col>
                 </Row>

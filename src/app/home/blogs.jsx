@@ -61,7 +61,7 @@ const Blogs = ({ data, dataListing }) => {
         <section className={`${styles.blogSection} p-100`}>
             <Container className="h-100">
                 <Row className="h-100">
-                    <Col md={10} lg={5} className="my-auto">
+                    <Col md={10} lg={7} className="my-auto">
                         <h2>Stay Inspired with Our
                             Latest Insights</h2>
                         <p>Dive into our blog for the latest trends, tips, and insights in the world of design and AI

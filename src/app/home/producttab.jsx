@@ -4,7 +4,7 @@ import styles from "@/styles/home/producttab.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
 import ProductCarousel from "@/src/app/home/productcarousel";
 import Pro01 from "media/products/Pro01.webp";
-import SingleButton from "../components/singlebutton";
+import SingleButton from "@/src/app/components/singlebutton";
 
 const productsData = {
     tab1: [

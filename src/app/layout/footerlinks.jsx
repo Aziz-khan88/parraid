@@ -74,12 +74,12 @@ const FooterLinks = () => {
                     </Col>
                 </Row>
                 <Row className={styles.copyrightSection}>
-                    <Col md={12} lg={6}>
+                    <Col md={6} lg={6}>
                         <div className={styles.copyRightSec}>
                             <p>Copyright © 2025 all rights reserved.</p>
                         </div>
                     </Col>
-                    <Col md={12} lg={6}>
+                    <Col md={6} lg={6}>
                         <div className={`${styles.copyRightSec} ${styles.RightTxt}`}>
                             <p>Designed / Developed By <a href="#">Infiniti Digital Marketing Agency</a></p>
                         </div>

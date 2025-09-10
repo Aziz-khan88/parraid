@@ -23,6 +23,7 @@
           svg {
             width: auto;
             height: 20px;
+            margin-right: 5px;
           }
           a {
             margin-top: 10px;
@@ -33,6 +34,201 @@
             line-height: 22px;
             letter-spacing: -0.45px;
             color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .contactFormSection {
+    .contactBg {
+      padding: 40px;
+      border-radius: 30px;
+      .footerWapper {
+        padding-top: 40px;
+        margin-top: 40px;
+        li {
+          .footerInfo {
+            font-size: 16px;
+            line-height: 20px;
+
+            svg {
+              height: 20px;
+            }
+            a {
+              margin-top: 10px;
+              font-size: 17px;
+              line-height: 22px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .contactFormSection {
+    .contactBg {
+      padding: 40px;
+      border-radius: 30px;
+      .footerWapper {
+        padding-top: 40px;
+        margin-top: 40px;
+        li {
+          .footerInfo {
+            font-size: 16px;
+            line-height: 20px;
+
+            svg {
+              height: 15px;
+            }
+            a {
+              margin-top: 10px;
+              font-size: 17px;
+              line-height: 22px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .contactFormSection {
+    .contactBg {
+      padding: 40px;
+      border-radius: 30px;
+      .footerWapper {
+        padding-top: 40px;
+        margin-top: 40px;
+        li {
+          .footerInfo {
+            font-size: 16px;
+            line-height: 20px;
+
+            svg {
+              height: 15px;
+            }
+            a {
+              margin-top: 10px;
+              font-size: 16px;
+              line-height: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .contactFormSection {
+    .contactBg {
+      padding: 30px;
+      border-radius: 20px;
+      .footerWapper {
+        padding-top: 30px;
+        margin-top: 30px;
+        li {
+          .footerInfo {
+            font-size: 16px;
+            line-height: 20px;
+
+            svg {
+              height: 15px;
+            }
+            a {
+              margin-top: 10px;
+              font-size: 16px;
+              line-height: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .contactFormSection {
+    .contactBg {
+      padding: 20px;
+      border-radius: 20px;
+      .footerWapper {
+        padding-top: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        li {
+          .footerInfo {
+            font-size: 16px;
+            line-height: 20px;
+
+            svg {
+              height: 15px;
+            }
+            a {
+              margin-top: 10px;
+              font-size: 16px;
+              line-height: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .contactFormSection {
+    .contactBg {
+      padding: 20px;
+      border-radius: 20px;
+      .footerWapper {
+        padding-top: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        li {
+          .footerInfo {
+            font-size: 16px;
+            line-height: 20px;
+
+            svg {
+              height: 15px;
+            }
+            a {
+              margin-top: 10px;
+              font-size: 16px;
+              line-height: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .contactFormSection {
+    .contactBg {
+      padding: 20px;
+      border-radius: 20px;
+      .footerWapper {
+        padding-top: 20px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        li {
+          margin-bottom: 20px;
+          .footerInfo {
+            font-size: 16px;
+            line-height: 20px;
+
+            svg {
+              height: 15px;
+            }
+            a {
+              margin-top: 10px;
+              font-size: 15px;
+              line-height: 15px;
+            }
           }
         }
       }

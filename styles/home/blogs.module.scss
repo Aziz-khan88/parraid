@@ -47,6 +47,7 @@
         font-size: 20px;
         line-height: 26px;
         color: #fff;
+        letter-spacing: -0.66px;
         a {
           font-style: normal;
           font-weight: 600;
@@ -187,17 +188,17 @@
       margin-top: 20px;
 
       .blogItem {
-        flex: 0 0 calc(33.33% - 10px);
+        flex: 0 0 calc(50% - 5px);
         border-radius: 15px;
         .blogImage {
-          height: 130px;
+          height: 180px;
           img {
             border-radius: 15px 15px 0px 0px;
           }
         }
       }
       .blogContent {
-        padding: 15px;
+        padding: 10px;
         .dateSec {
           margin-bottom: 10px;
           font-size: 11px;
@@ -218,9 +219,9 @@
       margin-top: 20px;
       flex-wrap: wrap;
       .blogItem {
-        flex: 0 0 calc(50% - 10px);
+        flex: 0 0 calc(100% - 0px);
         border-radius: 15px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         .blogImage {
           height: 130px;
           img {
@@ -252,7 +253,7 @@
       .blogItem {
         flex: 0 0 calc(100% - 0px);
         border-radius: 15px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         .blogImage {
           height: 180px;
           img {

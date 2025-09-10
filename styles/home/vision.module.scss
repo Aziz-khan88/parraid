@@ -57,3 +57,223 @@
     }
   }
 }
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .visionSection {
+    height: 300px;
+    .visionBG {
+      height: 600px;
+      top: -300px;
+      &::before {
+        border-radius: 35px;
+      }
+      .visionBox {
+        padding: 50px;
+        .visionTitle {
+          flex: 0 0 400px;
+        }
+        .visionTxt {
+          flex: 0 0 400px;
+        }
+      }
+      .bannerVideo {
+        border-radius: 35px;
+        overflow: hidden;
+        img {
+          border-radius: 35px;
+        }
+        video {
+          border-radius: 35px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .visionSection {
+    height: 260px;
+    .visionBG {
+      height: 550px;
+      top: -300px;
+      &::before {
+        border-radius: 30px;
+      }
+      .visionBox {
+        padding: 40px;
+        .visionTitle {
+          flex: 0 0 400px;
+        }
+        .visionTxt {
+          flex: 0 0 400px;
+        }
+      }
+      .bannerVideo {
+        border-radius: 30px;
+        overflow: hidden;
+        img {
+          border-radius: 30px;
+        }
+        video {
+          border-radius: 30px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .visionSection {
+    height: 200px;
+    .visionBG {
+      height: 500px;
+      top: -300px;
+      &::before {
+        border-radius: 25px;
+      }
+      .visionBox {
+        padding: 25px;
+        .visionTitle {
+          flex: 0 0 400px;
+        }
+        .visionTxt {
+          flex: 0 0 400px;
+        }
+      }
+      .bannerVideo {
+        border-radius: 25px;
+        overflow: hidden;
+        img {
+          border-radius: 25px;
+        }
+        video {
+          border-radius: 25px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .visionSection {
+    height: 160px;
+    .visionBG {
+      height: 450px;
+      top: -300px;
+      &::before {
+        border-radius: 25px;
+      }
+      .visionBox {
+        padding: 25px;
+        .visionTitle {
+          flex: 0 0 400px;
+        }
+        .visionTxt {
+          flex: 0 0 400px;
+        }
+      }
+      .bannerVideo {
+        border-radius: 25px;
+        overflow: hidden;
+        img {
+          border-radius: 25px;
+        }
+        video {
+          border-radius: 25px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .visionSection {
+    height: 100px;
+    .visionBG {
+      height: 400px;
+      top: -300px;
+      &::before {
+        border-radius: 25px;
+      }
+      .visionBox {
+        padding: 25px;
+        flex-wrap: wrap;
+        .visionTitle {
+          flex: 0 0 400px;
+        }
+        .visionTxt {
+          flex: 0 0 400px;
+        }
+      }
+      .bannerVideo {
+        border-radius: 25px;
+        overflow: hidden;
+        img {
+          border-radius: 25px;
+        }
+        video {
+          border-radius: 25px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .visionSection {
+    height: 100px;
+    .visionBG {
+      height: 400px;
+      top: -300px;
+      &::before {
+        border-radius: 25px;
+      }
+      .visionBox {
+        padding: 25px;
+        flex-wrap: wrap;
+        .visionTitle {
+          flex: 0 0 400px;
+        }
+        .visionTxt {
+          flex: 0 0 400px;
+        }
+      }
+      .bannerVideo {
+        border-radius: 25px;
+        overflow: hidden;
+        img {
+          border-radius: 25px;
+        }
+        video {
+          border-radius: 25px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .visionSection {
+    height: 50px;
+    .visionBG {
+      height: 350px;
+      top: -300px;
+      &::before {
+        border-radius: 20px;
+      }
+      .visionBox {
+        padding: 20px 0px;
+        flex-wrap: wrap;
+        .visionTitle {
+          flex: 0 0 100%;
+        }
+        .visionTxt {
+          flex: 0 0 100%;
+        }
+      }
+      .bannerVideo {
+        border-radius: 20px;
+        overflow: hidden;
+        img {
+          border-radius: 20px;
+        }
+        video {
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+}

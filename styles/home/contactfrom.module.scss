@@ -53,6 +53,11 @@
               line-height: 22px;
               letter-spacing: -0.45px;
               color: #ffffff;
+              transition: all 0.3s ease;
+              &:hover {
+                color: #0061fe;
+                transition: all 0.3s ease;
+              }
             }
           }
         }

@@ -1,7 +1,5 @@
 .clientsSection {
   background: #fff;
-  padding-bottom: 400px;
-  padding-top: 100px;
   h2 {
     color: #000;
     margin-bottom: 40px;
@@ -273,8 +271,6 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 899px) {
   .clientsSection {
-    padding-top: 60px;
-    padding-bottom: 330px;
     h2 {
       margin-bottom: 25px;
     }
@@ -323,8 +319,6 @@
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .clientsSection {
-    padding-top: 60px;
-    padding-bottom: 330px;
     h2 {
       margin-bottom: 20px;
     }
@@ -372,8 +366,6 @@
 }
 @media only screen and (min-width: 0px) and (max-width: 575px) {
   .clientsSection {
-    padding-top: 60px;
-    padding-bottom: 330px;
     h2 {
       margin-bottom: 20px;
     }

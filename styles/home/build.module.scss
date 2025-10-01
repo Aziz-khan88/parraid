@@ -4,6 +4,7 @@
     position: relative;
     z-index: 1;
     margin-bottom: 70px;
+    font-size: 45px;
     span {
       font-size: 170px;
       line-height: 170px;
@@ -13,7 +14,7 @@
       width: 100%;
       font-weight: 700;
       text-align: left;
-      text-transform: capitalize;
+      text-transform: uppercase;
       color: rgba(255, 255, 255, 0.04);
       z-index: -1;
       transform: translate(0%, -30%);
@@ -41,13 +42,15 @@
       flex-direction: column;
       height: 100%;
       .tit {
-        width: 45%;
+        width: 40%;
       }
       .txt {
         width: 45%;
         margin-left: auto;
         p {
           color: #ffffff;
+          font-size: 20px;
+          line-height: 27px;
         }
       }
     }
@@ -59,10 +62,7 @@
     margin-top: 150px;
     h4 {
       margin-bottom: 60px;
-      span {
-        font-size: 150px;
-        line-height: 150px;
-      }
+      font-size: 45px;
     }
     p {
       font-size: 22px;
@@ -73,11 +73,11 @@
       padding: 35px;
       margin: 45px 0px;
       .buildBox {
-        .tit {
-          width: 45%;
-        }
         .txt {
-          width: 45%;
+          p {
+            font-size: 19px;
+            line-height: 26px;
+          }
         }
       }
     }
@@ -88,10 +88,7 @@
     margin-top: 180px;
     h4 {
       margin-bottom: 50px;
-      span {
-        font-size: 140px;
-        line-height: 140px;
-      }
+      font-size: 45px;
     }
     p {
       font-size: 22px;
@@ -102,11 +99,11 @@
       padding: 35px;
       margin: 30px 0px;
       .buildBox {
-        .tit {
-          width: 45%;
-        }
         .txt {
-          width: 45%;
+          p {
+            font-size: 18px;
+            line-height: 25px;
+          }
         }
       }
     }
@@ -117,10 +114,7 @@
     margin-top: 180px;
     h4 {
       margin-bottom: 50px;
-      span {
-        font-size: 130px;
-        line-height: 130px;
-      }
+      font-size: 45px;
     }
     p {
       font-size: 20px;
@@ -131,11 +125,11 @@
       padding: 30px;
       margin: 30px 0px;
       .buildBox {
-        .tit {
-          width: 45%;
-        }
         .txt {
-          width: 45%;
+          p {
+            font-size: 17px;
+            line-height: 24px;
+          }
         }
       }
     }
@@ -143,12 +137,13 @@
 }
 @media only screen and (min-width: 900px) and (max-width: 1099px) {
   .buildSection {
-    margin-top: 180px;
+    margin-top: 150px;
     h4 {
       margin-bottom: 50px;
+      font-size: 45px;
       span {
-        font-size: 120px;
-        line-height: 120px;
+        font-size: 140px;
+        line-height: 190px;
       }
     }
     p {
@@ -160,11 +155,12 @@
       padding: 30px;
       margin: 30px 0px;
       .buildBox {
-        .tit {
-          width: 45%;
-        }
         .txt {
-          width: 45%;
+          width: 50%;
+          p {
+            font-size: 16px;
+            line-height: 22px;
+          }
         }
       }
     }
@@ -172,12 +168,13 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 899px) {
   .buildSection {
-    margin-top: 160px;
+    margin-top: 120px;
     h4 {
-      margin-bottom: 40px;
+      margin-bottom: 50px;
+      font-size: 40px;
       span {
-        font-size: 100px;
-        line-height: 180px;
+        font-size: 120px;
+        line-height: 190px;
       }
     }
     p {
@@ -194,6 +191,10 @@
         }
         .txt {
           width: 70%;
+          p {
+            font-size: 16px;
+            line-height: 22px;
+          }
         }
       }
     }
@@ -204,9 +205,10 @@
     margin-top: 100px;
     h4 {
       margin-bottom: 30px;
+      font-size: 35px;
       span {
-        font-size: 80px;
-        line-height: 150px;
+        font-size: 95px;
+        line-height: 200px;
       }
     }
     p {
@@ -219,10 +221,14 @@
       margin: 20px 0px;
       .buildBox {
         .tit {
-          width: 80%;
+          width: 60%;
         }
         .txt {
           width: 90%;
+          p {
+            font-size: 16px;
+            line-height: 22px;
+          }
         }
       }
     }
@@ -230,12 +236,12 @@
 }
 @media only screen and (min-width: 0px) and (max-width: 575px) {
   .buildSection {
-    margin-top: 130px;
+    margin-top: 120px;
     h4 {
-      margin-bottom: 30px;
+      margin-bottom: 20px;
+      font-size: 35px;
       span {
-        font-size: 50px;
-        line-height: 120px;
+        display: none;
       }
     }
     p {
@@ -244,7 +250,7 @@
     }
     .buildBackground {
       height: 350px;
-      padding: 25px;
+      padding: 20px;
       margin: 20px 0px;
       .buildBox {
         .tit {
@@ -252,6 +258,10 @@
         }
         .txt {
           width: 100%;
+          p {
+            font-size: 15px;
+            line-height: 20px;
+          }
         }
       }
     }

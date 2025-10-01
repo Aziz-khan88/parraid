@@ -389,11 +389,16 @@
       &:nth-child(5) {
         font-size: 13px;
         line-height: 20px;
+        display: block;
 
         input {
           width: 14px;
           height: 14px;
           margin-right: 10px;
+        }
+        a {
+          margin: 0px;
+          padding: 0px;
         }
       }
     }

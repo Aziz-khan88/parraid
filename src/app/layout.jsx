@@ -3,6 +3,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "@/src/app/globals.scss";
 import Footer from "@/src/app/layout/footer";
 import Header from "@/src/app/layout/header";
+import localFont from "next/font/local";
+
+const myFont = localFont({
+  src: [
+    { path: "./assets/fonts/MyriadPro-BoldCondIt.woff2", weight: "bold", style: "italic" },
+    { path: "./assets/fonts/MyriadPro-BoldCondIt.woff", weight: "bold", style: "italic" },
+  ],
+  variable: "--font-myfont",
+})
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -37,7 +46,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable}`}>
+      <body className={`${poppins.variable} ${myFont.variable}`}>
         <Header />
         {children}
         <Footer />

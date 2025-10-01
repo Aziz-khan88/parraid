@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import BannerPoster from "media/home/visionImg.webp";
+import BannerPoster from "media/home/contactBG.webp"
 import styles from "@/styles/home/vision.module.scss"
 import { Col, Container, Row } from "react-bootstrap";
 import SingleButton from "@/src/app/components/singlebutton";

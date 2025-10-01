@@ -17,7 +17,7 @@ const Build = () => {
                     <Col md={12} className={styles.buildBackground} style={{ backgroundImage: `url('${BGIMG.src}')` }}>
                         <div className={styles.buildBox}>
                             <div className={styles.tit}>
-                                <h2>From expedited acquisition to rapid.</h2>
+                                <h2>From expedited acquisition to rapid</h2>
                             </div>
                             <div className={styles.txt}>
                                 <p>Parraid, LLC is a highly regarded, U.S. based technology and engineering company specializing in product solutions for aerospace and ground tactical applications.</p>

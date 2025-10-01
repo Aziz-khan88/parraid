@@ -21,7 +21,7 @@ const Banner = () => {
                 <Row className="h-100">
                     <Col md={8} lg={7} xl={6} className="my-auto">
                         <div className={styles.bannerText}>
-                            <h1>Next-Gen Telemetry & Connectivity.</h1>
+                            <h1>Next-Gen Telemetry & Connectivity</h1>
                             <p>Powering secure, real-time data transmission across land, sea, and sky. Our solutions are engineered for precision, reliability, and mission success.</p>
                             <SingleButton link="#" />
                         </div>

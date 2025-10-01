@@ -55,7 +55,7 @@ export const clientData = [
 const Clients = () => {
     const [emblaRef] = useEmblaCarousel({ align: 'start' })
     return (
-        <section className={`${styles.clientsSection} borderRadiusTop`}>
+        <section className={`${styles.clientsSection} p-100 borderRadiusTop`}>
             <Container>
                 <Row>
                     <Col md={8}>

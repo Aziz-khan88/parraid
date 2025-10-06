@@ -23,7 +23,7 @@ const Vision = () => {
                     <Col md={12}>
                         <div className={styles.visionBox}>
                             <div className={styles.visionTitle}>
-                                <h2>Our Mission / Vision</h2>
+                                <h2>Our Mission</h2>
                             </div>
                             <div className={styles.visionTxt}>
                                 <p>Say goodbye to messy renovations! Our dustless sanding technology ensures a cleaner, healthier, and more efficient floor refinishing process.</p>

@@ -15,7 +15,7 @@ const Page = () => {
       <Banner />
       <Build />
       <ProductTab />
-      <Clients />
+      {/* <Clients /> */}
       <Industries />
       <Events />
       <Vision />

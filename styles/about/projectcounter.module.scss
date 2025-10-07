@@ -1,0 +1,31 @@
+.projectCounterSec {
+  background: #f3f3f3;
+  padding: 100px 0px;
+  margin-top: -100px;
+  z-index: 1;
+  position: relative;
+  .projectWapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .projectItem {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 50px;
+      line-height: 60px;
+      letter-spacing: -0.165px;
+      color: #000000;
+      text-align: center;
+      font-family: "Myriad Pro", sans-serif;
+      span {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        display: block;
+        color: #000000;
+        font-family: "Poppins", sans-serif;
+      }
+    }
+  }
+}

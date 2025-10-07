@@ -5,9 +5,9 @@ import Link from "next/link";
 import Event01 from "media/events/logo1.webp"
 import Image from "next/image";
 
-const Events = () => {
+const Events = ({ page }) => {
     return (
-        <section className={`${styles.eventSection}`}>
+        <section className={`${styles.eventSection} ${page ? "p-100" : ""}`}>
             <Container>
                 <Row>
                     <Col md={6}>
@@ -65,9 +65,11 @@ const Events = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className={styles.viewMore}>
-                            <SingleButton link="#" txt="View All Events" />
-                        </div>
+                        {page ? "" :
+                            <div className={styles.viewMore}>
+                                <SingleButton link="#" txt="View All Events" />
+                            </div>
+                        }
                     </Col>
                 </Row>
             </Container>

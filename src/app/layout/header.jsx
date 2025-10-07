@@ -77,11 +77,12 @@ const Header = () => {
                         </div>
                         <ul className={`${styles.headerNavigation} ${isActive ? styles.active : ""}`}>
                             <li><Link href="/" onClick={handleClick}>Home</Link></li>
-                            <li><Link href="#" onClick={handleClick}>About</Link></li>
-                            <li><Link href="#" onClick={handleClick}>Products</Link></li>
-                            <li><Link href="#" onClick={handleClick}>Careers</Link></li>
-                            <li><Link href="#" onClick={handleClick}>News & Events</Link></li>
-                            <li><Link href="#" onClick={handleClick}>Contact Us </Link></li>
+                            <li><Link href="/about-us" onClick={handleClick}>About</Link></li>
+                            <li><Link href="/products" onClick={handleClick}>Products</Link></li>
+                            <li><Link href="/careers" onClick={handleClick}>Careers</Link></li>
+                            <li><Link href="/news" onClick={handleClick}>News</Link></li>
+                            <li><Link href="/events" onClick={handleClick}>Events</Link></li>
+                            <li><Link href="/contact-us" onClick={handleClick}>Contact Us </Link></li>
                             <li><Link href="#"><SearchIcon /></Link></li>
                         </ul>
                     </Col>

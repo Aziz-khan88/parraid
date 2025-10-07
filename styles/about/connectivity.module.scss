@@ -1,0 +1,66 @@
+.connectivitySec {
+  background: #fff;
+  padding: 100px 0px 50px;
+  h2 {
+    color: #000;
+  }
+  p {
+    color: #000;
+  }
+  .connectivityVideo {
+    position: relative;
+    overflow: hidden;
+    height: 680px;
+    .bannerVideo {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      border-radius: 40px;
+      overflow: hidden;
+      img {
+        object-fit: cover;
+        border-radius: 40px;
+        width: 100%;
+        height: 100%;
+      }
+      video {
+        object-fit: cover;
+        border-radius: 40px;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+.connectivityPoints {
+  background: #0061fe;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  background-size: 50% auto;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: -1;
+  }
+  .connectivityList {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    text-align: left;
+    padding: 100px 50px 200px;
+    justify-content: center;
+    &.visionList {
+      justify-content: space-between;
+    }
+  }
+}

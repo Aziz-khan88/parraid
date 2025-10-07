@@ -1,0 +1,107 @@
+.buildListSec {
+  padding-bottom: 100px;
+  .buildWapper {
+    .buildItem {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 40px 20px;
+      display: flex;
+      justify-content: space-between;
+      transition: all 0.4s ease;
+      background: transparent;
+      min-height: 180px;
+      &:last-child {
+        border-bottom: 0px;
+      }
+
+      .number {
+        flex: 0 0 60px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: #fff;
+        padding-top: 5px;
+        transition: color 0.4s ease;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+      }
+
+      .title {
+        flex: 0 0 calc(100% - 360px);
+        h4 {
+          margin-bottom: 0px;
+          color: #fff;
+          transition: color 0.4s ease;
+        }
+        p {
+          margin-bottom: 0px;
+          display: none;
+        }
+      }
+
+      .btn {
+        flex: 0 0 300px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          span {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 25px;
+            text-transform: capitalize;
+            color: #fff;
+            margin-right: 15px;
+            opacity: 0;
+            transition: opacity 0.4s ease, color 0.4s ease;
+          }
+
+          svg {
+            width: auto;
+            height: 40px;
+            transition: transform 0.4s ease, color 0.4s ease;
+          }
+        }
+      }
+      &:hover {
+        background: #fff;
+        border-radius: 20px;
+        border-bottom: 0px;
+        .number,
+        .title h4,
+        .title p,
+        .btn a span {
+          color: #000;
+        }
+        .title p {
+          display: block;
+        }
+        .btn a span {
+          opacity: 1;
+        }
+
+        .btn {
+          a {
+            svg {
+              transform: rotate(-30deg);
+              path {
+                fill: #0061fe;
+                &:first-child {
+                  stroke: #0061fe;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

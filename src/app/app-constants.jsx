@@ -259,3 +259,88 @@ export function LinkArrowIcon() {
         </svg>
     )
 }
+
+export function ArrowICon() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="56"
+            height="57"
+            fill="none"
+            viewBox="0 0 56 57"
+        >
+            <path
+                stroke="#fff"
+                strokeWidth="2.5"
+                d="M28 1.75c14.774 0 26.75 11.976 26.75 26.75S42.774 55.25 28 55.25 1.25 43.274 1.25 28.5 13.226 1.75 28 1.75Z"
+            ></path>
+            <path
+                stroke="#fff"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2.5"
+                d="M38 28.5H16.75M28 18.5l10 10-10 10"
+            ></path>
+        </svg>
+    )
+
+}
+export function ListIcon() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="14"
+            height="14"
+            fill="none"
+            viewBox="0 0 14 14"
+        >
+            <circle cx="7" cy="7" r="7" fill="#fff"></circle>
+            <circle cx="7" cy="7" r="4" fill="#000"></circle>
+        </svg>)
+
+}
+export function DownloadIcon() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            fill="none"
+            viewBox="0 0 36 36"
+        >
+            <circle cx="18" cy="18" r="18" fill="#888"></circle>
+            <path
+                stroke="#000"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1.651"
+                d="M24.222 20.335 18.23 25.35l-5.99-5.015"
+            ></path>
+            <path
+                stroke="#000"
+                strokeLinecap="round"
+                strokeWidth="1.649"
+                d="M18.27 25.226V10.08"
+            ></path>
+        </svg>)
+
+}
+
+export function ShareIcon() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="21"
+            height="19"
+            fill="none"
+            viewBox="0 0 21 19"
+        >
+            <path
+                fill="#fff"
+                fillRule="evenodd"
+                d="m13.254 1.282.042.037 4.371 3.886c.816.725 1.492 1.326 1.956 1.872.488.573.836 1.19.836 1.954s-.348 1.382-.835 1.955c-.465.545-1.14 1.146-1.957 1.871l-4.371 3.886-.042.038c-.353.314-.683.607-.968.795-.28.185-.788.453-1.358.197s-.708-.814-.756-1.146c-.048-.338-.048-.78-.048-1.252V13.61c-1.58.11-3.183.53-4.584 1.212-1.648.803-2.964 1.941-3.678 3.302a.817.817 0 0 1-1.54-.38c0-5.142 1.505-8.49 3.656-10.548 1.875-1.794 4.16-2.53 6.146-2.684V2.688c0-.473 0-.915.048-1.252.048-.332.186-.89.756-1.147.57-.256 1.078.013 1.358.198.285.188.615.48.968.795m-1.493.863c.123.106.27.236.45.395l4.326 3.846c.872.775 1.461 1.301 1.842 1.75.367.43.446.681.446.895s-.08.466-.446.896c-.381.448-.97.974-1.842 1.75l-4.326 3.845c-.18.16-.327.29-.45.396a36 36 0 0 1-.003-.6v-2.553a.817.817 0 0 0-.817-.817 14.2 14.2 0 0 0-6.117 1.405c-1 .488-1.932 1.103-2.722 1.839.401-3.318 1.588-5.46 3.005-6.815 1.764-1.688 3.994-2.263 5.834-2.263a.817.817 0 0 0 .817-.817V2.744c0-.24 0-.437.003-.599"
+                clipRule="evenodd"
+            ></path>
+        </svg>)
+
+}

@@ -1,5 +1,8 @@
 .buildSection {
   margin-top: 200px;
+  &.aboutBuild {
+    margin-top: 350px;
+  }
   h4 {
     position: relative;
     z-index: 1;

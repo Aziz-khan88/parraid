@@ -1,0 +1,28 @@
+.bannerSection {
+  height: 80vh;
+  padding-top: 100px;
+  span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 160px;
+    line-height: 140px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.04);
+    font-family: "Myriad Pro", sans-serif;
+    margin-bottom: 50px;
+    display: block;
+  }
+  .paraSec {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    p {
+      max-width: 50%;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 30px;
+      color: #8c8c8c;
+    }
+  }
+}

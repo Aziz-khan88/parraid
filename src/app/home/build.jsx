@@ -3,9 +3,9 @@ import { Col, Container, Row } from "react-bootstrap";
 import TwoButton from "@/src/app/components/twobutton";
 import BGIMG from "media/home/buildImage.webp";
 
-const Build = () => {
+const Build = ({ about }) => {
     return (
-        <section className={`${styles.buildSection}`}>
+        <section className={`${styles.buildSection} ${about ? styles.aboutBuild : ""}`}>
             <Container>
                 <Row>
                     <Col md={12}>

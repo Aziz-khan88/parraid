@@ -1,9 +1,9 @@
 import styles from "@/styles/careers/jobs.module.scss"
 import { Col, Container, Row } from "react-bootstrap"
-import { DownloadIcon } from "../../app-constants"
+import { DownloadIcon } from "@/src/app/app-constants"
 import Link from "next/link"
 
-const Jobs = () => {
+const Jobs = ({ data }) => {
     return (
         <section className={`${styles.jobsSection} p-100`}>
             <Container>
@@ -25,60 +25,23 @@ const Jobs = () => {
                                 </ul>
                             </div>
                             <div className={styles.contentTable}>
-                                <ul>
-                                    <li>Hardware Engineer</li>
-                                    <li>Hollywood, MD</li>
-                                    <li>Full Time</li>
-                                    <li>Open</li>
-                                    <li>15</li>
-                                    <li><Link href="/job-details"><DownloadIcon /></Link></li>
-                                </ul>
-                                <ul>
-                                    <li>Hardware Engineer</li>
-                                    <li>Hollywood, MD</li>
-                                    <li>Full Time</li>
-                                    <li>Open</li>
-                                    <li>15</li>
-                                    <li><Link href="/job-details"><DownloadIcon /></Link></li>
-                                </ul>
-                                <ul>
-                                    <li>Hardware Engineer</li>
-                                    <li>Hollywood, MD</li>
-                                    <li>Full Time</li>
-                                    <li>Open</li>
-                                    <li>15</li>
-                                    <li><Link href="/job-details"><DownloadIcon /></Link></li>
-                                </ul>
-                                <ul>
-                                    <li>Hardware Engineer</li>
-                                    <li>Hollywood, MD</li>
-                                    <li>Full Time</li>
-                                    <li>Open</li>
-                                    <li>15</li>
-                                    <li><Link href="/job-details"><DownloadIcon /></Link></li>
-                                </ul>
-                                <ul>
-                                    <li>Hardware Engineer</li>
-                                    <li>Hollywood, MD</li>
-                                    <li>Full Time</li>
-                                    <li>Open</li>
-                                    <li>15</li>
-                                    <li><Link href="/job-details"><DownloadIcon /></Link></li>
-                                </ul>
-                                <ul>
-                                    <li>Hardware Engineer</li>
-                                    <li>Hollywood, MD</li>
-                                    <li>Full Time</li>
-                                    <li>Open</li>
-                                    <li>15</li>
-                                    <li><Link href="/job-details"><DownloadIcon /></Link></li>
-                                </ul>
+                                {data.map((item, index) => (
+                                    <ul key={index}>
+                                        <li>{item.job}</li>
+                                        <li>{item.loc}</li>
+                                        <li>{item.type}</li>
+                                        <li>{item.ative}</li>
+                                        <li>{item.applied}</li>
+                                        <li><Link href={`/careers/${item.slug}`}><DownloadIcon /></Link></li>
+                                    </ul>
+                                ))}
+
                             </div>
                         </div>
                     </Col>
                 </Row>
-            </Container >
-        </section >
+            </Container>
+        </section>
     )
 }
 

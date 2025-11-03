@@ -31,7 +31,10 @@
   .topHeader {
     height: 70px;
     transition: opacity 0.3s ease-in-out;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+    &.home {
+      margin-bottom: 30px;
+    }
     .leftTxt {
       display: flex;
       align-items: center;
@@ -162,7 +165,10 @@
   .headerSection {
     .topHeader {
       height: 60px;
-      margin-bottom: 30px;
+      margin-bottom: 0px;
+      &.home {
+        margin-bottom: 30px;
+      }
       .leftTxt {
         display: flex;
         gap: 10px;
@@ -216,7 +222,10 @@
   .headerSection {
     .topHeader {
       height: 60px;
-      margin-bottom: 25px;
+      margin-bottom: 0px;
+      &.home {
+        margin-bottom: 25px;
+      }
       .leftTxt {
         display: flex;
         gap: 10px;
@@ -270,7 +279,10 @@
   .headerSection {
     .topHeader {
       height: 50px;
-      margin-bottom: 20px;
+      margin-bottom: 0px;
+      &.home {
+        margin-bottom: 20px;
+      }
       .leftTxt {
         display: flex;
         gap: 10px;
@@ -324,7 +336,10 @@
   .headerSection {
     .topHeader {
       height: 50px;
-      margin-bottom: 20px;
+      margin-bottom: 0px;
+      &.home {
+        margin-bottom: 20px;
+      }
       .leftTxt {
         display: flex;
         gap: 10px;
@@ -378,7 +393,10 @@
   .headerSection {
     .topHeader {
       height: 50px;
-      margin-bottom: 20px;
+      margin-bottom: 0px;
+      &.home {
+        margin-bottom: 20px;
+      }
       .leftTxt {
         display: flex;
         gap: 10px;
@@ -433,7 +451,10 @@
   .headerSection {
     .topHeader {
       height: 40px;
-      margin-bottom: 10px;
+      margin-bottom: 0px;
+      &.home {
+        margin-bottom: 10px;
+      }
       .leftTxt {
         display: flex;
         gap: 8px;
@@ -526,8 +547,12 @@
   .headerSection {
     .topHeader {
       height: 40px;
-      margin-bottom: 10px;
+      margin-bottom: 0px;
       display: none;
+      &.home {
+        margin-bottom: 10px;
+      }
+
       .leftTxt {
         display: flex;
         gap: 8px;

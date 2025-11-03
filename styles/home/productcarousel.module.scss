@@ -1,6 +1,5 @@
 .embla {
   overflow: visible;
-
   .embla__viewport {
     overflow: visible;
     width: 100%;
@@ -19,6 +18,7 @@
           position: relative;
           overflow: hidden;
           transition: background 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+          max-width: 475px;
 
           h5 {
             font-size: 40px;
@@ -51,7 +51,7 @@
           img {
             margin: 50px auto 0 auto;
             width: auto;
-            height: 118px;
+            height: 100px;
             transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1),
               height 0.6s ease;
             transition-delay: 0.2s;
@@ -79,7 +79,7 @@
             }
 
             img {
-              height: 150px;
+              height: 115px;
             }
 
             .contentSec {

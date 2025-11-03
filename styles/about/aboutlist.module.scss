@@ -105,3 +105,259 @@
     }
   }
 }
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .buildListSec {
+    padding-bottom: 100px;
+    .buildWapper {
+      .buildItem {
+        padding: 40px 20px;
+        min-height: 180px;
+
+        .number {
+          flex: 0 0 60px;
+          font-size: 30px;
+          line-height: 30px;
+        }
+
+        .title {
+          flex: 0 0 calc(100% - 310px);
+        }
+
+        .btn {
+          flex: 0 0 250px;
+          a {
+            span {
+              font-size: 22px;
+              line-height: 22px;
+              margin-right: 12px;
+            }
+
+            svg {
+              height: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .buildListSec {
+    padding-bottom: 100px;
+    .buildWapper {
+      .buildItem {
+        padding: 30px 20px;
+        min-height: 160px;
+
+        .number {
+          flex: 0 0 60px;
+          font-size: 30px;
+          line-height: 30px;
+        }
+
+        .title {
+          flex: 0 0 calc(100% - 310px);
+        }
+
+        .btn {
+          flex: 0 0 250px;
+          a {
+            span {
+              font-size: 20px;
+              line-height: 20px;
+              margin-right: 12px;
+            }
+
+            svg {
+              height: 35px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .buildListSec {
+    padding-bottom: 100px;
+    .buildWapper {
+      .buildItem {
+        padding: 30px 20px;
+        min-height: 160px;
+
+        .number {
+          flex: 0 0 60px;
+          font-size: 30px;
+          line-height: 30px;
+        }
+
+        .title {
+          flex: 0 0 calc(100% - 310px);
+        }
+
+        .btn {
+          flex: 0 0 250px;
+          a {
+            span {
+              font-size: 20px;
+              line-height: 20px;
+              margin-right: 12px;
+            }
+
+            svg {
+              height: 35px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .buildListSec {
+    padding-bottom: 100px;
+    .buildWapper {
+      .buildItem {
+        padding: 30px 20px;
+        min-height: 160px;
+
+        .number {
+          flex: 0 0 60px;
+          font-size: 30px;
+          line-height: 30px;
+        }
+
+        .title {
+          flex: 0 0 calc(100% - 310px);
+        }
+
+        .btn {
+          flex: 0 0 250px;
+          a {
+            span {
+              font-size: 20px;
+              line-height: 20px;
+              margin-right: 12px;
+            }
+
+            svg {
+              height: 35px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .buildListSec {
+    padding-bottom: 100px;
+    .buildWapper {
+      .buildItem {
+        padding: 20px 20px;
+        min-height: 160px;
+
+        .number {
+          flex: 0 0 50px;
+          font-size: 25px;
+          line-height: 25px;
+        }
+
+        .title {
+          flex: 0 0 calc(100% - 250px);
+        }
+
+        .btn {
+          flex: 0 0 200px;
+          a {
+            span {
+              font-size: 20px;
+              line-height: 20px;
+              margin-right: 12px;
+            }
+
+            svg {
+              height: 35px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .buildListSec {
+    padding-bottom: 100px;
+    .buildWapper {
+      .buildItem {
+        padding: 20px 20px;
+        min-height: 160px;
+
+        .number {
+          flex: 0 0 30px;
+          font-size: 25px;
+          line-height: 25px;
+        }
+
+        .title {
+          flex: 0 0 calc(100% - 230px);
+        }
+
+        .btn {
+          flex: 0 0 150px;
+          a {
+            span {
+              font-size: 16px;
+              line-height: 16px;
+              margin-right: 10px;
+            }
+
+            svg {
+              height: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .buildListSec {
+    padding-bottom: 50px;
+    .buildWapper {
+      .buildItem {
+        padding: 20px 20px;
+        min-height: auto;
+        flex-wrap: wrap;
+
+        .number {
+          flex: 0 0 100%;
+          font-size: 25px;
+          line-height: 25px;
+          margin-bottom: 10px;
+        }
+
+        .title {
+          flex: 0 0 100%;
+          font-size: 30px !important;
+        }
+
+        .btn {
+          flex: 0 0 100%;
+          margin-top: 20px;
+          a {
+            span {
+              font-size: 16px;
+              line-height: 16px;
+              margin-right: 10px;
+            }
+
+            svg {
+              height: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

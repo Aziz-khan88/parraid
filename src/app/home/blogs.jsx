@@ -2,35 +2,9 @@ import Image from 'next/image';
 import styles from "@/styles/home/blogs.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
 import Link from 'next/link';
-import img01 from "media/blogs/img1.webp";
-import img02 from "media/blogs/img2.webp";
-import img03 from "media/blogs/img3.webp";
-
-export const BlogListingData = [
-    {
-        title: "Starting and Growing a Career in Web Design",
-        date: "2025-08-06",
-        img: img01.src,
-        link: "#",
-        slug: "",
-    },
-    {
-        title: "Create a Landing Page That Performs Great",
-        date: "2025-08-06",
-        img: img02.src,
-        link: "#",
-        slug: "",
-    },
-    {
-        title: "How Can Designers Prepare for the Future?",
-        date: "2025-08-06",
-        img: img03.src,
-        link: "#",
-        slug: "",
-    },
+import { BlogListingData } from "@/src/app/data/blogs/data";
 
 
-];
 function getTimeSince(dateString) {
     const postDate = new Date(dateString);
     const now = new Date();
@@ -56,7 +30,7 @@ function getTimeSince(dateString) {
     return 'just now';
 }
 
-const Blogs = ({ data, dataListing }) => {
+const Blogs = () => {
     return (
         <section className={`${styles.blogSection} p-100`}>
             <Container className="h-100">
@@ -80,7 +54,7 @@ const Blogs = ({ data, dataListing }) => {
                                             <div className={styles.date}>{item.date}</div>
                                             <div className={styles.date}>{getTimeSince(item.date)}</div>
                                         </div>
-                                        <h3><Link href={item.link}>{item.title}</Link></h3>
+                                        <h3><Link href={`/blogs/${item.slug}`}>{item.title}</Link></h3>
                                     </div>
                                 </div>
                             ))}

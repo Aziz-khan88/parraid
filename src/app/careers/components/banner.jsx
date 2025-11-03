@@ -7,7 +7,7 @@ const Banner = () => {
             <Container className="h-100">
                 <Row className="h-100">
                     <Col className="my-auto">
-                        <span>Our <br />Careers</span>
+                        <span>Our Careers</span>
                         <div className={styles.paraSec}>
                             <p>Parraid, LLC is a highly regarded, U.S. based technology and engineering company specializing in product solutions for aerospace and ground tactical applications.</p>
                         </div>

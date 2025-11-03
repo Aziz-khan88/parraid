@@ -5,8 +5,10 @@ import { Col, Container, Row } from "react-bootstrap";
 import { ClosedIcon, FbIcon, InsaIcon, MainLogo, NavIcon } from "@/src/app/app-constants";
 import Link from "next/link";
 import { SearchIcon } from "../app-constants";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
+    const pathname = usePathname();
     const [isActive, setIsActive] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
 
@@ -46,7 +48,7 @@ const Header = () => {
     return (
         <section
             className={`${styles.headerSection} ${isScrolled ? styles.fixed : ""} `}>
-            <Container className={`${styles.topHeader}`}>
+            <Container className={`${styles.topHeader} ${pathname === "/" ? styles.home : ""}`}>
                 <Row className="h-100">
                     <Col className="my-auto">
                         <div className={styles.leftTxt}>
@@ -76,12 +78,11 @@ const Header = () => {
                             {isActive ? <ClosedIcon /> : <NavIcon />}
                         </div>
                         <ul className={`${styles.headerNavigation} ${isActive ? styles.active : ""}`}>
-                            <li><Link href="/" onClick={handleClick}>Home</Link></li>
                             <li><Link href="/about-us" onClick={handleClick}>About</Link></li>
-                            <li><Link href="/products" onClick={handleClick}>Products</Link></li>
+                            <li><Link href="/shop" onClick={handleClick}>Products</Link></li>
                             <li><Link href="/careers" onClick={handleClick}>Careers</Link></li>
-                            <li><Link href="/news" onClick={handleClick}>News</Link></li>
-                            <li><Link href="/events" onClick={handleClick}>Events</Link></li>
+                            <li><Link href="/press-release" onClick={handleClick}>Press Release</Link></li>
+                            <li><Link href="/blogs" onClick={handleClick}>Blogs</Link></li>
                             <li><Link href="/contact-us" onClick={handleClick}>Contact Us </Link></li>
                             <li><Link href="#"><SearchIcon /></Link></li>
                         </ul>

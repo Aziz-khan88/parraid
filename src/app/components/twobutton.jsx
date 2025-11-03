@@ -5,7 +5,7 @@ const TwoButton = ({ link1, link2, black }) => {
     return (
         <div className={`twoBtn ${black ? 'blackBtn' : ''}`}>
             <Link href={link1} >
-                Read More
+                View Product
             </Link>
             <Link href={link2} >
                 Let’s Connect

@@ -1,3 +1,6 @@
+.pressSection {
+  padding-bottom: 50px;
+}
 .pressWapper {
   margin-top: 50px;
   .pressItem {
@@ -135,5 +138,262 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .pressWapper {
+    margin-top: 40px;
+    .pressItem {
+      padding: 50px;
+      max-height: 200px;
+
+      .Title {
+        flex: 0 0 calc(100% - 350px);
+        .date {
+          font-size: 14px;
+        }
+        h6 {
+          font-size: 25px;
+        }
+        a {
+          width: 180px;
+          height: 50px;
+          font-size: 18px;
+        }
+        p {
+          font-size: 18px;
+          line-height: 28px;
+        }
+      }
+
+      .Btn {
+        width: 45px;
+        height: 45px;
+        svg {
+          height: 20px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .pressWapper {
+    margin-top: 40px;
+    .pressItem {
+      padding: 45px;
+      max-height: 200px;
+
+      .Title {
+        flex: 0 0 calc(100% - 350px);
+        .date {
+          font-size: 14px;
+        }
+        h6 {
+          font-size: 25px;
+        }
+        a {
+          width: 180px;
+          height: 50px;
+          font-size: 18px;
+        }
+        p {
+          font-size: 18px;
+          line-height: 28px;
+        }
+      }
+
+      .Btn {
+        width: 45px;
+        height: 45px;
+        svg {
+          height: 20px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .pressWapper {
+    margin-top: 40px;
+    .pressItem {
+      padding: 40px;
+      max-height: 200px;
+
+      .Title {
+        flex: 0 0 calc(100% - 350px);
+        .date {
+          font-size: 14px;
+        }
+        h6 {
+          font-size: 25px;
+        }
+        a {
+          width: 170px;
+          height: 50px;
+          font-size: 17px;
+        }
+        p {
+          font-size: 18px;
+          line-height: 28px;
+        }
+      }
+
+      .Btn {
+        width: 45px;
+        height: 45px;
+        svg {
+          height: 20px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .pressWapper {
+    margin-top: 40px;
+    .pressItem {
+      padding: 40px;
+      max-height: 200px;
+
+      .Title {
+        flex: 0 0 calc(100% - 150px);
+        .date {
+          font-size: 14px;
+        }
+        h6 {
+          font-size: 22px;
+        }
+        a {
+          width: 180px;
+          height: 50px;
+          font-size: 18px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+
+      .Btn {
+        width: 40px;
+        height: 40px;
+        svg {
+          height: 16px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .pressWapper {
+    margin-top: 40px;
+    .pressItem {
+      padding: 30px;
+      max-height: 200px;
+
+      .Title {
+        flex: 0 0 calc(100% - 100px);
+        .date {
+          font-size: 14px;
+        }
+        h6 {
+          font-size: 20px;
+          margin-bottom: 10px;
+        }
+        a {
+          width: 180px;
+          height: 50px;
+          font-size: 18px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+
+      .Btn {
+        width: 40px;
+        height: 40px;
+        svg {
+          height: 16px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .pressWapper {
+    margin-top: 30px;
+    .pressItem {
+      padding: 30px;
+      max-height: 200px;
+
+      .Title {
+        flex: 0 0 calc(100% - 80px);
+        .date {
+          font-size: 13px;
+        }
+        h6 {
+          font-size: 20px;
+          margin-bottom: 10px;
+        }
+        a {
+          width: 150px;
+          height: 45px;
+          font-size: 16px;
+        }
+        p {
+          font-size: 15px;
+          line-height: 22px;
+        }
+      }
+
+      .Btn {
+        width: 40px;
+        height: 40px;
+        svg {
+          height: 16px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .pressWapper {
+    margin-top: 30px;
+    .pressItem {
+      padding: 20px;
+      height: 100%;
+      &.active {
+        max-height: 100%;
+      }
+      .Title {
+        flex: 0 0 calc(100% - 30px);
+        .date {
+          font-size: 13px;
+        }
+        h6 {
+          font-size: 20px;
+          margin-bottom: 10px;
+        }
+        a {
+          width: 130px;
+          height: 40px;
+          font-size: 14px;
+        }
+        p {
+          font-size: 14px;
+          line-height: 21px;
+        }
+      }
+
+      .Btn {
+        width: 30px;
+        height: 30px;
+        svg {
+          height: 12px;
+        }
+      }
+    }
   }
 }

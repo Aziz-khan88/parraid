@@ -1,0 +1,31 @@
+
+import styles from "@/styles/about/connectivity.module.scss"
+import { Col, Container, Row } from "react-bootstrap"
+import ContactForm from "@/src/app/components/forms/contactform"
+
+
+const ConnectivityForm = () => {
+
+    return (
+        <>
+            <section className={`${styles.connectivitySec}  borderRadiusTop`}>
+                <Container>
+                    <Row>
+                        <Col lg={6}>
+                            <div className={styles.connectivityTitle}>
+                                <h2>Next-Gen Telemetry & Connectivity.</h2>
+                                <p>Powering secure, real-time data transmission across land, sea, and sky. Our solutions are engineered for precision, reliability, and mission success.</p>
+                            </div>
+                        </Col>
+                        <Col md={12}>
+                            <ContactForm product={true} />
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+        </>
+
+    )
+}
+
+export default ConnectivityForm

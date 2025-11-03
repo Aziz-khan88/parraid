@@ -11,6 +11,7 @@
     font-family: "Myriad Pro", sans-serif;
     margin-bottom: 50px;
     display: block;
+    font-style: italic;
   }
   .paraSec {
     width: 100%;
@@ -23,6 +24,124 @@
       font-size: 20px;
       line-height: 30px;
       color: #8c8c8c;
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .bannerSection {
+    height: 80vh;
+    padding-top: 200px;
+    span {
+      font-size: 140px;
+      line-height: 130px;
+    }
+    .paraSec {
+      p {
+        max-width: 50%;
+        font-size: 20px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .bannerSection {
+    height: 70vh;
+    padding-top: 220px;
+    span {
+      font-size: 140px;
+      line-height: 130px;
+    }
+    .paraSec {
+      p {
+        max-width: 50%;
+        font-size: 20px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .bannerSection {
+    height: 70vh;
+    padding-top: 220px;
+    span {
+      font-size: 130px;
+      line-height: 120px;
+    }
+    .paraSec {
+      p {
+        max-width: 50%;
+        font-size: 18px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .bannerSection {
+    height: 70vh;
+    padding-top: 200px;
+    span {
+      font-size: 120px;
+      line-height: 100px;
+    }
+    .paraSec {
+      p {
+        max-width: 60%;
+        font-size: 16px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .bannerSection {
+    height: 60vh;
+    padding-top: 180px;
+    span {
+      font-size: 100px;
+      line-height: 80px;
+    }
+    .paraSec {
+      p {
+        max-width: 70%;
+        font-size: 15px;
+        line-height: 22px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .bannerSection {
+    height: 60vh;
+    padding-top: 180px;
+    span {
+      font-size: 70px;
+      line-height: 50px;
+    }
+    .paraSec {
+      p {
+        max-width: 80%;
+        font-size: 14px;
+        line-height: 22px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .bannerSection {
+    height: auto;
+    padding-top: 120px;
+
+    span {
+      font-size: 50px;
+      line-height: 40px;
+      margin-bottom: 20px;
+    }
+    .paraSec {
+      p {
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 22px;
+      }
     }
   }
 }

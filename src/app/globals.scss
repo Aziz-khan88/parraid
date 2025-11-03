@@ -99,6 +99,48 @@ body {
       font-family: var(--font-poppins), sans-serif;
     }
   }
+  .embla_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 30px 100px 0px 0px;
+    gap: 15px;
+
+    div {
+      cursor: pointer;
+      border-radius: 64px;
+      background: #090909;
+      height: 57px;
+      width: 57px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.3s linear;
+      svg {
+        width: auto;
+        height: 22px;
+
+        path {
+          stroke: #7c7c7c;
+        }
+      }
+
+      &:hover {
+        transition: 0.3s linear;
+        background: #0061fe;
+        border: 1px solid #0061fe;
+        svg {
+          path {
+            stroke: #fff;
+          }
+        }
+      }
+    }
+
+    .embla_next {
+      transform: rotate(-180deg);
+    }
+  }
   .borderRadiusTop {
     border-radius: 100px 100px 0px 0px;
   }
@@ -211,7 +253,50 @@ body {
     }
   }
 }
-
+.bannerImg {
+  position: relative;
+  height: 450px;
+  width: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  img {
+    object-position: center;
+    object-fit: cover;
+  }
+}
+.ProductimgBox {
+  position: relative;
+  height: 450px;
+  width: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  img {
+    object-position: center;
+    object-fit: cover;
+  }
+}
+.downloadIcon {
+  .icon {
+    margin-bottom: 20px;
+    a {
+      display: flex;
+      gap: 20px;
+      font-size: 20px;
+      color: #fff;
+      font-weight: 600;
+      align-items: center;
+      svg {
+        &.downloadIcon {
+          path {
+            fill: red;
+          }
+        }
+      }
+    }
+  }
+}
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   body {
     .container {
@@ -265,6 +350,9 @@ body {
         line-height: 18px;
       }
     }
+  }
+  .bannerImg {
+    height: 400px;
   }
 }
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
@@ -321,6 +409,9 @@ body {
       }
     }
   }
+  .bannerImg {
+    height: 400px;
+  }
 }
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
   body {
@@ -375,6 +466,9 @@ body {
         line-height: 16px;
       }
     }
+  }
+  .bannerImg {
+    height: 350px;
   }
 }
 @media only screen and (min-width: 900px) and (max-width: 1099px) {
@@ -432,6 +526,9 @@ body {
       }
     }
   }
+  .bannerImg {
+    height: 350px;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 899px) {
   body {
@@ -486,6 +583,9 @@ body {
         line-height: 16px;
       }
     }
+  }
+  .bannerImg {
+    height: 300px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -553,6 +653,9 @@ body {
       }
     }
   }
+  .bannerImg {
+    height: 300px;
+  }
 }
 @media only screen and (min-width: 0px) and (max-width: 575px) {
   body {
@@ -617,5 +720,8 @@ body {
         line-height: 16px;
       }
     }
+  }
+  .bannerImg {
+    height: 250px;
   }
 }

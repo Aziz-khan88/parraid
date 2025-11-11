@@ -4,14 +4,12 @@
     height: 450px;
     width: 100%;
     border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
     img {
-      height: auto;
-      width: auto;
-      max-height: 400px;
+      object-fit: cover;
+      object-position: center;
     }
   }
   .imageSlide {
@@ -25,17 +23,13 @@
       flex: 0 0 calc(100% / 4 - 10px);
       position: relative;
       height: 105px;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
       border-radius: 10px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
       cursor: pointer;
+      position: relative;
+      overflow: hidden;
       img {
-        height: auto;
-        width: 150px;
+        object-position: center;
+        object-fit: cover;
       }
     }
   }

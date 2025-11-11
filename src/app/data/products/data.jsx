@@ -8,16 +8,10 @@ import C1Pro1_3 from "media/products/cat1/pro1/NRG_DS-04_Mobile_Kit.webp";
 // Category 01  -- Product 05
 
 // Category 02  -- Product 02
-import C1Pro2_1 from "media/products/cat1/pro2/NRG_RM_Rack_Mount.webp";
-import C1Pro2_2 from "media/products/cat1/pro2/NRG_Rack_Mount_RM-4_Back.webp";
-import C1Pro2_3 from "media/products/cat1/pro2/NRG_Rack_Mount_RM-08_Back.webp";
-import C1Pro2_4 from "media/products/cat1/pro2/NRG_Rack_Mount_RM-12_Back.webp";
 import InterImage from "media/products/cat1/pro2/interImage.webp";
 
 // Category 02  -- Product 03
 import KeyImage from "media/products/cat2/pro3/keyImage.webp";
-
-import Link from "next/link";
 import Image from "next/image";
 
 export const tabList = [
@@ -31,14 +25,14 @@ export const productsData = {
       id: 1,
       slug: "network-radio-gateway-ds-04v3",
       name: "Network Radio Gateway NRG DS-04v3",
-      img: C1Pro1_1.src,
+      img: Pro01.src,
       txt: "Radio-over-IP (RoIP) gateway supports multiple radio types and is rugged and field-deployable, enabling seamless interoperability between tactical, legacy, and IP networks in any environment.",
     },
     {
       id: 2,
       slug: "network-radio-gateway-nrg-deployable-systems",
       name: "Network Radio Gateway NRG Rack Mount-XX",
-      img: C1Pro2_1.src,
+      img: Pro01.src,
       txt: "NRG® is a solution that provides Voice over IP(VoIP)/Radio over IP(RoIP) conferencing, converging voice, MIL-STD 188/184 data, HPW data, and remote radio configuration/control capability into a single standalone network appliance. ",
     },
     {
@@ -68,21 +62,21 @@ export const productsData = {
       id: 1,
       slug: "rugged-usb-hub-2-0",
       name: "Rugged USB Hub RUH 2.0",
-      img: C1Pro1_1.src,
+      img: Pro01.src,
       txt: "The Parraid Rugged USB Hub 2.0 is the first USB hub designed to meet a full range of environmental requirements for mobile and deployed systems.",
     },
     {
       id: 2,
       slug: "rugged-usb-hub-3-0",
       name: "Rugged USB Hub RUH 3.0",
-      img: C1Pro1_1.src,
+      img: Pro01.src,
       txt: "The Parraid Rugged USB Hub 3.0 is the toughest four port hub on the market. Designed from the ground-up for the most extreme operating environments.",
     },
     {
       id: 3,
       slug: "rugged-usb-repeater",
       name: "Rugged USB Repeater",
-      img: C1Pro1_1.src,
+      img: Pro01.src,
       txt: "The Parraid Rugged USB Repeater™ (RUR) is a device that allows USB connections to be reliably extended.",
     },
   ],
@@ -91,77 +85,70 @@ export const productsData = {
       id: 1,
       slug: "best-data-engine-bde",
       name: "Best Data Engine BDE",
-      img: C1Pro1_1.src,
+      img: Pro01.src,
       txt: "Enables real-time stream comparison, selection, and error correction to ensure mission-critical users always receive the best possible version of telemetry data.",
     },
     {
       id: 2,
       slug: "best-source-reproducer-bsr-100",
       name: "Best Source Reproducer BSR-100",
-      img: C1Pro1_1.src,
+      img: Pro01.src,
       txt: "Intelligent data selection replays the best quality data stream for post-test analysis, reducing operator workload and ensuring optimal data fidelity.",
     },
     {
       id: 3,
       slug: "edge2-telemetry-reciver",
       name: "Edge2 Telemetry Network Appliance",
-      img: C1Pro1_1.src,
+      img: Pro01.src,
       txt: "The Edge² is engineered to provide network telemetry processing at the edge in a portable or rack-mountable 2 channel unit.",
     },
     {
       id: 4,
       slug: "g3-tmoip-data-processing",
       name: "G3",
-      img: C1Pro1_1.src,
+      img: Pro01.src,
       txt: "The G3 Recorder-Processing system represents the next generation of telemetry data recording and processing platforms.",
     },
     {
       id: 5,
-      slug: "imux-g2e",
-      name: "IMUX G2e",
-      img: C1Pro1_1.src,
+      slug: "imux–g2e-and-g2eh",
+      name: "IMUX G2e and G2eH",
+      img: Pro01.src,
       txt: "Multi-channel telemetry recorder; supports IRIG-106 Chapter 10; portable/rack-mount options.",
-    },
-    {
-      id: 6,
-      slug: "imux-g2eh",
-      name: "IMUX G2e-Hybrid G2eH",
-      img: C1Pro1_1.src,
-      txt: "Hybrid support for traditional PCM streams and Ethernet/TMoIP data with high-capacity storage.",
     },
     {
       id: 7,
       slug: "imux-re-con",
       name: "IMUX RE-CON",
-      img: C1Pro1_1.src,
+      img: Pro01.src,
       txt: "The IMUX RE/CON network recorder is a telemetry specific ground network recorder ideally suited for ranges moving to IP telemetry.",
     },
     {
       id: 8,
       slug: "omega-data-environment-ode",
       name: "OMEGA Data Environment ODE",
-      img: C1Pro1_1.src,
+      img: Pro01.src,
       txt: "ODE enables data analysts and consumers to rapidly and securely explore and exploit large data sets.",
     },
     {
       id: 9,
       slug: "omega-next-real-time-data-processing-software",
       name: "OMEGA NExT",
-      img: C1Pro1_1.src,
+      img: Pro01.src,
       txt: "OMEGA-NExT offers an unmatched blend of power, ease of use, flexibility, and affordability.",
     },
     {
       id: 10,
       slug: "rx2-receiver",
       name: "Rx2 Receiver",
-      img: C1Pro1_1.src,
+      img: Pro01.src,
       txt: "Multi-band telemetry receiver with built-in demodulation and bit-synchronization delivers high performance, flexibility, and seamless integration into Parraid’s data ecosystem.",
     },
     {
       id: 11,
       slug: "series-5000-data-processors",
       name: "S-5000e Data Processor",
-      img: C1Pro1_1.src,
+      img: Pro01.src,
       txt: "The Series-5000 is real-time data processing platform available in portable and rack-mount configurations: 2U and 4U, ruggedized and industrial.",
     },
   ],
@@ -171,71 +158,134 @@ export const ProdDetails = [
   {
     cat: "cat1",
     slug: "network-radio-gateway-ds-04v3",
-    name: "IMUX G2 and G2e Recorder / Reproducer",
+    name: "Network Radio Gateway NRG DS-04v3",
     images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
     txt: (
       <>
+        <h5>Description</h5>
         <p>
-          <strong>Telemetry and Data Systems</strong>
+          Introducing the NRG DS-04v3—the latest powerhouse in Parraid’s
+          groundbreaking Radio over IP (RoIP) solutions. This all-in-one,
+          standalone network appliance revolutionizes communication by
+          seamlessly integrating voice conferencing, HPW data, and remote radio
+          configuration and control into a single, robust platform. Our latest
+          Network Radio Gateway software NRG5 and any hardware offerings using
+          the new Compact Radio Interface Board (CRIB) or derivative products
+          based on it, and the Legacy Data Adapter (LDA) are Non-ITAR export
+          classification ECCN 5A991 and 5D991.
         </p>
-        <p>
-          The IMUX G2 and G2e is an industry leading IRIG 106 Chapter 10
-          compliant data recorder and reproducer.The system can be configured as
-          a rack mount or portable unit.
-        </p>
-        <h5>Dependable</h5>
-        <ul>
-          <li>
-            <ListIcon />
-            20+ years of development pedigree
-          </li>
-          <li>
-            <ListIcon />
-            Thousands of systems deployed in challenging and mission-critical
-            applications
-          </li>
-          <li>
-            <ListIcon />
-            Ruggedized units are suitable for mobile platforms, transport-case
-            portability, and airborne use
-          </li>
-        </ul>
       </>
     ),
     tab1: (
       <>
         <h4>Overview</h4>
-        <p>The Next Generation of High-Speed Chapter 10 Recording Systems</p>
-        <p>Portable or Rackmount, Industrial or Rugged</p>
-        <p>PCM, Video, 1553/16PP194, 429,Ethernet, RS-Serial</p>
-        <p>Removable Local/RAID Media, w/ NAS and SAN Storage</p>
+        <h6>Powered by NRG5 for Maximum Interoperability</h6>
+        <p>
+          Harnessing the cutting-edge NRG5 technology, the DS-04v3 employs a
+          decentralized mesh network of gateways and clients. This modern
+          infrastructure ensures flawless voice and data support over legacy
+          U.S. Military Combat Net Radios (CNR), Joint Tactical Radio Systems
+          (JTRS), and commercial Land Mobile Radio (LMR) Systems—delivering
+          unparalleled interoperability across diverse communication systems.
+        </p>
+        <h6>Flexible Conferencing with Infinite Scalability</h6>
+        <p>
+          Experience unmatched communication flexibility with NRG’s versatile
+          conferencing server. Capable of simultaneously supporting multiple
+          audio sources—including analog, digital, cellular phones, and both
+          military and civilian radios—the system allows for seamless
+          communication in either conference or channel mode. Its advanced radio
+          bridging connects like and dissimilar radio devices effortlessly.
+        </p>
+        <h6>Fault-Tolerant and Efficient Multiprocessing</h6>
+        <p>
+          Boost your operational efficiency with the DS-04v3’s enhanced
+          multiprocessing capabilities. By enabling processors to share
+          workloads across all connected appliances, the system ensures fault
+          tolerance and offers infinite scalability. This means you can expand
+          your communication network without compromising performance or
+          reliability.
+        </p>
+        <h6>Elevate Your Mission-Critical Communications Today</h6>
+        <p>
+          Step into the future of seamless, scalable, and secure communications
+          with the NRG DS-04v3. It’s not just an upgrade—it’s a transformation
+          of your entire communication infrastructure.
+        </p>
       </>
     ),
     tab2: (
       <>
         <h4>Key System Advantage</h4>
-        <p>The Next Generation of High-Speed Chapter 10 Recording Systems</p>
-        <p>Portable or Rackmount, Industrial or Rugged</p>
-        <p>PCM, Video, 1553/16PP194, 429,Ethernet, RS-Serial</p>
-        <p>Removable Local/RAID Media, w/ NAS and SAN Storage</p>
-      </>
-    ),
-    tab3: (
-      <>
-        <h4>Capabilities</h4>
-        <p>The Next Generation of High-Speed Chapter 10 Recording Systems</p>
-        <p>Portable or Rackmount, Industrial or Rugged</p>
-        <p>PCM, Video, 1553/16PP194, 429,Ethernet, RS-Serial</p>
-        <p>Removable Local/RAID Media, w/ NAS and SAN Storage</p>
-      </>
-    ),
-    tab4: (
-      <>
-        <h4>Data Sheets</h4>
-        <p>The Next Generation of High-Speed Chapter 10 Recording Systems</p>
-        <p>Portable or Rackmount, Industrial or Rugged</p>
-        <p>PCM, Video, 1553/16PP194, 429,Ethernet, RS-Serial</p>
-        <p>Removable Local/RAID Media, w/ NAS and SAN Storage</p>
+        <ul>
+          <li>
+            <ListIcon />
+            DS-04v3 model is compact, with a rugged fanless enclosure
+          </li>
+          <li>
+            <ListIcon />
+            Connects two-four radio systems and up to 50 endpoints
+          </li>
+          <li>
+            <ListIcon />
+            Adapts from small command posts to full enterprise integration
+          </li>
+          <li>
+            <ListIcon />
+            Removable SSD
+          </li>
+          <li>
+            <ListIcon />
+            Trusted Platform Module 2.0 (TPM)
+          </li>
+          <li>
+            <ListIcon />
+            Front panel system and status tri-color LEDs.
+          </li>
+          <li>
+            <ListIcon />
+            Windows 10/11 Support
+          </li>
+          <li>
+            <ListIcon />
+            Leverages Rally Tactical Systems’ Engage platform and Rallypoint
+            software
+          </li>
+          <li>
+            <ListIcon />
+            Scalable and Decentralized: Adapts from small command posts to full
+            enterprise integration.
+          </li>
+          <li>
+            <ListIcon />
+            Interoperability: Compatible with a wide range of unified
+            communications protocols and systems, including Motorola WAVE,
+            TOCNET, ICE, Cisco Call Manager, AT&T FirstNet, Access Net, LTE, and
+            more.
+          </li>
+          <li>
+            <ListIcon />
+            Enhanced Radio Support: Offers remote data and radio control for
+            both software-defined radios and legacy systems, including LMRs.
+          </li>
+          <li>
+            <ListIcon />
+            Tactical and Standalone Operations: Functions in standalone tactical
+            configurations or integrates multiple radio circuits across IP
+            subnetworks.
+          </li>
+          <li>
+            <ListIcon />
+            Future-Ready Transport: Supports a range of transport methods
+            including 5G, Fiber, Mesh Radio, Software-Defined Radio, Starshield,
+            and tactical LANs.
+          </li>
+          <li>
+            <ListIcon />
+            Cost-Effective: Enables shared use of expensive radios across
+            multiple users, reducing overall costs.
+          </li>
+        </ul>
       </>
     ),
   },
@@ -243,7 +293,7 @@ export const ProdDetails = [
     cat: "cat1",
     slug: "network-radio-gateway-nrg-deployable-systems",
     name: "Network Radio Gateway Rack Mount Systems",
-    images: [C1Pro2_1, C1Pro2_2, C1Pro2_3, C1Pro2_4],
+    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
     txt: (
       <>
         <h5>Capabilities</h5>
@@ -462,10 +512,372 @@ export const ProdDetails = [
     ),
   },
   {
+    cat: "cat1",
+    slug: "outsource-the-workload-owl",
+    name: "Outsource the Workload (OWL)",
+    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
+    txt: (
+      <>
+        <h5>Description</h5>
+        <p>
+          Outsource the Workload (OWL) is a compact, intelligent device designed
+          for complete battlefield awareness. This pouch-sized hub replaces
+          multiple separate technologies, simplifying a soldier’s equipment and
+          workload. The OWL provides comprehensive data translation and protocol
+          conversion, secure connectivity, and radio control with bridging. OWL
+          offers edge computing and mass storage, freeing users to focus on
+          their mission, while allowing for swift seamless equipment integration
+          and future technology expansion.
+        </p>
+        <p>
+          The operator-centric OWL is the newest addition to Parraid’s industry
+          leading Network Radio Gateway ecosystem. All powered by NRG5 software,
+          the entire Network Radio Gateway product line is platform agnostic in
+          wearable, deployable, mobile (air/land/sea), and fixed infrastructure
+          form factors.
+        </p>
+      </>
+    ),
+    tab1: (
+      <>
+        <h4>Overview</h4>
+        <p>
+          <strong>Rugged Computing:</strong>
+          Edge-tough compute for austere environments; runs TAK server, The
+          Network Radio Gateway (NRG) running NRG software version 5 (NRG5),
+          datalink gateways (SNC TRAX®/Stauder JECL®), and future expansion
+          capabilities (sensor fusion, analytics, AI/ML, post-quantum security).
+        </p>
+        <p>
+          <strong>Secure Linux and Storage:</strong>
+          The embedded secure Linux system provides 1TB of storage, which is
+          ample space for high-resolution map datasets and other data for
+          offline use when high-bandwidth connections are unavailable.
+        </p>
+        <p>
+          <strong>Network Radio Gateway (NRG®):</strong>
+          Part of Parraid’s RoIP ecosystem—serverless voice/data bridging,
+          remote radio control, transcoding, QoS, and x.509 certificate-based
+          federation.
+        </p>
+        <p>
+          <strong>Unified Connectivity:</strong>
+          OWL seamlessly interfaces with the Integrated Tactical Network (ITN)
+          while simultaneously bridging analog, digital, and IP
+          radios—VHF/UHF/HF/MANET/MIMO—keeping teams synced with multiple
+          connectivity paths (Nett Warrior, USB, Ethernet, WI-FI, cellular,
+          SATCOM).
+        </p>
+        <p>
+          <strong>User-Worn Powerhouse:</strong>
+          Smart, user-worn power hub that feeds body-worn gear and keeps the
+          End-User Device (EUD) charged and mission-ready.
+        </p>
+        <p>
+          <strong>Outsource the Workload:</strong>
+          Operator-first, low-SWaP device that provides legacy hardware
+          integration and edge processing. Reduces cognitive load on the
+          operator by handling compute and storage, so the phone or other EUD
+          stays clean and serves as an intuitive display only.
+        </p>
+      </>
+    ),
+    tab2: (
+      <>
+        <h4>Key System Advantage</h4>
+        <ul>
+          <li>
+            <ListIcon />
+            Supported Radios:
+            <div>
+              <p>Military Tactical, MANET, LOS, BLOS, etc</p>
+              <p>Civilian Agency</p>
+              <p>Coalition</p>
+              <p>Commercial / Public Service</p>
+              <p>Special Mission as Requested</p>
+            </div>
+          </li>
+          <li>
+            <ListIcon />
+            Remote Radio Control
+          </li>
+          <li>
+            <ListIcon />
+            Secure Data Transmission for LOS and BLOS
+          </li>
+          <li>
+            <ListIcon />
+            Local/Enterprise TAK Connectivity
+          </li>
+          <li>
+            <ListIcon />
+            Nett Warrior Compatible
+          </li>
+          <li>
+            <ListIcon />
+            Ground/Air/Maritime Mission Integration Options
+          </li>
+          <li>
+            <ListIcon />
+            Power: 9-36 VDC
+          </li>
+          <li>
+            <ListIcon />
+            VMF Transmission
+            <div>
+              <p>Free Text</p>
+              <p>9 Line</p>
+              <p>PLI</p>
+              <p>Target Designation</p>
+              <p>Aircraft on Station Report</p>
+            </div>
+          </li>
+          <li>
+            <ListIcon />
+            Link 16
+            <div>
+              <p>Free Text (J28.2)</p>
+              <p>Initial Entry (J0.0)</p>
+              <p>PPLI (J2.0)</p>
+              <p>Air PPLI (J2.2)</p>
+              <p>Reference Point (J3.0)</p>
+              <p>Target Sorting Message (12.6)</p>
+            </div>
+          </li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    cat: "cat1",
+    slug: "our-featured-network-radio-gateway",
+    name: "PacStar 466 Featuring Parraid’s Network Radio Gateway NRG",
+    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
+    txt: (
+      <>
+        <h5>Description</h5>
+        <p>
+          The PacStar 466 incorporates Parraid’s NRG, an all-in-one, standalone
+          network appliance that revolutionizes communications by seamlessly
+          integrating voice conferencing, HPW data, and remote radio
+          configuration and control into a single, robust platform. Our latest
+          Network Radio Gateway software NRG5 and the new Compact Radio
+          Interface Board (CRIB) are Non-ITAR export classification ECCN 5A991
+          and 5D991.
+        </p>
+      </>
+    ),
+    tab1: (
+      <>
+        <h4>Overview</h4>
+        <h6>Powered by NRG5 software for Maximum Interoperability</h6>
+        <p>
+          Harnessing the cutting-edge NRG5 technology, the PacStar 466 employs a
+          decentralized mesh network of gateways and clients. This modern
+          infrastructure ensures flawless voice and data support over legacy
+          U.S. Military Combat Net Radios (CNR), Joint Tactical Radio Systems
+          (JTRS), and commercial Land Mobile Radio (LMR) Systems delivering
+          unparalleled interoperability across diverse communication.
+        </p>
+        <h6>Flexible Conferencing with Infinite Scalability </h6>
+        <p>
+          Experience unmatched communication flexibility through the PacStar 466
+          with NRG5’s versatile conferencing server. Capable of simultaneously
+          supporting multiple audio sources- including analog, digital, cellular
+          phones, and both military and civilian radios. The system allows for
+          seamless communication in either conference or channel mode. Its
+          advanced radio bridging connects like and dissimilar radio devices
+          effortlessly.
+        </p>
+        <h6>NRG5 Fault-Tolerant and Efficient Multiprocessing </h6>
+        <p>
+          Boost your operational efficiency with the NRG5-enhanced
+          multiprocessing capabilities. NRG5 software can share workloads across
+          all connected appliances ensuring a robust fault tolerant system and
+          offering infinite scalability. This means you can expand your
+          communications network without compromising performance or
+          reliability.
+        </p>
+        <h6>Elevate Your Mission-Critical Communications Today</h6>
+        <p>
+          Step into the future of seamless, scalable, and secure communications
+          with the PacStar 466. It’s not just an upgrade-it’s a transformation
+          of your entire communications infrastructure.
+        </p>
+      </>
+    ),
+    tab2: (
+      <>
+        <h4>Key System Advantage</h4>
+        <ul>
+          <li>
+            <ListIcon />
+            Based on the proven technology from our Deployable System DS-04v3
+            with four (4) radio interface ports.
+          </li>
+          <li>
+            <ListIcon />
+            Compact design with a rugged fanless enclosure - small enough for
+            mobile, manpack, or aircraft use.
+          </li>
+          <li>
+            <ListIcon />
+            Expand up to 12 radio systems by interconnecting multiple PacStar
+            466 modules.
+          </li>
+          <li>
+            <ListIcon />
+            Adapts from small command posts to full enterprise integration.
+          </li>
+          <li>
+            <ListIcon />
+            Easy to use and deploy - turns dissimilar radios into more uniform
+            networked resource.
+          </li>
+          <li>
+            <ListIcon />
+            Front panel indicators for system and status tri-color LEDs.
+          </li>
+          <li>
+            <ListIcon />
+            Versatile Graphical User Interface - Windows 10/11 Support.
+          </li>
+          <li>
+            <ListIcon />
+            Enhanced radio support - remote data and radio control.
+          </li>
+          <li>
+            <ListIcon />
+            Command and Control Monitoring - full recording and playback of all
+            radio voice and conference audio.
+          </li>
+          <li>
+            <ListIcon />
+            Scalable and Decentralized: Adapts from tactical-standalone command
+            posts to full enterprise integration across IP subnetworks.
+          </li>
+          <li>
+            <ListIcon />
+            Interoperability: Compatible with a wide range of unified
+            communications protocols and systems, including Motorola WAVE,
+            TOCNET, ICE, Cisco Call Manager, AT&T FirstNet, Access Net, LTE, and
+            more.
+          </li>
+          <li>
+            <ListIcon />
+            Enhanced Radio Support: Offers remote data and radio control for
+            both software-defined radios and legacy systems, including LMRs.
+          </li>
+          <li>
+            <ListIcon />
+            Can support Remote Radio Control, PPP, Sync, Async, L3Harris CPA,
+            and HPW WMT.
+          </li>
+          <li>
+            <ListIcon />
+            Future-Ready Transport: Supports a range of transport methods
+            including 5G, Fiber, Mesh Radio, Software-Defined Radio, Starshield,
+            and tactical LANs.
+          </li>
+          <li>
+            <ListIcon />
+            Cost-Effective: Enables shared use of expensive radios across
+            multiple users, reducing overall costs.
+          </li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    cat: "cat1",
+    slug: "radio-data-adapter-rda-cables",
+    name: "Radio Data Adapter (RDA) Cables",
+    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
+    txt: (
+      <>
+        <p>
+          The Parraid multi-function RDA cable is designed to simplify radio
+          operations by allowing a computer to perform up to six different radio
+          interface tasks using a single USB connection.
+        </p>
+      </>
+    ),
+    tab1: (
+      <>
+        <h4>Overview</h4>
+        <p>
+          ​​​​​​​​The Parraid multi-function RDA cable is designed to simplify
+          radio operations by allowing a computer to perform up to six different
+          radio interface tasks using a single USB connection.
+        </p>
+        <p>
+          The RDA is powered from the personal computer’s USB port and presents
+          itself as a multi-port serial adapter. This simultaneously enables
+          three data ports and up to six operational modes: asynchronous data,
+          synchronous data, asynchronous remote, Ethernet over USB, PDA-184 and
+          High Performance Waveform / Point-to-Point Protocol (HPW/PPP). The RDA
+          cable solves the problem of physically having to change cables to
+          perform different data functions, decreases equipment weight,
+          eliminates the need to purchase multiple OEM cables and has been
+          combat proven to work in even the harshest operating environments.
+        </p>
+      </>
+    ),
+    tab2: (
+      <>
+        <h4>Key System Advantage</h4>
+        <ul>
+          <li>
+            <ListIcon />
+            Replaces several single function cables
+          </li>
+          <li>
+            <ListIcon />
+            Weighs less than 1lb with a streamlined design
+          </li>
+          <li>
+            <ListIcon />
+            Supports a broad range of radios
+          </li>
+          <li>
+            <ListIcon />
+            Connects to a PC via latching USB connector
+          </li>
+          <li>
+            <ListIcon />
+            Provides significant cost benefit
+          </li>
+          <li>
+            <ListIcon />
+            Reduces battery consumption
+          </li>
+        </ul>
+      </>
+    ),
+
+    tab4: (
+      <>
+        <h4>Data Sheets</h4>
+        <div className="downloadIcon">
+          <div className="icon">
+            <a
+              href="/products/cat1/pro5Rugged-Enhancements-RDACables_Product_Flyer-Rev-0.pdf"
+              download="Rugged Enhancements Radio Data Adapter (RDA) Cables Product Flyer"
+            >
+              <PdfIcon /> Rugged Enhancements Radio Data Adapter (RDA) Cables
+              Product Flyer
+              <Download className="downloadIcon" />
+            </a>
+          </div>
+        </div>
+      </>
+    ),
+  },
+  {
     cat: "cat2",
     slug: "rugged-usb-hub-2-0",
     name: "Rugged USB 2.0 Hub",
-    images: [C1Pro2_1, C1Pro2_2, C1Pro2_3, C1Pro2_4],
+    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
     txt: (
       <>
         <p>
@@ -620,7 +1032,7 @@ export const ProdDetails = [
     cat: "cat2",
     slug: "rugged-usb-hub-3-0",
     name: "Rugged USB 3.0 Hub",
-    images: [C1Pro2_1, C1Pro2_2, C1Pro2_3, C1Pro2_4],
+    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
     txt: (
       <>
         <p>
@@ -819,7 +1231,7 @@ export const ProdDetails = [
     cat: "cat2",
     slug: "rugged-usb-repeater",
     name: "Rugged USB Repeater",
-    images: [C1Pro2_1, C1Pro2_2, C1Pro2_3, C1Pro2_4],
+    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
     txt: (
       <>
         <p>
@@ -925,9 +1337,265 @@ export const ProdDetails = [
   },
   {
     cat: "cat3",
+    slug: "best-source-reproducer-bsr-100",
+    name: "Best Source Reproducer (BSR-100)",
+    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
+    txt: (
+      <>
+        <h5>Description</h5>
+        <p>
+          Experience seamless Best Source post-processing and reproduction with
+          the BSR-100. This cutting-edge technology effortlessly processes up to
+          32 recorded PCM streams from multiple diverse receiving / recording
+          locations. The BSR-100 includes the Parraid 2-channel PSIMe PCM output
+          board for PCM signal reproduction or simulation.
+        </p>
+      </>
+    ),
+    tab1: (
+      <>
+        <h4>Overview</h4>
+        <h6>File BDE™</h6>
+        <p>
+          Easily select channels for BDE processing and passing to output.
+          Include correlation fields to align data channels. Configure out of
+          lock output (Last-in-lock, Fake AAAA, Most-in-lock, Initial Source, or
+          no fill). Select from multiple BDE algorithms including
+          In-Lock-Weighted, Bit Vote, Last-in-lock, and DQE/DQM. Optionally
+          repair corrupted frame synchronization patterns.
+        </p>
+        <h6>Origin™ Simulation Software</h6>
+        <p>
+          Create simulations including multiple PCM channels and a time channel
+          with IRIG-A, B, or G output. Simulate data values for any word using
+          preset data value generators or configure word values with CSV file
+          lookup tables. Play existing Chapter 10 files to baseband signal
+          outputs, UDP Chapter 10 streams or TMoIP 218-20 Streams.
+        </p>
+      </>
+    ),
+    tab2: (
+      <>
+        <h4>Key System Advantage</h4>
+        <ul>
+          <li>
+            <ListIcon />
+            Process up to 32 input streams from up to 32 Chapter 10 files.
+          </li>
+          <li>
+            <ListIcon />
+            Select from Bit Voting, In-lock, DQM, or Last-in-lock algorithms for
+            Best Data processing.
+          </li>
+          <li>
+            <ListIcon />
+            Align all input channels to create the best composite output stream.
+          </li>
+          <li>
+            <ListIcon />
+            Output the “Best Data Stream” composited from all selected input
+            channels.
+          </li>
+          <li>
+            <ListIcon />
+            Output Chapter 10 files, TMoIP, or baseband PCM signals.
+          </li>
+          <li>
+            <ListIcon />
+            File BDE™ is included for Data alignment, Best Data processing, and
+            Chapter 10 file output.
+          </li>
+          <li>
+            <ListIcon />
+            Origin is included for data reproduction, simulation, and TMoIP
+            output.
+          </li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    cat: "cat3",
+    slug: "imux–g2e-and-g2eh",
+    name: "IMUX G2e and G2eH",
+    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
+    txt: (
+      <>
+        <h5>Description</h5>
+        <p>
+          The IMUX G2e and the IMUX G2e Hybrid (G2eH) have many unique features
+          such as supporting all industry-standard telemetry signal types, the
+          ability to record two Chapter 10 files simultaneously – local and/or
+          remote, simultaneous playback, and on-the-fly channel adjustment. All
+          units can be equipped with optional integrated RF receivers, bit
+          synchronizers, best source selection, and real-time decom, processing,
+          and display capabilities. The new IMUX G2e Hybrid is equipped with all
+          the existing powerful features the IMUX G2e has to offer plus the
+          capability to input TMoIP channels (218-20 or CH10 / 11 UDP) directly
+          into the recorder. This gives the G2eH the capability to record all
+          channels (TMoIP Inputs and PCM Signal Inputs) as IRIG 106 Chapter 11
+          PCM format.
+        </p>
+      </>
+    ),
+    tab1: (
+      <>
+        <h4>Overview</h4>
+        <p>
+          The G2eH dynamically converts TMoIP 218-20 inputs to Chapter 10
+          packets while recording, which allows for the G2eH, G2e, or any other
+          CH10 reproducer to output baseband (PCM Data & Clock) from the
+          recorded Chapter 10 file. The recorded file will also work with any
+          Chapter 10 / 11 compliant tool set for processing and analysis. This
+          unmatched feature gives the user a single box solution to record
+          and/or reproduce legacy and present-day channel types all together.The
+          IMUX G2e/G2eH can be configured as a rackmount or portable unit.
+          Rackmount configuration options include a compact 2U chassis for up to
+          4 channels and a robust 4U chassis for up to 32 channels. Touch screen
+          and ruggedized systems for mobile applications and transport cases are
+          available.
+        </p>
+      </>
+    ),
+    tab2: (
+      <>
+        <h4>Key System Advantage</h4>
+        <h6>FAST</h6>
+        <ul>
+          <li>
+            <ListIcon />
+            16 gigabit data bus
+          </li>
+          <li>
+            <ListIcon />2 gigabit/sec throughput
+          </li>
+          <li>
+            <ListIcon />
+            High-speed removable SSD media
+          </li>
+        </ul>
+        <h6>SCALABLE</h6>
+        <ul>
+          <li>
+            <ListIcon />
+            Multi-channel support for TMoIP (218-20 and CH10 UDP)*, PCM, Video
+            (SD and HD), 1553 Format I and II, ARINC, Ethernet, Audio, UART, GPS
+            / IRIG Time, and others
+          </li>
+          <li>
+            <ListIcon />
+            Stand-alone recorder to fully networked systems with remote
+            capabilities
+          </li>
+          <li>
+            <ListIcon />
+            Custom parameter data displays, alarm and status indicators
+          </li>
+          <li>
+            <ListIcon />
+            Best Data Engine for highest quality data stream creation
+          </li>
+          <li>
+            <ListIcon />
+            Available integrated receivers and/or bit synchronizers
+          </li>
+          <li>
+            <ListIcon />
+            Multi-core decom and parameter processing
+          </li>
+          <li>
+            <ListIcon />
+            Integrated Low Latency Hot Mic audio output
+          </li>
+          <li>
+            <ListIcon />
+            Data/signal status quick reviews
+          </li>
+          <li>
+            <ListIcon />
+            Available integrated GPS time support
+          </li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    cat: "cat3",
+    slug: "best-data-engine-bde",
+    name: "Best Data Engine BDE",
+    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
+    txt: (
+      <>
+        <h5>Description</h5>
+        <p>
+          Best Data Engine (BDE) is a method of Best Source Selection that
+          accepts multiple PCM input channels, compares them, then creates a new
+          “composite” output PCM channel that represents the best data based on
+          the selected Best Data algorithm. BDE has several instantiations, they
+          include File BDE, G2 BDE, and OMEGA NExT™ BDE.
+        </p>
+      </>
+    ),
+    tab1: (
+      <>
+        <h4>Overview</h4>
+        <h6>File BDE</h6>
+        <p>
+          File BDE operates on existing IRIG-106 Chapter 10 files and produces a
+          new Chapter 10 file based on the BDE configuration. File BDE can
+          process up to 32 PCM input channels from a selection of up to 24
+          Chapter 10 files. File BDE allows the selection of input source
+          channels from each source file and whether or not the selected source
+          channels will be output along with the Best Source channel in the
+          resulting output file. The Best Source channel is the composite stream
+          containing the best data based on the selected algorithm.
+        </p>
+        <h6>G2 BDE</h6>
+        <p>
+          G2 BDE is an optional license for the IMUX-G2 Telemetry Recorder. It
+          operates in real-time recording input channels and the BDE output
+          channel. G2 BDE can also reconstruct the BDE output channel as a
+          base-band PCM output channel.
+        </p>
+        <h6>OMEGA NExT™ BDE</h6>
+        <p>
+          OMEGA NExT™ BDE is an optional license for the OMEGA NExT™ software
+          suite. It operates in real-time or playback and produces the BDE
+          output stream as a separate stream for processing and display.
+        </p>
+        <h6>BDE Algorithm Types</h6>
+        <ul>
+          <li>
+            <ListIcon />
+            <strong>Bit vote:</strong> Does a bit-by-bit comparison of each bit
+            in a minor frame and selects the most common bit for the BDE output
+            stream.
+          </li>
+          <li>
+            <ListIcon />
+            <strong>In-Lock-Weighted:</strong> Aligns data and makes a decision
+            based on which streams have been in lock the most, for the longest
+            period of time, most recently
+          </li>
+          <li>
+            <ListIcon />
+            <strong>DQM Voting:</strong> Outputs the stream with the current
+            best encapsulated Data Quantity Metric.
+          </li>
+          <li>
+            <ListIcon />
+            <strong>Last In Lock:</strong> Outputs the stream most recently in
+            lock as the BDE output stream.
+          </li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    cat: "cat3",
     slug: "edge2-telemetry-reciver",
     name: "Edge2 Telemetry Receiver/Decom",
-    images: [C1Pro2_1, C1Pro2_2, C1Pro2_3, C1Pro2_4],
+    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
     txt: (
       <>
         <p>
@@ -1058,7 +1726,7 @@ export const ProdDetails = [
     cat: "cat3",
     slug: "g3-tmoip-data-processing",
     name: "G3 TMoIP Data Processing",
-    images: [C1Pro2_1, C1Pro2_2, C1Pro2_3, C1Pro2_4],
+    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
     txt: (
       <>
         <p>
@@ -1198,7 +1866,7 @@ export const ProdDetails = [
     cat: "cat3",
     slug: "imux-re-con",
     name: "IMUX RE/CON",
-    images: [C1Pro2_1, C1Pro2_2, C1Pro2_3, C1Pro2_4],
+    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
     txt: (
       <>
         <h5>Network Recorder</h5>
@@ -1368,7 +2036,7 @@ export const ProdDetails = [
     cat: "cat3",
     slug: "omega-data-environment-ode",
     name: "Omega Data Environment (ODE)",
-    images: [C1Pro2_1, C1Pro2_2, C1Pro2_3, C1Pro2_4],
+    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
     txt: (
       <>
         <p>
@@ -1665,7 +2333,7 @@ export const ProdDetails = [
     cat: "cat3",
     slug: "omega-next-real-time-data-processing-software",
     name: "OMEGA NExT Real Time Data Processing Software",
-    images: [C1Pro2_1, C1Pro2_2, C1Pro2_3, C1Pro2_4],
+    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
     txt: (
       <>
         <p>
@@ -1847,7 +2515,7 @@ export const ProdDetails = [
     cat: "cat3",
     slug: "series-5000-data-processors",
     name: "Series-5000 Data Processors",
-    images: [C1Pro2_1, C1Pro2_2, C1Pro2_3, C1Pro2_4],
+    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
     txt: (
       <>
         <p>
@@ -2000,6 +2668,136 @@ export const ProdDetails = [
             </a>
           </div>
         </div>
+      </>
+    ),
+  },
+  {
+    cat: "cat3",
+    slug: "rx2-receiver",
+    name: "Rx2 Receiver",
+    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
+    txt: (
+      <>
+        <p>
+          TDS offers the Rx2 rack mount multi-channel receiver and combiner as
+          well as PCI card level receivers and combiners. All of our receiver
+          products use the latest in digital radio technology.
+        </p>
+      </>
+    ),
+    tab1: (
+      <>
+        <h4>Overview</h4>
+        <h6>Latest Technology for RF to Ethernet </h6>
+        <ul>
+          <li>
+            <ListIcon />
+            Tri-band; L,​S,C Bands – Optional C-Band IF
+          </li>
+          <li>
+            <ListIcon />
+            Compact Portable to Rugged Touch-screen and Airborne Platforms
+          </li>
+          <li>
+            <ListIcon />
+            Demods
+          </li>
+        </ul>
+        <h6>AM, PCM/FM, PM, BPSK, OPSK, SOQPSK-TG</h6>
+        <ul>
+          <li>
+            <ListIcon />
+            High Density
+          </li>
+          <li>
+            <ListIcon />
+            Up to 14 Receivers per Chassis
+          </li>
+          <li>
+            <ListIcon />
+            Dual Receiver & Diversity Combiner on a Single Card
+          </li>
+          <li>
+            <ListIcon />
+            Latest DSP Technology
+          </li>
+          <li>
+            <ListIcon />
+            Antenna Control / Signal Monitoring
+          </li>
+          <li>
+            <ListIcon />
+            Chapter 10/11 Ethernet Data Output
+          </li>
+        </ul>
+      </>
+    ),
+    tab2: (
+      <>
+        <h4>Key System Advantage</h4>
+        <h6>Flexible</h6>
+        <ul>
+          <li>
+            <ListIcon />
+            Intuitive GUI
+          </li>
+          <li>
+            <ListIcon />
+            Built-in Touchscreen
+          </li>
+          <li>
+            <ListIcon />
+            Embedded Ethernet Control
+          </li>
+          <li>
+            <ListIcon />
+            Field Upgradable
+          </li>
+          <li>
+            <ListIcon />
+            Spectral/Video/Constellation Displays
+          </li>
+          <li>
+            <ListIcon />
+            Numerous Output Features
+          </li>
+        </ul>
+        <h6>Reliable</h6>
+        <ul>
+          <li>
+            <ListIcon />
+            Dual Redundant Power Supplies
+          </li>
+          <li>
+            <ListIcon />
+            Rugged Touchscreen
+          </li>
+          <li>
+            <ListIcon />
+            Embedded Controller
+          </li>
+          <li>
+            <ListIcon />
+            Low Parts Count/High MTBF
+          </li>
+          <li>
+            <ListIcon />
+            Embedded Controller
+          </li>
+        </ul>
+        <h6>Economical</h6>
+        <ul>
+          <li>
+            <ListIcon />
+            Card-Level Products
+          </li>
+          <li>
+            <ListIcon />
+            Optional Integrated:​ – Bit Syncs – Decoms – Chapter 10
+            Recording/Reproduction – Real-Time Processing – Post-Test Processing
+            – Data Mining – Data Visualization​
+          </li>
+        </ul>
       </>
     ),
   },

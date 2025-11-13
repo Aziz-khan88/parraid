@@ -72,11 +72,16 @@
     }
     .rightTxt {
       p {
-        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
         a {
           svg {
             margin-left: 10px;
+            width: auto;
+            height: 18px;
           }
+
           &:hover {
             svg {
               path {

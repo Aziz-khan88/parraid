@@ -4,8 +4,8 @@ import styles from "@/styles/layout/header.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
 import {
   ClosedIcon,
-  FbIcon,
-  InsaIcon,
+  Linkedin,
+  Youtube,
   MainLogo,
   NavIcon,
 } from "@/src/app/app-constants";
@@ -72,11 +72,11 @@ const Header = () => {
           <Col className={`${styles.rightTxt} my-auto`}>
             <p>
               Follow Us :{" "}
-              <Link href="https://www.facebook.com/people/Noho-Flooring-Construction-Services/100027208581024/">
-                <FbIcon />
+              <Link href="https://www.linkedin.com/company/parraid-llc">
+                <Linkedin />
               </Link>{" "}
-              <Link href="https://www.instagram.com/nohoflooring/">
-                <InsaIcon />
+              <Link href="https://www.youtube.com/channel/UCrD_g4MeOeJXhTy21FN4fdA">
+                <Youtube />
               </Link>
             </p>
           </Col>

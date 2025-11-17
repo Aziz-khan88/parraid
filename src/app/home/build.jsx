@@ -16,14 +16,19 @@ const Build = ({ about }) => {
               <span>About Parraid</span>
             </h4>
             <p>
-              Our Parraid, is a highly regarded, U.S. based technology and
-              engineering company specializing in product solutions for
-              aerospace and ground tactical applications. Our product offerings
-              include Telemetry Data Systems (TDS), deployable tactical systems,
-              and net-centric Everything over IP (EoIP) products. From expedited
-              acquisition to rapid fielding and execution, our mission-critical
-              solutions enable our customers to transform, evolve, and
-              modernize.
+              At Parraid, LLC, we engineer tactical communications systems and
+              telemetry communication solutions that deliver dependable
+              performance where it matters most. Headquartered in Hollywood,
+              Maryland, we combine three decades of experience in aerospace,
+              defense, and ground tactical applications to design, build, and
+              support products that keep missions connected. Our expertise spans
+              deployable communication products, Telemetry Data Systems (TDS),
+              and Everything over IP (EoIP) architectures, enabling seamless
+              data transmission, secure interoperability, and mission assurance
+              across every environment. From initial concept to field
+              deployment, Parraid ensures rapid acquisition, scalable
+              integration, and full lifecycle support, empowering our customers
+              to operate with precision, reliability, and confidence.
             </p>
           </Col>
           <Col
@@ -33,13 +38,17 @@ const Build = ({ about }) => {
           >
             <div className={styles.buildBox}>
               <div className={styles.tit}>
-                <h2>From expedited acquisition to rapid</h2>
+                <h2>FROM DESIGN TO DEPLOYMENT – BUILT FOR MISSION SUCCESS</h2>
               </div>
               <div className={styles.txt}>
                 <p>
-                  Parraid, is a highly regarded, U.S. based technology and
-                  engineering company specializing in product solutions for
-                  aerospace and ground tactical applications.
+                  At Parraid, LLC, we engineer advanced tactical communications
+                  systems and telemetry communication solutions designed to
+                  perform in the most demanding operational environments. Our
+                  deployable communication products empower defense, aerospace,
+                  and government teams to connect, coordinate, and command with
+                  total confidence — whether on the ground, in the air, or
+                  across maritime and remote networks.
                 </p>
                 <TwoButton link1="#" link2="#" />
               </div>

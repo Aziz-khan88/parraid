@@ -7,57 +7,61 @@ import Image from "next/image";
 import SingleButton from "@/src/app/components/singlebutton";
 
 const Banner = () => {
-    const [showVideo, setShowVideo] = useState(false);
+  const [showVideo, setShowVideo] = useState(false);
 
-    useEffect(() => {
-        const timeout = setTimeout(() => {
-            setShowVideo(true);
-        }, 1500);
-        return () => clearTimeout(timeout);
-    }, []);
-    return (
-        <section className={styles.bannerSection}>
-            <Container className="h-100">
-                <Row className="h-100">
-                    <Col md={8} lg={7} xl={6} className="my-auto">
-                        <div className={styles.bannerText}>
-                            <h1>Next-Gen Telemetry & Connectivity</h1>
-                            <p>Powering secure, real-time data transmission across land, sea, and sky. Our solutions are engineered for precision, reliability, and mission success.</p>
-                            <SingleButton link="#" />
-                        </div>
-                    </Col>
-                </Row>
-            </Container>
-            {!showVideo ? (
-                <div className={styles.bannerVideo}>
-                    <Image
-                        src={BannerPoster.src}
-                        alt="Banner background"
-                        decoding="async"
-                        loading="lazy"
-                        fill
-                    />
-                </div>
-            ) : (
-                <div className={styles.bannerVideo}>
-                    <video
-                        autoPlay
-                        muted
-                        loop
-                        preload="none"
-                        aria-label="Background video"
-                        playsInline
-                        poster={BannerPoster.src}
-                    >
-                        <source src="/videos/homeVideo.mp4" type="video/mp4" />
-                    </video>
-                </div>
-            )}
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setShowVideo(true);
+    }, 1500);
+    return () => clearTimeout(timeout);
+  }, []);
+  return (
+    <section className={styles.bannerSection}>
+      <Container className="h-100">
+        <Row className="h-100">
+          <Col md={12} lg={12} xl={11} className="my-auto">
+            <div className={styles.bannerText}>
+              <h1>
+                ADVANCING TELEMETRY & COMMUNICATIONS FOR CRITICAL MISSIONS
+              </h1>
+              <p>
+                Delivering dependable, high-performance data and communication
+                systems that connect air, land, sea, and space. Parraid empowers
+                aerospace, defense, and government teams to operate with
+                precision, speed, and confidence.
+              </p>
+              <SingleButton link="#" txt="Let’s Talk Solutions" />
+            </div>
+          </Col>
+        </Row>
+      </Container>
+      {!showVideo ? (
+        <div className={styles.bannerVideo}>
+          <Image
+            src={BannerPoster.src}
+            alt="Banner background"
+            decoding="async"
+            loading="lazy"
+            fill
+          />
+        </div>
+      ) : (
+        <div className={styles.bannerVideo}>
+          <video
+            autoPlay
+            muted
+            loop
+            preload="none"
+            aria-label="Background video"
+            playsInline
+            poster={BannerPoster.src}
+          >
+            <source src="/videos/homeVideo.mp4" type="video/mp4" />
+          </video>
+        </div>
+      )}
+    </section>
+  );
+};
 
-
-        </section >
-
-    )
-}
-
-export default Banner
+export default Banner;

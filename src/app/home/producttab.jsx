@@ -15,9 +15,13 @@ const ProductTab = () => {
           <Col md={6}>
             <h2>Our Products</h2>
             <p>
-              Parraid, is a highly regarded, U.S. based technology and
-              engineering company specializing in product solutions for
-              aerospace and ground tactical applications.
+              At Parraid, LLC, we engineer and deliver mission-ready systems
+              that power connectivity, data reliability, and operational
+              precision across the world’s most demanding environments. Our
+              portfolio combines cutting-edge telemetry communication solutions,
+              advanced tactical communications systems, and rugged, field-proven
+              deployable communication products designed for defense, aerospace,
+              and government applications.
             </p>
           </Col>
         </Row>

@@ -4,7 +4,6 @@ import styles from "@/styles/products/prodetails.module.scss";
 import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
 
-import BG from "media/products/bg.webp";
 import { TabIcon } from "@/src/app/app-constants";
 
 const ProDetails = ({ product }) => {

@@ -1,18 +1,87 @@
 import Pro01 from "media/products/Pro01.webp";
 import { Download, ListIcon, PdfIcon } from "@/src/app/app-constants";
-// Category 01  -- Product 01
-import C1Pro1_1 from "media/products/cat1/pro1/NRG_DS-04v3_Front.webp";
-import C1Pro1_2 from "media/products/cat1/pro1/NRG_DS-04v3_Back.webp";
-import C1Pro1_3 from "media/products/cat1/pro1/NRG_DS-04_Mobile_Kit.webp";
+import Image from "next/image";
 
+// Category 01  -- Product 01
+import C1Pro1_1 from "media/products/cat1/pro1/NRG-DS-04v3-Front.webp";
+import C1Pro1_2 from "media/products/cat1/pro1/NRG-DS-04v3-Back.webp";
+import C1Pro1_3 from "media/products/cat1/pro1/NRG-DS-04-Mobile-Kit.webp";
+import C1Pro1_Main from "media/products/cat1/pro1/NRG-DS-04v3-Main.webp";
+// Category 01  -- Product 02
+import C1Pro2_1 from "media/products/cat1/pro2/NRG-RM-Rack-Mount.webp";
+import C1Pro2_2 from "media/products/cat1/pro2/NRG-Rack-Mount-RM-08-Back.webp";
+import C1Pro2_3 from "media/products/cat1/pro2/NRG-Rack-Mount-RM-12-Back.webp";
+import C1Pro2_Main from "media/products/cat1/pro2/NRG-RM-Rack-Mount-Main.webp";
+import InterImage from "media/products/cat1/pro2/interImage.webp";
+// Category 01  -- Product 03
+import C1Pro3_1 from "media/products/cat1/pro3/OWL-Outsource-the-Workload.webp";
+import C1Pro3_2 from "media/products/cat1/pro3/OWL-with-Android.webp";
+import C1Pro3_3 from "media/products/cat1/pro3/OWL-Interoperability-Diagram.webp";
+import C1Pro3_Main from "media/products/cat1/pro3/OWL-Outsource-the-Workload-Main.webp";
+// Category 01  -- Product 04
+import C1Pro4_1 from "media/products/cat1/pro4/NRG-PacStar-466-Front.webp";
+import C1Pro4_2 from "media/products/cat1/pro4/NRG-PacStar-466-Back.webp";
+import C1Pro4_3 from "media/products/cat1/pro4/NRG-PacStar-466-Side.webp";
+import C1Pro4_Main from "media/products/cat1/pro4/NRG-PacStar-466-Main.webp";
 // Category 01  -- Product 05
+import C1Pro5_1 from "media/products/cat1/pro5/Radio-Adapter-Cable-RDA.webp";
+import C1Pro5_Main from "media/products/cat1/pro5/Radio-Adapter-Cable-RDA-Main.webp";
+
+// Category 02  -- Product 01
+import C2Pro1_1 from "media/products/cat2/pro1/Rugged-USB-Hub-RUH-2.0.webp";
+import C2Pro1_Main from "media/products/cat2/pro1/Ruged-USB-Hub-RUH-Main.webp";
 
 // Category 02  -- Product 02
-import InterImage from "media/products/cat1/pro2/interImage.webp";
+import C2Pro2_1 from "media/products/cat2/pro2/Ruged-USB-Hub-RUH-3.0.webp";
+import C2Pro2_Main from "media/products/cat2/pro2/Ruged-USB-Hub-RUH-Main.webp";
 
 // Category 02  -- Product 03
+import C2Pro2_3 from "media/products/cat2/pro3/Rugged-USB-Repeater-RUR.webp";
+import C2Pro3_Main from "media/products/cat2/pro3/Rugged-USB-Repeater-RUR-Main.webp";
 import KeyImage from "media/products/cat2/pro3/keyImage.webp";
-import Image from "next/image";
+
+// Category 03  -- Product 01
+import C3Pro1_1 from "media/products/cat3/pro1/BDE-Best-Data-Engine.webp";
+import C3Pro1_Main from "media/products/cat3/pro1/BDE-Best-Data-Engine-Main.webp";
+
+// Category 03  -- Product 02
+import C3Pro2_1 from "media/products/cat3/pro2/BSR-100.webp";
+import C3Pro2_Main from "media/products/cat3/pro2/BSR-100-Main.webp";
+
+// Category 03  -- Product 03
+import C3Pro3_1 from "media/products/cat3/pro3/Edge2.webp";
+import C3Pro3_2 from "media/products/cat3/pro3/Edge2-Rack.webp";
+import C3Pro3_3 from "media/products/cat3/pro3/Edge2-Back.webp";
+import C3Pro3_Main from "media/products/cat3/pro3/Edge2-Main.webp";
+
+// Category 03  -- Product 04
+import C3Pro4_1 from "media/products/cat3/pro4/G3.webp";
+import C3Pro4_Main from "media/products/cat3/pro4/G3-Main.webp";
+
+// Category 03  -- Product 05
+import C3Pro5_1 from "media/products/cat3/pro5/G2eH.webp";
+import C3Pro5_2 from "media/products/cat3/pro5/G2e.webp";
+import C3Pro5_Main from "media/products/cat3/pro5/G2eH-Main.webp";
+
+// Category 03  -- Product 06
+import C3Pro6_1 from "media/products/cat3/pro6/IMUX-RE-CON.webp";
+import C3Pro6_Main from "media/products/cat3/pro6/IMUX-RE-CON-Main.webp";
+
+// Category 03  -- Product 07
+import C3Pro7_1 from "media/products/cat3/pro7/ODE-Omega-Data-Environment.webp";
+import C3Pro7_Main from "media/products/cat3/pro7/ODE-Omega-Data-Environment-Main.webp";
+
+// Category 03  -- Product 08
+import C3Pro8_1 from "media/products/cat3/pro8/OMEGA-NExT.webp";
+import C3Pro8_Main from "media/products/cat3/pro8/OMEGA-NExT-Main.webp";
+
+// Category 03  -- Product 09
+import C3Pro9_1 from "media/products/cat3/pro9/Rx2.webp";
+import C3Pro9_Main from "media/products/cat3/pro9/Rx2-Main.webp";
+
+// Category 03  -- Product 10
+import C3Pro10_1 from "media/products/cat3/pro10/S-5000e.webp";
+import C3Pro10_Main from "media/products/cat3/pro10/S-5000e-Main.webp";
 
 export const tabList = [
   { id: "cat1", label: "Deployable Communications Solutions" },
@@ -25,35 +94,35 @@ export const productsData = {
       id: 1,
       slug: "network-radio-gateway-ds-04v3",
       name: "Network Radio Gateway NRG DS-04v3",
-      img: Pro01.src,
+      img: C1Pro1_Main.src,
       txt: "Radio-over-IP (RoIP) gateway supports multiple radio types and is rugged and field-deployable, enabling seamless interoperability between tactical, legacy, and IP networks in any environment.",
     },
     {
       id: 2,
       slug: "network-radio-gateway-nrg-deployable-systems",
       name: "Network Radio Gateway NRG Rack Mount-XX",
-      img: Pro01.src,
+      img: C1Pro2_Main.src,
       txt: "NRG® is a solution that provides Voice over IP(VoIP)/Radio over IP(RoIP) conferencing, converging voice, MIL-STD 188/184 data, HPW data, and remote radio configuration/control capability into a single standalone network appliance. ",
     },
     {
       id: 3,
       slug: "outsource-the-workload-owl",
       name: "Outsource the Workload OWL",
-      img: Pro01.src,
+      img: C1Pro3_Main.src,
       txt: "Provides automated management of communications and data workloads with intelligent processing, allowing operators to focus on mission-critical tasks instead of system management.",
     },
     {
       id: 4,
       slug: "our-featured-network-radio-gateway",
       name: "PacStar 466 Featuring Parraid’s Network Radio Gateway NRG",
-      img: Pro01.src,
+      img: C1Pro4_Main.src,
       txt: "PacStar rugged server module integrates Parraid NRG functionality, combining best-in-class tactical server hardware with Parraid’s advanced interoperability technology.",
     },
     {
       id: 5,
       slug: "radio-data-adapter-rda-cables",
       name: "Radio Adapter Cable RDA",
-      img: Pro01.src,
+      img: C1Pro5_Main.src,
       txt: "​​​​​​​​The Parraid multi-function RDA cable is designed to simplify radio operations by allowing a computer to perform up to six different radio interface tasks using a single USB connection.",
     },
   ],
@@ -62,21 +131,21 @@ export const productsData = {
       id: 1,
       slug: "rugged-usb-hub-2-0",
       name: "Rugged USB Hub RUH 2.0",
-      img: Pro01.src,
+      img: C2Pro1_Main.src,
       txt: "The Parraid Rugged USB Hub 2.0 is the first USB hub designed to meet a full range of environmental requirements for mobile and deployed systems.",
     },
     {
       id: 2,
       slug: "rugged-usb-hub-3-0",
       name: "Rugged USB Hub RUH 3.0",
-      img: Pro01.src,
+      img: C2Pro2_Main.src,
       txt: "The Parraid Rugged USB Hub 3.0 is the toughest four port hub on the market. Designed from the ground-up for the most extreme operating environments.",
     },
     {
       id: 3,
       slug: "rugged-usb-repeater",
       name: "Rugged USB Repeater",
-      img: Pro01.src,
+      img: C2Pro3_Main.src,
       txt: "The Parraid Rugged USB Repeater™ (RUR) is a device that allows USB connections to be reliably extended.",
     },
   ],
@@ -85,75 +154,76 @@ export const productsData = {
       id: 1,
       slug: "best-data-engine-bde",
       name: "Best Data Engine BDE",
-      img: Pro01.src,
+      img: C3Pro1_Main.src,
       txt: "Enables real-time stream comparison, selection, and error correction to ensure mission-critical users always receive the best possible version of telemetry data.",
     },
     {
       id: 2,
       slug: "best-source-reproducer-bsr-100",
       name: "Best Source Reproducer BSR-100",
-      img: Pro01.src,
+      img: C3Pro2_Main.src,
       txt: "Intelligent data selection replays the best quality data stream for post-test analysis, reducing operator workload and ensuring optimal data fidelity.",
     },
     {
       id: 3,
       slug: "edge2-telemetry-reciver",
-      name: "Edge2 Telemetry Network Appliance",
-      img: Pro01.src,
+      name: "Edge2 Telemetry Receiver/Decom",
+      img: C3Pro3_Main.src,
       txt: "The Edge² is engineered to provide network telemetry processing at the edge in a portable or rack-mountable 2 channel unit.",
     },
     {
       id: 4,
       slug: "g3-tmoip-data-processing",
       name: "G3",
-      img: Pro01.src,
+      img: C3Pro4_Main.src,
       txt: "The G3 Recorder-Processing system represents the next generation of telemetry data recording and processing platforms.",
     },
+
     {
       id: 5,
       slug: "imux–g2e-and-g2eh",
       name: "IMUX G2e and G2eH",
-      img: Pro01.src,
+      img: C3Pro5_Main.src,
       txt: "Multi-channel telemetry recorder; supports IRIG-106 Chapter 10; portable/rack-mount options.",
     },
+
     {
-      id: 7,
+      id: 6,
       slug: "imux-re-con",
       name: "IMUX RE-CON",
-      img: Pro01.src,
+      img: C3Pro6_Main.src,
       txt: "The IMUX RE/CON network recorder is a telemetry specific ground network recorder ideally suited for ranges moving to IP telemetry.",
     },
     {
-      id: 8,
+      id: 7,
       slug: "omega-data-environment-ode",
       name: "OMEGA Data Environment ODE",
-      img: Pro01.src,
+      img: C3Pro7_Main.src,
       txt: "ODE enables data analysts and consumers to rapidly and securely explore and exploit large data sets.",
     },
     {
-      id: 9,
+      id: 8,
       slug: "omega-next-real-time-data-processing-software",
       name: "OMEGA NExT",
-      img: Pro01.src,
+      img: C3Pro8_Main.src,
       txt: "OMEGA-NExT offers an unmatched blend of power, ease of use, flexibility, and affordability.",
     },
     {
-      id: 10,
+      id: 9,
       slug: "rx2-receiver",
       name: "Rx2 Receiver",
-      img: Pro01.src,
+      img: C3Pro9_Main.src,
       txt: "Multi-band telemetry receiver with built-in demodulation and bit-synchronization delivers high performance, flexibility, and seamless integration into Parraid’s data ecosystem.",
     },
     {
-      id: 11,
+      id: 10,
       slug: "series-5000-data-processors",
       name: "S-5000e Data Processor",
-      img: Pro01.src,
+      img: C3Pro10_Main.src,
       txt: "The Series-5000 is real-time data processing platform available in portable and rack-mount configurations: 2U and 4U, ruggedized and industrial.",
     },
   ],
 };
-
 export const ProdDetails = [
   {
     cat: "cat1",
@@ -293,7 +363,7 @@ export const ProdDetails = [
     cat: "cat1",
     slug: "network-radio-gateway-nrg-deployable-systems",
     name: "Network Radio Gateway Rack Mount Systems",
-    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
+    images: [C1Pro2_1, C1Pro2_2, C1Pro2_3],
     txt: (
       <>
         <h5>Capabilities</h5>
@@ -515,7 +585,7 @@ export const ProdDetails = [
     cat: "cat1",
     slug: "outsource-the-workload-owl",
     name: "Outsource the Workload (OWL)",
-    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
+    images: [C1Pro3_1, C1Pro3_2, C1Pro3_3],
     txt: (
       <>
         <h5>Description</h5>
@@ -652,7 +722,7 @@ export const ProdDetails = [
     cat: "cat1",
     slug: "our-featured-network-radio-gateway",
     name: "PacStar 466 Featuring Parraid’s Network Radio Gateway NRG",
-    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
+    images: [C1Pro4_1, C1Pro4_2, C1Pro4_3],
     txt: (
       <>
         <h5>Description</h5>
@@ -792,7 +862,7 @@ export const ProdDetails = [
     cat: "cat1",
     slug: "radio-data-adapter-rda-cables",
     name: "Radio Data Adapter (RDA) Cables",
-    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
+    images: [C1Pro5_1],
     txt: (
       <>
         <p>
@@ -877,7 +947,7 @@ export const ProdDetails = [
     cat: "cat2",
     slug: "rugged-usb-hub-2-0",
     name: "Rugged USB 2.0 Hub",
-    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
+    images: [C2Pro1_1],
     txt: (
       <>
         <p>
@@ -1032,7 +1102,7 @@ export const ProdDetails = [
     cat: "cat2",
     slug: "rugged-usb-hub-3-0",
     name: "Rugged USB 3.0 Hub",
-    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
+    images: [C2Pro2_1],
     txt: (
       <>
         <p>
@@ -1231,7 +1301,7 @@ export const ProdDetails = [
     cat: "cat2",
     slug: "rugged-usb-repeater",
     name: "Rugged USB Repeater",
-    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
+    images: [C2Pro2_3],
     txt: (
       <>
         <p>
@@ -1335,11 +1405,84 @@ export const ProdDetails = [
       </>
     ),
   },
+
+  {
+    cat: "cat3",
+    slug: "best-data-engine-bde",
+    name: "Best Data Engine BDE",
+    images: [C3Pro1_1],
+    txt: (
+      <>
+        <h5>Description</h5>
+        <p>
+          Best Data Engine (BDE) is a method of Best Source Selection that
+          accepts multiple PCM input channels, compares them, then creates a new
+          “composite” output PCM channel that represents the best data based on
+          the selected Best Data algorithm. BDE has several instantiations, they
+          include File BDE, G2 BDE, and OMEGA NExT™ BDE.
+        </p>
+      </>
+    ),
+    tab1: (
+      <>
+        <h4>Overview</h4>
+        <h6>File BDE</h6>
+        <p>
+          File BDE operates on existing IRIG-106 Chapter 10 files and produces a
+          new Chapter 10 file based on the BDE configuration. File BDE can
+          process up to 32 PCM input channels from a selection of up to 24
+          Chapter 10 files. File BDE allows the selection of input source
+          channels from each source file and whether or not the selected source
+          channels will be output along with the Best Source channel in the
+          resulting output file. The Best Source channel is the composite stream
+          containing the best data based on the selected algorithm.
+        </p>
+        <h6>G2 BDE</h6>
+        <p>
+          G2 BDE is an optional license for the IMUX-G2 Telemetry Recorder. It
+          operates in real-time recording input channels and the BDE output
+          channel. G2 BDE can also reconstruct the BDE output channel as a
+          base-band PCM output channel.
+        </p>
+        <h6>OMEGA NExT™ BDE</h6>
+        <p>
+          OMEGA NExT™ BDE is an optional license for the OMEGA NExT™ software
+          suite. It operates in real-time or playback and produces the BDE
+          output stream as a separate stream for processing and display.
+        </p>
+        <h6>BDE Algorithm Types</h6>
+        <ul>
+          <li>
+            <ListIcon />
+            <strong>Bit vote:</strong> Does a bit-by-bit comparison of each bit
+            in a minor frame and selects the most common bit for the BDE output
+            stream.
+          </li>
+          <li>
+            <ListIcon />
+            <strong>In-Lock-Weighted:</strong> Aligns data and makes a decision
+            based on which streams have been in lock the most, for the longest
+            period of time, most recently
+          </li>
+          <li>
+            <ListIcon />
+            <strong>DQM Voting:</strong> Outputs the stream with the current
+            best encapsulated Data Quantity Metric.
+          </li>
+          <li>
+            <ListIcon />
+            <strong>Last In Lock:</strong> Outputs the stream most recently in
+            lock as the BDE output stream.
+          </li>
+        </ul>
+      </>
+    ),
+  },
   {
     cat: "cat3",
     slug: "best-source-reproducer-bsr-100",
     name: "Best Source Reproducer (BSR-100)",
-    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
+    images: [C3Pro2_1],
     txt: (
       <>
         <h5>Description</h5>
@@ -1414,188 +1557,12 @@ export const ProdDetails = [
       </>
     ),
   },
-  {
-    cat: "cat3",
-    slug: "imux–g2e-and-g2eh",
-    name: "IMUX G2e and G2eH",
-    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
-    txt: (
-      <>
-        <h5>Description</h5>
-        <p>
-          The IMUX G2e and the IMUX G2e Hybrid (G2eH) have many unique features
-          such as supporting all industry-standard telemetry signal types, the
-          ability to record two Chapter 10 files simultaneously – local and/or
-          remote, simultaneous playback, and on-the-fly channel adjustment. All
-          units can be equipped with optional integrated RF receivers, bit
-          synchronizers, best source selection, and real-time decom, processing,
-          and display capabilities. The new IMUX G2e Hybrid is equipped with all
-          the existing powerful features the IMUX G2e has to offer plus the
-          capability to input TMoIP channels (218-20 or CH10 / 11 UDP) directly
-          into the recorder. This gives the G2eH the capability to record all
-          channels (TMoIP Inputs and PCM Signal Inputs) as IRIG 106 Chapter 11
-          PCM format.
-        </p>
-      </>
-    ),
-    tab1: (
-      <>
-        <h4>Overview</h4>
-        <p>
-          The G2eH dynamically converts TMoIP 218-20 inputs to Chapter 10
-          packets while recording, which allows for the G2eH, G2e, or any other
-          CH10 reproducer to output baseband (PCM Data & Clock) from the
-          recorded Chapter 10 file. The recorded file will also work with any
-          Chapter 10 / 11 compliant tool set for processing and analysis. This
-          unmatched feature gives the user a single box solution to record
-          and/or reproduce legacy and present-day channel types all together.The
-          IMUX G2e/G2eH can be configured as a rackmount or portable unit.
-          Rackmount configuration options include a compact 2U chassis for up to
-          4 channels and a robust 4U chassis for up to 32 channels. Touch screen
-          and ruggedized systems for mobile applications and transport cases are
-          available.
-        </p>
-      </>
-    ),
-    tab2: (
-      <>
-        <h4>Key System Advantage</h4>
-        <h6>FAST</h6>
-        <ul>
-          <li>
-            <ListIcon />
-            16 gigabit data bus
-          </li>
-          <li>
-            <ListIcon />2 gigabit/sec throughput
-          </li>
-          <li>
-            <ListIcon />
-            High-speed removable SSD media
-          </li>
-        </ul>
-        <h6>SCALABLE</h6>
-        <ul>
-          <li>
-            <ListIcon />
-            Multi-channel support for TMoIP (218-20 and CH10 UDP)*, PCM, Video
-            (SD and HD), 1553 Format I and II, ARINC, Ethernet, Audio, UART, GPS
-            / IRIG Time, and others
-          </li>
-          <li>
-            <ListIcon />
-            Stand-alone recorder to fully networked systems with remote
-            capabilities
-          </li>
-          <li>
-            <ListIcon />
-            Custom parameter data displays, alarm and status indicators
-          </li>
-          <li>
-            <ListIcon />
-            Best Data Engine for highest quality data stream creation
-          </li>
-          <li>
-            <ListIcon />
-            Available integrated receivers and/or bit synchronizers
-          </li>
-          <li>
-            <ListIcon />
-            Multi-core decom and parameter processing
-          </li>
-          <li>
-            <ListIcon />
-            Integrated Low Latency Hot Mic audio output
-          </li>
-          <li>
-            <ListIcon />
-            Data/signal status quick reviews
-          </li>
-          <li>
-            <ListIcon />
-            Available integrated GPS time support
-          </li>
-        </ul>
-      </>
-    ),
-  },
-  {
-    cat: "cat3",
-    slug: "best-data-engine-bde",
-    name: "Best Data Engine BDE",
-    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
-    txt: (
-      <>
-        <h5>Description</h5>
-        <p>
-          Best Data Engine (BDE) is a method of Best Source Selection that
-          accepts multiple PCM input channels, compares them, then creates a new
-          “composite” output PCM channel that represents the best data based on
-          the selected Best Data algorithm. BDE has several instantiations, they
-          include File BDE, G2 BDE, and OMEGA NExT™ BDE.
-        </p>
-      </>
-    ),
-    tab1: (
-      <>
-        <h4>Overview</h4>
-        <h6>File BDE</h6>
-        <p>
-          File BDE operates on existing IRIG-106 Chapter 10 files and produces a
-          new Chapter 10 file based on the BDE configuration. File BDE can
-          process up to 32 PCM input channels from a selection of up to 24
-          Chapter 10 files. File BDE allows the selection of input source
-          channels from each source file and whether or not the selected source
-          channels will be output along with the Best Source channel in the
-          resulting output file. The Best Source channel is the composite stream
-          containing the best data based on the selected algorithm.
-        </p>
-        <h6>G2 BDE</h6>
-        <p>
-          G2 BDE is an optional license for the IMUX-G2 Telemetry Recorder. It
-          operates in real-time recording input channels and the BDE output
-          channel. G2 BDE can also reconstruct the BDE output channel as a
-          base-band PCM output channel.
-        </p>
-        <h6>OMEGA NExT™ BDE</h6>
-        <p>
-          OMEGA NExT™ BDE is an optional license for the OMEGA NExT™ software
-          suite. It operates in real-time or playback and produces the BDE
-          output stream as a separate stream for processing and display.
-        </p>
-        <h6>BDE Algorithm Types</h6>
-        <ul>
-          <li>
-            <ListIcon />
-            <strong>Bit vote:</strong> Does a bit-by-bit comparison of each bit
-            in a minor frame and selects the most common bit for the BDE output
-            stream.
-          </li>
-          <li>
-            <ListIcon />
-            <strong>In-Lock-Weighted:</strong> Aligns data and makes a decision
-            based on which streams have been in lock the most, for the longest
-            period of time, most recently
-          </li>
-          <li>
-            <ListIcon />
-            <strong>DQM Voting:</strong> Outputs the stream with the current
-            best encapsulated Data Quantity Metric.
-          </li>
-          <li>
-            <ListIcon />
-            <strong>Last In Lock:</strong> Outputs the stream most recently in
-            lock as the BDE output stream.
-          </li>
-        </ul>
-      </>
-    ),
-  },
+
   {
     cat: "cat3",
     slug: "edge2-telemetry-reciver",
     name: "Edge2 Telemetry Receiver/Decom",
-    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
+    images: [C3Pro3_1, C3Pro3_2, C3Pro3_3],
     txt: (
       <>
         <p>
@@ -1724,149 +1691,9 @@ export const ProdDetails = [
   },
   {
     cat: "cat3",
-    slug: "g3-tmoip-data-processing",
-    name: "G3 TMoIP Data Processing",
-    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
-    txt: (
-      <>
-        <p>
-          The G3 Telemetry-over-IP (TMoIP) Recorder-Processing system represents
-          the next generation of telemetry data recording and processing
-          platforms.
-        </p>
-        <p>IMUX G3 TMoIP Data Processing Product Flyer</p>
-        <ul>
-          <li>
-            <ListIcon />
-            TMoIP Input / IRIG 106 Ch 10 Archive
-          </li>
-          <li>
-            <ListIcon />
-            Selectable IRIG Codes, In and Out
-          </li>
-          <li>
-            <ListIcon />
-            Tunable Bit Rates Up to 60 Mbps
-          </li>
-        </ul>
-      </>
-    ),
-    tab1: (
-      <>
-        <h4>Overview</h4>
-        <p>
-          The G3 Recorder-Processing system represents the next generation of
-          telemetry data recording and processing platforms. It supports over 24
-          input channels, including 20 PCM streams received as IRIG standard
-          TMoIP Ethernet input(s). G3 includes extreme real-time processing
-          capability with the integrated NExT Best Data Engine (BDE) and NExT
-          raw data distribution and parameter processing capabilities. G3
-          provides both 1G and 10G Ethernet ports and includes TPM 2.0.
-        </p>
-        <ul>
-          <li>
-            <ListIcon />
-            2U 19” High-end Processing Platform
-          </li>
-          <li>
-            <ListIcon />
-            Local, RAID, NAS, or SAN storage
-          </li>
-          <li>
-            <ListIcon />
-            Signal I/O for PCM, Video, UART, 1553, ARINC, Ethernet, TMoIP and
-            others
-          </li>
-          <li>
-            <ListIcon />
-            NExT Professional Data Processing with BDE and TMoIP Input Support
-          </li>
-        </ul>
-        <h6>Powerful</h6>
-        <ul>
-          <li>
-            <ListIcon />
-            3.0 GHz 12-core / 24-thread, 128GB RAM – standard Configuration
-          </li>
-          <li>
-            <ListIcon />
-            Up to 10TB data storage: 8TB RAID5 – standard configuration
-          </li>
-          <li>
-            <ListIcon />
-            Multiple-instantiation BDE – real-time TMoIP input
-          </li>
-          <li>
-            <ListIcon />
-            10G Ethernet – standard configuration
-          </li>
-        </ul>
-        <h6>Flexible</h6>
-        <ul>
-          <li>
-            <ListIcon />
-            Simultaneous Local and Remote Data storage – raw and processed data
-          </li>
-          <li>
-            <ListIcon />
-            Real-time Strip-n-Ship serial PCM and Ethernet data throughput
-          </li>
-          <li>
-            <ListIcon />
-            IRIG Chapter 10/11 and User-programmable Ethernet output
-          </li>
-          <li>
-            <ListIcon />
-            Most Complex Real-time Data Packet, PCM Frame, and Bus Processing
-          </li>
-          <li>
-            <ListIcon />
-            Stand-alone Platform or Fully-Networked Server/Client
-          </li>
-          <li>
-            <ListIcon />
-            Optional Data Mining
-          </li>
-        </ul>
-        <h6>Reliable</h6>
-        <ul>
-          <li>
-            <ListIcon />
-            Dual, Redundant, Hot-plug Power Supply – standard configuration
-          </li>
-          <li>
-            <ListIcon />
-            Front Panel Removable Hot Swap Hard Drives – standard configuration
-          </li>
-          <li>
-            <ListIcon />
-            Trusted Platform Module 2.0
-          </li>
-        </ul>
-      </>
-    ),
-    tab4: (
-      <>
-        <h4>Data Sheets</h4>
-        <div className="downloadIcon">
-          <div className="icon">
-            <a
-              href="/products/cat3/pro4/IMUX-G3-Recorder_Product_Flyer-Rev-03.pdf"
-              download="IMUX G3 TMoIP Data Processing Product Flyer"
-            >
-              <PdfIcon /> IMUX G3 TMoIP Data Processing Product Flyer
-              <Download className="downloadIcon" />
-            </a>
-          </div>
-        </div>
-      </>
-    ),
-  },
-  {
-    cat: "cat3",
     slug: "imux-re-con",
     name: "IMUX RE/CON",
-    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
+    images: [C3Pro6_1],
     txt: (
       <>
         <h5>Network Recorder</h5>
@@ -2032,11 +1859,442 @@ export const ProdDetails = [
       </>
     ),
   },
+
+  {
+    cat: "cat3",
+    slug: "g3-tmoip-data-processing",
+    name: "G3 TMoIP Data Processing",
+    images: [C3Pro4_1],
+    txt: (
+      <>
+        <p>
+          The G3 Telemetry-over-IP (TMoIP) Recorder-Processing system represents
+          the next generation of telemetry data recording and processing
+          platforms.
+        </p>
+        <p>IMUX G3 TMoIP Data Processing Product Flyer</p>
+        <ul>
+          <li>
+            <ListIcon />
+            TMoIP Input / IRIG 106 Ch 10 Archive
+          </li>
+          <li>
+            <ListIcon />
+            Selectable IRIG Codes, In and Out
+          </li>
+          <li>
+            <ListIcon />
+            Tunable Bit Rates Up to 60 Mbps
+          </li>
+        </ul>
+      </>
+    ),
+    tab1: (
+      <>
+        <h4>Overview</h4>
+        <p>
+          The G3 Recorder-Processing system represents the next generation of
+          telemetry data recording and processing platforms. It supports over 24
+          input channels, including 20 PCM streams received as IRIG standard
+          TMoIP Ethernet input(s). G3 includes extreme real-time processing
+          capability with the integrated NExT Best Data Engine (BDE) and NExT
+          raw data distribution and parameter processing capabilities. G3
+          provides both 1G and 10G Ethernet ports and includes TPM 2.0.
+        </p>
+        <ul>
+          <li>
+            <ListIcon />
+            2U 19” High-end Processing Platform
+          </li>
+          <li>
+            <ListIcon />
+            Local, RAID, NAS, or SAN storage
+          </li>
+          <li>
+            <ListIcon />
+            Signal I/O for PCM, Video, UART, 1553, ARINC, Ethernet, TMoIP and
+            others
+          </li>
+          <li>
+            <ListIcon />
+            NExT Professional Data Processing with BDE and TMoIP Input Support
+          </li>
+        </ul>
+        <h6>Powerful</h6>
+        <ul>
+          <li>
+            <ListIcon />
+            3.0 GHz 12-core / 24-thread, 128GB RAM – standard Configuration
+          </li>
+          <li>
+            <ListIcon />
+            Up to 10TB data storage: 8TB RAID5 – standard configuration
+          </li>
+          <li>
+            <ListIcon />
+            Multiple-instantiation BDE – real-time TMoIP input
+          </li>
+          <li>
+            <ListIcon />
+            10G Ethernet – standard configuration
+          </li>
+        </ul>
+        <h6>Flexible</h6>
+        <ul>
+          <li>
+            <ListIcon />
+            Simultaneous Local and Remote Data storage – raw and processed data
+          </li>
+          <li>
+            <ListIcon />
+            Real-time Strip-n-Ship serial PCM and Ethernet data throughput
+          </li>
+          <li>
+            <ListIcon />
+            IRIG Chapter 10/11 and User-programmable Ethernet output
+          </li>
+          <li>
+            <ListIcon />
+            Most Complex Real-time Data Packet, PCM Frame, and Bus Processing
+          </li>
+          <li>
+            <ListIcon />
+            Stand-alone Platform or Fully-Networked Server/Client
+          </li>
+          <li>
+            <ListIcon />
+            Optional Data Mining
+          </li>
+        </ul>
+        <h6>Reliable</h6>
+        <ul>
+          <li>
+            <ListIcon />
+            Dual, Redundant, Hot-plug Power Supply – standard configuration
+          </li>
+          <li>
+            <ListIcon />
+            Front Panel Removable Hot Swap Hard Drives – standard configuration
+          </li>
+          <li>
+            <ListIcon />
+            Trusted Platform Module 2.0
+          </li>
+        </ul>
+      </>
+    ),
+    tab4: (
+      <>
+        <h4>Data Sheets</h4>
+        <div className="downloadIcon">
+          <div className="icon">
+            <a
+              href="/products/cat3/pro4/IMUX-G3-Recorder_Product_Flyer-Rev-03.pdf"
+              download="IMUX G3 TMoIP Data Processing Product Flyer"
+            >
+              <PdfIcon /> IMUX G3 TMoIP Data Processing Product Flyer
+              <Download className="downloadIcon" />
+            </a>
+          </div>
+        </div>
+      </>
+    ),
+  },
+
+  {
+    cat: "cat3",
+    slug: "imux–g2e-and-g2eh",
+    name: "IMUX G2e and G2eH",
+    images: [C3Pro5_1, C3Pro5_2],
+    txt: (
+      <>
+        <h5>Description</h5>
+        <p>
+          The IMUX G2e and the IMUX G2e Hybrid (G2eH) have many unique features
+          such as supporting all industry-standard telemetry signal types, the
+          ability to record two Chapter 10 files simultaneously – local and/or
+          remote, simultaneous playback, and on-the-fly channel adjustment. All
+          units can be equipped with optional integrated RF receivers, bit
+          synchronizers, best source selection, and real-time decom, processing,
+          and display capabilities. The new IMUX G2e Hybrid is equipped with all
+          the existing powerful features the IMUX G2e has to offer plus the
+          capability to input TMoIP channels (218-20 or CH10 / 11 UDP) directly
+          into the recorder. This gives the G2eH the capability to record all
+          channels (TMoIP Inputs and PCM Signal Inputs) as IRIG 106 Chapter 11
+          PCM format.
+        </p>
+      </>
+    ),
+    tab1: (
+      <>
+        <h4>Overview</h4>
+        <p>
+          The G2eH dynamically converts TMoIP 218-20 inputs to Chapter 10
+          packets while recording, which allows for the G2eH, G2e, or any other
+          CH10 reproducer to output baseband (PCM Data & Clock) from the
+          recorded Chapter 10 file. The recorded file will also work with any
+          Chapter 10 / 11 compliant tool set for processing and analysis. This
+          unmatched feature gives the user a single box solution to record
+          and/or reproduce legacy and present-day channel types all together.The
+          IMUX G2e/G2eH can be configured as a rackmount or portable unit.
+          Rackmount configuration options include a compact 2U chassis for up to
+          4 channels and a robust 4U chassis for up to 32 channels. Touch screen
+          and ruggedized systems for mobile applications and transport cases are
+          available.
+        </p>
+      </>
+    ),
+    tab2: (
+      <>
+        <h4>Key System Advantage</h4>
+        <h6>FAST</h6>
+        <ul>
+          <li>
+            <ListIcon />
+            16 gigabit data bus
+          </li>
+          <li>
+            <ListIcon />2 gigabit/sec throughput
+          </li>
+          <li>
+            <ListIcon />
+            High-speed removable SSD media
+          </li>
+        </ul>
+        <h6>SCALABLE</h6>
+        <ul>
+          <li>
+            <ListIcon />
+            Multi-channel support for TMoIP (218-20 and CH10 UDP)*, PCM, Video
+            (SD and HD), 1553 Format I and II, ARINC, Ethernet, Audio, UART, GPS
+            / IRIG Time, and others
+          </li>
+          <li>
+            <ListIcon />
+            Stand-alone recorder to fully networked systems with remote
+            capabilities
+          </li>
+          <li>
+            <ListIcon />
+            Custom parameter data displays, alarm and status indicators
+          </li>
+          <li>
+            <ListIcon />
+            Best Data Engine for highest quality data stream creation
+          </li>
+          <li>
+            <ListIcon />
+            Available integrated receivers and/or bit synchronizers
+          </li>
+          <li>
+            <ListIcon />
+            Multi-core decom and parameter processing
+          </li>
+          <li>
+            <ListIcon />
+            Integrated Low Latency Hot Mic audio output
+          </li>
+          <li>
+            <ListIcon />
+            Data/signal status quick reviews
+          </li>
+          <li>
+            <ListIcon />
+            Available integrated GPS time support
+          </li>
+        </ul>
+      </>
+    ),
+  },
+
+  {
+    cat: "cat3",
+    slug: "omega-next-real-time-data-processing-software",
+    name: "OMEGA NExT Real Time Data Processing Software",
+    images: [C3Pro8_1],
+    txt: (
+      <>
+        <p>
+          The OMEGA NExT software suite provides Realtime Processing, EU
+          conversion, Data Distribution, Display, and Chapter 10 compliant Data
+          Recording and is one of the most powerful and easy to use telemetry
+          data processing software ever produced. Developed specifically for
+          IRIG 106 Chapter 10 packet processing on a modern Service Oriented
+          Architecture (SOA), OMEGA NExT provides unparalleled stability,
+          performance, and flexibility.
+        </p>
+        <ul>
+          <li>
+            <ListIcon />
+            Omega NExT provides EU conversion, data distribution, real-time
+            display, and Chapter 10 compliant data…
+          </li>
+        </ul>
+      </>
+    ),
+    tab1: (
+      <>
+        <h4>Overview</h4>
+        <h6>OMEGA-NExT</h6>
+        <p>
+          OMEGA-NExT offers an unmatched blend of power, ease of use,
+          flexibility, and affordability.
+        </p>
+        <h6>OMEGA NExT Processing Software</h6>
+        <p>
+          Building on a native 64-bit multi-threaded, service-oriented
+          architecture, the intuitive user interface enables users to rapidly
+          configure an unlimited range of combined, custom, and native
+          processing configurations in minutes.
+        </p>
+        <h6>Flexible Data Sources</h6>
+        <p>
+          OMEGA NExT accepts input from a variety of data sources. OMEGA NExT is
+          the real-time processing foundation for Parraid Series-5000 / X-5000
+          and G3 hardware platforms and can be added to Parraid IMUX G2 IRIG 106
+          Chapter 10 recorders for real-time processing directly on the recorder
+          platform. OMEGA NExT also provides a flexible Ethernet input
+          capability providing real-time processing from Ethernet sources such
+          as Chapter 10 broadcast from any Chapter 10 compliant recorder, NPD
+          (DARv3), and TMnS sources.
+        </p>
+        <h6>Clarity Display Software</h6>
+        <p>
+          Using the latest vector display technology, Clarity delivers new
+          levels of richness and depth.  Clarity Builder allows display
+          designers to quickly define the ultimate user experience.  Clarity
+          clients allow users to view their data and interact with their
+          displays in real time or playback. There are no license installation
+          restrictions on Clarity Display and Builder software; they may be
+          installed on as many platforms as desired by the end user(s). Clarity
+          Displays feature programmable sample-driven and data-driven support in
+          the presentation of real-time and file playback data. Clarity Display
+          clients may connect to any NExT server system for data presentation of
+          any telemetry data source inputs. All Clarity Display clients feature
+          programmable instant replay for immediate re-examination of displayed
+          data, without requiring playback of front-end recorder file, before
+          resuming real-time data monitoring.
+        </p>
+      </>
+    ),
+    tab2: (
+      <>
+        <h4>Key System Advantage</h4>
+        <h6>Intuitive User Interface</h6>
+        <p>
+          Based on a project-oriented design with secure Basic User operation,
+          the OMEGA NExT user interface steps you through the configuration of
+          your system from beginning to end with an intuitive design.
+        </p>
+        <h6>Multi-Threaded & Multi-Core</h6>
+        <p>
+          Speed and scalability are fundamental to the design philosophy of
+          OMEGA NExT.  Able to scale its core processing engine across any
+          number of system cores, OMEGA NExT establishes new benchmarks for
+          speed in the real-time and post processing domains.
+        </p>
+        <h6>Service Oriented Architecture</h6>
+        <p>
+          OMEGA NExT is designed from its foundation on a modern service
+          oriented architecture solution to telemetry processing.  Leveraging IT
+          infrastructure, it can easily be deployed and provisioned in
+          virtualized environments across the extended enterprise.
+        </p>
+        <h6>Parameter Organization</h6>
+        <p>
+          The OMEGA NExT Parameter Picker tool provides easy access to the
+          entire parameter database and supports filterable organization of
+          parameters and lists of parameters for independent output, displays,
+          data storage, etc. The Parameter Picker tool is intelligently
+          incorporated in all software products throughout the product line for
+          familiarity and ease-of-use.
+        </p>
+        <h6>Comprehensive APIs</h6>
+        <p>
+          A library of extensive application programming interfaces with sample
+          source code are provided for inputs and outputs of the processing
+          engine, custom processing steps and functions, as well as for external
+          control and status monitoring of the OMEGA NExT application itself.
+          These APIs allow OMEGA NExT to operate as the heart of any customized
+          telemetry processing solution.
+        </p>
+        <h6>Native 64-Bit</h6>
+        <p>
+          Built from the ground up as a Native 64-bit application, OMEGA NExT is
+          able to leverage tens of gigabytes of memory at rates unheard of with
+          legacy systems. Moreover, challenging double precision math is no
+          longer an issue, making many complex derived parameters a thing of the
+          past.
+        </p>
+        <h6>Network Extensibility</h6>
+        <p>
+          No longer is your telemetry infrastructure bound to point solutions. 
+          If your test requires assets to be deployed over a wide geographical
+          area, the OMEGA NExT will deliver unprecedented capability to
+          integrate and merge dispersed data sources in real-time and post
+          mission.
+        </p>
+        <h6>Scalable</h6>
+        <p>
+          OMEGA NExT can be scaled from a simple single=stream checkout system,
+          to a full-blown mission control center, all using the same software.
+          Using soft license key technology, users can rapidly upgrade their
+          systems simply by purchasing advanced features and enabling them via a
+          new software key.​
+        </p>
+        <h6>Visual Processing</h6>
+        <p>
+          OMEGA NExT offers an incredible pallet of over 135 built-in drag and
+          drop libraries for input format conversions, masking, bit
+          concatenation, logic, math, trigonometry as well as the ability to
+          include an unlimited array of custom user-coded functions.  With the
+          included Custom Instruction Wizard you can build your own custom coded
+          processing instructions directly into the system in minutes.
+        </p>
+        <h6>Focus Data Distribution</h6>
+        <p>
+          The Focus Data Distribution utility of OMEGA NExT provides high-speed
+          network output of selected parameters in a variety of common formats
+          or you can define your own output formats. Any subset or all
+          parameters may be programmed for fixed sample rate and/or data-driven
+          (all processed samples) output for networked clients for display,
+          storage, and/or further processing.
+        </p>
+      </>
+    ),
+    tab4: (
+      <>
+        <h4>Data Sheets</h4>
+        <div className="downloadIcon">
+          <div className="icon">
+            <a
+              href="/products/cat3/pro9/OMEGA-NExT_Product-Flyer-Rev-03.pdf"
+              download="OMEGA NExT Software Product Flyer"
+            >
+              <PdfIcon /> OMEGA NExT Software Product Flyer
+              <Download className="downloadIcon" />
+            </a>
+          </div>
+          <div className="icon">
+            <a
+              href="/products/cat3/pro9/BDE_Product-Flyer-Rev-00.pdf"
+              download="BDE Product Flyer"
+            >
+              <PdfIcon />
+              BDE Product Flyer
+              <Download className="downloadIcon" />
+            </a>
+          </div>
+        </div>
+      </>
+    ),
+  },
+
   {
     cat: "cat3",
     slug: "omega-data-environment-ode",
     name: "Omega Data Environment (ODE)",
-    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
+    images: [C3Pro7_1],
     txt: (
       <>
         <p>
@@ -2331,191 +2589,9 @@ export const ProdDetails = [
   },
   {
     cat: "cat3",
-    slug: "omega-next-real-time-data-processing-software",
-    name: "OMEGA NExT Real Time Data Processing Software",
-    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
-    txt: (
-      <>
-        <p>
-          The OMEGA NExT software suite provides Realtime Processing, EU
-          conversion, Data Distribution, Display, and Chapter 10 compliant Data
-          Recording and is one of the most powerful and easy to use telemetry
-          data processing software ever produced. Developed specifically for
-          IRIG 106 Chapter 10 packet processing on a modern Service Oriented
-          Architecture (SOA), OMEGA NExT provides unparalleled stability,
-          performance, and flexibility.
-        </p>
-        <ul>
-          <li>
-            <ListIcon />
-            Omega NExT provides EU conversion, data distribution, real-time
-            display, and Chapter 10 compliant data…
-          </li>
-        </ul>
-      </>
-    ),
-    tab1: (
-      <>
-        <h4>Overview</h4>
-        <h6>OMEGA-NExT</h6>
-        <p>
-          OMEGA-NExT offers an unmatched blend of power, ease of use,
-          flexibility, and affordability.
-        </p>
-        <h6>OMEGA NExT Processing Software</h6>
-        <p>
-          Building on a native 64-bit multi-threaded, service-oriented
-          architecture, the intuitive user interface enables users to rapidly
-          configure an unlimited range of combined, custom, and native
-          processing configurations in minutes.
-        </p>
-        <h6>Flexible Data Sources</h6>
-        <p>
-          OMEGA NExT accepts input from a variety of data sources. OMEGA NExT is
-          the real-time processing foundation for Parraid Series-5000 / X-5000
-          and G3 hardware platforms and can be added to Parraid IMUX G2 IRIG 106
-          Chapter 10 recorders for real-time processing directly on the recorder
-          platform. OMEGA NExT also provides a flexible Ethernet input
-          capability providing real-time processing from Ethernet sources such
-          as Chapter 10 broadcast from any Chapter 10 compliant recorder, NPD
-          (DARv3), and TMnS sources.
-        </p>
-        <h6>Clarity Display Software</h6>
-        <p>
-          Using the latest vector display technology, Clarity delivers new
-          levels of richness and depth.  Clarity Builder allows display
-          designers to quickly define the ultimate user experience.  Clarity
-          clients allow users to view their data and interact with their
-          displays in real time or playback. There are no license installation
-          restrictions on Clarity Display and Builder software; they may be
-          installed on as many platforms as desired by the end user(s). Clarity
-          Displays feature programmable sample-driven and data-driven support in
-          the presentation of real-time and file playback data. Clarity Display
-          clients may connect to any NExT server system for data presentation of
-          any telemetry data source inputs. All Clarity Display clients feature
-          programmable instant replay for immediate re-examination of displayed
-          data, without requiring playback of front-end recorder file, before
-          resuming real-time data monitoring.
-        </p>
-      </>
-    ),
-    tab2: (
-      <>
-        <h4>Key System Advantage</h4>
-        <h6>Intuitive User Interface</h6>
-        <p>
-          Based on a project-oriented design with secure Basic User operation,
-          the OMEGA NExT user interface steps you through the configuration of
-          your system from beginning to end with an intuitive design.
-        </p>
-        <h6>Multi-Threaded & Multi-Core</h6>
-        <p>
-          Speed and scalability are fundamental to the design philosophy of
-          OMEGA NExT.  Able to scale its core processing engine across any
-          number of system cores, OMEGA NExT establishes new benchmarks for
-          speed in the real-time and post processing domains.
-        </p>
-        <h6>Service Oriented Architecture</h6>
-        <p>
-          OMEGA NExT is designed from its foundation on a modern service
-          oriented architecture solution to telemetry processing.  Leveraging IT
-          infrastructure, it can easily be deployed and provisioned in
-          virtualized environments across the extended enterprise.
-        </p>
-        <h6>Parameter Organization</h6>
-        <p>
-          The OMEGA NExT Parameter Picker tool provides easy access to the
-          entire parameter database and supports filterable organization of
-          parameters and lists of parameters for independent output, displays,
-          data storage, etc. The Parameter Picker tool is intelligently
-          incorporated in all software products throughout the product line for
-          familiarity and ease-of-use.
-        </p>
-        <h6>Comprehensive APIs</h6>
-        <p>
-          A library of extensive application programming interfaces with sample
-          source code are provided for inputs and outputs of the processing
-          engine, custom processing steps and functions, as well as for external
-          control and status monitoring of the OMEGA NExT application itself.
-          These APIs allow OMEGA NExT to operate as the heart of any customized
-          telemetry processing solution.
-        </p>
-        <h6>Native 64-Bit</h6>
-        <p>
-          Built from the ground up as a Native 64-bit application, OMEGA NExT is
-          able to leverage tens of gigabytes of memory at rates unheard of with
-          legacy systems. Moreover, challenging double precision math is no
-          longer an issue, making many complex derived parameters a thing of the
-          past.
-        </p>
-        <h6>Network Extensibility</h6>
-        <p>
-          No longer is your telemetry infrastructure bound to point solutions. 
-          If your test requires assets to be deployed over a wide geographical
-          area, the OMEGA NExT will deliver unprecedented capability to
-          integrate and merge dispersed data sources in real-time and post
-          mission.
-        </p>
-        <h6>Scalable</h6>
-        <p>
-          OMEGA NExT can be scaled from a simple single=stream checkout system,
-          to a full-blown mission control center, all using the same software.
-          Using soft license key technology, users can rapidly upgrade their
-          systems simply by purchasing advanced features and enabling them via a
-          new software key.​
-        </p>
-        <h6>Visual Processing</h6>
-        <p>
-          OMEGA NExT offers an incredible pallet of over 135 built-in drag and
-          drop libraries for input format conversions, masking, bit
-          concatenation, logic, math, trigonometry as well as the ability to
-          include an unlimited array of custom user-coded functions.  With the
-          included Custom Instruction Wizard you can build your own custom coded
-          processing instructions directly into the system in minutes.
-        </p>
-        <h6>Focus Data Distribution</h6>
-        <p>
-          The Focus Data Distribution utility of OMEGA NExT provides high-speed
-          network output of selected parameters in a variety of common formats
-          or you can define your own output formats. Any subset or all
-          parameters may be programmed for fixed sample rate and/or data-driven
-          (all processed samples) output for networked clients for display,
-          storage, and/or further processing.
-        </p>
-      </>
-    ),
-    tab4: (
-      <>
-        <h4>Data Sheets</h4>
-        <div className="downloadIcon">
-          <div className="icon">
-            <a
-              href="/products/cat3/pro9/OMEGA-NExT_Product-Flyer-Rev-03.pdf"
-              download="OMEGA NExT Software Product Flyer"
-            >
-              <PdfIcon /> OMEGA NExT Software Product Flyer
-              <Download className="downloadIcon" />
-            </a>
-          </div>
-          <div className="icon">
-            <a
-              href="/products/cat3/pro9/BDE_Product-Flyer-Rev-00.pdf"
-              download="BDE Product Flyer"
-            >
-              <PdfIcon />
-              BDE Product Flyer
-              <Download className="downloadIcon" />
-            </a>
-          </div>
-        </div>
-      </>
-    ),
-  },
-  {
-    cat: "cat3",
     slug: "series-5000-data-processors",
     name: "Series-5000 Data Processors",
-    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
+    images: [C3Pro10_1],
     txt: (
       <>
         <p>
@@ -2675,7 +2751,7 @@ export const ProdDetails = [
     cat: "cat3",
     slug: "rx2-receiver",
     name: "Rx2 Receiver",
-    images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
+    images: [C3Pro9_1],
     txt: (
       <>
         <p>

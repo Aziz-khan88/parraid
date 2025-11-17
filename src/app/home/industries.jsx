@@ -35,7 +35,7 @@ const Industries = () => {
     <section className={`${styles.industriesSection} p-100`}>
       <Container>
         <Row>
-          <Col md={6}>
+          <Col md={8} lg={7}>
             <h2>Industries Served</h2>
             <p>
               Parraid delivers mission-critical technology to organizations

@@ -19,7 +19,7 @@ const Banner = () => {
     <section className={styles.bannerSection}>
       <Container className="h-100">
         <Row className="h-100">
-          <Col md={12} lg={12} xl={11} className="my-auto">
+          <Col md={12} lg={10} xl={8} className="my-auto">
             <div className={styles.bannerText}>
               <h1>
                 ADVANCING TELEMETRY & COMMUNICATIONS FOR CRITICAL MISSIONS

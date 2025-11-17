@@ -10,7 +10,7 @@ const Events = ({ page }) => {
     <section className={`${styles.eventSection} ${page ? "p-100" : ""}`}>
       <Container>
         <Row>
-          <Col md={6}>
+          <Col md={8} lg={7}>
             <h2>Events</h2>
             <p>
               Parraid actively engages with global aerospace, defense, and

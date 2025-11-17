@@ -29,10 +29,10 @@
       z-index: 1;
       padding: 50px;
       .visionTitle {
-        flex: 0 0 400px;
+        flex: 0 0 50%;
       }
       .visionTxt {
-        flex: 0 0 400px;
+        flex: 0 0 50%;
       }
     }
     .bannerVideo {
@@ -70,10 +70,10 @@
       .visionBox {
         padding: 50px;
         .visionTitle {
-          flex: 0 0 400px;
+          flex: 0 0 50%;
         }
         .visionTxt {
-          flex: 0 0 400px;
+          flex: 0 0 50%;
         }
       }
       .bannerVideo {
@@ -101,10 +101,10 @@
       .visionBox {
         padding: 40px;
         .visionTitle {
-          flex: 0 0 400px;
+          flex: 0 0 50%;
         }
         .visionTxt {
-          flex: 0 0 400px;
+          flex: 0 0 50%;
         }
       }
       .bannerVideo {
@@ -132,10 +132,10 @@
       .visionBox {
         padding: 25px;
         .visionTitle {
-          flex: 0 0 400px;
+          flex: 0 0 40%;
         }
         .visionTxt {
-          flex: 0 0 400px;
+          flex: 0 0 60%;
         }
       }
       .bannerVideo {
@@ -163,10 +163,10 @@
       .visionBox {
         padding: 25px;
         .visionTitle {
-          flex: 0 0 400px;
+          flex: 0 0 40%;
         }
         .visionTxt {
-          flex: 0 0 400px;
+          flex: 0 0 60%;
         }
       }
       .bannerVideo {
@@ -195,10 +195,10 @@
         padding: 25px;
         flex-wrap: wrap;
         .visionTitle {
-          flex: 0 0 400px;
+          flex: 0 0 40%;
         }
         .visionTxt {
-          flex: 0 0 400px;
+          flex: 0 0 60%;
         }
       }
       .bannerVideo {
@@ -218,8 +218,8 @@
   .visionSection {
     height: 100px;
     .visionBG {
-      height: 400px;
-      top: -300px;
+      height: 350px;
+      top: -250px;
       &::before {
         border-radius: 25px;
       }
@@ -227,10 +227,10 @@
         padding: 25px;
         flex-wrap: wrap;
         .visionTitle {
-          flex: 0 0 400px;
+          flex: 0 0 100%;
         }
         .visionTxt {
-          flex: 0 0 400px;
+          flex: 0 0 100%;
         }
       }
       .bannerVideo {

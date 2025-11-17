@@ -34,7 +34,7 @@ const Blogs = () => {
     <section className={`${styles.blogSection} p-100`}>
       <Container className="h-100">
         <Row className="h-100">
-          <Col md={10} lg={7} className="my-auto">
+          <Col md={10} lg={8} className="my-auto">
             <h2>Stay Inspired with Our Latest Insights</h2>
             <p>
               Explore Parraid’s knowledge hub for expert perspectives, product

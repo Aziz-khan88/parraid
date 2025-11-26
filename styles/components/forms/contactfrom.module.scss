@@ -3,17 +3,25 @@
   flex-wrap: wrap;
   justify-content: space-between;
   &.productForm {
-    margin-top: 20px;
     .divField {
-      flex: 0 0 calc(25% - 5px) !important;
+      flex: 0 0 calc(100% - 0px) !important;
+      color: #000 !important;
       input {
-        border: 1px solid #000;
         color: #000;
         height: 60px;
-        border-radius: 100px;
+        border-radius: 10px;
         padding-left: 20px;
         outline: none;
         width: 100%;
+        background: #fff;
+        &::placeholder {
+          color: #000;
+        }
+      }
+      textarea {
+        color: #000;
+        background: #fff;
+        padding-left: 20px;
         &::placeholder {
           color: #000;
         }
@@ -21,7 +29,7 @@
     }
     .divSubmit {
       margin: 0px;
-      flex: 0 0 25%;
+      flex: 0 0 100%;
       button {
         width: 100%;
       }
@@ -174,6 +182,14 @@
         left: 100%;
       }
     }
+  }
+}
+.productBox {
+  background: rgba(0, 97, 254, 0.05);
+  border-radius: 30px;
+  padding: 30px;
+  h3 {
+    color: #000;
   }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {

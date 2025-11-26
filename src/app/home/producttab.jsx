@@ -31,9 +31,8 @@ const ProductTab = () => {
               {tabList.map((tab) => (
                 <div
                   key={tab.id}
-                  className={`${styles.tabButton} ${
-                    activeTab === tab.id ? styles.active : ""
-                  }`}
+                  className={`${styles.tabButton} ${activeTab === tab.id ? styles.active : ""
+                    }`}
                   onClick={() => setActiveTab(tab.id)}
                 >
                   {tab.label}
@@ -66,15 +65,6 @@ const ProductTab = () => {
           </Col>
         </Row>
       </Container>
-      {/* <Container>
-                <Row>
-                    <Col md={12}>
-                        <SingleButton link="#" txt="View All Products" />
-
-                    </Col>
-                </Row>
-
-            </Container> */}
     </section>
   );
 };

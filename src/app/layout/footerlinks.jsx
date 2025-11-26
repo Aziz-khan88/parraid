@@ -17,16 +17,16 @@ const FooterLinks = () => {
                     </Col>
                     <Col md={12} lg={6}>
                         <div className={styles.serviceStyle}>
-                            <h6>Our Services</h6>
+                            <h6>Our Products</h6>
                             <ul>
-                                <li><Link href="#">Custom Product Solutions</Link></li>
-                                <li><Link href="#">Everything Over IP (EoIP)</Link></li>
-                                <li><Link href="#">Ruggesd Enhancements</Link></li>
-                                <li><Link href="#">Telemetry And Data Systems</Link></li>
-                                <li><Link href="#">Custom Product Solutions</Link></li>
-                                <li><Link href="#">Everything Over IP (EoIP)</Link></li>
-                                <li><Link href="#">Ruggesd Enhancements</Link></li>
-                                <li><Link href="#">Telemetry And Data Systems</Link></li>
+                                <li><Link href="/product/network-radio-gateway-ds-04v3">Network Radio Gateway NRG® DS-04v3</Link></li>
+                                <li><Link href="/product/network-radio-gateway-NRG-deployable-systems">Network Radio Gateway NRG® Rack Mount-XX</Link></li>
+                                <li><Link href="/product/outsource-the-workload-owl">Outsource the Workload (OWL)</Link></li>
+                                <li><Link href="/product/best-data-engine-bde">Best Data Engine BDE</Link></li>
+                                <li><Link href="/product/best-source-reproducer-bsr-100">Best Source Reproducer (BSR-100)</Link></li>
+                                <li><Link href="/product/edge2-telemetry-reciver">Edge2 Telemetry Receiver/Decom</Link></li>
+                                <li><Link href="/product/rugged-usb-hub-2-0">Rugged USB 2.0 Hub</Link></li>
+                                <li><Link href="/product/rugged-usb-hub-3-0">Rugged USB 3.0 Hub</Link></li>
                             </ul>
                         </div>
                     </Col>
@@ -34,10 +34,11 @@ const FooterLinks = () => {
                         <div className={`${styles.serviceStyle} ${styles.servicelast}`}>
                             <h6>Quick Links</h6>
                             <ul>
-                                <li><Link href="#">Home</Link></li>
-                                <li><Link href="#">About Us</Link></li>
-                                <li><Link href="#">Carrers</Link></li>
-                                <li><Link href="#">Blogs</Link></li>
+                                <li><Link href="/">Home</Link></li>
+                                <li><Link href="/about-us">About Us</Link></li>
+                                <li><Link href="/careers">Carrers</Link></li>
+                                <li><Link href="/blogs">Blogs</Link></li>
+                                <li><Link href="/press-release">Press</Link></li>
                             </ul>
                         </div>
                     </Col>
@@ -60,7 +61,7 @@ const FooterLinks = () => {
                             <div className={styles.itemInfo}>
                                 <div className={styles.infoName}><LocationIcon />Address</div>
                                 <div className={styles.value}>
-                                    <a href="#">44150 Smartronix Way <br />200, Hollywood, MD 20636</a>
+                                    <a href="#">44150 Smartronix Way <br /> Hollywood, MD 20636</a>
                                 </div>
                             </div>
                             <div className={styles.itemInfo}>

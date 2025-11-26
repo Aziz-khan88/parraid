@@ -34,14 +34,14 @@ const ContactFrom = () => {
               <ul className={styles.footerWapper}>
                 <li>
                   <div className={styles.footerInfo}>
-                    <PhoneIcon /> Fax Number
-                    <a href="tel:+1(301)690-0095">+1 (301) 690-0095</a>
+                    <PhoneIcon /> Phone Number
+                    <a href="tel:+13016900690">+1 (301) 690-0690</a>
                   </div>
                 </li>
                 <li>
                   <div className={styles.footerInfo}>
                     <EmailIcon /> Email
-                    <a href="mailto:support@parraid.com">support@parraid.com</a>
+                    <a href="mailto:sales@parraid.com">sales@parraid.com</a>
                   </div>
                 </li>
               </ul>

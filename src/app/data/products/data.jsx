@@ -85,22 +85,22 @@ import C3Pro10_Main from "media/products/cat3/pro10/S-5000e-Main.webp";
 
 export const tabList = [
   { id: "cat1", label: "Deployable Communications Solutions" },
+  { id: "cat3", label: "Telemetry and Data Systems" },
   { id: "cat2", label: "Rugged Enhancements" },
-  { id: "cat3", label: "Telemetry Products" },
 ];
 export const productsData = {
   cat1: [
     {
       id: 1,
       slug: "network-radio-gateway-ds-04v3",
-      name: "Network Radio Gateway NRG DS-04v3",
+      name: "Network Radio Gateway NRG® DS-04v3",
       img: C1Pro1_Main.src,
       txt: "Radio-over-IP (RoIP) gateway supports multiple radio types and is rugged and field-deployable, enabling seamless interoperability between tactical, legacy, and IP networks in any environment.",
     },
     {
       id: 2,
-      slug: "network-radio-gateway-nrg-deployable-systems",
-      name: "Network Radio Gateway NRG Rack Mount-XX",
+      slug: "network-radio-gateway-NRG-deployable-systems",
+      name: "Network Radio Gateway NRG® Rack Mount-XX",
       img: C1Pro2_Main.src,
       txt: "NRG® is a solution that provides Voice over IP(VoIP)/Radio over IP(RoIP) conferencing, converging voice, MIL-STD 188/184 data, HPW data, and remote radio configuration/control capability into a single standalone network appliance. ",
     },
@@ -114,9 +114,9 @@ export const productsData = {
     {
       id: 4,
       slug: "our-featured-network-radio-gateway",
-      name: "PacStar 466 Featuring Parraid’s Network Radio Gateway NRG",
+      name: "PacStar® 466 Featuring Parraid’s Network Radio Gateway NRG®",
       img: C1Pro4_Main.src,
-      txt: "PacStar rugged server module integrates Parraid NRG functionality, combining best-in-class tactical server hardware with Parraid’s advanced interoperability technology.",
+      txt: "PacStar® rugged server module integrates Parraid NRG® functionality, combining best-in-class tactical server hardware with Parraid’s advanced interoperability technology.",
     },
     {
       id: 5,
@@ -228,18 +228,18 @@ export const ProdDetails = [
   {
     cat: "cat1",
     slug: "network-radio-gateway-ds-04v3",
-    name: "Network Radio Gateway NRG DS-04v3",
+    name: "Network Radio Gateway NRG® DS-04v3",
     images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
     txt: (
       <>
         <h5>Description</h5>
         <p>
-          Introducing the NRG DS-04v3—the latest powerhouse in Parraid’s
+          Introducing the NRG® DS-04v3—the latest powerhouse in Parraid’s
           groundbreaking Radio over IP (RoIP) solutions. This all-in-one,
           standalone network appliance revolutionizes communication by
           seamlessly integrating voice conferencing, HPW data, and remote radio
           configuration and control into a single, robust platform. Our latest
-          Network Radio Gateway software NRG5 and any hardware offerings using
+          Network Radio Gateway software NRG®5 and any hardware offerings using
           the new Compact Radio Interface Board (CRIB) or derivative products
           based on it, and the Legacy Data Adapter (LDA) are Non-ITAR export
           classification ECCN 5A991 and 5D991.
@@ -249,9 +249,9 @@ export const ProdDetails = [
     tab1: (
       <>
         <h4>Overview</h4>
-        <h6>Powered by NRG5 for Maximum Interoperability</h6>
+        <h6>Powered by NRG®5 for Maximum Interoperability</h6>
         <p>
-          Harnessing the cutting-edge NRG5 technology, the DS-04v3 employs a
+          Harnessing the cutting-edge NRG®5 technology, the DS-04v3 employs a
           decentralized mesh network of gateways and clients. This modern
           infrastructure ensures flawless voice and data support over legacy
           U.S. Military Combat Net Radios (CNR), Joint Tactical Radio Systems
@@ -260,7 +260,7 @@ export const ProdDetails = [
         </p>
         <h6>Flexible Conferencing with Infinite Scalability</h6>
         <p>
-          Experience unmatched communication flexibility with NRG’s versatile
+          Experience unmatched communication flexibility with NRG®’s versatile
           conferencing server. Capable of simultaneously supporting multiple
           audio sources—including analog, digital, cellular phones, and both
           military and civilian radios—the system allows for seamless
@@ -279,7 +279,7 @@ export const ProdDetails = [
         <h6>Elevate Your Mission-Critical Communications Today</h6>
         <p>
           Step into the future of seamless, scalable, and secure communications
-          with the NRG DS-04v3. It’s not just an upgrade—it’s a transformation
+          with the NRG® DS-04v3. It’s not just an upgrade—it’s a transformation
           of your entire communication infrastructure.
         </p>
       </>
@@ -361,7 +361,7 @@ export const ProdDetails = [
   },
   {
     cat: "cat1",
-    slug: "network-radio-gateway-nrg-deployable-systems",
+    slug: "network-radio-gateway-NRG-deployable-systems",
     name: "Network Radio Gateway Rack Mount Systems",
     images: [C1Pro2_1, C1Pro2_2, C1Pro2_3],
     txt: (
@@ -377,7 +377,7 @@ export const ProdDetails = [
           </li>
           <li>
             <ListIcon />
-            LITE Version: Scaled down version of NRG that focuses on radio
+            LITE Version: Scaled down version of NRG® that focuses on radio
             voice, intercom, and instant messaging communications
           </li>
           <li>
@@ -399,13 +399,13 @@ export const ProdDetails = [
           IP(RoIP) conferencing, converging voice, MIL-STD 188/184 data, HPW
           data, and remote radio configuration/control capability into a single
           standalone network appliance. The system offers communications through
-          such industry-standard protocols as H.323, SIP, and Multicast. NRG
+          such industry-standard protocols as H.323, SIP, and Multicast. NRG®
           equipment is interoperable with WAVE, TOCNET, IPICS, Cisco Call
           Manager, Access Net, SIP phones, generic IP phones, and works with
           PDAs/cellular phones.
         </p>
         <p>
-          NRG allows Communications Operators for maneuver units and Special
+          NRG® allows Communications Operators for maneuver units and Special
           Operations Forces (SOF) to patch voice from phones, networked clients,
           and radios into a single audio channel or conference. This allows
           maximum communications flexibility and improved coordination for field
@@ -413,17 +413,17 @@ export const ProdDetails = [
           configure radios for different settings (frequency, modulation, nets,
           etc.) without changing cables or other radio physical access.
           Operators also can share expensive radio assets, reducing the number
-          and cost of communications installations. NRG has been designed to
+          and cost of communications installations. NRG® has been designed to
           provide all of these functions in a compact network appliance that is
           easy to configure and maintain.
         </p>
         <p>
-          The NRG Rack Mount Systems support up to 400 endpoints (any
+          The NRG® Rack Mount Systems support up to 400 endpoints (any
           combination of users and radios) and any number of radios in several
-          configurations. The NRG RM-12 supports up to 12 connected radios while
+          configurations. The NRG® RM-12 supports up to 12 connected radios while
           the RM-08 and RM-04 support 8 and 4 radios respectively. All
           configurations are made to fit into standard 19” equipment racks and
-          all are 1U high. The NRG Rack Mount Systems are designed to meet the
+          all are 1U high. The NRG® Rack Mount Systems are designed to meet the
           most challenging radio networking situations.
         </p>
       </>
@@ -457,7 +457,7 @@ export const ProdDetails = [
           </li>
           <li>
             <ListIcon />
-            LITE Version: Scaled down version of NRG that focuses on radio
+            LITE Version: Scaled down version of NRG® that focuses on radio
             voice, intercom, and instant messaging communications
           </li>
           <li>
@@ -483,7 +483,7 @@ export const ProdDetails = [
           <li>
             <ListIcon />
             This system incorporates elements of the software developed by The
-            MITRE Corporation on behalf of the U​​.S. Government.​​
+            MITRE Corporation on behalf of the U​​.S. Government.
           </li>
         </ul>
         <h6>Characteristics:</h6>
@@ -527,10 +527,10 @@ export const ProdDetails = [
         <div className="downloadIcon">
           <div className="icon">
             <a
-              href="/products/cat1/pro2/EoIP_Software_Version_5_-NRG5-_Product_Flyer_Rev_02.pdf"
+              href="/products/cat1/pro2/EoIP_Software_Version_5_-NRG®5-_Product_Flyer_Rev_02.pdf"
               download="Rugged-Enhancements-RDA-Cables.pdf"
             >
-              <PdfIcon /> NRG 5 Product Flyer
+              <PdfIcon /> NRG® 5 Product Flyer
               <Download className="downloadIcon" />
             </a>
           </div>
@@ -572,7 +572,7 @@ export const ProdDetails = [
       <>
         <h4>Interoperability</h4>
         <p>
-          NRG is the connecting hub for all protocols and it enables seamless
+          NRG® is the connecting hub for all protocols and it enables seamless
           mission communications across multiple VoIP/RoIP systems.
         </p>
         <div className="ProductimgBox">
@@ -601,7 +601,7 @@ export const ProdDetails = [
         </p>
         <p>
           The operator-centric OWL is the newest addition to Parraid’s industry
-          leading Network Radio Gateway ecosystem. All powered by NRG5 software,
+          leading Network Radio Gateway ecosystem. All powered by NRG®5 software,
           the entire Network Radio Gateway product line is platform agnostic in
           wearable, deployable, mobile (air/land/sea), and fixed infrastructure
           form factors.
@@ -614,7 +614,7 @@ export const ProdDetails = [
         <p>
           <strong>Rugged Computing:</strong>
           Edge-tough compute for austere environments; runs TAK server, The
-          Network Radio Gateway (NRG) running NRG software version 5 (NRG5),
+          Network Radio Gateway (NRG®) running NRG® software version 5 (NRG®5),
           datalink gateways (SNC TRAX®/Stauder JECL®), and future expansion
           capabilities (sensor fusion, analytics, AI/ML, post-quantum security).
         </p>
@@ -721,17 +721,17 @@ export const ProdDetails = [
   {
     cat: "cat1",
     slug: "our-featured-network-radio-gateway",
-    name: "PacStar 466 Featuring Parraid’s Network Radio Gateway NRG",
+    name: "PacStar® 466 Featuring Parraid’s Network Radio Gateway NRG®",
     images: [C1Pro4_1, C1Pro4_2, C1Pro4_3],
     txt: (
       <>
         <h5>Description</h5>
         <p>
-          The PacStar 466 incorporates Parraid’s NRG, an all-in-one, standalone
+          The PacStar® 466 incorporates Parraid’s NRG®, an all-in-one, standalone
           network appliance that revolutionizes communications by seamlessly
           integrating voice conferencing, HPW data, and remote radio
           configuration and control into a single, robust platform. Our latest
-          Network Radio Gateway software NRG5 and the new Compact Radio
+          Network Radio Gateway software NRG®5 and the new Compact Radio
           Interface Board (CRIB) are Non-ITAR export classification ECCN 5A991
           and 5D991.
         </p>
@@ -740,9 +740,9 @@ export const ProdDetails = [
     tab1: (
       <>
         <h4>Overview</h4>
-        <h6>Powered by NRG5 software for Maximum Interoperability</h6>
+        <h6>Powered by NRG®5 software for Maximum Interoperability</h6>
         <p>
-          Harnessing the cutting-edge NRG5 technology, the PacStar 466 employs a
+          Harnessing the cutting-edge NRG®5 technology, the PacStar® 466 employs a
           decentralized mesh network of gateways and clients. This modern
           infrastructure ensures flawless voice and data support over legacy
           U.S. Military Combat Net Radios (CNR), Joint Tactical Radio Systems
@@ -751,18 +751,18 @@ export const ProdDetails = [
         </p>
         <h6>Flexible Conferencing with Infinite Scalability </h6>
         <p>
-          Experience unmatched communication flexibility through the PacStar 466
-          with NRG5’s versatile conferencing server. Capable of simultaneously
+          Experience unmatched communication flexibility through the PacStar® 466
+          with NRG®5’s versatile conferencing server. Capable of simultaneously
           supporting multiple audio sources- including analog, digital, cellular
           phones, and both military and civilian radios. The system allows for
           seamless communication in either conference or channel mode. Its
           advanced radio bridging connects like and dissimilar radio devices
           effortlessly.
         </p>
-        <h6>NRG5 Fault-Tolerant and Efficient Multiprocessing </h6>
+        <h6>NRG®5 Fault-Tolerant and Efficient Multiprocessing </h6>
         <p>
-          Boost your operational efficiency with the NRG5-enhanced
-          multiprocessing capabilities. NRG5 software can share workloads across
+          Boost your operational efficiency with the NRG®5-enhanced
+          multiprocessing capabilities. NRG®5 software can share workloads across
           all connected appliances ensuring a robust fault tolerant system and
           offering infinite scalability. This means you can expand your
           communications network without compromising performance or
@@ -771,7 +771,7 @@ export const ProdDetails = [
         <h6>Elevate Your Mission-Critical Communications Today</h6>
         <p>
           Step into the future of seamless, scalable, and secure communications
-          with the PacStar 466. It’s not just an upgrade-it’s a transformation
+          with the PacStar® 466. It’s not just an upgrade-it’s a transformation
           of your entire communications infrastructure.
         </p>
       </>
@@ -792,7 +792,7 @@ export const ProdDetails = [
           </li>
           <li>
             <ListIcon />
-            Expand up to 12 radio systems by interconnecting multiple PacStar
+            Expand up to 12 radio systems by interconnecting multiple PacStar®
             466 modules.
           </li>
           <li>
@@ -876,7 +876,7 @@ export const ProdDetails = [
       <>
         <h4>Overview</h4>
         <p>
-          ​​​​​​​​The Parraid multi-function RDA cable is designed to simplify
+          The Parraid multi-function RDA cable is designed to simplify
           radio operations by allowing a computer to perform up to six different
           radio interface tasks using a single USB connection.
         </p>
@@ -1727,7 +1727,7 @@ export const ProdDetails = [
         <h4>Overview</h4>
         <p>
           The IMUX RE/CON network recorder is a telemetry specific ground
-          network recorder ideally suited for ranges moving to IP telemetry. 
+          network recorder ideally suited for ranges moving to IP telemetry.
           The IMUX RE/CON ground network recorder auto-detects telemetry
           packets, prioritizes telemetry streams over other network traffic, and
           converts common network telemetry formats to IRIG 106 Chapter 10 files
@@ -2228,7 +2228,7 @@ export const ProdDetails = [
         </p>
         <h6>Network Extensibility</h6>
         <p>
-          No longer is your telemetry infrastructure bound to point solutions. 
+          No longer is your telemetry infrastructure bound to point solutions.
           If your test requires assets to be deployed over a wide geographical
           area, the OMEGA NExT will deliver unprecedented capability to
           integrate and merge dispersed data sources in real-time and post
@@ -2240,7 +2240,7 @@ export const ProdDetails = [
           to a full-blown mission control center, all using the same software.
           Using soft license key technology, users can rapidly upgrade their
           systems simply by purchasing advanced features and enabling them via a
-          new software key.​
+          new software key.
         </p>
         <h6>Visual Processing</h6>
         <p>
@@ -2566,7 +2566,7 @@ export const ProdDetails = [
           (including inherited metadata) within the ODE workspace. This permits
           other users with appropriate permissions to access and leverage the
           work of others.  Simply using ODE enables users to build
-          “ad-hocracies” and increases the value of their data over time.​
+          “ad-hocracies” and increases the value of their data over time.
         </p>
       </>
     ),
@@ -2871,7 +2871,7 @@ export const ProdDetails = [
             <ListIcon />
             Optional Integrated:​ – Bit Syncs – Decoms – Chapter 10
             Recording/Reproduction – Real-Time Processing – Post-Test Processing
-            – Data Mining – Data Visualization​
+            – Data Mining – Data Visualization
           </li>
         </ul>
       </>

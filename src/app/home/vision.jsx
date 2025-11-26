@@ -18,15 +18,13 @@ const Vision = () => {
   return (
     <section className={`${styles.visionSection} borderRadiusTop`}>
       <Container className={styles.visionBG}>
-        <Row>
-          <Col md={12}>
+        <Row className="h-100">
+          <Col md={12} className="h-100">
             <div className={styles.visionBox}>
-              <div className={styles.visionTitle}>
+              <div className={`${styles.visionTxt} text-center`}>
                 <h2>Our Mission</h2>
-              </div>
-              <div className={styles.visionTxt}>
                 <p>
-                  At Parraid, LLC, our mission is to empower organizations with
+                  At Parraid, our mission is to empower organizations with
                   the tactical communications systems and telemetry
                   communication solutions they need to achieve seamless
                   operational readiness across every domain — air, land, sea,

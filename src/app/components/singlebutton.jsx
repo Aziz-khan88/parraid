@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
 
-const SingleButton = ({ link, txt, whitebg }) => {
+const SingleButton = ({ link, txt, whitebg, mAuto }) => {
     return (
-        <Link href={link} className={whitebg ? "singleBtn whitebg" : "singleBtn"}>
+        <Link href={link} className={`${mAuto ? "m-auto" : "s"} ${whitebg ? "singleBtn whitebg" : "singleBtn"}`}>
             {txt ? txt : "Let’s Connect"}
         </Link >
     )

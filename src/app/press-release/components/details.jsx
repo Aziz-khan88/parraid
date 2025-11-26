@@ -48,28 +48,33 @@ const PressDetails = ({ data }) => {
                     <Col md={12}>
                         <div className={styles.detailsSection}>
                             <div className={styles.detailsRight}>
+                                <h1> {data.title}</h1>
                                 {data.maincontent}
                             </div>
+
                             <div className={styles.detailsLeft}>
-                                <div className={styles.tableOfContent}>
-                                    <h5>Table of Content</h5>
-                                    <ul>
-                                        {tableContent.map((item, index) => (
-                                            <li key={index}>
-                                                <a
-                                                    className={activeIndex === index ? styles.active : ""}
-                                                    href={`#Section-${index + 1}`}
-                                                    onClick={(e) => {
-                                                        e.preventDefault();
-                                                        handleScroll(`Section-${index + 1}`, index);
-                                                    }}
-                                                >
-                                                    {item.title}
-                                                </a>
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </div>
+                                {tableContent && tableContent.length > 0 ? (
+                                    <div className={styles.tableOfContent}>
+                                        <h5>Table of Content</h5>
+                                        <ul>
+                                            {tableContent.map((item, index) => (
+                                                <li key={index}>
+                                                    <a
+                                                        className={activeIndex === index ? styles.active : ""}
+                                                        href={`#Section-${index + 1}`}
+                                                        onClick={(e) => {
+                                                            e.preventDefault();
+                                                            handleScroll(`Section-${index + 1}`, index);
+                                                        }}
+                                                    >
+                                                        {item.title}
+                                                    </a>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                ) : null
+                                }
                                 <div className={styles.recentNews}>
                                     <h5>Recent News</h5>
                                     <RecentPress data={PressData} />

@@ -46,12 +46,14 @@ const ProductCarousel = ({ products }) => {
                     black={true}
                   />
                 </div>
-                <Image
-                  src={item.img}
-                  alt={item.name}
-                  width={322}
-                  height={118}
-                />
+                <div className={`${styles[item.extra]}`}>
+                  <Image
+                    src={item.img}
+                    alt={item.name}
+                    width={322}
+                    height={118}
+                  />
+                </div>
               </div>
             </div>
           ))}

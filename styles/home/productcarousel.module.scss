@@ -1,5 +1,6 @@
 .embla {
   overflow: visible;
+
   .embla__viewport {
     overflow: visible;
     width: 100%;
@@ -48,19 +49,33 @@
             transition: color 0.5s ease, transform 0.5s ease;
           }
 
-          img {
-            margin: 50px auto 0 auto;
-            width: auto;
-            height: 90px;
-            transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1),
-              height 0.6s ease;
-            transition-delay: 0.2s;
+          .smallIamge {
+            img {
+              margin: 50px auto 0 auto;
+              width: auto;
+              height: 90px;
+              transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1),
+                height 0.6s ease;
+              transition-delay: 0.2s;
+            }
           }
+
+          .bigImage {
+            img {
+              margin: 20px auto 0 auto;
+              width: auto;
+              height: 130px;
+              transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1),
+                height 0.6s ease;
+              transition-delay: 0.2s;
+            }
+          }
+
 
           .contentSec {
             opacity: 0;
             visibility: hidden;
-            transform: translateY(30px);
+            transform: translateY(25px);
             transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1);
             transition-delay: 0.1s;
           }
@@ -78,8 +93,16 @@
               transform: translateY(5px);
             }
 
-            img {
-              height: 105px;
+            .smallIamge {
+              img {
+                height: 105px;
+              }
+            }
+
+            .bigImage {
+              img {
+                height: 150px;
+              }
             }
 
             .contentSec {
@@ -94,12 +117,14 @@
     }
   }
 }
+
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   .embla {
     .embla__viewport {
       .embla__container {
         .embla__slide {
           flex: 0 0 calc(100% / 3 - 1px);
+
           .productCard {
             padding: 30px;
             height: 580px;
@@ -108,6 +133,7 @@
               font-size: 35px;
               line-height: 35px;
               margin-bottom: 25px;
+
               &::after {
                 content: "";
                 width: 100px;
@@ -122,8 +148,16 @@
               margin-bottom: 25px;
             }
 
-            img {
-              margin: 40px auto 0 auto;
+            .smallIamge {
+              img {
+                margin: 40px auto 0 auto;
+              }
+            }
+
+            .bigImage {
+              img {
+                margin: 20px auto 0 auto;
+              }
             }
 
             .contentSec {
@@ -151,6 +185,7 @@
     }
   }
 }
+
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
   .embla {
     .embla__viewport {
@@ -167,6 +202,7 @@
               font-size: 35px;
               line-height: 35px;
               margin-bottom: 20px;
+
               &::after {
                 content: "";
                 width: 100px;
@@ -181,9 +217,18 @@
               margin-bottom: 20px;
             }
 
-            img {
-              margin: 40px auto 0 auto;
-              height: 80px;
+            .smallIamge {
+              img {
+                margin: 40px auto 0 auto;
+                height: 80px;
+              }
+            }
+
+            .bigImage {
+              img {
+                margin: 20px auto 0 auto;
+                height: 130px;
+              }
             }
 
             .contentSec {
@@ -200,8 +245,19 @@
               p {
                 transform: translateY(5px);
               }
-              img {
-                height: 95px;
+
+              .smallIamge {
+                img {
+                  margin: 40px auto 0 auto;
+                  height: 95px;
+                }
+              }
+
+              .bigImage {
+                img {
+                  margin: 20px auto 0 auto;
+                  height: 140px;
+                }
               }
             }
           }
@@ -210,6 +266,7 @@
     }
   }
 }
+
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
   .embla {
     .embla__viewport {
@@ -217,6 +274,7 @@
         .embla__slide {
           flex: 0 0 calc(33.33% - 1px);
           max-width: 430px;
+
           .productCard {
             padding: 30px;
             height: 560px;
@@ -225,6 +283,7 @@
               font-size: 35px;
               line-height: 35px;
               margin-bottom: 20px;
+
               &::after {
                 content: "";
                 width: 100px;
@@ -239,9 +298,18 @@
               margin-bottom: 20px;
             }
 
-            img {
-              margin: 40px auto 0 auto;
-              height: 80px;
+            .smallIamge {
+              img {
+                margin: 40px auto 0 auto;
+                height: 80px;
+              }
+            }
+
+            .bigImage {
+              img {
+                margin: 20px auto 0 auto;
+                height: 130px;
+              }
             }
 
             .contentSec {
@@ -258,8 +326,19 @@
               p {
                 transform: translateY(5px);
               }
-              img {
-                height: 95px;
+
+              .smallIamge {
+                img {
+                  margin: 40px auto 0 auto;
+                  height: 95px;
+                }
+              }
+
+              .bigImage {
+                img {
+                  margin: 20px auto 0 auto;
+                  height: 140px;
+                }
               }
             }
           }
@@ -268,6 +347,7 @@
     }
   }
 }
+
 @media only screen and (min-width: 900px) and (max-width: 1099px) {
   .embla {
     .embla__viewport {
@@ -275,6 +355,7 @@
         .embla__slide {
           flex: 0 0 calc(100% / 2.5 - 1px);
           max-width: 430px;
+
           .productCard {
             padding: 20px;
             height: 530px;
@@ -283,6 +364,7 @@
               font-size: 30px;
               line-height: 30px;
               margin-bottom: 20px;
+
               &::after {
                 content: "";
                 width: 100px;
@@ -297,9 +379,18 @@
               margin-bottom: 20px;
             }
 
-            img {
-              margin: 30px auto 0 auto;
-              height: 80px;
+            .smallIamge {
+              img {
+                margin: 30px auto 0 auto;
+                height: 80px;
+              }
+            }
+
+            .bigImage {
+              img {
+                margin: 20px auto 0 auto;
+                height: 120px;
+              }
             }
 
             .contentSec {
@@ -317,8 +408,16 @@
                 transform: translateY(5px);
               }
 
-              img {
-                height: 95px;
+              .smallIamge {
+                img {
+                  height: 95px;
+                }
+              }
+
+              .bigImage {
+                img {
+                  height: 140px;
+                }
               }
             }
           }
@@ -327,12 +426,14 @@
     }
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 899px) {
   .embla {
     .embla__viewport {
       .embla__container {
         .embla__slide {
           flex: 0 0 calc(100% / 2 - 1px);
+
           .productCard {
             padding: 20px;
             height: 470px;
@@ -341,6 +442,7 @@
               font-size: 30px;
               line-height: 30px;
               margin-bottom: 20px;
+
               &::after {
                 content: "";
                 width: 100px;
@@ -355,9 +457,18 @@
               margin-bottom: 20px;
             }
 
-            img {
-              margin: 20px auto 0 auto;
-              height: 80px;
+            .smallIamge {
+              img {
+                margin: 20px auto 0 auto;
+                height: 80px;
+              }
+            }
+
+            .bigImage {
+              img {
+                margin: 20px auto 0 auto;
+                height: 120px;
+              }
             }
 
             .contentSec {
@@ -375,8 +486,16 @@
                 transform: translateY(5px);
               }
 
-              img {
-                height: 95px;
+              .smallIamge {
+                img {
+                  height: 90px;
+                }
+              }
+
+              .bigImage {
+                img {
+                  height: 130px;
+                }
               }
             }
           }
@@ -385,12 +504,14 @@
     }
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .embla {
     .embla__viewport {
       .embla__container {
         .embla__slide {
           flex: 0 0 calc(100% / 2 - 1px);
+
           .productCard {
             padding: 20px;
             height: 480px;
@@ -399,6 +520,7 @@
               font-size: 30px;
               line-height: 30px;
               margin-bottom: 20px;
+
               &::after {
                 content: "";
                 width: 100px;
@@ -413,9 +535,18 @@
               margin-bottom: 20px;
             }
 
-            img {
-              margin: 20px auto 0 auto;
-              height: 80px;
+            .smallIamge {
+              img {
+                margin: 20px auto 0 auto;
+                height: 80px;
+              }
+            }
+
+            .bigImage {
+              img {
+                margin: 20px auto 0 auto;
+                height: 120px;
+              }
             }
 
             .contentSec {
@@ -433,8 +564,16 @@
                 transform: translateY(5px);
               }
 
-              img {
-                height: 90px;
+              .smallIamge {
+                img {
+                  height: 90px;
+                }
+              }
+
+              .bigImage {
+                img {
+                  height: 130px;
+                }
               }
             }
           }
@@ -443,12 +582,14 @@
     }
   }
 }
+
 @media only screen and (min-width: 0px) and (max-width: 575px) {
   .embla {
     .embla__viewport {
       .embla__container {
         .embla__slide {
           flex: 0 0 calc(100% - 1px);
+
           .productCard {
             padding: 20px;
             height: 530px;
@@ -457,6 +598,7 @@
               font-size: 30px;
               line-height: 30px;
               margin-bottom: 25px;
+
               &::after {
                 content: "";
                 width: 100px;
@@ -471,9 +613,18 @@
               margin-bottom: 20px;
             }
 
-            img {
-              margin: 30px auto 0 auto;
-              height: 70px;
+            .smallIamge {
+              img {
+                margin: 20px auto 0 auto;
+                height: 70px;
+              }
+            }
+
+            .bigImage {
+              img {
+                margin: 20px auto 0 auto;
+                height: 110px;
+              }
             }
 
             .contentSec {
@@ -491,8 +642,16 @@
                 transform: translateY(5px);
               }
 
-              img {
-                height: 85px;
+              .smallIamge {
+                img {
+                  height: 90px;
+                }
+              }
+
+              .bigImage {
+                img {
+                  height: 130px;
+                }
               }
             }
           }

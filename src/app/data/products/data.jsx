@@ -91,6 +91,7 @@ export const tabList = [
 export const productsData = {
   cat1: [
     {
+      extra: "smallIamge",
       id: 1,
       slug: "network-radio-gateway-ds-04v3",
       name: "Network Radio Gateway NRG® DS-04v3",
@@ -98,6 +99,7 @@ export const productsData = {
       txt: "Radio-over-IP (RoIP) gateway supports multiple radio types and is rugged and field-deployable, enabling seamless interoperability between tactical, legacy, and IP networks in any environment.",
     },
     {
+      extra: "smallIamge",
       id: 2,
       slug: "network-radio-gateway-NRG-deployable-systems",
       name: "Network Radio Gateway NRG® Rack Mount-XX",
@@ -105,6 +107,7 @@ export const productsData = {
       txt: "NRG® is a solution that provides Voice over IP(VoIP)/Radio over IP(RoIP) conferencing, converging voice, MIL-STD 188/184 data, HPW data, and remote radio configuration/control capability into a single standalone network appliance. ",
     },
     {
+      extra: "bigImage",
       id: 3,
       slug: "outsource-the-workload-owl",
       name: "Outsource the Workload OWL",
@@ -112,6 +115,7 @@ export const productsData = {
       txt: "Provides automated management of communications and data workloads with intelligent processing, allowing operators to focus on mission-critical tasks instead of system management.",
     },
     {
+      extra: "bigImage",
       id: 4,
       slug: "our-featured-network-radio-gateway",
       name: "PacStar® 466 Featuring Parraid’s Network Radio Gateway NRG®",
@@ -119,6 +123,7 @@ export const productsData = {
       txt: "PacStar® rugged server module integrates Parraid NRG® functionality, combining best-in-class tactical server hardware with Parraid’s advanced interoperability technology.",
     },
     {
+      extra: "bigImage",
       id: 5,
       slug: "radio-data-adapter-rda-cables",
       name: "Radio Adapter Cable RDA",
@@ -128,6 +133,7 @@ export const productsData = {
   ],
   cat2: [
     {
+      extra: "smallIamge",
       id: 1,
       slug: "rugged-usb-hub-2-0",
       name: "Rugged USB Hub RUH 2.0",
@@ -135,6 +141,7 @@ export const productsData = {
       txt: "The Parraid Rugged USB Hub 2.0 is the first USB hub designed to meet a full range of environmental requirements for mobile and deployed systems.",
     },
     {
+      extra: "smallIamge",
       id: 2,
       slug: "rugged-usb-hub-3-0",
       name: "Rugged USB Hub RUH 3.0",
@@ -142,6 +149,7 @@ export const productsData = {
       txt: "The Parraid Rugged USB Hub 3.0 is the toughest four port hub on the market. Designed from the ground-up for the most extreme operating environments.",
     },
     {
+      extra: "bigImage",
       id: 3,
       slug: "rugged-usb-repeater",
       name: "Rugged USB Repeater",
@@ -151,6 +159,7 @@ export const productsData = {
   ],
   cat3: [
     {
+      extra: "bigImage",
       id: 1,
       slug: "best-data-engine-bde",
       name: "Best Data Engine BDE",
@@ -158,6 +167,7 @@ export const productsData = {
       txt: "Enables real-time stream comparison, selection, and error correction to ensure mission-critical users always receive the best possible version of telemetry data.",
     },
     {
+      extra: "bigImage",
       id: 2,
       slug: "best-source-reproducer-bsr-100",
       name: "Best Source Reproducer BSR-100",
@@ -165,6 +175,7 @@ export const productsData = {
       txt: "Intelligent data selection replays the best quality data stream for post-test analysis, reducing operator workload and ensuring optimal data fidelity.",
     },
     {
+      extra: "smallIamge",
       id: 3,
       slug: "edge2-telemetry-reciver",
       name: "Edge2 Telemetry Receiver/Decom",
@@ -172,6 +183,7 @@ export const productsData = {
       txt: "The Edge² is engineered to provide network telemetry processing at the edge in a portable or rack-mountable 2 channel unit.",
     },
     {
+      extra: "smallIamge",
       id: 4,
       slug: "g3-tmoip-data-processing",
       name: "G3",
@@ -180,6 +192,7 @@ export const productsData = {
     },
 
     {
+      extra: "bigImage",
       id: 5,
       slug: "imux–g2e-and-g2eh",
       name: "IMUX G2e and G2eH",
@@ -188,6 +201,7 @@ export const productsData = {
     },
 
     {
+      extra: "smallIamge",
       id: 6,
       slug: "imux-re-con",
       name: "IMUX RE-CON",
@@ -195,6 +209,7 @@ export const productsData = {
       txt: "The IMUX RE/CON network recorder is a telemetry specific ground network recorder ideally suited for ranges moving to IP telemetry.",
     },
     {
+      extra: "bigImage",
       id: 7,
       slug: "omega-data-environment-ode",
       name: "OMEGA Data Environment ODE",
@@ -202,6 +217,7 @@ export const productsData = {
       txt: "ODE enables data analysts and consumers to rapidly and securely explore and exploit large data sets.",
     },
     {
+      extra: "bigImage",
       id: 8,
       slug: "omega-next-real-time-data-processing-software",
       name: "OMEGA NExT",
@@ -209,6 +225,7 @@ export const productsData = {
       txt: "OMEGA-NExT offers an unmatched blend of power, ease of use, flexibility, and affordability.",
     },
     {
+      extra: "bigImage",
       id: 9,
       slug: "rx2-receiver",
       name: "Rx2 Receiver",
@@ -216,6 +233,7 @@ export const productsData = {
       txt: "Multi-band telemetry receiver with built-in demodulation and bit-synchronization delivers high performance, flexibility, and seamless integration into Parraid’s data ecosystem.",
     },
     {
+      extra: "bigImage",
       id: 10,
       slug: "series-5000-data-processors",
       name: "S-5000e Data Processor",

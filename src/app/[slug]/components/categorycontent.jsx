@@ -8,8 +8,8 @@ const CategoryContent = ({ data }) => {
             <Container>
                 <Row>
                     <Col md={10} className="m-auto text-center">
-                        <h2>Telemetry and Data Systems Overview</h2>
-                        <p>Telemetry Data Recording and Processing Systems a 25+ year heritage. The Parraid Telemetry and Data Systems offering has grown to include the most feature rich ground based data processing and recording systems in the world for use in all data processing applications. Our current capabilities include:</p>
+                        <h2>{data.maintitle}</h2>
+                        <p>{data.maintxt}</p>
                     </Col>
                 </Row>
                 <Row className="mt-5">

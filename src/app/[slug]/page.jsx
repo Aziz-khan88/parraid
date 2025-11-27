@@ -1,28 +1,93 @@
-"use client"
-import { CategoryData } from '@/src/app/data/category/data';
-import { useParams } from 'next/navigation';
 import Banner from '@/src/app/[slug]/components/banner';
 import CategoryContent from '@/src/app/[slug]/components/categorycontent';
 import BlueBox from '@/src/app/[slug]/components/bluebox';
-import ProductListing from "@/src/app/shop/components/productlisting"
+import ProductListing from "@/src/app/shop/components/productlisting";
+import { CategoryData } from '@/src/app/data/category/data';
+import { PageData } from '@/src/app/data/pages/data';
+import BannerPage from '@/src/app/[slug]/components/bannerpage';
+import PageContent from '@/src/app/[slug]/components/pagecomtent';
 
+export async function generateMetadata({ params }) {
+    const { slug } = params;
 
-const Page = () => {
-    const { slug } = useParams();
-    const category = CategoryData.find((cat) => cat.slug === slug);
+    const category = CategoryData.find(cat => cat.slug === slug);
+    const page = PageData.find(pg => pg.slug === slug);
 
-    if (!category) {
-        return <p>Category Page not found!</p>;
+    // Category Metadata
+    if (category) {
+        return {
+            title: category.tit,
+            description: category.desc,
+            openGraph: {
+                title: category.tit,
+                description: category.desc,
+                images: category.img1 ? [
+                    { url: category.img1, width: 1200, height: 630 }
+                ] : [],
+            },
+            alternates: { canonical: `/${category.slug}` },
+        };
     }
 
-    return (
-        <>
-            <Banner data={category} />
-            <CategoryContent data={category} />
-            <BlueBox data={category} />
-            <ProductListing id={category.cat} />
-        </>
-    )
+    // Page Metadata
+    if (page) {
+        return {
+            title: page.tit,
+            description: page.desc,
+            openGraph: {
+                title: page.tit,
+                description: page.desc,
+                images: page.img1 ? [
+                    { url: page.img1, width: 1200, height: 630 }
+                ] : [],
+            },
+            alternates: { canonical: `/${page.slug}` },
+        };
+    }
+
+    // Not found
+    return {
+        title: "Not Found",
+        description: "Requested page not found."
+    };
 }
 
-export default Page
+const Page = ({ params }) => {
+    const { slug } = params;
+
+    const category = CategoryData.find(cat => cat.slug === slug);
+    const page = PageData.find(pg => pg.slug === slug);
+
+    // -------------------------------------------
+    // ✅ If CATEGORY slug found → Show Category layout
+    // -------------------------------------------
+    if (category) {
+        return (
+            <>
+                <Banner data={category} />
+                <CategoryContent data={category} />
+                <BlueBox data={category} />
+                <ProductListing id={category.cat} />
+            </>
+        );
+    }
+
+    // -------------------------------------------
+    // ✅ If PAGE slug found → Show PAGE LAYOUT
+    // -------------------------------------------
+    if (page) {
+        return (
+            <>
+                <BannerPage data={page} />
+                <PageContent data={page} />
+            </>
+        );
+    }
+
+    // -------------------------------------------
+    // ❌ Neither Category nor Page Found
+    // -------------------------------------------
+    return <p>Page Not Found!</p>;
+};
+
+export default Page;

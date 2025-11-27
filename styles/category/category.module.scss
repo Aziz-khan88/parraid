@@ -2,30 +2,41 @@
   background: #fff;
   padding-bottom: 200px;
   padding-top: 100px;
+
   h2 {
     color: #000;
   }
+
+  h3 {
+    color: #000;
+  }
+
   p {
     color: #000;
   }
+
   .ImgBox {
     position: relative;
     height: 550px;
     width: auto;
     border-radius: 20px;
     overflow: hidden;
+
     img {
       object-fit: cover;
     }
   }
+
   h5 {
     font-size: 30px;
     line-height: 40px;
     margin-bottom: 20px;
   }
+
   ul {
     margin-left: 20px;
     margin-bottom: 30px;
+
     li {
       font-style: normal;
       font-weight: 400;
@@ -34,6 +45,7 @@
       color: #64748b;
       margin-bottom: 10px;
       position: relative;
+
       &::before {
         content: "";
         background: #0061fe;
@@ -45,6 +57,27 @@
         left: -20px;
         top: 10px;
       }
+    }
+  }
+
+  .contactUS {
+    padding: 50px;
+    background: #0061fe;
+    border-radius: 20px;
+
+    h2 {
+      color: #fff;
+    }
+
+    p {
+      color: #fff;
+      max-width: 90%;
+      margin: 0px auto 20px;
+
+      &:last-child {
+        margin-bottom: 0px;
+      }
+
     }
   }
 }

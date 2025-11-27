@@ -6,14 +6,14 @@ export const metadata = {
     openGraph: {
         title: "",
         description: "",
-        url: "/about-us",
+        url: "/",
         siteName: "Parraid",
         locale: "en_US",
         type: "website",
         images: "#",
     },
     //===== Canonical =====
-    alternates: { canonical: "/about-us" },
+    alternates: { canonical: "/" },
 
 };
 

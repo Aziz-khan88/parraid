@@ -1,11 +1,11 @@
 
 export const metadata = {
-  title: "",
-  description: "",
+  title: "Parraid - Design • Build • Support for Mission Systems",
+  description: "Parraid is wholly devoted to design, engineering, sales, and support of telemetry data systems and tactically oriented mission-critical communications solutions.",
   //===== OG Tags =====
   openGraph: {
-    title: "",
-    description: "",
+    title: "Parraid - Design • Build • Support for Mission Systems",
+    description: "Parraid is wholly devoted to design, engineering, sales, and support of telemetry data systems and tactically oriented mission-critical communications solutions.",
     url: "/about-us",
     siteName: "Parraid",
     locale: "en_US",

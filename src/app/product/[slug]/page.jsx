@@ -1,36 +1,39 @@
-"use client";
-import { useParams } from "next/navigation";
 import { ProdDetails } from "@/src/app/data/products/data";
-import ProDetails from "@/src/app/product/components/prodetails"
-import ConnectivityForm from "@/src/app/product/components/connectivityform"
-import ProductList from "@/src/app/product/components/productlist"
-import Blogs from "@/src/app/home/blogs"
-import Faqs from "@/src/app/home/faqs"
+import ProductPage from "@/src/app/product/components/productpage";
 
+export async function generateMetadata({ params }) {
+    const slug = params.slug;
 
-
-const ProductDetailPage = () => {
-    const params = useParams();
-    const { slug } = params;
     const allProducts = Object.values(ProdDetails).flat();
-    const products = allProducts.filter((prod) => prod.slug === slug);
+    const product = allProducts.find((p) => p.slug === slug);
 
-    if (!products || products.length === 0) {
-        return <p>Product not found!</p>;
+    if (!product) {
+        return {
+            title: "Product Not Found",
+            description: "No product found for this slug.",
+        };
     }
 
-    const product = products[0];
+    const firstImage = product.images?.[0];
+    const ogImage = typeof firstImage === "string" ? firstImage : firstImage?.src;
 
+    return {
+        title: product.name,
+        description: product.shortDesc || "",
+        openGraph: {
+            title: product.name,
+            description: product.shortDesc || "",
+            images: ogImage
+                ? [{ url: ogImage, width: 1200, height: 630 }]
+                : [],
+        },
+        alternates: {
+            canonical: `/product/${product.slug}`,
+        },
+    };
+}
 
-    return (
-        <>
-            <ProDetails product={product} />
-            <ConnectivityForm />
-            <ProductList cat={product.cat} />
-            <Blogs />
-            <Faqs />
-        </>
-    );
-};
-
-export default ProductDetailPage;
+export default function Page({ params }) {
+    // Pass plain object to client component
+    return <ProductPage slug={params.slug} />;
+}

@@ -1,19 +1,19 @@
 
 export const metadata = {
-  title: "",
-  description: "",
+  title: "Contact Us - Parraid",
+  description: "Connect with Parraid, LLC — a U.S.-based engineering company specializing in tactical communications, telemetry solutions, and deployable data systems. ",
   //===== OG Tags =====
   openGraph: {
-    title: "",
-    description: "",
-    url: "/careers",
+    title: "Contact Us - Parraid",
+    description: "Connect with Parraid, LLC — a U.S.-based engineering company specializing in tactical communications, telemetry solutions, and deployable data systems. ",
+    url: "/contact-us",
     siteName: "Parraid",
     locale: "en_US",
     type: "website",
     images: "#",
   },
   //===== Canonical =====
-  alternates: { canonical: "/careers" },
+  alternates: { canonical: "/contact-us" },
 
 };
 

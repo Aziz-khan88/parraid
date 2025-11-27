@@ -21,12 +21,12 @@ const poppins = Poppins({
 
 export const metadata = {
   // metadataBase: new URL(""),
-  title: "",
-  description: "",
+  title: "Parraid | Expert Telemetry Data Systems Design, Engineering, Sales",
+  description: "A small products-oriented business, Parraid is wholly devoted to design, engineering, sales, and support of telemetry data systems and tactically oriented mission-critical communications solutions.",
   //===== OG Tags =====
   openGraph: {
-    title: "",
-    description: "",
+    title: "Parraid | Expert Telemetry Data Systems Design, Engineering, Sales",
+    description: "A small products-oriented business, Parraid is wholly devoted to design, engineering, sales, and support of telemetry data systems and tactically oriented mission-critical communications solutions.",
     url: "/",
     siteName: "Parraid",
     locale: "en_US",

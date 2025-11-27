@@ -1,4 +1,3 @@
-import { ListIcon } from "@/src/app/app-constants"
 import Link from "next/link"
 
 export const PressData = [
@@ -25,6 +24,30 @@ export const PressData = [
         date: "December 20, 2022",
         title: "Parraid Wins 2022 Astors Award For Best Disaster Preparedness, Disaster Recovery Solution",
         para: "HOLLYWOOD, Maryland – (December 20, 2022) – Parraid, LLC is pleased to announce that our Vector Iridium Data Link (VIDL) product has been selected as a Gold Award Winner, “Best Disaster Preparedness, Disaster Recovery Solution”, from the American Security Today (AST) ‘ASTORS’ Homeland Security Awards.",
+    },
+    {
+        slug: "parraid-llc-and-radio-enhancements-program-appraised-at-cmmi-level-3",
+        date: "August 17, 2023",
+        title: "PARRAID, LLC and RADIO ENHANCEMENTS PROGRAM Appraised at CMMI Level 3",
+        para: "HOLLYWOOD, Maryland – On August 17, 2023, Parraid, LLC’s Radio Enhancements Program proudly announces it has been appraised at Development Maturity Level 3 (DEV/ML3) within the CMMI Institute’s Capability Maturity Model Integration (CMMI®). The appraisal was conducted by A1 Independent Consulting.",
+    },
+    {
+        slug: "parraids-radio-enhancements-program-appraised-at-cmmi-level-3",
+        date: "19 January 2021",
+        title: "Parraid’s Radio Enhancements Program Appraised at CMMI LEVEL 3",
+        para: "HOLLYWOOD, Maryland – 19 January 2021 – Parraid, LLC’s Radio Enhancements Program today announced that it has been appraised at level 3 of the CMMI Institute’s Capability Maturity Model Integration (CMMI). The appraisal was performed by A1 Independent Consulting.",
+    },
+    {
+        slug: "parraids-vidl-the-most-interoperable-and-affordable-communications-system-for-emergency-response-in-areas-without-cellular-coverage",
+        date: "April 5, 2022",
+        title: "Parraid’s Vidl, The Most Interoperable And Affordable Communications System For Emergency Response In Areas Without Cellular Coverage",
+        para: "HOLLYWOOD, Maryland – (April 5, 2022) –Parraid, LLC, a leading-edge technology innovator that develops next-generation aerospace and ground tactical applications for secure communications, has announced the launch of the Vector Iridium Data Link (VIDL)",
+    },
+    {
+        slug: "parraid-wins-navy-onr-phase-ii-sbir-award-for-outside-with-linux-owl-development-effort",
+        date: "August 02, 2022",
+        title: "Parraid Wins Navy Onr Phase Ii Sbir Award For Outside With Linux (Owl) Development Effort",
+        para: "HOLLYWOOD, Maryland – (August 02, 2022) – Parraid, LLC, a small products-oriented business, wholly devoted to design, manufacturing, sales, and support of telemetry data systems and tactically oriented mission-critical communications solutions",
     },
 ]
 
@@ -107,6 +130,97 @@ export const PressListing = [
                 <p>The annual ‘ASTORS’ Awards Program recognizes vendor solutions that enhance value and add benefit to end users in a variety of government, homeland security and public safety markets. The ‘ASTORS’ Awards feature the most forward thinking and cutting-edge solutions emerging into the market. Parraid is honored that our well-regarded Vector Iridium Data Link (VIDL) product was selected as a Gold Award Winner from the American Security Today.</p>
                 <p>The VIDL is a satellite radio capable of simultaneous voice and application data exchange utilizing the Iridium Push-to-Talk network service. VIDL enhances real time situational awareness and contributes to the common operating picture. The VIDL allows you to send and receive voice communications, Position Location Information (PLI), group text messaging, operational graphics, map overlays, and routes from anywhere in the world, to anywhere in the world. With the Parraid VIDL, you are always connected, wherever you go.</p>
                 <p>“Parraid is excited to offer emergency responders the secure communications solution that they deserve in times of crisis,” explained John Parris, Co-Founder and Managing Partner at Parraid LLC. “Best of all, VIDL is affordable, making it possible for most emergency response agencies to capitalize on our innovation, ingenuity, and practical approach to solving a real problem: the need to stay connected when cellular coverage isn’t available,” added Parris. “I am especially proud of our innovative team of world-class engineers that allowed us to bring this to market with reliability and engineering excellence second to none.” Learn More. A small products-oriented business, Parraid is wholly devoted to design, engineering, sales, and support of telemetry data systems and tactically oriented mission-critical communications solutions. See <Link href="/">https://www.parraid.com/</Link>, or contact our Sales Team at sales@parraid.com. Also, see the Parraid VIDL in action here: <a href="https://www.youtube.com/watch?v=7NRk2fUfqrU" rel="noopener noreferrer nofollow" target="_blank">https://www.youtube.com/watch?v=7NRk2fUfqrU</a></p>
+            </>
+        ),
+
+    },
+    {
+        slug: "parraid-llc-and-radio-enhancements-program-appraised-at-cmmi-level-3",
+        date: "August 17, 2023",
+        tit: "PARRAID, LLC and RADIO ENHANCEMENTS PROGRAM Appraised at CMMI Level 3 - Parraid",
+        desc: "",
+        title: "PARRAID, LLC and RADIO ENHANCEMENTS PROGRAM Appraised at CMMI Level 3",
+        tableContent: [
+        ],
+        maincontent: (
+            <>
+                <p>HOLLYWOOD, Maryland – On August 17, 2023, Parraid, LLC’s Radio Enhancements Program proudly announces it has been appraised at Development Maturity Level 3 (DEV/ML3) within the CMMI Institute’s Capability Maturity Model Integration (CMMI®). The appraisal was conducted by A1 Independent Consulting.</p>
+                <p>CMMI serves as a framework for enhancing an organization’s capabilities, delivering the fundamental components necessary for efficient processes that result in elevated performance. They stand as the global leader in the promotion of efficient practices in processes and technology.</p>
+                <p>Achieving a DEV/ML3 appraisal signifies that the organization is operating at a “defined” level. At this level, processes are thoroughly defined, comprehended, and articulated in standards, protocols, tools, and methodologies. The organization’s set of standard processes, which is the basis for Maturity Level 3, is established and improved over time.</p>
+                <p>The founders of Parraid, John Parris, Arshed Javaid, and Alan Parris, expressed profound pride in achieving this notable accomplishment for a second time. They highlighted the strength of Parraid’s engineering team and emphasized their continuous success.</p>
+                <p>Parraid remains dedicated to the design, engineering, sales, and support of telemetry data systems and mission-critical communications solutions with an emphasis on tactical scenarios. To learn more about Parraid’s offerings, visit us at <Link href="/">https://www.parraid.com/</Link>.</p>
+                <p>The CMMI Institute provides solutions and insights with the intent of enhancing organizational capabilities. For over 30 years, numerous high-performing organizations around the world have attained lasting success through the endorsement of CMMI, proving their status as treasured business partners. To learn how CMMI can pave the way for performance improvement within your organization, please visit <a href="https://www.cmmiinstitute.com/" rel="noopener noreferrer nofollow" target="_blank">www.CMMIinstitute.com</a>.</p>
+            </>
+        ),
+
+    },
+    {
+        slug: "parraids-radio-enhancements-program-appraised-at-cmmi-level-3",
+        date: "19 January 2021",
+        tit: "Parraid’s Radio Enhancements Program Appraised at CMMI LEVEL 3 - Parraid",
+        desc: "",
+        title: "Parraid’s Radio Enhancements Program Appraised at CMMI LEVEL 3",
+        tableContent: [
+        ],
+        maincontent: (
+            <>
+                <p>HOLLYWOOD, Maryland – 19 January 2021 – Parraid, LLC’s Radio Enhancements Program today announced that it has been appraised at level 3 of the CMMI Institute’s Capability Maturity Model Integration (CMMI). The appraisal was performed by A1 Independent Consulting.</p>
+                <p>CMMI is a capability improvement framework that provides organizations with the essential elements of effective processes that ultimately improve their performance.</p>
+                <p>An appraisal at maturity level 3 indicates the organization is performing at a “defined” level. At this level, processes are well characterized and understood, and are described in standards, procedures, tools, and methods. The organization’s set of standard processes, which is the basis for maturity level 3, is established and improved over time.</p>
+                <p>Parraid founders John Parris, Arshed Javaid, and Alan Parris expressed tremendous pride in this significant achievement for such a young company. “Parraid’s engineering team is incredibly solid, and our continued success is built upon our strong core of process discipline,” they said.</p>
+                <p>Vice President of Business Operations, Patricia “Trish” Priddy, commented that, “this appraisal only confirms what we at Parraid already know – that our business, sales, and engineering teams work exceptionally well with each other to enable Parraid to design, build, and support world class telemetry, data, and communications products for our customers!”</p>
+                <p>A small products-oriented business, Parraid is wholly devoted to design, engineering, sales, and support of telemetry data systems and tactically oriented mission-critical communications solutions. Learn more about Parraid at <Link href="/">https://www.parraid.com/</Link></p>
+                <p>CMMI Institute is the global leader in the advancement of best practices in people process, and technology. CMMI Institute’s promise is to inspire cultures of continuous improvement that elevate performance and create sustainable competitive advantage.</p>
+                <p>CMMI Institute offers market-driven solutions that provide insights for baselining and optimizing key organizational capabilities, cybermaturity, and data assets to elevate business performance. For over 25 years, thousands of high-performing organizations in a variety of industries, including aerospace, finance, healthcare, information technology, software, defense, transportation, and telecommunications, have achieved sustainable business success through adopting the CMMI and proved they are capable business partners and suppliers. To learn more about how CMMI can help your organization elevate performance, visit <a href="https://www.cmmiinstitute.com/" rel="noopener noreferrer nofollow" target="_blank">CMMIinstitute.com</a>.</p>
+
+
+            </>
+        ),
+
+    },
+    {
+        slug: "parraids-vidl-the-most-interoperable-and-affordable-communications-system-for-emergency-response-in-areas-without-cellular-coverage",
+        date: "April 5, 2022",
+        tit: "Parraid’s Vidl, The Most Interoperable And Affordable Communications System For Emergency Response In Areas Without Cellular Coverage - Parraid",
+        desc: "",
+        title: "Parraid’s Vidl, The Most Interoperable And Affordable Communications System For Emergency Response In Areas Without Cellular Coverage",
+        tableContent: [
+        ],
+        maincontent: (
+            <>
+                <p>HOLLYWOOD, Maryland – (April 5, 2022) –Parraid, LLC, a leading-edge technology innovator that develops next-generation aerospace and ground tactical applications for secure communications, has announced the launch of the Vector Iridium Data Link (VIDL), the first affordable military-grade tactical secure connectivity solution for emergency and disaster responders in need of secure voice and data communications where cellular coverage is unavailable. VIDL allows users to maintain situational awareness (SA) through text messaging, map icons, and event reporting with an intuitive on-screen operations management application.</p>
+                <p>Designed for Disaster Response, Emergency First Responders, Border Security, Maritime, Public Safety, Wildland Fire, Military, and Off-Grid Recreation, VIDL delivers no-fail real-time SA. Parraid’s Vector Iridium Data Link (VIDL) is a portable ruggedized, lightweight command and control system using the Iridium satellite communications network. It operates as Push-to-Talk (PTT) with a handset similar to the one used with common tactical radios and shares data with Android and Microsoft Windows-based computing systems. VIDL deploys quickly due to its simple system architecture. Unlike other solutions, it eliminates the need for expensive, complex legacy systems that most emergency response agencies can’t afford.</p>
+                <p>VIDL is powered by the Iridium Low Earth Orbit (LEO) satellite constellation that provides worldwide voice and data communication from hand-held satellite phones and transceiver units. By leveraging Iridium Satellite Push-to-Talk technology, VIDL provides SA, data, and voice in a single product with continuous Global & Polar Region Coverage with short transmission paths, strong signals, and low latency. Vector Iridium Data Link (VIDL) allows you to always be connected wherever you go.</p>
+                <p>John Parris, Parraid’s Co-Founder and Managing Partner, noted, “Parraid is excited to offer emergency responders the secure communications solution that they deserve in times of crisis. VIDL’s trusted reliability, interoperability, and durability are powered by the best customer support team in the industry. In addition, it will provide real-time situational awareness that is critical for any agency with a mission to monitor logistics, location, and security of personnel. VIDL is a reliable and accessible satellite link that gives you that edge.”</p>
+                <p>Parris added: “Best of all, VIDL is affordable, making it possible for most emergency response agencies to capitalize on our innovation, ingenuity, and practical approach to solving a real problem: the need to stay connected when cellular coverage isn’t available. I am especially proud of our innovative team of world-class engineers that allowed us to bring this to market with reliability and engineering excellence second to none.”</p>
+                <h5>About Us</h5>
+                <p>Parraid, LLC is wholly devoted to the design, engineering, sales, and support of telemetry data systems and tactically oriented mission-critical communications solutions. Its product offerings include Telemetry Data Systems (TDS), deployable tactical systems, and net-centric Everything over IP (EoIP) products. From expedited acquisition to rapid fielding and execution, our mission-critical solutions enable our customers to transform, evolve, and modernize. Rooted in 25+ years of experience, Parraid is proudly headquartered in Hollywood, Maryland. For additional information, visit our website at <Link href="/">https://www.parraid.com/</Link>, or contact our Sales Team via <a href="mailto:sales@parraid.com">sales@parraid.com</a>.</p>
+                <p>Media Point of Contact:
+                    <br />Steve Bishop
+                    <br />Vice President, Parraid, LLC
+                    <br /><a href="mailto:sbishop@parraid.com">sbishop @parraid.com</a></p>
+            </>
+        ),
+    },
+    {
+        slug: "parraid-wins-navy-onr-phase-ii-sbir-award-for-outside-with-linux-owl-development-effort",
+        date: "August 02, 2022",
+        tit: "Parraid’s Vidl, The Most Interoperable And Affordable Communications System For Emergency Response In Areas Without Cellular Coverage - Parraid",
+        desc: "",
+        title: "Parraid Wins Navy Onr Phase Ii Sbir Award For Outside With Linux (Owl) Development Effort",
+        tableContent: [
+        ],
+        maincontent: (
+            <>
+                <p>HOLLYWOOD, Maryland – (August 02, 2022) – Parraid, LLC, a small products-oriented business, wholly devoted to design, manufacturing, sales, and support of telemetry data systems and tactically oriented mission-critical communications solutions, announced today that it has been awarded a Navy Phase II Small Business Innovation Research (SBIR) contract through the Naval Air Warfare Center Aircraft Division. This award will assist Parraid’s efforts to design and build a Secure Linux Power and Data Hub. The system known as Outside with Linux (OWL) will simultaneously provide data and power connections between tactical radios, peripheral devices, software applications, and modern commercial off the shelf edge computing devices. Parraid’s novel concept combines into a single rugged integrated package multiple functions currently requiring many separate devices and technologies. The system supports all the dismounted users’ tactical tasks, reducing end user workloads, and improving situational awareness on the edge.</p>
+                <p>John Parris, Parraid’s Co-Founder and Managing Partner, noted, “Parraid is excited to offer the low SWaP OWL concept.  It is a commercially viable solution addressing technology gaps associated with the use of modern consumer computing devices requiring connectivity to legacy communications infrastructures. This Phase II investment will provide the Joint force with greater joint interoperability meeting the strategic goals of the Navy, Marine Corps and Joint Forces supporting expeditionary operations.”</p>
+                <p>Parris added: “Best of all, the hardware and software developed under this SBIR will provide an interoperability layer that can reduce integration costs for many Navy programs and Joint interoperability with Joint and Coalition partners supporting National Defense Strategic goals.”</p>
+                <h5>About Us</h5>
+                <p>Parraid’s product portfolio includes Telemetry Data Systems (TDS), deployable tactical systems, and net centric Everything over IP (EoIP) products. Parraid provides expedited acquisition, rapid fielding and execution of our mission-critical solutions, enabling our customers to transform, evolve, and modernize. Rooted in 25+ years of experience, Parraid is proudly headquartered in Hollywood, Maryland. For additional information, visit our website at <Link href="/">https://www.parraid.com/</Link>, or contact our Sales Team via <a href="mailto:sales@parraid.com">sales@parraid.com</a>.</p>
+                <p>Media Point of Contact:
+                    <br />Steve Bishop
+                    <br />Vice President, Parraid, LLC
+                    <br /><a href="mailto:sbishop@parraid.com">sbishop @parraid.com</a></p>
             </>
         ),
 

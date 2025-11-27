@@ -84,9 +84,9 @@ import C3Pro10_1 from "media/products/cat3/pro10/S-5000e.webp";
 import C3Pro10_Main from "media/products/cat3/pro10/S-5000e-Main.webp";
 
 export const tabList = [
-  { id: "cat1", label: "Deployable Communications Solutions" },
-  { id: "cat3", label: "Telemetry and Data Systems" },
-  { id: "cat2", label: "Rugged Enhancements" },
+  { id: "cat1", label: "Deployable Communications Solutions", links: "deployable-communications-solutions" },
+  { id: "cat3", label: "Telemetry and Data Systems", links: "telemetry-and-data-systems" },
+  { id: "cat2", label: "Rugged Enhancements", links: "rugged-enhancements" },
 ];
 export const productsData = {
   cat1: [
@@ -94,7 +94,7 @@ export const productsData = {
       extra: "smallIamge",
       id: 1,
       slug: "network-radio-gateway-ds-04v3",
-      name: "Network Radio Gateway NRG® DS-04v3",
+      name: "NETWORK RADIO GATEWAY NRG® DS-04V3",
       img: C1Pro1_Main.src,
       txt: "Radio-over-IP (RoIP) gateway supports multiple radio types and is rugged and field-deployable, enabling seamless interoperability between tactical, legacy, and IP networks in any environment.",
     },
@@ -102,7 +102,7 @@ export const productsData = {
       extra: "smallIamge",
       id: 2,
       slug: "network-radio-gateway-NRG-deployable-systems",
-      name: "Network Radio Gateway NRG® Rack Mount-XX",
+      name: "NETWORK RADIO GATEWAY NRG® RACK MOUNT-XX",
       img: C1Pro2_Main.src,
       txt: "NRG® is a solution that provides Voice over IP(VoIP)/Radio over IP(RoIP) conferencing, converging voice, MIL-STD 188/184 data, HPW data, and remote radio configuration/control capability into a single standalone network appliance. ",
     },
@@ -110,7 +110,7 @@ export const productsData = {
       extra: "bigImage",
       id: 3,
       slug: "outsource-the-workload-owl",
-      name: "Outsource the Workload OWL",
+      name: "OUTSOURCE THE WORKLOAD OWL",
       img: C1Pro3_Main.src,
       txt: "Provides automated management of communications and data workloads with intelligent processing, allowing operators to focus on mission-critical tasks instead of system management.",
     },
@@ -118,7 +118,7 @@ export const productsData = {
       extra: "bigImage",
       id: 4,
       slug: "our-featured-network-radio-gateway",
-      name: "PacStar® 466 Featuring Parraid’s Network Radio Gateway NRG®",
+      name: "PACSTAR® 466 FEATURING PARRAID’S NETWORK RADIO GATEWAY NRG®",
       img: C1Pro4_Main.src,
       txt: "PacStar® rugged server module integrates Parraid NRG® functionality, combining best-in-class tactical server hardware with Parraid’s advanced interoperability technology.",
     },
@@ -126,7 +126,7 @@ export const productsData = {
       extra: "bigImage",
       id: 5,
       slug: "radio-data-adapter-rda-cables",
-      name: "Radio Adapter Cable RDA",
+      name: "RADIO ADAPTER CABLE RDA",
       img: C1Pro5_Main.src,
       txt: "​​​​​​​​The Parraid multi-function RDA cable is designed to simplify radio operations by allowing a computer to perform up to six different radio interface tasks using a single USB connection.",
     },
@@ -136,7 +136,7 @@ export const productsData = {
       extra: "smallIamge",
       id: 1,
       slug: "rugged-usb-hub-2-0",
-      name: "Rugged USB Hub RUH 2.0",
+      name: "RUGGED USB HUB RUH 2.0",
       img: C2Pro1_Main.src,
       txt: "The Parraid Rugged USB Hub 2.0 is the first USB hub designed to meet a full range of environmental requirements for mobile and deployed systems.",
     },
@@ -144,7 +144,7 @@ export const productsData = {
       extra: "smallIamge",
       id: 2,
       slug: "rugged-usb-hub-3-0",
-      name: "Rugged USB Hub RUH 3.0",
+      name: "RUGGED USB HUB RUH 3.0",
       img: C2Pro2_Main.src,
       txt: "The Parraid Rugged USB Hub 3.0 is the toughest four port hub on the market. Designed from the ground-up for the most extreme operating environments.",
     },
@@ -152,7 +152,7 @@ export const productsData = {
       extra: "bigImage",
       id: 3,
       slug: "rugged-usb-repeater",
-      name: "Rugged USB Repeater",
+      name: "RUGGED USB REPEATER",
       img: C2Pro3_Main.src,
       txt: "The Parraid Rugged USB Repeater™ (RUR) is a device that allows USB connections to be reliably extended.",
     },
@@ -162,7 +162,7 @@ export const productsData = {
       extra: "bigImage",
       id: 1,
       slug: "best-data-engine-bde",
-      name: "Best Data Engine BDE",
+      name: "BEST DATA ENGINE BDE",
       img: C3Pro1_Main.src,
       txt: "Enables real-time stream comparison, selection, and error correction to ensure mission-critical users always receive the best possible version of telemetry data.",
     },
@@ -170,7 +170,7 @@ export const productsData = {
       extra: "bigImage",
       id: 2,
       slug: "best-source-reproducer-bsr-100",
-      name: "Best Source Reproducer BSR-100",
+      name: "BEST SOURCE REPRODUCER BSR-100",
       img: C3Pro2_Main.src,
       txt: "Intelligent data selection replays the best quality data stream for post-test analysis, reducing operator workload and ensuring optimal data fidelity.",
     },
@@ -178,7 +178,7 @@ export const productsData = {
       extra: "smallIamge",
       id: 3,
       slug: "edge2-telemetry-reciver",
-      name: "Edge2 Telemetry Receiver/Decom",
+      name: "EDGE² TELEMETRY RECEIVER/DECOM",
       img: C3Pro3_Main.src,
       txt: "The Edge² is engineered to provide network telemetry processing at the edge in a portable or rack-mountable 2 channel unit.",
     },
@@ -194,8 +194,8 @@ export const productsData = {
     {
       extra: "bigImage",
       id: 5,
-      slug: "imux–g2e-and-g2eh",
-      name: "IMUX G2e and G2eH",
+      slug: "imux-g2e-and-g2eh",
+      name: "IMUX G2e AND G2eH",
       img: C3Pro5_Main.src,
       txt: "Multi-channel telemetry recorder; supports IRIG-106 Chapter 10; portable/rack-mount options.",
     },
@@ -212,7 +212,7 @@ export const productsData = {
       extra: "bigImage",
       id: 7,
       slug: "omega-data-environment-ode",
-      name: "OMEGA Data Environment ODE",
+      name: "OMEGA DATA ENVIRONMENT ODE",
       img: C3Pro7_Main.src,
       txt: "ODE enables data analysts and consumers to rapidly and securely explore and exploit large data sets.",
     },
@@ -228,7 +228,7 @@ export const productsData = {
       extra: "bigImage",
       id: 9,
       slug: "rx2-receiver",
-      name: "Rx2 Receiver",
+      name: "RX2 RECEIVER",
       img: C3Pro9_Main.src,
       txt: "Multi-band telemetry receiver with built-in demodulation and bit-synchronization delivers high performance, flexibility, and seamless integration into Parraid’s data ecosystem.",
     },
@@ -236,7 +236,7 @@ export const productsData = {
       extra: "bigImage",
       id: 10,
       slug: "series-5000-data-processors",
-      name: "S-5000e Data Processor",
+      name: "S-5000Ee DATA PROCESSOR",
       img: C3Pro10_Main.src,
       txt: "The Series-5000 is real-time data processing platform available in portable and rack-mount configurations: 2U and 4U, ruggedized and industrial.",
     },
@@ -246,7 +246,9 @@ export const ProdDetails = [
   {
     cat: "cat1",
     slug: "network-radio-gateway-ds-04v3",
-    name: "Network Radio Gateway NRG® DS-04v3",
+    name: "NETWORK RADIO GATEWAY NRG® DS-04V3",
+    tit: "Network Radio Gateway NRG DS-04v3",
+    desc: "Introducing the NRG DS-04v3—the latest powerhouse in Parraid’s groundbreaking Radio over IP (RoIP) solutions.",
     images: [C1Pro1_1, C1Pro1_2, C1Pro1_3],
     txt: (
       <>
@@ -380,7 +382,9 @@ export const ProdDetails = [
   {
     cat: "cat1",
     slug: "network-radio-gateway-NRG-deployable-systems",
-    name: "Network Radio Gateway Rack Mount Systems",
+    name: "NETWORK RADIO GATEWAY RACK MOUNT SYSTEMS",
+    tit: "Network Radio Gateway Rack Mount Systems - Parraid",
+    desc: "Capabilities: Versatile Graphical User Interface (TWO VERSIONS): FULL Version: Detailed version for administrators LITE Version: Scaled down version of NRG that focuses on radio voice, intercom, and instant messaging communications Remote control, operation, and programming of supported radios Text chat, text paging, and logging",
     images: [C1Pro2_1, C1Pro2_2, C1Pro2_3],
     txt: (
       <>
@@ -602,7 +606,9 @@ export const ProdDetails = [
   {
     cat: "cat1",
     slug: "outsource-the-workload-owl",
-    name: "Outsource the Workload (OWL)",
+    name: "OUTSOURCE THE WORKLOAD OWL",
+    tit: "Outsource the Workload (OWL) - Parraid",
+    desc: "Outsource the Workload (OWL) is a compact, intelligent device designed for complete battlefield awareness. ",
     images: [C1Pro3_1, C1Pro3_2, C1Pro3_3],
     txt: (
       <>
@@ -739,7 +745,9 @@ export const ProdDetails = [
   {
     cat: "cat1",
     slug: "our-featured-network-radio-gateway",
-    name: "PacStar® 466 Featuring Parraid’s Network Radio Gateway NRG®",
+    name: "PACSTAR® 466 FEATURING PARRAID’S NETWORK RADIO GATEWAY NRG®",
+    tit: "PacStar® 466 Featuring Parraid’s Network Radio Gateway NRG®",
+    desc: "PacStar® 466 with Parraid NRG integrates voice conferencing, HPW data, and remote radio control in one platform. NRG5 software & CRIB are Non-ITAR.",
     images: [C1Pro4_1, C1Pro4_2, C1Pro4_3],
     txt: (
       <>
@@ -879,7 +887,9 @@ export const ProdDetails = [
   {
     cat: "cat1",
     slug: "radio-data-adapter-rda-cables",
-    name: "Radio Data Adapter (RDA) Cables",
+    name: "RADIO Data ADAPTER RDA CABLE",
+    tit: "Radio Data Adapter (RDA) Cables - Parraid",
+    desc: "Our multi-function RDA cable is designed to simplify radio operations by allowing a computer to perform up to six different radio interface tasks using a single USB connection.",
     images: [C1Pro5_1],
     txt: (
       <>
@@ -964,7 +974,9 @@ export const ProdDetails = [
   {
     cat: "cat2",
     slug: "rugged-usb-hub-2-0",
-    name: "Rugged USB 2.0 Hub",
+    name: "RUGGED USB HUB RUH 2.0",
+    tit: "Rugged USB 2.0 Hub - Parraid",
+    desc: "The Parraid Rugged USB Hub (RUH) 2.0 is the first USB hub designed to meet a full range of environmental requirements for mobile and deployed systems.",
     images: [C2Pro1_1],
     txt: (
       <>
@@ -1119,7 +1131,9 @@ export const ProdDetails = [
   {
     cat: "cat2",
     slug: "rugged-usb-hub-3-0",
-    name: "Rugged USB 3.0 Hub",
+    name: "RUGGED USB HUB RUH 3.0",
+    tit: "Rugged USB 3.0 Hub - Parraid",
+    desc: "Parraid Rugged USB Hub 3.0 - MIL-STD-810/461 certified 4-port hub built for extreme environments. Fast, reliable connectivity for deployable military IT systems.",
     images: [C2Pro2_1],
     txt: (
       <>
@@ -1318,7 +1332,9 @@ export const ProdDetails = [
   {
     cat: "cat2",
     slug: "rugged-usb-repeater",
-    name: "Rugged USB Repeater",
+    name: "RUGGED USB REPEATER",
+    tit: "Rugged USB Repeater - Parraid",
+    desc: "The Parraid Rugged USB Repeater (RUR) is a device that allows USB connections to be reliably extended. While USB is a widely used connection, it does suffer from a length limitation of 5 meters.",
     images: [C2Pro2_3],
     txt: (
       <>
@@ -1423,11 +1439,12 @@ export const ProdDetails = [
       </>
     ),
   },
-
   {
     cat: "cat3",
     slug: "best-data-engine-bde",
-    name: "Best Data Engine BDE",
+    name: "BEST DATA ENGINE BDE",
+    tit: "Best Data Engine (BDE) - Parraid",
+    desc: "Best Data Engine (BDE) compares multiple PCM inputs to create optimal composite output. Available in File BDE, G2 BDE, and OMEGA NExT™ BDE configurations.",
     images: [C3Pro1_1],
     txt: (
       <>
@@ -1499,7 +1516,9 @@ export const ProdDetails = [
   {
     cat: "cat3",
     slug: "best-source-reproducer-bsr-100",
-    name: "Best Source Reproducer (BSR-100)",
+    name: "BEST SOURCE REPRODUCER BSR-100",
+    tit: "Best Source Reproducer (BSR-100) - Parraid",
+    desc: "Seamless Best Source post-processing with BSR-100. Handles 32 PCM streams from diverse locations. Includes PSIMe 2-channel output board for reproduction and simulation.",
     images: [C3Pro2_1],
     txt: (
       <>
@@ -1575,16 +1594,17 @@ export const ProdDetails = [
       </>
     ),
   },
-
   {
     cat: "cat3",
     slug: "edge2-telemetry-reciver",
-    name: "Edge2 Telemetry Receiver/Decom",
+    name: "EDGE² TELEMETRY RECEIVER/DECOM",
+    tit: "Edge2 Telemetry Receiver/Decom - Parraid",
+    desc: "The Edge2 unit when configured with receiver modules provides users with complete single or dual stream RF-to-Ethernet telemetry data processing. Portable & Rack-Mount Options Available Tri-Band L/S/C Ideal for flight-line, mobile telemetry trailers or control rooms TMoIP output",
     images: [C3Pro3_1, C3Pro3_2, C3Pro3_3],
     txt: (
       <>
         <p>
-          The Edge2 unit when configured with receiver modules provides users
+          The Edge² unit when configured with receiver modules provides users
           with complete single or dual stream RF-to-Ethernet telemetry data
           processing.
         </p>
@@ -1711,6 +1731,8 @@ export const ProdDetails = [
     cat: "cat3",
     slug: "imux-re-con",
     name: "IMUX RE/CON",
+    tit: "IMUX RE/CON - Parraid",
+    desc: "Network Recorder The IMUX RE/CON network recorder is a telemetry specific ground network recorder ideally suited for ranges moving to IP telemetry. IP recording capabilities with telemetry specific on-the-fly conversion capability provides automatic format detection record IRIG 106 Ch10 files playback from existing IRIG 106 Ch10 infrastructure",
     images: [C3Pro6_1],
     txt: (
       <>
@@ -1877,11 +1899,12 @@ export const ProdDetails = [
       </>
     ),
   },
-
   {
     cat: "cat3",
     slug: "g3-tmoip-data-processing",
-    name: "G3 TMoIP Data Processing",
+    name: "G3 TMOIP DATA PROCESSING",
+    tit: "G3 TMoIP Data Processing - Parraid",
+    desc: "The G3 Telemetry-over-IP (TMoIP) Recorder-Processing system represents the next generation of telemetry data recording and processing platforms. IMUX G3 TMoIP Data Processing Product Flyer TMoIP Input / IRIG 106 Ch 10 Archive Selectable IRIG Codes, In and Out Tunable Bit Rates Up to 60 Mbps",
     images: [C3Pro4_1],
     txt: (
       <>
@@ -2018,11 +2041,12 @@ export const ProdDetails = [
       </>
     ),
   },
-
   {
     cat: "cat3",
-    slug: "imux–g2e-and-g2eh",
-    name: "IMUX G2e and G2eH",
+    slug: "imux-g2e-and-g2eh",
+    name: "IMUX G2e AND G2eH",
+    tit: "IMUX G2e AND IMUX G2eH - Parraid",
+    desc: "IMUX G2e series: multi-channel telemetry recorders with Chapter 10/11 support. G2eH adds TMoIP input capability. Includes RF receivers, best source selection & decom.",
     images: [C3Pro5_1, C3Pro5_2],
     txt: (
       <>
@@ -2124,11 +2148,12 @@ export const ProdDetails = [
       </>
     ),
   },
-
   {
     cat: "cat3",
     slug: "omega-next-real-time-data-processing-software",
-    name: "OMEGA NExT Real Time Data Processing Software",
+    name: "OMEGA NExT REAL TIME DATA PROCESSING SOFTWARE",
+    tit: "Omega Data Environment (ODE) - Parraid",
+    desc: "The OMEGA Data Environment software is available as a single-user or a multi-user distributed post mission data processing and time-series data mining solution. The OMEGA Data Environment architecture is designed to be data format agnostic. Several formats are included out of the box and programmatic interfaces are provided to accept any data format that you may require for both input and output. ODE provides user controls at the data set level or down to the individual parameter level and can integrate with your existing Active Directory infrastructure to provide customizable security for data access. Multi-user, Post-test Time E-series Data Data Mining with Parametric Value Search Data Format Agnostic Data Sheets Omega Data Environment (ODE) Software Product Flyer",
     images: [C3Pro8_1],
     txt: (
       <>
@@ -2307,11 +2332,12 @@ export const ProdDetails = [
       </>
     ),
   },
-
   {
     cat: "cat3",
     slug: "omega-data-environment-ode",
-    name: "Omega Data Environment (ODE)",
+    name: "OMEGA DATA ENVIRONMENT (ODE)",
+    tit: "OMEGA NExT Real Time Data Processing Software - Parraid",
+    desc: "The OMEGA NExT software suite provides Realtime Processing, EU conversion, Data Distribution, Display, and Chapter 10 compliant Data Recording and is one of the most powerful and easy to use telemetry data processing software ever produced. Developed specifically for IRIG 106 Chapter 10 packet processing on a modern Service Oriented Architecture (SOA), OMEGA NExT provides unparalleled stability, performance, and flexibility. Omega NExT provides EU conversion, data distribution, real-time display, and Chapter 10 compliant data... Data Sheets: OMEGA NExT Software Product Flyer BDE Product Flyer",
     images: [C3Pro7_1],
     txt: (
       <>
@@ -2608,7 +2634,9 @@ export const ProdDetails = [
   {
     cat: "cat3",
     slug: "series-5000-data-processors",
-    name: "Series-5000 Data Processors",
+    name: "SERIES-5000 DATA PROCESSORS",
+    tit: "Series-5000 Data Processors - Parraid",
+    desc: "The Series-5000 is real-time data processing platform available in portable and rack-mount configurations: 2U and 4U, ruggedized and industrial. The Series 5000 telemetry hardware platform is a fifth generation architecture leveraging more.. Data Sheets: Series-5000 Product Flyer OMEGA NExT Software Product Flyer",
     images: [C3Pro10_1],
     txt: (
       <>
@@ -2768,7 +2796,9 @@ export const ProdDetails = [
   {
     cat: "cat3",
     slug: "rx2-receiver",
-    name: "Rx2 Receiver",
+    name: "RX2 RECEIVER",
+    tit: "Rx2 Rack Mount Multi-Channel Receiver and Combiner",
+    desc: "TDS offers the Rx2 rack mount multi-channel receiver and combiner as well as PCI card level receivers and combiners.",
     images: [C3Pro9_1],
     txt: (
       <>

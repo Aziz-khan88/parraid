@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import ProductCarousel from "@/src/app/home/productcarousel";
 import { productsData, tabList } from "@/src/app/data/products/data";
 import React from "react";
+import Link from "next/link";
 
 const ProductListing = ({ id }) => {
     // Check if id is provided
@@ -33,9 +34,14 @@ const ProductListing = ({ id }) => {
             {tabList.map((tab) => (
                 <React.Fragment key={tab.id}>
                     <Container className="mb-3">
-                        <Row>
-                            <Col md={12}>
+                        <Row className="h-100">
+                            <Col md={9}>
                                 <h2>{tab.label}</h2>
+                            </Col>
+                            <Col md={3} className="my-auto">
+                                <div className={styles.tabLinks}>
+                                    <Link href={tab.links} >Read More</Link>
+                                </div>
                             </Col>
                         </Row>
                     </Container>

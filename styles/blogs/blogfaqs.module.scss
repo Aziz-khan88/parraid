@@ -1,5 +1,6 @@
 .faqsBlog {
   margin-top: 50px;
+
   .faqsBox {
     overflow: hidden;
     transition: height 0.4s ease, opacity 0.4s ease;
@@ -82,8 +83,37 @@
         svg {
           transform: rotate(45deg);
           transition: all 0.5s ease;
+
           path {
             fill: #0061fe;
+          }
+        }
+      }
+    }
+  }
+
+  &.BlackColor {
+    .faqsBox {
+      .faqsTitle {
+        color: #333;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+        .iconBox {
+
+          svg {
+            path {
+              fill: #000;
+            }
+          }
+        }
+      }
+
+      &.active {
+        .iconBox {
+          svg {
+            path {
+              fill: #0061fe;
+            }
           }
         }
       }

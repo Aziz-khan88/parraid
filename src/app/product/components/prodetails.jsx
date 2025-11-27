@@ -42,6 +42,7 @@ const ProDetails = ({ product }) => {
             <div className={styles.ImgContent}>
               <h2>{product.name}</h2>
               {product.txt}
+
             </div>
           </Col>
           <Col>
@@ -52,9 +53,8 @@ const ProDetails = ({ product }) => {
                   .map((tab) => (
                     <div
                       key={tab.key}
-                      className={`${styles.tabItem} ${
-                        activeTab === tab.key ? styles.active : ""
-                      }`}
+                      className={`${styles.tabItem} ${activeTab === tab.key ? styles.active : ""
+                        }`}
                       onClick={() => setActiveTab(tab.key)}
                     >
                       <h4>

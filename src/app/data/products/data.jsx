@@ -236,7 +236,7 @@ export const productsData = {
       extra: "bigImage",
       id: 10,
       slug: "series-5000-data-processors",
-      name: "S-5000Ee DATA PROCESSOR",
+      name: "S-5000e DATA PROCESSOR",
       img: C3Pro10_Main.src,
       txt: "The Series-5000 is real-time data processing platform available in portable and rack-mount configurations: 2U and 4U, ruggedized and industrial.",
     },

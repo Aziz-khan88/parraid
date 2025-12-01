@@ -46,6 +46,10 @@
       margin-bottom: 10px;
       position: relative;
 
+      strong {
+        color: #000;
+      }
+
       &::before {
         content: "";
         background: #0061fe;

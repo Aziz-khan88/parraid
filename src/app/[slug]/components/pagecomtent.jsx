@@ -53,14 +53,16 @@ const PageContent = ({ data }) => {
                         {data.faqsData && <FaqsBlog data={data.faqsData} Black={true} />}
                     </Col>
                 </Row>
-                <Row className="mt-5">
-                    <Col md={12} className="m-auto text-center">
-                        <div className={styles.contactUS}>
-                            <h2>{data.contactTitle}</h2>
-                            {data.contacttxt}
-                        </div>
-                    </Col>
-                </Row>
+                {data.contactTitle && data.contacttxt ? (
+                    <Row className="mt-5">
+                        <Col md={12} className="m-auto text-center">
+                            <div className={styles.contactUS}>
+                                <h2>{data.contactTitle}</h2>
+                                {data.contacttxt}
+                            </div>
+                        </Col>
+                    </Row>
+                ) : null}
             </Container>
         </section>
     )

@@ -8,7 +8,7 @@ const BannerPage = ({ data }) => {
                 <Row className="h-100">
                     <Col className="my-auto" md={12} lg={9}>
                         <h1>{data.title}</h1>
-                        <p>{data.tittxt}</p>
+                        {data.tittxt}
                     </Col>
                 </Row>
             </Container>

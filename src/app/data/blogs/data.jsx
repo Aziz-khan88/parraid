@@ -1,12 +1,19 @@
-import Post1 from "media/blogs/img1.webp"
-import img02 from "media/blogs/img2.webp"
-import img03 from "media/blogs/img3.webp"
-import Image from "next/image"
+import Post1 from "media/blogs/Post-01.webp"
+import Post2 from "media/blogs/Post-02.webp"
+import Post3 from "media/blogs/Post-03.webp"
+import Post4 from "media/blogs/Post-04.webp"
+import Post5 from "media/blogs/Post-05.webp"
+import Post6 from "media/blogs/Post-06.webp"
+import Post7 from "media/blogs/Post-07.webp"
+import Post8 from "media/blogs/Post-08.webp"
+import Post9 from "media/blogs/Post-09.webp"
+import Post10 from "media/blogs/Post-10.webp"
+import Imag from "next/image"
 
 export const BlogListingData = [
   {
     title:
-      "Advanced Telemetry Processing Techniques for Efficient Data Communications",
+      "ADVANCED TELEMETRY PROCESSING TECHNIQUES FOR EFFICIENT DATA COMMUNICATIONS",
     date: "2025-08-06",
     tit: "Optimize Data Communication with Advanced Telemetry Processing",
     desc: "Transform your data communication infrastructure with advanced telemetry processing to ensure faster transmission and better performance.",
@@ -143,11 +150,11 @@ export const BlogListingData = [
   },
   {
     title:
-      "Advancements in Tactical Radio Network Technologies: A Comprehensive Overview",
+      "ADVANCEMENTS IN TACTICAL RADIO NETWORK TECHNOLOGIES: A COMPREHENSIVE OVERVIEW",
     date: "2025-08-06",
     tit: "Tactical Radio Network Innovations Unveiled: Explore Now",
     desc: "Discover the latest advancements in tactical radio network technologies. Stay informed with Parraid's comprehensive overview and insights.",
-    img: Post1.src,
+    img: Post2.src,
     slug: "advancements-in-tactical-radio-network-technologies-a-comprehensive-overview",
     tableContent: [
       { title: "Software-Defined Radios (SDRs)" },
@@ -255,11 +262,11 @@ export const BlogListingData = [
   },
   {
     title:
-      "Advancements in Telemetry Data Communications: Exploring OMEGA NExT Technolog",
+      "ADVANCEMENTS IN TELEMETRY DATA COMMUNICATIONS: EXPLORING OMEGA NExT TECHNOLOG",
     date: "2025-08-06",
     tit: "Explore OMEGA NExT: The Future of Telemetry Data",
     desc: "Discover the advancements in telemetry data communications with OMEGA NExT technology, which is bringing precision and reliability to your operations.",
-    img: Post1.src,
+    img: Post3.src,
     slug: "advancements-in-telemetry-data-communications-exploring-omega-next-technologies",
     tableContent: [
       { title: "OMEGA NExT: Not Your Average Telemetry Tech" },
@@ -488,7 +495,7 @@ export const BlogListingData = [
   },
   {
     title:
-      "Advancements in Telemetry Data Communications: Exploring OMEGA NExT Technology",
+      "ADVANCEMENTS IN TELEMETRY DATA COMMUNICATIONS: EXPLORING OMEGA NExT TECHNOLOGY",
     date: "2025-08-06",
     tit: "Enhance Mission Success with OMEGA NExT Telemetry Technology | Parraid",
     desc: "OMEGA NExT technology ensures seamless communication in critical missions with advanced security protocols, robust data integrity, and scalable solutions for aerospace and defense.",
@@ -647,11 +654,11 @@ export const BlogListingData = [
     ],
   },
   {
-    title: "Breaking Down the Advancements in Telemetry Recorder Systems",
+    title: "BREAKING DOWN THE ADVANCEMENTS IN TELEMETRY RECORDER SYSTEMS",
     date: "2025-08-06",
     tit: "Advancements in Telemetry Recorder Systems Explained",
     desc: "Explore the latest advancements in telemetry recorder systems. Understand how these innovations enhance data accuracy and efficiency.",
-    img: Post1.src,
+    img: Post4.src,
     slug: "breaking-down-the-advancements-in-telemetry-recorder-systems",
     tableContent: [
       { title: "The Evolution of Telemetry Recorder Systems" },
@@ -771,11 +778,11 @@ export const BlogListingData = [
   },
   {
     title:
-      "Breaking Down the Basics: What Makes A Telemetry Recorder Indispensable?",
+      "BREAKING DOWN THE BASICS: WHAT MAKES A TELEMETRY RECORDER INDISPENSABLE?",
     date: "2025-08-06",
     tit: "Telemetry Recorder: Essential Tool Explained",
     desc: " Learn what a telemetry recorder is and why it is crucial for data monitoring and analysis. Find out its key features and applications in various fields.",
-    img: Post1.src,
+    img: Post5.src,
     slug: "breaking-down-the-basics-what-makes-a-telemetry-recorder-indispensable",
     tableContent: [
       { title: "The Essence of a Telemetry Recorder" },
@@ -912,11 +919,11 @@ export const BlogListingData = [
   },
   {
     title:
-      "Bridging the Gap: How Deployable Communications Systems and NRG Enhance Warfighter Connectivity",
+      "BRIDGING THE GAP: HOW DEPLOYABLE COMMUNICATIONS SYSTEMS AND NRG ENHANCE WARFIGHTER CONNECTIVITY",
     date: "2025-08-06",
     tit: "How NRG Helps Warfighters Communicate Across Talk Groups",
     desc: "Learn how Network Radio Gateway (NRG) empowers deployable communications systems, enabling warfighters to communicate seamlessly across diverse radio talk groups and networks.",
-    img: Post1.src,
+    img: Post6.src,
     slug: "how-deployable-communications-systems-and-nrg-enhance-warfighter-connectivity",
     tableContent: [
       { title: "The Role of Deployable Communications Systems" },
@@ -1057,7 +1064,7 @@ export const BlogListingData = [
   },
   {
     title:
-      "Choosing Wisely: Telemetry Best Source Selector vs. Best Data Engine",
+      "CHOOSING WISELY: TELEMETRY BEST SOURCE SELECTOR VS. BEST DATA ENGINE",
     date: "2025-08-06",
     tit: "Telemetry Best Source Selector vs. Best Data Engine",
     desc: "Understanding what the difference is between Best Source Selector and Best Data Engine and when to use them.",
@@ -1160,11 +1167,11 @@ export const BlogListingData = [
     ),
   },
   {
-    title: "Compliance to Telemetry IRIG-106 Standards: Chapter 10",
+    title: "COMPLIANCE TO TELEMETRY IRIG-106 STANDARDS: CHAPTER 10",
     date: "2025-08-06",
     tit: "Know Everything About Advanced Telemetry in Chapter 10",
     desc: "Dive deep into cutting-edge telemetry communications in Chapter 10.",
-    img: Post1.src,
+    img: Post7.src,
     slug: "compliance-to-telemetry-irig-106-standards-chapter-10",
     tableContent: [
       { title: "A Brief History of Chapter 10" },
@@ -1296,11 +1303,11 @@ export const BlogListingData = [
     ],
   },
   {
-    title: "Enhancing Communication Efficiency: Telemetry Network Recorder",
+    title: "ENHANCING COMMUNICATION EFFICIENCY: TELEMETRY NETWORK RECORDER",
     date: "2025-08-06",
     tit: "Enhance Communication with Telemetry Network Recorder",
     desc: "Boost your communication systems with our Telemetry Network Recorder, designed for precise data capture and seamless integration.",
-    img: Post1.src,
+    img: Post8.src,
     slug: "enhancing-communication-efficiency-telemetry-network-recorder",
     tableContent: [
       { title: "Let’s Get Techy: What’s a Telemetry Network Recorder Anyway?" },
@@ -1548,11 +1555,11 @@ export const BlogListingData = [
     ],
   },
   {
-    title: "Enhancing Communication: Telemetry Best Source Selector",
+    title: "ENHANCING COMMUNICATION: TELEMETRY BEST SOURCE SELECTOR",
     date: "2025-08-06",
     tit: "The Ultimate Guide to Telemetry Best Source Selector | Parraid",
     desc: "Understand the importance of Telemetry Best Source Selector in providing uninterrupted and high-fidelity data transmission for various applications.",
-    img: Post1.src,
+    img: Post9.src,
     slug: "enhancing-communication-telemetry-best-source-selector",
     tableContent: [
       { title: "What is a Telemetry Best Source Selector?" },
@@ -1724,11 +1731,11 @@ export const BlogListingData = [
     ],
   },
   {
-    title: "Enhancing Communication: Telemetry Best Source Selector",
+    title: "ENHANCING COMMUNICATION: TELEMETRY BEST SOURCE SELECTOR",
     date: "2025-08-06",
     tit: "Optimize Your Data with Telemetry Best Source Selector",
     desc: "Enhance communication efficiency with Telemetry Best Source Selector—ensuring accurate, real-time data from the most reliable sourc",
-    img: Post1.src,
+    img: Post10.src,
     slug: "enhancing-communication-telemetry-best-source-select",
     tableContent: [
       { title: "The Telemetry Best Source Selector: Your Data Sommelier" },
@@ -1965,7 +1972,7 @@ export const BlogListingData = [
     ],
   },
   {
-    title: "Enhancing Data Communication with Telemetry Recorder Technology",
+    title: "ENHANCING DATA COMMUNICATION WITH TELEMETRY RECORDER TECHNOLOGY",
     date: "2025-08-06",
     tit: "The Essential Role of Telemetry Recorders in Modern Data Communication | Parraid",
     desc: "Enhance your data communication with advanced telemetry recorder technology. Understand its importance in aerospace, industrial, and medical fields.",
@@ -2158,7 +2165,7 @@ export const BlogListingData = [
   },
   {
     title:
-      "Enhancing Military Communications with the Tactical Operations Center – Light (TOC-L)",
+      "ENHANCING MILITARY COMMUNICATIONS WITH THE TACTICAL OPERATIONS CENTER – LIGHT (TOC-L)",
     date: "2025-08-06",
     tit: "Tactical Operations Center – Light (TOC-L): Enhancing Military Communications",
     desc: "Learn how the Tactical Operations Center – Light (TOC-L) improves mobility, security, and interoperability in military communications for mission-critical operations.",
@@ -2312,7 +2319,7 @@ export const BlogListingData = [
   },
   {
     title:
-      "Enhancing Military Operations: The Power of Airborne Tactical Data Link (TDL)",
+      "ENHANCING MILITARY OPERATIONS: THE POWER OF AIRBORNE TACTICAL DATA LINK (TDL)",
     date: "2025-08-06",
     tit: "Tactical Radio Bridging Solutions for Interoperable Communication Systems",
     desc: "Explore the latest in tactical radio bridging for seamless communication. Learn more with Parraid's comprehensive overview and insights.",
@@ -2510,7 +2517,7 @@ export const BlogListingData = [
     ],
   },
   {
-    title: "Enhancing Missile Testing with Telemetry-Enabled USVs and UAVs",
+    title: "ENHANCING MISSILE TESTING WITH TELEMETRY-ENABLED USVS AND UAVS",
     date: "2025-08-06",
     tit: "Missile Testing with Telemetry USVs & UAVs | Advanced Unmanned Test Solutions",
     desc: "Discover how telemetry-equipped UAVs and USVs are transforming missile testing. Learn how these unmanned platforms provide real-time data.",
@@ -2725,7 +2732,7 @@ export const BlogListingData = [
   },
   {
     title:
-      "Enhancing Telemetry Communications: The Role of Telemetry Ground Stations",
+      "ENHANCING TELEMETRY COMMUNICATIONS: THE ROLE OF TELEMETRY GROUND STATIONS",
     date: "2025-08-06",
     tit: "Telemetry Ground Stations Are Bridging Communication Gaps",
     desc: "Learn how telemetry ground stations bridge communication gaps and ensure continuous data transmission in telemetry systems. Build a stronger bridge for communication.",
@@ -2888,7 +2895,7 @@ export const BlogListingData = [
   },
   {
     title:
-      "Enhancing Telemetry Data Communications through Advanced Telemetry Processing",
+      "ENHANCING TELEMETRY DATA COMMUNICATIONS THROUGH ADVANCED TELEMETRY PROCESSING",
     date: "2025-08-06",
     tit: "Boost Telemetry Communications with Smart Processing",
     desc: "Elevate your telemetry data communications by leveraging advanced telemetry processing techniques tailored for aerospace and defense.",
@@ -3077,7 +3084,7 @@ export const BlogListingData = [
   },
   {
     title:
-      "Enhancing Telemetry Data Communications through Advanced Telemetry Processing",
+      "ENHANCING TELEMETRY DATA COMMUNICATIONS THROUGH ADVANCED TELEMETRY PROCESSING",
     date: "2025-08-06",
     tit: "Revolutionize Mission-Critical Data with Advanced Telemetry Processing | Parraid",
     desc: "Explore Parraid’s advanced telemetry processing solutions and see how they improve data transmission and analysis for aerospace, defense, and telecommunications industries.",
@@ -3248,7 +3255,7 @@ export const BlogListingData = [
     ],
   },
   {
-    title: "Enhancing Telemetry Data Communications: The Role of Telemetry Ground Stations",
+    title: "ENHANCING TELEMETRY DATA COMMUNICATIONS: THE ROLE OF TELEMETRY GROUND STATIONS",
     date: "2025-08-06",
     tit: "Master Telemetry Communications with Ground Stations",
     desc: "Boost your telemetry data accuracy and efficiency using advanced telemetry ground stations designed for aerospace and defense needs.",
@@ -3335,9 +3342,8 @@ export const BlogListingData = [
 
     ],
   },
-
   {
-    title: "Enhancing Telemetry Data Communications: The Role of Telemetry Ground Stations",
+    title: "ENHANCING TELEMETRY DATA COMMUNICATIONS: THE ROLE OF TELEMETRY GROUND STATIONS",
     date: "2025-08-06",
     tit: "Understanding Telemetry Ground Stations in Aerospace and Defense | Parraid",
     desc: "Parraid delivers tailored telemetry ground station solutions, crucial for aerospace, defense, and environmental monitoring. Learn more about their high-quality systems.",
@@ -3445,10 +3451,8 @@ export const BlogListingData = [
       },
     ],
   },
-
-
   {
-    title: "Flight Test Data: Challenges in Collection and Analysis Explained",
+    title: "FLIGHT TEST DATA: CHALLENGES IN COLLECTION AND ANALYSIS EXPLAINED",
     date: "2025-08-06",
     tit: "Flight Test Data Analysis: Overcoming Key Challenges",
     desc: "Explore the complexities of collecting and analyzing flight test data, including insights into overcoming the obstacles for effective aviation advancements.",
@@ -3498,9 +3502,8 @@ export const BlogListingData = [
       </>
     ),
   },
-
   {
-    title: "Flight Test Instrumentation (FTI) Industry Shifting to Network Telemetry[FP1]",
+    title: "FLIGHT TEST INSTRUMENTATION (FTI) INDUSTRY SHIFTING TO NETWORK TELEMETRY[FP1]",
     date: "2025-08-06",
     tit: "Telemetry Network Recorders and their Role in the Flight Test Instrumentation (FTI) Community.",
     desc: "Learn how the Telemetry Network Recorder is revolutionizing the Flight Test Instrumentation (FTI) Community.",
@@ -3546,9 +3549,8 @@ export const BlogListingData = [
     ),
 
   },
-
   {
-    title: "Future Trends in Remote Radio Programming: What to Expect",
+    title: "FUTURE TRENDS IN REMOTE RADIO PROGRAMMING: WHAT TO EXPECT",
     date: "2025-08-06",
     tit: "Remote Radio Programming Trends Unveiled: Stay Informed",
     desc: "Explore the future of remote radio programming. Discover emerging trends and insights. Stay ahead with Parraid's expert analysis and predictions.",
@@ -3604,7 +3606,7 @@ export const BlogListingData = [
     ),
   },
   {
-    title: "How Network Radio Gateway (NRG) is Transforming Emergency Response Systems",
+    title: "HOW NETWORK RADIO GATEWAY (NRG) IS TRANSFORMING EMERGENCY RESPONSE SYSTEMS",
     date: "2025-08-06",
     tit: "Enhancing Emergency Response: Network Radio Gateway (NRG) Insights",
     desc: "Discover how Network Radio Gateway revolutionizes emergency systems. Explore its impact on response time and coordination efficiency.",
@@ -3662,7 +3664,7 @@ export const BlogListingData = [
 
   },
   {
-    title: "How Telemetry Processing is Changing the Defense Industry",
+    title: "HOW TELEMETRY PROCESSING IS CHANGING THE DEFENSE INDUSTRY",
     date: "2025-08-06",
     tit: "Telemetry Processing's Impact on the Defense Industry",
     desc: "Explore how telemetry processing revolutionizes the defense industry, enhances data analysis, and improves mission outcomes",
@@ -3714,7 +3716,7 @@ export const BlogListingData = [
     ),
   },
   {
-    title: "JADC2: Accelerating Decision Dominance in the All-Domain Battlespace",
+    title: "JADC2: ACCELERATING DECISION DOMINANCE IN THE ALL-DOMAIN BATTLESPACE",
     date: "2025-08-06",
     tit: "JADC2 Explained: Transforming Joint All-Domain Operations for Modern Warfare",
     desc: "Learn how JADC2 is revolutionizing U.S. military operations by integrating sensors, systems, and services across all domains to enable faster, smarter, and more unified command and control in modern warfar",
@@ -3780,7 +3782,7 @@ export const BlogListingData = [
     ),
   },
   {
-    title: "Leveraging TMoIP for Efficient Telemetry Data",
+    title: "LEVERAGING TMOIP FOR EFFICIENT TELEMETRY DATA",
     date: "2025-08-06",
     tit: "Master TMoIP Telemetry: Harnessing Data Insights for Smarter Operations.",
     desc: "TMoIP is the future of efficient telemetry data communication. See how it can benefit you. Get all the details here",
@@ -3837,9 +3839,8 @@ export const BlogListingData = [
       },
     ],
   },
-
   {
-    title: "OMEGA NExT Suite of Software :  The Unmatched Processing Engine for Legacy and Future Telemetry Systems",
+    title: "OMEGA NExT SUITE OF SOFTWARE :  THE UNMATCHED PROCESSING ENGINE FOR LEGACY AND FUTURE TELEMETRY SYSTEMS",
     date: "2025-08-06",
     tit: "OMEGA NExT: Telemetry Data Processing Redefined",
     desc: "Explore OMEGA NExT processing software, the breakthrough in ground station telemetry systems, offering unparalleled precision and reliability for diverse applications.",
@@ -3902,9 +3903,8 @@ export const BlogListingData = [
       },
     ],
   },
-
   {
-    title: "Pushing the Edge: Hypersonic Testing Through Simulated and End-to-End Flight in a Modern Telemetry Environment",
+    title: "PUSHING THE EDGE: HYPERSONIC TESTING THROUGH SIMULATED AND END-TO-END FLIGHT IN A MODERN TELEMETRY ENVIRONMENT",
     date: "2025-08-06",
     tit: "Hypersonic Missile Testing: Simulated & End-to-End Flight in Telemetry Environments",
     desc: "Explore how advanced telemetry environments support hypersonic missile testing through high-fidelity simulations and end-to-end flight tests.",
@@ -3965,7 +3965,7 @@ export const BlogListingData = [
     ),
   },
   {
-    title: "Remote Radio Programming: Revolutionizing Tactical Communication",
+    title: "REMOTE RADIO PROGRAMMING: REVOLUTIONIZING TACTICAL COMMUNICATION",
     date: "2025-08-06",
     tit: "Enhancing Emergency Response: Network Radio Gateway (NRG) Insights",
     desc: "Discover how Network Radio Gateway revolutionizes emergency systems. Explore its impact on response time and coordination efficiency.",
@@ -4014,9 +4014,8 @@ export const BlogListingData = [
       </>
     ),
   },
-
   {
-    title: "SkyRange: Advancing Hypersonic Testing in the Telemetry Test Environment",
+    title: "SKYRANGE: ADVANCING HYPERSONIC TESTING IN THE TELEMETRY TEST ENVIRONMENT",
     date: "2025-08-06",
     tit: "SkyRange and the Future of Hypersonic Testing - Telemetry Solutions",
     desc: "Discover how SkyRange is revolutionizing hypersonic testing with advanced telemetry solutions using unmanned aircraft and how it enables real-time data capture and more.",
@@ -4088,7 +4087,7 @@ export const BlogListingData = [
     ),
   },
   {
-    title: "Tactical Data Link (TDL): The Backbone of Modern Military Tactical Communications",
+    title: "TACTICAL DATA LINK (TDL): THE BACKBONE OF MODERN MILITARY TACTICAL COMMUNICATIONS",
     date: "2025-08-06",
     tit: "Tactical Data Link (TDL): Enhancing Military Tactical Communications",
     desc: "Learn how Tactical Data Link (TDL) technology improves real-time data sharing, situational awareness, and interoperability in modern military tactical communications.",
@@ -4209,7 +4208,7 @@ export const BlogListingData = [
 
   },
   {
-    title: "Tactical Radio Bridging Solutions for Interoperable Communication Systems",
+    title: "TACTICAL RADIO BRIDGING SOLUTIONS FOR INTEROPERABLE COMMUNICATION SYSTEMS",
     date: "2025-08-06",
     tit: "Tactical Radio Bridging Solutions for Interoperable Communication Systems",
     desc: "Explore the latest in tactical radio bridging for seamless communication. Learn more with Parraid's comprehensive overview and insights.",
@@ -4255,9 +4254,8 @@ export const BlogListingData = [
       </>
     ),
   },
-
   {
-    title: "Tactical Radio Networks: The Backbone of Secure Military Communication",
+    title: "TACTICAL RADIO NETWORKS: THE BACKBONE OF SECURE MILITARY COMMUNICATION",
     date: "2025-08-06",
     tit: "Tactical Radio Networks: Secure Military Communication & Interoperability",
     desc: "Discover how tactical radio networks enable secure, real-time communication in military operations. Learn about key features, applications, and emerging trends.",
@@ -4334,7 +4332,7 @@ export const BlogListingData = [
     ),
   },
   {
-    title: "Telemetry Data Communications: Exploring Telemetry Decom",
+    title: "TELEMETRY DATA COMMUNICATIONS: EXPLORING TELEMETRY DECOM",
     date: "2025-08-06",
     tit: "Unlocking the Potential of Telemetry Decom",
     desc: "Master telemetry analysis with the power of decommutation. Learn how to break down complex data for better understanding.",
@@ -4408,7 +4406,7 @@ export const BlogListingData = [
     ],
   },
   {
-    title: "The Future of Communication: Tactical Radio Network in Defense",
+    title: "THE FUTURE OF COMMUNICATION: TACTICAL RADIO NETWORK IN DEFENSE",
     date: "2025-08-06",
     tit: "Tactical Radio Bridging Solutions for Interoperable Communication Systems",
     desc: "Explore the latest in tactical radio bridging for seamless communication. Learn more with Parraid's comprehensive overview and insights.",
@@ -4458,7 +4456,7 @@ export const BlogListingData = [
     ),
   },
   {
-    title: "TmNS: The Future of Telemetry for Flight Test Operations",
+    title: "TmNS: THE FUTURE OF TELEMETRY FOR FLIGHT TEST OPERATIONS",
     date: "2025-08-06",
     tit: "How TmNS is Transforming Telemetry in Flight Testing",
     desc: "Discover how the Telemetry Network System (TmNS) revolutionizes flight test telemetry by enabling high-speed, secure, and flexible data acquisition and transmission.",
@@ -4545,7 +4543,7 @@ export const BlogListingData = [
     ),
   },
   {
-    title: "Enhancing Missile Testing with Telemetry-Enabled USVs and UAVs",
+    title: "ENHANCING MISSILE TESTING WITH TELEMETRY-ENABLED USVS AND UAVS",
     date: "2025-08-06",
     tit: "Missile Testing with Telemetry USVs & UAVs | Advanced Unmanned Test Solutions",
     desc: "Discover how telemetry-equipped UAVs and USVs are transforming missile testing. Learn how these unmanned platforms provide real-time data.",
@@ -4664,7 +4662,7 @@ export const BlogListingData = [
     ),
   },
   {
-    title: "Unlocking the Power of RoIP: The Future of Radio Communications",
+    title: "UNLOCKING THE POWER OF RoIP: THE FUTURE OF RADIO COMMUNICATIONS",
     date: "2025-08-06",
     tit: "What is RoIP? Benefits of Radio over IP in Modern Communications",
     desc: "Discover how RoIP (Radio over IP) transforms radio communications with global connectivity, interoperability, and cost-effective solutions. Learn the benefits, use cases, and future trends of RoIP technology.",
@@ -4779,9 +4777,8 @@ export const BlogListingData = [
       </>
     ),
   },
-
   {
-    title: "What Are Multi-Domain Operations (MDO)? Strategy, Challenges & Future",
+    title: "WHAT ARE MULTI-DOMAIN OPERATIONS (MDO)? STRATEGY, CHALLENGES & FUTURE",
     date: "2025-08-06",
     tit: "What Are Multi-Domain Operations? Strategy, Challenges & Future",
     desc: "Learn what Multi-Domain Operations (MDO) are, why they matter in modern warfare, and how military forces are adapting to fight across land, air, sea, space, and cyberspace.",
@@ -4871,10 +4868,8 @@ export const BlogListingData = [
     ),
 
   },
-
-
   {
-    title: "Why Iridium PTT is the Ultimate Solution for Remote Communication Needs",
+    title: "WHY IRIDIUM PTT IS THE ULTIMATE SOLUTION FOR REMOTE COMMUNICATION NEEDS",
     date: "2025-08-06",
     tit: "Iridium PTT: Remote Communication Solution Unveiled",
     desc: " Discover why Iridium PTT is the ultimate solution for remote communication needs. Explore insights with Parraid's comprehensive overview.",

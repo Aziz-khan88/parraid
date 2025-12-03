@@ -118,7 +118,7 @@ export const productsData = {
       extra: "bigImage",
       id: 4,
       slug: "our-featured-network-radio-gateway",
-      name: "PACSTAR® 466 Featuring Parraid’s NRG®",
+      name: "PACSTAR® 466 FEATURING PARRAID’S NRG®",
       img: C1Pro4_Main.src,
       txt: "PacStar® rugged server module integrates Parraid NRG functionality, combining best-in-class tactical server hardware with Parraid’s advanced interoperability technology.",
     },

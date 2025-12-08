@@ -36,7 +36,7 @@ const FooterLinks = () => {
                             <ul>
                                 <li><Link href="/">Home</Link></li>
                                 <li><Link href="/about-us">About Us</Link></li>
-                                <li><Link href="/careers">Carrers</Link></li>
+                                <li><a href="https://parraidllc.applicantstack.com/x/openings">Open Position</a></li>
                                 <li><Link href="/blogs">Blogs</Link></li>
                                 <li><Link href="/press-release">Press</Link></li>
                             </ul>

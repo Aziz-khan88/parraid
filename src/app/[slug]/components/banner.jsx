@@ -7,7 +7,7 @@ const Banner = ({ data }) => {
             <Container className="h-100">
                 <Row className="h-100">
                     <Col className="my-auto">
-                        <span>{data.title}</span>
+                        <h1>{data.title}</h1>
                         <div className={styles.paraSec}>
                             <p>{data.tittxt}</p>
                         </div>

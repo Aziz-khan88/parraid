@@ -237,6 +237,12 @@ const Events = ({ page, home }) => {
                     <li>{event.date}</li>
                   </ul>
                   <h2>{event.title}</h2>
+                  {event.subtitle !== "" ? (
+                    <h4>{event.subtitle}</h4>
+                  )
+                    :
+                    ""
+                  }
                   <div className={styles.locaiotn}>
                     Location: {event.add}
                   </div>

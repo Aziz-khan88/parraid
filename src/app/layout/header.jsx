@@ -99,9 +99,8 @@ const Header = () => {
               {isActive ? <ClosedIcon /> : <NavIcon />}
             </div>
             <ul
-              className={`${styles.headerNavigation} ${
-                isActive ? styles.active : ""
-              }`}
+              className={`${styles.headerNavigation} ${isActive ? styles.active : ""
+                }`}
             >
               <li>
                 <Link href="/about-us" onClick={handleClick}>
@@ -124,13 +123,18 @@ const Header = () => {
                 </Link>
               </li>
               <li>
+                <Link href="/resources" onClick={handleClick}>
+                  Resources
+                </Link>
+              </li>
+              <li>
                 <Link href="/blogs" onClick={handleClick}>
                   Blogs
                 </Link>
               </li>
               <li>
                 <Link href="/contact-us" onClick={handleClick}>
-                  Contact Us{" "}
+                  Contact
                 </Link>
               </li>
               <li>

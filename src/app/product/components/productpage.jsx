@@ -1,5 +1,4 @@
 "use client";
-
 import { ProdDetails } from "@/src/app/data/products/data";
 import ProDetails from "@/src/app/product/components/prodetails";
 import ConnectivityForm from "@/src/app/product/components/connectivityform";
@@ -8,9 +7,6 @@ import Blogs from "@/src/app/home/blogs";
 import Faqs from "@/src/app/home/faqs";
 
 export default function ProductPage({ slug }) {
-    // slug is now a plain string
-    console.log("URL slug:", slug);
-
     const allProducts = Object.values(ProdDetails).flat();
     console.log("All product slugs:", allProducts.map((p) => p.slug));
 

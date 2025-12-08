@@ -5,7 +5,7 @@ import Faqs from "@/src/app/home/faqs";
 import { PressListing } from "@/src/app/data/press-release/data";
 
 export async function generateMetadata({ params }) {
-  const { slug } = params;
+  const { slug } = await params;
   const allPress = Object.values(PressListing).flat();
   const pressItem = allPress.find((post) => post.slug === slug);
 
@@ -37,8 +37,8 @@ export async function generateMetadata({ params }) {
 }
 
 
-const Page = ({ params }) => {
-  const { slug } = params;
+export default async function Page({ params }) {
+  const { slug } = await params;
   const allPress = Object.values(PressListing).flat();
   const pressItem = allPress.find((post) => post.slug === slug);
 
@@ -53,4 +53,3 @@ const Page = ({ params }) => {
   );
 };
 
-export default Page;

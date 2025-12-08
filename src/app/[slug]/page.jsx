@@ -8,7 +8,7 @@ import BannerPage from '@/src/app/[slug]/components/bannerpage';
 import PageContent from '@/src/app/[slug]/components/pagecomtent';
 
 export async function generateMetadata({ params }) {
-    const { slug } = params;
+    const { slug } = await params;
 
     const category = CategoryData.find(cat => cat.slug === slug);
     const page = PageData.find(pg => pg.slug === slug);
@@ -51,9 +51,9 @@ export async function generateMetadata({ params }) {
         description: "Requested page not found."
     };
 }
+export default async function Page({ params }) {
 
-const Page = ({ params }) => {
-    const { slug } = params;
+    const { slug } = await params;
 
     const category = CategoryData.find(cat => cat.slug === slug);
     const page = PageData.find(pg => pg.slug === slug);
@@ -88,6 +88,5 @@ const Page = ({ params }) => {
     // ❌ Neither Category nor Page Found
     // -------------------------------------------
     return <p>Page Not Found!</p>;
-};
+}
 
-export default Page;

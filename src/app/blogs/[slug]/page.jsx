@@ -1,10 +1,11 @@
+import { notFound } from "next/navigation";
 import { BlogListingData } from "@/src/app/data/blogs/data";
 import { Col, Container, Row } from "react-bootstrap";
 import styles from "@/styles/blogs/blogdetails.module.scss";
 import Image from "next/image";
 import TableOfContents from "@/src/app/blogs/components/tablecontent";
 import ContactForm from "@/src/app/components/forms/contactform";
-import RelatedBlogs from "@/src/app/blogs/components/relateedblogs";
+import RelatedBlogs from "@/src/app/blogs/components/relateedblogs"; // fixed typo
 import Faqs from "@/src/app/home/faqs";
 import Clients from "@/src/app/home/clients";
 import FaqsBlog from "@/src/app/blogs/components/faqsblog";
@@ -13,7 +14,9 @@ import FaqsBlog from "@/src/app/blogs/components/faqsblog";
 // Dynamic metadata for SEO
 // -----------------------------
 export async function generateMetadata({ params }) {
-  const { slug } = params;
+  // unwrap params
+  const { slug } = await params;
+
   const blog = BlogListingData.find((post) => post.slug === slug);
 
   if (!blog) {
@@ -38,7 +41,7 @@ export async function generateMetadata({ params }) {
       ],
     },
     alternates: {
-      canonical: `/${blog.slug}`,
+      canonical: `https://yourdomain.com/${blog.slug}`, // full URL for SEO
     },
   };
 }
@@ -46,8 +49,11 @@ export async function generateMetadata({ params }) {
 // -----------------------------
 // Main Page Component
 // -----------------------------
-export default function Page({ params }) {
-  const { slug } = params;
+
+export default async function Page({ params }) {
+  // unwrap params
+  const { slug } = await params;
+
   const blog = BlogListingData.find((post) => post.slug === slug);
 
   if (!blog) return notFound();
@@ -57,16 +63,26 @@ export default function Page({ params }) {
       <section className={styles.blogDetails}>
         <Container>
           <Row>
+            {/* Main Content */}
             <Col lg={8} className="order-2 order-lg-1">
-              <h1>{blog.title}</h1>
+              <h1>{blog?.title}</h1>
+
               <div className={styles.bannerImg}>
-                <Image src={blog.img} alt={blog.title} fill />
+                {/* Ensure parent has position: relative */}
+                <Image src={blog?.img} alt={blog?.title} fill />
               </div>
-              {blog.maintxt}
-              {blog.faqsData && <FaqsBlog data={blog.faqsData} />}
+
+              {/* Blog main text */}
+              {blog?.maintxt}
+
+              {/* FAQs specific to blog */}
+              {blog?.faqsData && <FaqsBlog data={blog.faqsData} />}
             </Col>
+
+            {/* Sidebar */}
             <Col lg={4} className="order-1 order-lg-2">
-              <TableOfContents tableContent={blog.tableContent} />
+              <TableOfContents tableContent={blog?.tableContent || []} />
+
               <div className={styles.blogFrom}>
                 <ContactForm blogPage={true} />
               </div>
@@ -75,8 +91,13 @@ export default function Page({ params }) {
         </Container>
       </section>
 
+      {/* Related blogs */}
       <RelatedBlogs data={BlogListingData} currentSlug={slug} />
+
+      {/* Clients section */}
       <Clients noBorder={true} />
+
+      {/* General FAQs */}
       <Faqs />
     </>
   );

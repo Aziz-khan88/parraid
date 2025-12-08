@@ -2,7 +2,7 @@ import { ProdDetails } from "@/src/app/data/products/data";
 import ProductPage from "@/src/app/product/components/productpage";
 
 export async function generateMetadata({ params }) {
-    const slug = params.slug;
+    const { slug } = await params;
 
     const allProducts = Object.values(ProdDetails).flat();
     const product = allProducts.find((p) => p.slug === slug);
@@ -33,7 +33,7 @@ export async function generateMetadata({ params }) {
     };
 }
 
-export default function Page({ params }) {
-    // Pass plain object to client component
-    return <ProductPage slug={params.slug} />;
+export default async function Page({ params }) {
+    const { slug } = await params;
+    return <ProductPage slug={slug} />;
 }

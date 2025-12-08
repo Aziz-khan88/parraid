@@ -1,5 +1,6 @@
 .eventSection {
   padding: 100px 0px 400px;
+
   .eventWapper {
     border: 1px solid #272829;
     border-radius: 15px;
@@ -21,14 +22,18 @@
           color: #272829;
           border-right: 2px solid #0061fe;
         }
+
         h2 {
           color: #000;
         }
+
         .locaiotn {
           color: #272829;
+
           a {
             color: #0061fe;
             transition: color 0.3s ease;
+
             &:hover {
               color: #272829;
             }
@@ -37,6 +42,7 @@
       }
 
       .eventbtn {
+
         button,
         a {
           background: #0061fe;
@@ -57,8 +63,8 @@
       transition: transform 0.4s ease;
 
       img {
-        width: auto;
-        height: 140px;
+        width: 220px;
+        height: auto;
         transition: transform 0.4s ease;
       }
     }
@@ -69,6 +75,7 @@
 
     .eventContent {
       flex: 0 0 calc(100% - 270px);
+
       h2 {
         color: #fff;
       }
@@ -123,6 +130,7 @@
       }
     }
   }
+
   .viewMore {
     display: flex;
     justify-content: center;
@@ -133,6 +141,7 @@
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   .eventSection {
     padding: 100px 0px 400px;
+
     .eventWapper {
       padding: 10px;
       margin-bottom: 20px;
@@ -141,13 +150,12 @@
         flex: 0 0 240px;
         height: 260px;
 
-        img {
-          height: 140px;
-        }
+
       }
 
       .eventContent {
         flex: 0 0 calc(100% - 260px);
+
         ul {
           margin-bottom: 20px;
 
@@ -171,6 +179,7 @@
         }
       }
     }
+
     .viewMore {
       display: flex;
       justify-content: center;
@@ -178,9 +187,11 @@
     }
   }
 }
+
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
   .eventSection {
     padding: 80px 0px 350px;
+
     .eventWapper {
       padding: 10px;
       margin-bottom: 20px;
@@ -190,12 +201,13 @@
         height: 240px;
 
         img {
-          height: 120px;
+          width: 200px;
         }
       }
 
       .eventContent {
         flex: 0 0 calc(100% - 250px);
+
         ul {
           margin-bottom: 20px;
 
@@ -219,6 +231,7 @@
         }
       }
     }
+
     .viewMore {
       display: flex;
       justify-content: center;
@@ -226,9 +239,11 @@
     }
   }
 }
+
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
   .eventSection {
     padding: 80px 0px 350px;
+
     .eventWapper {
       padding: 10px;
       margin-bottom: 20px;
@@ -238,12 +253,13 @@
         height: 220px;
 
         img {
-          height: 110px;
+          width: 190px;
         }
       }
 
       .eventContent {
         flex: 0 0 calc(100% - 240px);
+
         ul {
           margin-bottom: 20px;
 
@@ -267,6 +283,7 @@
         }
       }
     }
+
     .viewMore {
       display: flex;
       justify-content: center;
@@ -274,9 +291,11 @@
     }
   }
 }
+
 @media only screen and (min-width: 900px) and (max-width: 1099px) {
   .eventSection {
     padding: 80px 0px 350px;
+
     .eventWapper {
       padding: 10px;
       margin-bottom: 20px;
@@ -286,12 +305,13 @@
         height: 220px;
 
         img {
-          height: 110px;
+          width: 180px;
         }
       }
 
       .eventContent {
         flex: 0 0 calc(100% - 240px);
+
         ul {
           margin-bottom: 20px;
 
@@ -315,6 +335,7 @@
         }
       }
     }
+
     .viewMore {
       display: flex;
       justify-content: center;
@@ -322,9 +343,11 @@
     }
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 899px) {
   .eventSection {
     padding: 80px 0px 350px;
+
     .eventWapper {
       padding: 10px;
       margin-bottom: 15px;
@@ -334,12 +357,13 @@
         height: 220px;
 
         img {
-          height: 110px;
+          width: 180px;
         }
       }
 
       .eventContent {
         flex: 0 0 calc(100% - 240px);
+
         ul {
           margin-bottom: 10px;
 
@@ -364,6 +388,7 @@
         }
       }
     }
+
     .viewMore {
       display: flex;
       justify-content: center;
@@ -371,9 +396,11 @@
     }
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .eventSection {
     padding: 50px 0px 350px;
+
     .eventWapper {
       padding: 10px;
       margin-bottom: 15px;
@@ -384,12 +411,13 @@
         height: 200px;
 
         img {
-          height: 90px;
+          width: 160px;
         }
       }
 
       .eventContent {
         flex: 0 0 calc(100% - 200px);
+
         ul {
           margin-bottom: 15px;
 
@@ -412,6 +440,7 @@
         }
       }
     }
+
     .viewMore {
       display: flex;
       justify-content: center;
@@ -419,9 +448,11 @@
     }
   }
 }
+
 @media only screen and (min-width: 0px) and (max-width: 575px) {
   .eventSection {
     padding: 50px 0px 350px;
+
     .eventWapper {
       padding: 20px;
       margin-bottom: 15px;
@@ -433,12 +464,13 @@
         margin-bottom: 20px;
 
         img {
-          height: 90px;
+          width: 160px;
         }
       }
 
       .eventContent {
         flex: 0 0 100%;
+
         ul {
           margin-bottom: 15px;
 
@@ -461,6 +493,7 @@
         }
       }
     }
+
     .viewMore {
       display: flex;
       justify-content: center;

@@ -17,7 +17,7 @@ const Page = () => {
       <ProductTab />
       {/* <Clients /> */}
       <Industries />
-      <Events />
+      <Events home={true} />
       <Vision />
       <Blogs />
       <Faqs />

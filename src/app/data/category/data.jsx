@@ -6,7 +6,7 @@ import img03 from "media/blogs/img3.webp";
 
 export const CategoryData = [
     {
-        cat: "cat1",
+        cat: "cat2",
         slug: "telemetry-and-data-systems",
         tit: "Telemetry and Data Systems - Parraid",
         desc: "World-class telemetry receiving, processing, recording, and archiving solutions for aerospace applications. Trusted by government and industry on 6 continents for 25+ years.",
@@ -53,7 +53,7 @@ export const CategoryData = [
         </>)
     },
     {
-        cat: "cat2",
+        cat: "cat3",
         slug: "rugged-enhancements",
         tit: "Rugged Enhancements (incl. VIDL) - Parraid",
         desc: "​Parraid builds a line of cost-effective, value-added rugged enhancement products for critical radio and computer communications on the move.",
@@ -100,7 +100,7 @@ export const CategoryData = [
         </>)
     },
     {
-        cat: "cat3",
+        cat: "cat1",
         slug: "deployable-communications-solutions",
         tit: "Tactical Radio Gateways & Deployable Communications",
         desc: "Advanced deployable communications solutions for military operations. Tactical radio gateways & field-ready networks for defense & aerospace missions.",

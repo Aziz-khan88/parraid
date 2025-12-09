@@ -85,8 +85,8 @@ import C3Pro10_Main from "media/products/cat3/pro10/S-5000e-Main.webp";
 
 export const tabList = [
   { id: "cat1", label: "Deployable Communications Solutions", links: "deployable-communications-solutions" },
-  { id: "cat3", label: "Telemetry and Data Systems", links: "telemetry-and-data-systems" },
-  { id: "cat2", label: "Rugged Enhancements", links: "rugged-enhancements" },
+  { id: "cat2", label: "Telemetry and Data Systems", links: "telemetry-and-data-systems" },
+  { id: "cat3", label: "Rugged Enhancements", links: "rugged-enhancements" },
 ];
 export const productsData = {
   cat1: [
@@ -132,32 +132,6 @@ export const productsData = {
     },
   ],
   cat2: [
-    {
-      extra: "smallIamge",
-      id: 1,
-      slug: "rugged-usb-hub-2-0",
-      name: "PARRAID RUGGED USB HUB (RUH) 2.0",
-      img: C2Pro1_Main.src,
-      txt: "The Parraid Rugged USB Hub 2.0 meets full environmental requirements for mobile/deployed systems. MIL-STD-810F & 461E tested for shock, vibration, temperature, EMI/EMC compliance.",
-    },
-    {
-      extra: "smallIamge",
-      id: 2,
-      slug: "rugged-usb-hub-3-0",
-      name: "PARRAID RUGGED USB HUB (RUH) 3.0",
-      img: C2Pro2_Main.src,
-      txt: "The Parraid Rugged USB Hub 3.0 is the toughest 4-port hub, designed for extreme environments. MIL-STD-810 & 461 certified for temperature, vibration, pyroshock, and EMI/EMC compliance.",
-    },
-    {
-      extra: "bigImage",
-      id: 3,
-      slug: "rugged-usb-repeater",
-      name: "PARRAID RUGGED USB REPEATER (RUR)",
-      img: C2Pro3_Main.src,
-      txt: "Parraid Rugged USB Repeater™ extends USB connections beyond 5m limit. Bus-powered, USB 2.0 high-speed compliant, designed for battlefield conditions. Daisy-chainable for extended distances.",
-    },
-  ],
-  cat3: [
     {
       extra: "bigImage",
       id: 1,
@@ -239,6 +213,32 @@ export const productsData = {
       name: "S-5000e DATA PROCESSOR",
       img: C3Pro10_Main.src,
       txt: "Series-5000: Real-time telemetry platform with 2-16 PCM inputs, optional Bit Syncs/RF receivers, IRIG time-stamping, and hot mic audio. Available in portable and rack-mount 2U/4U configurations.",
+    },
+  ],
+  cat3: [
+    {
+      extra: "smallIamge",
+      id: 1,
+      slug: "rugged-usb-hub-2-0",
+      name: "PARRAID RUGGED USB HUB (RUH) 2.0",
+      img: C2Pro1_Main.src,
+      txt: "The Parraid Rugged USB Hub 2.0 meets full environmental requirements for mobile/deployed systems. MIL-STD-810F & 461E tested for shock, vibration, temperature, EMI/EMC compliance.",
+    },
+    {
+      extra: "smallIamge",
+      id: 2,
+      slug: "rugged-usb-hub-3-0",
+      name: "PARRAID RUGGED USB HUB (RUH) 3.0",
+      img: C2Pro2_Main.src,
+      txt: "The Parraid Rugged USB Hub 3.0 is the toughest 4-port hub, designed for extreme environments. MIL-STD-810 & 461 certified for temperature, vibration, pyroshock, and EMI/EMC compliance.",
+    },
+    {
+      extra: "bigImage",
+      id: 3,
+      slug: "rugged-usb-repeater",
+      name: "PARRAID RUGGED USB REPEATER (RUR)",
+      img: C2Pro3_Main.src,
+      txt: "Parraid Rugged USB Repeater™ extends USB connections beyond 5m limit. Bus-powered, USB 2.0 high-speed compliant, designed for battlefield conditions. Daisy-chainable for extended distances.",
     },
   ],
 };
@@ -972,7 +972,7 @@ export const ProdDetails = [
     ),
   },
   {
-    cat: "cat2",
+    cat: "cat3",
     slug: "rugged-usb-hub-2-0",
     name: "PARRAID RUGGED USB HUB (RUH) 2.0",
     tit: "Rugged USB 2.0 Hub - Parraid",
@@ -1129,7 +1129,7 @@ export const ProdDetails = [
     ),
   },
   {
-    cat: "cat2",
+    cat: "cat3",
     slug: "rugged-usb-hub-3-0",
     name: "RUGGED USB HUB RUH 3.0",
     tit: "Rugged USB 3.0 Hub - Parraid",
@@ -1330,7 +1330,7 @@ export const ProdDetails = [
     ),
   },
   {
-    cat: "cat2",
+    cat: "cat3",
     slug: "rugged-usb-repeater",
     name: "RUGGED USB REPEATER",
     tit: "Rugged USB Repeater - Parraid",
@@ -1514,7 +1514,7 @@ export const ProdDetails = [
     ),
   },
   {
-    cat: "cat3",
+    cat: "cat2",
     slug: "best-source-reproducer-bsr-100",
     name: "BEST SOURCE REPRODUCER BSR-100",
     tit: "Best Source Reproducer (BSR-100) - Parraid",
@@ -1595,7 +1595,7 @@ export const ProdDetails = [
     ),
   },
   {
-    cat: "cat3",
+    cat: "cat2",
     slug: "edge2-telemetry-reciver",
     name: "EDGE² TELEMETRY NETWORK APPLIANCE",
     tit: "Edge2 Telemetry Receiver/Decom - Parraid",
@@ -1728,7 +1728,7 @@ export const ProdDetails = [
     ),
   },
   {
-    cat: "cat3",
+    cat: "cat2",
     slug: "imux-re-con",
     name: "IMUX RE/CON",
     tit: "IMUX RE/CON - Parraid",
@@ -1900,7 +1900,7 @@ export const ProdDetails = [
     ),
   },
   {
-    cat: "cat3",
+    cat: "cat2",
     slug: "g3-tmoip-data-processing",
     name: "G3 TMoIP DATA PROCESSING",
     tit: "G3 TMoIP Data Processing - Parraid",
@@ -2042,7 +2042,7 @@ export const ProdDetails = [
     ),
   },
   {
-    cat: "cat3",
+    cat: "cat2",
     slug: "imux-g2e-and-g2eh",
     name: "IMUX G2e AND IMUX G2eH",
     tit: "IMUX G2e AND IMUX G2eH - Parraid",
@@ -2149,7 +2149,7 @@ export const ProdDetails = [
     ),
   },
   {
-    cat: "cat3",
+    cat: "cat2",
     slug: "omega-next-real-time-data-processing-software",
     name: "OMEGA NExT REAL TIME DATA PROCESSING SOFTWARE",
     tit: "Omega Data Environment (ODE) - Parraid",
@@ -2333,7 +2333,7 @@ export const ProdDetails = [
     ),
   },
   {
-    cat: "cat3",
+    cat: "cat2",
     slug: "omega-data-environment-ode",
     name: "OMEGA DATA ENVIRONMENT (ODE)",
     tit: "OMEGA NExT Real Time Data Processing Software - Parraid",
@@ -2632,7 +2632,7 @@ export const ProdDetails = [
     ),
   },
   {
-    cat: "cat3",
+    cat: "cat2",
     slug: "series-5000-data-processors",
     name: "SERIES-5000 DATA PROCESSORS",
     tit: "Series-5000 Data Processors - Parraid",
@@ -2794,7 +2794,7 @@ export const ProdDetails = [
     ),
   },
   {
-    cat: "cat3",
+    cat: "cat2",
     slug: "rx2-receiver",
     name: "RX2 RECEIVER",
     tit: "Rx2 Rack Mount Multi-Channel Receiver and Combiner",

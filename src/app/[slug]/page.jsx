@@ -78,7 +78,7 @@ export default async function Page({ params }) {
     if (page) {
         return (
             <>
-                <BannerPage data={page} />
+                <BannerPage data={page} page={true} />
                 <PageContent data={page} />
             </>
         );

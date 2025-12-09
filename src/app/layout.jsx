@@ -20,7 +20,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  // metadataBase: new URL(""),
+  metadataBase: new URL("https://parraid.vercel.app/"),
   title: "Parraid | Expert Telemetry Data Systems Design, Engineering, Sales",
   description: "A small products-oriented business, Parraid is wholly devoted to design, engineering, sales, and support of telemetry data systems and tactically oriented mission-critical communications solutions.",
   //===== OG Tags =====

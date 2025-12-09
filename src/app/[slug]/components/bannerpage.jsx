@@ -1,9 +1,9 @@
 import styles from "@/styles/products/banner.module.scss"
 import { Col, Container, Row } from "react-bootstrap";
 
-const BannerPage = ({ data }) => {
+const BannerPage = ({ data, page }) => {
     return (
-        <section className={styles.bannerSection}>
+        <section className={`${styles.bannerSection} ${page ? styles.pageBanner : ''}`}>
             <Container className="h-100">
                 <Row className="h-100">
                     <Col className="my-auto" md={12} lg={9}>

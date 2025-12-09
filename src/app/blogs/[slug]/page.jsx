@@ -41,7 +41,7 @@ export async function generateMetadata({ params }) {
       ],
     },
     alternates: {
-      canonical: `https://yourdomain.com/${blog.slug}`, // full URL for SEO
+      canonical: `blogs/${blog.slug}`, // full URL for SEO
     },
   };
 }

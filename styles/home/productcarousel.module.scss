@@ -13,7 +13,7 @@
         padding: 0px 1px;
 
         .productCard {
-          background: #272829;
+          background: #fff;
           padding: 30px;
           height: 620px;
           position: relative;
@@ -24,7 +24,7 @@
           h5 {
             font-size: 40px;
             line-height: 40px;
-            color: #ffffff;
+            color: #333;
             margin-bottom: 30px;
             transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
             text-transform: none;
@@ -48,6 +48,9 @@
             color: #8c8c8c;
             margin-bottom: 30px;
             transition: color 0.5s ease, transform 0.5s ease;
+            opacity: 0;
+            visibility: hidden;
+            display: none;
           }
 
           .smallIamge {
@@ -96,6 +99,9 @@
             p {
               color: #000;
               transform: translateY(5px);
+              opacity: 1;
+              visibility: visible;
+              display: block;
             }
 
             .smallIamge {

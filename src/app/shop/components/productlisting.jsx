@@ -40,7 +40,7 @@ const ProductListing = ({ id }) => {
                             </Col>
                             <Col md={3} className="my-auto">
                                 <div className={styles.tabLinks}>
-                                    <Link href={tab.links} >Read More</Link>
+                                    <Link href={tab.links} >Read More </Link>
                                 </div>
                             </Col>
                         </Row>

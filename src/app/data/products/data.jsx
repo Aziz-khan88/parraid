@@ -83,6 +83,80 @@ import C3Pro9_Main from "media/products/cat3/pro9/Rx2-Main.webp";
 import C3Pro10_1 from "media/products/cat3/pro10/S-5000e.webp";
 import C3Pro10_Main from "media/products/cat3/pro10/S-5000e-Main.webp";
 
+
+// NON Navigational  -- Product 01
+import NNPro1_1 from "media/products/non-navigational/pro1/pro01.webp";
+import NNPro1_2 from "media/products/non-navigational/pro1/pro02.webp";
+import NNPro1_3 from "media/products/non-navigational/pro1/pro03.webp";
+import NNPro1_4 from "media/products/non-navigational/pro1/pro04.webp";
+import NNPro1_5 from "media/products/non-navigational/pro1/pro05.webp";
+
+
+
+// NON Navigational  -- Product 02
+import NNPro2_1 from "media/products/non-navigational/pro2/pro01.webp";
+import NNPro2_2 from "media/products/non-navigational/pro2/pro02.webp";
+import NNPro2_3 from "media/products/non-navigational/pro2/pro03.webp";
+import NNPro2_4 from "media/products/non-navigational/pro2/pro04.webp";
+import NNPro2_5 from "media/products/non-navigational/pro2/pro05.webp";
+import NNPro2_6 from "media/products/non-navigational/pro2/pro06.webp";
+import NNPro2_7 from "media/products/non-navigational/pro2/pro07.webp";
+
+
+// NON Navigational  -- Product 03
+import NNPro3_1 from "media/products/non-navigational/pro3/pro1.webp";
+import NNPro3_2 from "media/products/non-navigational/pro3/pro2.webp";
+import NNPro3_3 from "media/products/non-navigational/pro3/pro3.webp";
+import NNPro3_4 from "media/products/non-navigational/pro3/pro4.webp";
+import NNPro3_5 from "media/products/non-navigational/pro3/pro5.webp";
+import NNPro3_6 from "media/products/non-navigational/pro3/pro6.webp";
+import NNPro3_7 from "media/products/non-navigational/pro3/pro7.webp";
+import NNPro3_8 from "media/products/non-navigational/pro3/pro8.webp";
+
+
+// NON Navigational  -- Product 04
+import NNPro4_1 from "media/products/non-navigational/pro4/pro01.webp";
+
+// NON Navigational  -- Product 05
+import NNPro5_1 from "media/products/non-navigational/pro5/pro01.webp";
+
+// NON Navigational  -- Product 06
+import NNPro6_1 from "media/products/non-navigational/pro6/pro01.webp";
+import NNPro6_2 from "media/products/non-navigational/pro6/pro02.webp";
+import NNPro6_3 from "media/products/non-navigational/pro6/pro03.webp";
+import NNPro6_4 from "media/products/non-navigational/pro6/pro04.webp";
+import NNPro6_5 from "media/products/non-navigational/pro6/pro05.webp";
+
+
+
+// NON Navigational  -- Product 07
+import NNPro7_1 from "media/products/non-navigational/pro7/pro01.webp";
+import NNPro7_2 from "media/products/non-navigational/pro7/pro02.webp";
+import NNPro7_3 from "media/products/non-navigational/pro7/pro03.webp";
+import NNPro7_4 from "media/products/non-navigational/pro7/pro04.webp";
+
+// NON Navigational  -- Product 08
+import NNPro8_1 from "media/products/non-navigational/pro8/pro01.webp";
+import NNPro8_2 from "media/products/non-navigational/pro8/pro02.webp";
+import NNPro8_3 from "media/products/non-navigational/pro8/pro03.webp";
+import NNPro8_4 from "media/products/non-navigational/pro8/pro04.webp";
+import NNPro8_5 from "media/products/non-navigational/pro8/pro05.webp";
+import NNPro8_6 from "media/products/non-navigational/pro8/pro06.webp";
+
+// NON Navigational  -- Product 09
+import NNPro9_1 from "media/products/non-navigational/pro9/pro01.webp";
+import NNPro9_2 from "media/products/non-navigational/pro9/pro02.webp";
+import NNPro9_3 from "media/products/non-navigational/pro9/pro03.webp";
+import NNPro9_4 from "media/products/non-navigational/pro9/pro04.webp";
+import NNPro9_5 from "media/products/non-navigational/pro9/pro05.webp";
+
+// NON Navigational  -- Product 10
+import NNPro10_1 from "media/products/non-navigational/pro10/pro01.webp";
+import NNPro10_2 from "media/products/non-navigational/pro10/pro02.webp";
+import NNPro10_3 from "media/products/non-navigational/pro10/pro03.webp";
+import NNPro10_4 from "media/products/non-navigational/pro10/pro04.webp";
+
+
 export const tabList = [
   { id: "cat1", label: "Deployable Communications Solutions", links: "deployable-communications-solutions" },
   { id: "cat2", label: "Telemetry and Data Systems", links: "telemetry-and-data-systems" },
@@ -2924,5 +2998,663 @@ export const ProdDetails = [
         </ul>
       </>
     ),
+  },
+  {
+    cat: "non-navigational",
+    slug: "imux-g2-and-g2e-recorder-reproducer",
+    name: "IMUX G2 AND G2E RECORDER/REPRODUCER",
+    tit: "IMUX G2 and G2e Recorder/Reproducer - Parraid",
+    desc: "The IMUX G2 and G2e is an industry leading IRIG 106 Chapter 10 compliant data recorder and reproducer.  The system can be configured as a rack mount or portable unit.  Dependable   20+ years of development pedigree  Thousands of systems deployed in challenging and mission-critical applications  Ruggedized units are suitable for mobile platforms, transport-case portability, and airborne use.",
+    images: [NNPro1_1, NNPro1_2, NNPro1_3, NNPro1_4, NNPro1_5],
+    txt: (
+      <>
+        <h5>Telemetry and Data Systems</h5>
+        <p>
+          The IMUX G2 and G2e is an industry leading IRIG 106 Chapter 10 compliant data recorder and reproducer.  The system can be configured as a rack mount or portable unit.
+        </p>
+        <h5>Dependable</h5>
+        <ul>
+          <li><ListIcon />20+ years of development pedigree</li>
+          <li><ListIcon />Thousands of systems deployed in challenging and mission-critical applications</li>
+          <li><ListIcon />Ruggedized units are suitable for mobile platforms, transport-case portability, and airborne use</li>
+        </ul>
+      </>
+    ),
+    tab1: (
+      <>
+        <h4>Overview</h4>
+        <h6>IMUX G2 and G2e – Data Recorder/Reproducer</h6>
+        <p>The Next Generation of High-Speed Chapter 10 Recording Systems</p>
+        <p>Portable or Rackmount, Industrial or Rugged</p>
+        <p>PCM, Video, 1553/16PP194, 429,Ethernet, RS-Serial</p>
+        <p>Removable Local / RAID Media, w / NAS and SAN Storage</p>
+      </>
+    ),
+    tab2: (
+      <>
+        <h4>FAST</h4>
+        <ul>
+          <li>
+            <ListIcon />
+            16 gigabit data bus
+          </li>
+          <li>
+            <ListIcon />
+            2 gigabit sec/throughput
+          </li>
+          <li><ListIcon />
+            High-speed Rotary and SSD media
+          </li>
+        </ul>
+        <h4>SCALABLE</h4>
+        <ul>
+          <li><ListIcon />Many-channel support for PCM, Video, Analog, 1553, ARINC, Ethernet, IF, Time, and others</li>
+          <li><ListIcon />Stand-alone recorder to fully networked systems with remote capabilities</li>
+          <li><ListIcon />Custom parameter data displays, alarm and status indicators</li>
+          <li><ListIcon />Best Data Engine (BDE) for highest quality data stream creation</li>
+          <li><ListIcon />Integrated receivers and/or bit synchronizers</li>
+          <li><ListIcon />Multi-core decom and parameter processing</li>
+          <li><ListIcon />Integrated Hot Mic audio output</li>
+          <li><ListIcon />Data/signal status quick reviews</li>
+          <li><ListIcon />Integrated GPS time suppoort</li>
+        </ul>
+        <h4>FLEXIBLE</h4>
+        <ul>
+          <li><ListIcon />Remote and local control</li>
+          <li><ListIcon />Dynamic channel allocation</li>
+          <li><ListIcon />“Strip and ship” data remote locations</li>
+          <li><ListIcon />Integrated data mining and data fusion</li>
+          <li><ListIcon />Save and recall individual channel setups</li>
+          <li><ListIcon />User-friendly PCM spreadsheet configuration</li>
+          <li><ListIcon />Integrated signal data quality status monitor</li>
+          <li><ListIcon />Integrated data processing and visualization</li>
+          <li><ListIcon />Simultaneous playback and recorder (SPAR)</li>
+          <li><ListIcon />Throughput Data monitoring and Record operations</li>
+          <li><ListIcon />Integrated TCP/IP and UDP Network Client Support</li>
+          <li><ListIcon />Integrated data reformatting and production creation</li>
+          <li><ListIcon />Event flags and individual channel start & stop controls</li>
+          <li><ListIcon />Integrated built in test (BIT): Bit Error Rate (BER) link-test display</li>
+          <li><ListIcon />Simultaneous Data Connections: local and remote media and clients</li>
+          <li><ListIcon />Integrated IRIG Time Code Translator/Generator channel capability</li>
+          <li><ListIcon />Front panel removable drives; RAID support; FIPS 140-2 and standard media</li>
+        </ul>
+      </>
+    ),
+    tab3: (
+      <>
+        <h4>Dependable</h4>
+        <ul>
+          <li><ListIcon />20+ years of development pedigree</li>
+          <li><ListIcon />Thousands of systems deployed in challenging and mission-critical applications</li>
+          <li><ListIcon />Ruggedized units are suitable for mobile platforms, transport-case portability, and airborne use</li>
+        </ul>
+      </>
+    ),
+    tab4: (
+      <>
+        <h4>Data Sheets</h4>
+        <div className="downloadIcon">
+          <div className="icon">
+            <a
+              href="/products/non-navigational/IMUX-G2-G2e-Data-Recorder_Product-Flyer-Rev-01.pdf"
+              download="IMUX G2-G2e Data Recorder"
+            >
+              <PdfIcon /> IMUX G2-G2e Data Recorder
+              <Download className="downloadIcon" />
+            </a>
+          </div>
+          <div className="icon">
+            <a
+              href="/products/non-navigational/BDE_Product-Flyer-Rev-00.pdf"
+              download="BDE Product Flyer"
+            >
+              <PdfIcon /> BDE Product Flyer
+              <Download className="downloadIcon" />
+            </a>
+          </div>
+        </div>
+      </>
+    ),
+  },
+  {
+    cat: "non-navigational",
+    slug: "x-5000-data-processors",
+    name: "X-5000 RECEIVER-DECOM",
+    tit: "X-5000 Receiver-Decom - Parraid",
+    desc: "The X-5000/X-5000i4 is a high-performance multi-band variable rate receiver and/or PCM bit-sync and decommutation device.   Portable & Rack-Mount Options Available  Tri-Band L/S/C  Ideal for flight-line, mobile telemetry trailers or control rooms",
+    images: [NNPro2_1, NNPro2_2, NNPro2_3, NNPro2_4, NNPro2_5, NNPro2_6, NNPro2_7],
+    txt: (
+      <>
+        <p>
+          The X-5000/X-5000i4 is a high-performance multi-band variable rate receiver and/or PCM bit-sync and decommutation device.       </p>
+        <h5>Dependable</h5>
+        <ul>
+          <li><ListIcon />Portable & Rack-Mount Options Available</li>
+          <li><ListIcon />Tri-Band L/S/C</li>
+          <li><ListIcon />Ideal for flight-line, mobile telemetry trailers or control rooms</li>
+        </ul>
+      </>
+    ),
+    tab1: (
+      <>
+        <h4>Overview</h4>
+        <p>Parraid’s high performance multi-band telemetry receiver-decom is designed for comprehensive portable ground station data processing. X-5000 may be carried in a bag with a lap-top computer or mounted in a 19” portable or fixed equipment rack. It supports two simultaneous L/S/C Band telemetry signal inputs along with IRIG A, B, and G, modulated time code carrier input. It includes “hot mic” audio signal output for each PCM stream, and industry-standard Chapter 10 data packet output, configurable for TCP/IP and UDP, over a standard 1G Ethernet port provided with industry-standard RJ 45 connection. Two-stream decommutation may be programmed for any IRIG Chapter 4, Chapter 7, and Chapter 8, signal type. When used in conjunction with the OMEGA NExT data processing software operators can process the most complex PCM-embedded formats. Multiple X-5000 systems can be synchronized together with an external 10 MHz clock and Ethernet hub in order to provide more PCM streams to the host computer for processing and display. The X-5000/X-5000i4 and OMEGA NExT offer instrumentation and telemetry engineers an ideal solution for portable real-time telemetry data applications.​</p>
+      </>
+    ),
+    tab5: (
+      <>
+        <h4>Features</h4>
+        <ul>
+          <li><ListIcon />Multiple configurations available</li>
+          <li><ListIcon />Portable Two-Channel Telemetry Receiver-Decom</li>
+          <li><ListIcon />Rack mount Four-Channel Telemetry Receiver-Decom</li>
+          <li><ListIcon />Tri-Band L, S & C</li>
+          <li><ListIcon />Receiver Input Data Rate 30 kps to 20 Mbps</li>
+          <li><ListIcon />5.0 db Typical Noise Figure</li>
+          <li><ListIcon />LDPC Decoding</li>
+          <li><ListIcon />ARTM Trellis Demodulators</li>
+          <li><ListIcon />IF Bandwidth, 50 kHz to 30MHz</li>
+          <li><ListIcon />RF to Chapter 11/12 Ethernet</li>
+          <li><ListIcon />IRIG A,B, G Time Input</li>
+          <li><ListIcon />Dual Channel PCM Bit Sync/Decom</li>
+          <li><ListIcon />Clock/Data Input and Output</li>
+          <li><ListIcon />Chapter 10 Ethernet Output</li>
+          <li><ListIcon />CVSD and Analog Voice</li>
+          <li><ListIcon />X-5000, laptop and an antenna for a mini/TDY ground station</li>
+        </ul>
+      </>
+    ),
+    tab4: (
+      <>
+        <h4>Data Sheets</h4>
+        <div className="downloadIcon">
+          <div className="icon">
+            <a
+              href="/products/non-navigational/pro2/TDS-Receiver-Overview_Product-Flyer-Rev-01.pdf"
+              download="X-5000 Receivers Overview Product Flyer"
+            >
+              <PdfIcon /> X-5000 Receivers Overview Product Flyer
+              <Download className="downloadIcon" />
+            </a>
+          </div>
+          <div className="icon">
+            <a
+              href="/products/non-navigational/pro2/X-5000i4-Receiver-Bit-Sync-Decom_Product-Flyer-Rev00.pdf"
+              download="X-5000i4 Receiver/Bit Sync-Decom Product Flyer"
+            >
+              <PdfIcon /> X-5000i4 Receiver/Bit Sync-Decom Product Flyer
+              <Download className="downloadIcon" />
+            </a>
+          </div>
+        </div>
+      </>
+    ),
+  },
+  {
+    cat: "non-navigational",
+    slug: "rf-receivers-and-combiners",
+    name: "RF RECEIVERS AND COMBINERS",
+    tit: "RF Receivers and Combiners - Parraid",
+    desc: "TDS offers the Rx2 rack mount multi-channel receiver and combiner as well as PCI card level receivers and combiners.  All of our receiver products use the latest in digital radio technology. RF Receivers and Combiners come in several different form factors: rack mount... Data Sheets: TDS Receiver Overview product flyer Rev 01",
+    images: [NNPro3_1, NNPro3_2, NNPro3_3, NNPro3_4, NNPro3_5, NNPro3_6, NNPro3_7, NNPro3_8],
+    txt: (
+      <>
+        <p>TDS offers the Rx2 rack mount multi-channel receiver and combiner as well as PCI card level receivers and combiners.  All of our receiver products use the latest in digital radio technology.​</p>
+        <p>RF Receivers and Combiners come in several different form factors: rack mount…</p>
+        <h5>Data Sheets</h5>
+        <ul>
+          <li><ListIcon />TDS Receiver Overview product flyer Rev 01</li>
+        </ul>
+      </>
+    ),
+    tab1: (
+      <>
+        <h4>Telemetry Receivers and Combiners</h4>
+        <p>Latest Technology for RF to Ethernet</p>
+        <ul>
+          <li><ListIcon />Tri-band; L,​S,C Bands – Optional C-Band IF</li>
+          <li><ListIcon />Compact Portable to Rugged Touch-screen and Airborne Platforms</li>
+          <li><ListIcon />Demods</li>
+        </ul>
+        <h4>AM, PCM/FM, PM, BPSK, OPSK, SOQPSK-TG</h4>
+        <ul>
+          <li><ListIcon />High Density</li>
+          <li><ListIcon />Up to 14 Receivers per Chassis</li>
+          <li><ListIcon />Dual Receiver & Diversity Combiner on a Single Card</li>
+          <li><ListIcon />Latest DSP Technology</li>
+          <li><ListIcon />Antenna Control / Signal Monitoring</li>
+          <li><ListIcon />Chapter 10/11 Ethernet Data Output</li>
+
+        </ul>
+      </>
+    ),
+    tab5: (
+      <>
+        <h4>Flexible</h4>
+        <ul>
+          <li><ListIcon />Intuitive GUI</li>
+          <li><ListIcon />Built-in Touchscreen</li>
+          <li><ListIcon />Embedded Ethernet Control</li>
+          <li><ListIcon />Field Upgradable</li>
+          <li><ListIcon />Spectral/Video/Constellation Displays</li>
+          <li><ListIcon />Numerous Output Features</li>
+        </ul>
+        <h4>Reliable</h4>
+        <ul>
+          <li><ListIcon />Dual Redundant Power Supplies</li>
+          <li><ListIcon />Rugged Touchscreen</li>
+          <li><ListIcon />Embedded Controller</li>
+          <li><ListIcon />Low Parts Count/High MTBF</li>
+          <li><ListIcon />Embedded Controller</li>
+        </ul>
+        <h4>Economical</h4>
+        <ul>
+          <li><ListIcon />Card-Level Products</li>
+          <li><ListIcon />Optional Integrated:​ – Bit Syncs – Decoms – Chapter 10 Recording/Reproduction – Real-Time Processing – Post-Test Processing – Data Mining – Data Visualization</li>
+
+        </ul>
+      </>
+    ),
+    tab4: (
+      <>
+        <h4>Data Sheets</h4>
+        <div className="downloadIcon">
+          <div className="icon">
+            <a
+              href="/products/non-navigational/pro3/TDS-Receiver-Overview_Product-Flyer-Rev-01.pdf"
+              download="TDS-Receiver-Overview_Product-Flyer-Rev-01"
+            >
+              <PdfIcon /> TDS-Receiver-Overview_Product-Flyer-Rev-01
+              <Download className="downloadIcon" />
+            </a>
+          </div>
+
+        </div>
+      </>
+    ),
+  },
+  {
+    cat: "non-navigational",
+    slug: "best-source-selector-best-data-engine-bde",
+    name: "BEST SOURCE SELECTOR/BEST DATA ENGINE (BDE)",
+    tit: "Best Source Selector/Best Data Engine (BDE) - Parraid",
+    desc: "Parraid’s Best Data Engine (BDE) provides an innovative and revolutionary method to dynamically blend all incoming data streams into one composite data stream for output or internal data processing. Typical Best Source Selectors apply metrics to each incoming source of the same data stream coming from different locations on at test range and dynamically switches to the source with the strongest signal characteristics.    BDE provides an innovative and revolutionary method to dynamically blend all incoming data...  Data Sheets: BDE Product Flyer",
+    images: [NNPro4_1],
+    txt: (
+      <>
+        <p>Parraid’s Best Data Engine (BDE) provides an innovative and revolutionary method to dynamically blend all incoming data streams into one composite data stream for output or internal data processing. Typical Best Source Selectors apply metrics to each incoming source of the same data stream coming from different locations on at test range and dynamically switches to the source with the strongest signal characteristics.</p>
+        <ul>
+          <li><ListIcon />BDE provides an innovative and revolutionary method to dynamically blend all incoming data…</li>
+        </ul>
+      </>
+    ),
+    tab1: (
+      <>
+        <p>Parraid’s Best Data Engine (BDE) provides an innovative and revolutionary method to dynamically blend all incoming data streams into one composite data stream for output or internal data processing. Typical Best Source Selectors apply metrics to each incoming source of the same data stream coming from different locations on at test range and dynamically switches to the source with the strongest signal characteristics. While this improves the quality of the source being used for data processing and real time display, there are still some errors in this stream and some data is lost during the switching process due to the different transport delays from data coming in from different distances from the main mission control center. Parraid has found a way to provide much higher fidelity data by dynamically buffering all the sources arriving in the main mission control location and looking at each stream on a bit by bit basis. Our Best Data Engine than uses a bit voting algorithm to build a composite data stream from all the data streams during the entire mission. This effectively eliminates the errors from any one stream and also eliminates any data loss from switching from one stream to another. This revolutionary breakthrough allows Parraid to provide the highest quality data output possible based on multiple data stream inputs.​​</p>
+      </>
+    ),
+
+    tab4: (
+      <>
+        <h4>Data Sheets</h4>
+        <div className="downloadIcon">
+          <div className="icon">
+            <a
+              href="/products/non-navigational/pro4/BDE_Product-Flyer-Rev-00.pdf"
+              download="BDE Product Flyer"
+            >
+              <PdfIcon /> BDE Product Flyer
+              <Download className="downloadIcon" />
+            </a>
+          </div>
+
+        </div>
+      </>
+    ),
+  },
+  {
+    cat: "non-navigational",
+    slug: "network-radio-gateway-nrg-deployable-systems-3",
+    name: "NETWORK RADIO GATEWAY DEPLOYABLE SYSTEMS",
+    tit: "Network Radio Gateway Deployable Systems - Parraid",
+    desc: "NRG® is the connecting deployable hub for all protocols and it enables seamless mission communications across multiple VoIP/RoIP systems.",
+    images: [NNPro5_1],
+    txt: (
+      <>
+        <p>NRG® is the connecting deployable hub for all protocols and it enables seamless mission communications across multiple VoIP/RoIP systems.</p>
+      </>
+    ),
+    tab1: (
+      <>
+        <p>NRG® is a solution that provides Voice over IP(VoIP)/Radio over IP(RoIP) conferencing, converging voice, MIL-STD 188/184 data, HPW data, and remote radio configuration/control capability into a single standalone network appliance. The system offers communications through such industry-standard protocols as H.323, SIP, and Multicast. NRG® equipment is interoperable with WAVE, TOCNET, IPICS, Cisco Call Manager, Access Net, SIP phones, generic IP phones, and works with PDAs/cellular phones.</p>
+        <p>NRG® allows Communications Operators for maneuver units and Special Operations Forces (SOF) to patch voice from phones, networked clients, and radios into a single audio channel or conference. This allows maximum communications flexibility and improved coordination for field units. In addition, Operators can use a computer network to remotely configure radios for different settings (frequency, modulation, nets, etc.) without changing cables or other radio physical access. Operators also can share expensive radio assets, reducing the number and cost of communications installations. NRG® has been designed to provide all of these functions in a compact network appliance that is easy to configure and maintain.</p>      </>
+    ),
+    tab5: (
+      <>
+        <ul>
+          <li><ListIcon />DS-04v3 model is compact, with a rugged fan-less enclosure</li>
+          <li><ListIcon />Connects two-four radio systems and up to 50 endpoints</li>
+          <li><ListIcon />Adapts from small command posts to full enterprise integration</li>
+          <li><ListIcon />Removable SSD</li>
+          <li><ListIcon />Trusted Platform Module 2.0 (TPM)</li>
+          <li><ListIcon />Front panel system and status tri-color LEDs.</li>
+          <li><ListIcon />Windows 10/11 Support</li>
+          <li><ListIcon />Leverages Rally Tactical Systems’ Engage platform and Rally point software</li>
+        </ul>
+      </>),
+    tab3: (
+      <>
+        <p>Ruggedized case for field deployment</p>
+        <p>Standard 4-port system configuration</p>
+      </>
+    ),
+    tab2: (<>
+      <ul>
+        <li><ListIcon />Scalable and Decentralized: Adapts from small command posts to full enterprise integration</li>
+        <li><ListIcon />Interoperability: Compatible with a wide range of unified communications protocols and systems, including Motorola WAVE, TOCNET, ICE, Cisco Call Manager, AT&T FirstNet, Access Net, LTE, and more.</li>
+        <li><ListIcon />Enhanced Radio Support: Offers remote data and radio control for both software-defined radios and legacy systems, including LMRs.</li>
+        <li><ListIcon />Tactical and Standalone Operations: Functions in standalone tactical configurations or integrate multiple radio circuits across IP subnetworks.</li>
+        <li><ListIcon />Future-Ready Transport: Supports a range of transport methods including 5G, Fiber, Mesh Radio, Software-Defined Radio, Starshield, and tactical LANs.</li>
+        <li><ListIcon />Cost-Effective: Enables shared use of expensive radios across multiple users, reducing overall costs.</li>
+      </ul>
+    </>
+    ),
+    tab4: (
+      <>
+        <h4>Data Sheets</h4>
+        <div className="downloadIcon">
+          <div className="icon">
+            <a
+              href="/products/non-navigational/pro5/NRG_Deployable_Systems_(DS-04v3)_Product_Flyer_Rev_02.pdf"
+              download="NRG Deployable Systems (DS-04v3)"
+            >
+              <PdfIcon /> NRG Deployable Systems (DS-04v3)
+              <Download className="downloadIcon" />
+            </a>
+          </div>
+
+        </div>
+      </>
+    ),
+  },
+  {
+    cat: "non-navigational",
+    slug: "vector-iridium-data-link-vidl",
+    name: "VECTOR IRIDIUM DATA LINK (VIDL)",
+    tit: "Vector Iridium Data Link (VIDL) - Parraid",
+    desc: "Always Connected, Wherever You Go! An example of Custom Product Solutions, The Vector Iridium Data Link (VIDL) is an exciting new product that provides secure, available and reliable two-way voice and data to customers who may find themselves in places that have no cellular coverage … anywhere in the world.",
+    images: [NNPro6_1, NNPro6_2, NNPro6_3, NNPro6_4, NNPro6_5],
+    txt: (
+      <>
+        <p>Always Connected, Wherever You Go! An example of Custom Product Solutions, The Vector Iridium Data Link (VIDL) is an exciting new product that provides secure, available and reliable two-way voice and data to customers who may find themselves in places that have no cellular coverage … anywhere in the world.</p>
+      </>
+    ),
+    tab1: (
+      <>
+        <p>For years, the ability to talk, chat, navigate and share positions in remote locations around the world was limited to high end Military units or those who can afford expensive Satellite system subscriptions. The VIDL is a lightweight, ruggedized new product offering that allows customers to chat, share positions and talk to each other while on the move using the Iridium® Communications network paired with Android mobile devices or Windows devices. Hikers, Extreme Explorers, All Terrain Vehicle Enthusiasts, Rescue Forces, Boaters, Logistics, Tactical Forces or First Responders in Remote areas and Flyers who find themselves in areas that do not have radio or cellular coverage can still provide their position, chat, talk and navigate anywhere in the world with the peace of mind that they can call or text for help or share their progress globally. Because VIDL uses the Iridium low earth orbit satellite constellation, users can provide their position, chat, talk, and navigate … from pole to pole.</p>
+      </>
+    ),
+    tab2: (
+      <>
+        <p>Available Integrated Components</p>
+        <ul>
+          <li><ListIcon />Amplified Speaker</li>
+          <li><ListIcon />Compact Iridium / GPS Antenna</li>
+          <li><ListIcon />Alternate Antennas and Mounts</li>
+          <li><ListIcon />Laser Range Finder</li>
+          <li><ListIcon />Network Radio Gateway</li>
+          <li><ListIcon />Alternate Deployable Case Configurations (see V-TACS)</li>
+          <li><ListIcon />ATAK / WinTAK Application</li>
+          <li><ListIcon />Locorum Operations Management Application</li>
+        </ul>
+      </>
+    ),
+    tab3: (
+      <>
+        <ul>
+          <li><ListIcon />True Global Communications with Iridium Push-to-Talk Satellite Network</li>
+          <li><ListIcon />Deploys Quickly without Complex System Architecture</li>
+          <li><ListIcon />Coverage Independent of Ground Infrastructure</li>
+          <li><ListIcon />Integrated GPS Positioning</li>
+          <li><ListIcon />Data Link for Voice, Text and Reporting</li>
+          <li><ListIcon />Built-In AES-256 Encryption</li>
+          <li><ListIcon />Rugged Lightweight Design</li>
+          <li><ListIcon />Easily Integrates with Existing Command-Control Software</li>
+          <li><ListIcon />Unlimited Number of Users Worldwide</li>
+          <li><ListIcon />Fully Exportable to Partner Nations</li>
+        </ul>
+      </>
+    ),
+    tab4: (
+      <>
+        <h4>Data Sheets</h4>
+        <div className="downloadIcon">
+          <div className="icon">
+            <a
+              href="/products/non-navigational/pro6/Iridium-PTT-VIDL_Product-Flyer-Rev04.pdf"
+              download="Iridium PTT VIDL Product Flyer"
+            >
+              <PdfIcon /> Iridium PTT VIDL Product Flyer
+              <Download className="downloadIcon" />
+            </a>
+          </div>
+          <div className="icon">
+            <a
+              href="/products/non-navigational/pro6/Iridium-PTT-VIDL_Product-Flyer-Rev04-1.pdf"
+              download="Iridium PTT V-TACS Commercial_Product Flyer"
+            >
+              <PdfIcon /> Iridium PTT V-TACS Commercial_Product Flyer
+              <Download className="downloadIcon" />
+            </a>
+          </div>
+          <div className="icon">
+            <a
+              href="/products/non-navigational/pro6/Iridium-PTT-Fire-Data-V-TACS_Product-Flyer-Rev-0111.pdf"
+              download="Iridium PTT Fire Data V-TACS Product Flyer"
+            >
+              <PdfIcon /> Iridium PTT Fire Data V-TACS Product Flyer
+              <Download className="downloadIcon" />
+            </a>
+          </div>
+          <div className="icon">
+            <a
+              href="/products/non-navigational/pro6/Iridium-PTT-Service-Plans_Product-Flyer-Rev-02333.pdf"
+              download="Iridium PTT Service Plans Product Flyer"
+            >
+              <PdfIcon /> Iridium PTT Service Plans Product Flyer
+              <Download className="downloadIcon" />
+            </a>
+          </div>
+        </div>
+      </>
+    ),
+  },
+  {
+    cat: "non-navigational",
+    slug: "radio-configuration-loader-rcl",
+    name: "RADIO CONFIGURATION LOADER™ (RCL)",
+    tit: "Radio Configuration Loader™ (RCL) - Parraid",
+    desc: "The Parraid Radio Configuration LoaderTM (RCL) is an example of a Custom Product that provided a quick and easy way to modify radio settings in the field.",
+    images: [NNPro7_1, NNPro7_2, NNPro7_3, NNPro7_4],
+    txt: (
+      <>
+        <p>The Parraid Radio Configuration LoaderTM (RCL) is an example of a Custom Product that provided a quick and easy way to modify radio settings in the field.</p>
+      </>
+    ),
+    tab1: (
+      <>
+        <p>The Parraid Radio Configuration Loader™ (RCL) provides a quick and easy way to modify radio settings in the field. A one-button control selects and programs multiple radio configurations. Radio parameters such as frequency, power, modulation, and many others can be set. The RCL is setup on a PC using its mini USB connector then can simply be plugged into a radio’s remote control port where the desired configuration is selected. The RCL is powered by USB during setup and the radio during configuration loading; therefore, it requires no batteries.</p>
+      </>
+    ),
+    tab5: (
+      <>
+        <ul>
+          <li><ListIcon />Small, convenient size</li>
+          <li><ListIcon />Lightweight</li>
+          <li><ListIcon />Connects to a USB 2.0 port for setup (cable included)</li>
+          <li><ListIcon />Connects directly to the radio during use; no cables needed</li>
+          <li><ListIcon />Simple one-button control for selecting configurations</li>
+          <li><ListIcon />LED channel display</li>
+          <li><ListIcon />Device setup software included</li>
+          <li><ListIcon />Supports PRC-117F radio (PRC-117G, SINCGARS, HMS under development)</li>
+          <li><ListIcon />Rugged dust and water resistant construction</li>
+        </ul>
+      </>),
+    tab2: (
+      <>
+        <p>PC Connector: Mini USB type B</p>
+        <p>Radio Connector: 27 Pin J69-0014-001</p>
+        <p>Display: 7 Segment LED</p>
+        <p>Power: USB 5V in setup mode, 12 - 36VDC during program</p>
+        <p>Operating Temperature: -40C to + 70C</p>
+      </>
+    ),
+  },
+  {
+    cat: "non-navigational",
+    slug: "stress-reliefs-for-the-cf-29-panasonic-toughbook",
+    name: "STRESS RELIEFS™ FOR THE CF-29 PANASONIC TOUGHBOOK",
+    tit: "Stress Reliefs™ for the CF-29 Panasonic Toughbook - Parraid",
+    desc: "An example of Custom Product Solutions, the Parraid Stress Relief™ provides protected mission component tailoring needed for a rugged laptop intended for heavy use in the field",
+    images: [NNPro8_1, NNPro8_2, NNPro8_3, NNPro8_4, NNPro8_5, NNPro8_6],
+    txt: (
+      <>
+        <p>An example of Custom Product Solutions, the Parraid Stress Relief™ provides protected mission component tailoring needed for a rugged laptop intended for heavy use in the field</p>
+      </>
+    ),
+    tab1: (
+      <>
+        <p>The wireless-ready Toughbook 29 is the industry’s fastest fully-rugged notebook PC. It has a sealed full magnesium alloy case and shock-mounted hard drive. With a 13.3″ anti-reflective, outdoor-readable LCD and backlit keyboard, it also ensures easy viewing in any light. The Parraid Stress Relief™ provides the PC Card protection needed for a rugged laptop intended for heavy use in the field. The Stress Relief protects PCMCIA cards and their fragile connectors from damage during operation. The connections to PCMCIA cards become weak points in an otherwise rugged and durable computing system. Our Stress Relief removes this weakness by clamping onto the case of the computer, covering the PCMCIA cards and providing rugged connections to replace the vulnerable ones. Because the Stress Relief clamps to the computer case with no modifications necessary, the warranty is not voided and the computer system can be returned to its original configuration at any time.</p>
+      </>
+    ),
+    tab2: (
+      <>
+        <ul>
+          <li><ListIcon />Protects laptop PCMCIA cards and dongle connections</li>
+          <li><ListIcon />Secures cable and prevents damage due to pulls, twists, and vibration</li>
+          <li><ListIcon />Protects exposed laptop PC card slots</li>
+          <li><ListIcon />Provides customer specified rugged connectors</li>
+          <li><ListIcon />Military or commercial configurations</li>
+          <li><ListIcon />Custom physical sizes</li>
+          <li><ListIcon />Simple installation and removal</li>
+          <li><ListIcon />No modifications necessary to laptop</li>
+          <li><ListIcon />Lightweight</li>
+          <li><ListIcon />Integrated power converter</li>
+          <li><ListIcon />Accepts a wide variety of input voltages</li>
+          <li><ListIcon />Both AC and DC power conversions available</li>
+        </ul>
+      </>),
+    tab5: (
+      <>
+        <ul>
+          <li><ListIcon /><ListIcon />MIL-STD-1553 Avionics Data Bus</li>
+          <li><ListIcon />RS-232/422 Serial Communications Bus</li>
+          <li><ListIcon />Data Acquisition</li>
+          <li><ListIcon />Video Capture</li>
+          <li><ListIcon />IEEE 1394 Fire Wire</li>
+          <li><ListIcon />IEEE 488</li>
+          <li><ListIcon />Bluetooth Wireless</li>
+          <li><ListIcon /> USB Hubs</li>
+          <li><ListIcon />ViaSAT VDC 400/600 Data Controllers</li>
+          <li><ListIcon /> Integrated Power Converter – To power system from vehicle, aircraft, or batter</li>
+        </ul>
+
+        <h4>Tactical Modems</h4>
+        <ul>
+          <li><ListIcon />TacLink 3000</li>
+          <li><ListIcon />PCIDM</li>
+        </ul>
+
+        <h4>Wireless LAN PCMCIA Card Protection</h4>
+        <ul>
+          <li><ListIcon />SecNet 11</li>
+          <li><ListIcon />Cisco AirNet</li>
+          <li><ListIcon />3G Broadband Wireless Modems</li>
+        </ul>
+
+      </>
+    ),
+  },
+  {
+    cat: "non-navigational",
+    slug: "stress-reliefs-for-the-cf-18-panasonic-toughbook",
+    name: "STRESS RELIEFS™ FOR THE CF-18 PANASONIC TOUGHBOOK",
+    tit: "Stress Reliefs™ for the CF-18 Panasonic Toughbook - Parraid",
+    desc: "An example of Custom Product Solutions, the Parraid Stress Relief™ provides protected mission component tailoring needed for a rugged laptop intended for heavy use in the field.",
+    images: [NNPro9_1, NNPro9_2, NNPro9_3, NNPro9_4, NNPro9_5],
+    txt: (
+      <>
+        <p>An example of Custom Product Solutions, the Parraid Stress Relief™ provides protected mission component tailoring needed for a rugged laptop intended for heavy use in the field.</p>
+      </>
+    ),
+    tab1: (
+      <>
+        <p>The convertible Toughbook 18 is tough times two. It easily converts from a powerful notebook PC to a convenient tablet PC with one quick swivel. It’s wireless and fully-rugged either way. The Parraid Stress Relief™ provides the PC Card protection needed for a rugged laptop intended for heavy use in the field. The Stress Relief protects PCMCIA cards and their fragile connectors from damage during operation. The connections to PCMCIA cards become weak points in an otherwise rugged and durable computing system. Our Stress Relief removes this weakness by clamping onto the case of the computer, covering the PCMCIA cards and providing rugged connections to replace the vulnerable ones. Because the Stress Relief clamps to the computer case with no modifications necessary, the warranty is not voided and the computer system can be returned to its original configuration at any time.</p>
+      </>
+    ),
+    tab2: (
+      <>
+        <ul>
+          <li><ListIcon />Protects laptop PCMCIA cards and dongle connections</li>
+          <li><ListIcon />Secures cable and prevents damage due to pulls, twists, and vibration</li>
+          <li><ListIcon />Protects exposed laptop PC card slots</li>
+          <li><ListIcon />Provides customer specified rugged connectors</li>
+          <li><ListIcon />Military or commercial configurations</li>
+          <li><ListIcon />Custom physical sizes</li>
+          <li><ListIcon />Simple installation and removal</li>
+          <li><ListIcon />No modifications necessary to laptop</li>
+          <li><ListIcon />Lightweight</li>
+          <li><ListIcon />Integrated power converter</li>
+          <li><ListIcon />Accepts a wide variety of input voltages</li>
+          <li><ListIcon />Both AC and DC power conversions available</li>
+        </ul>
+      </>),
+    tab5: (
+      <>
+        <ul>
+          <li><ListIcon />MIL-STD-1553 Avionics Data Bus</li>
+          <li><ListIcon /> RS-232/422 Serial Communications Bus</li>
+          <li><ListIcon />Data Acquisition</li>
+          <li><ListIcon /> Video Capture</li>
+          <li><ListIcon /> IEEE 1394 Fire Wire</li>
+          <li><ListIcon />IEEE 488</li>
+          <li><ListIcon />Bluetooth Wireless</li>
+          <li><ListIcon />USB Hubs</li>
+          <li><ListIcon />ViaSAT VDC 400/600 Data Controllers</li>
+          <li><ListIcon />Integrated Power Converter – To power system from vehicle, aircraft, or battery</li>
+        </ul>
+        <h4>Tactical Modems</h4>
+        <ul>
+          <li><ListIcon />TacLink 3000</li>
+          <li><ListIcon />PCIDM</li>
+        </ul>
+        <h4>Wireless LAN PCMCIA Card Protection</h4>
+        <ul>
+          <li><ListIcon />SecNet 11</li>
+          <li><ListIcon />Cisco AirNet</li>
+          <li><ListIcon />3G Broadband Wireless Modems</li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    cat: "non-navigational",
+    slug: "gcss",
+    name: "GCSS-MC",
+    tit: "GCSS-MC - Parraid",
+    desc: "An example of Custom Product Solutions, the Parraid products engineering team provided engineering and technical support to the Global Combat Support System – Marine Corps (GCSS-MC) project.",
+    images: [NNPro10_1, NNPro10_2, NNPro10_3, NNPro10_4],
+    txt: (
+      <>
+        <p>​An example of Custom Product Solutions, the Parraid products engineering team provided engineering and technical support to the Global Combat Support System – Marine Corps (GCSS-MC) project.</p>
+      </>
+    ),
+    tab1: (
+      <>
+        <p>The Parraid products engineering team provided engineering and technical support to the Global Combat Support System – Marine Corps (GCSS-MC) project. GCSS-MC introduced state-of-the-art technology for logistics modernization by providing integrated, Web-based, off-the-shelf applications that streamlined processes and provided accurate, near real-time life-cycle data. The resulting enterprise-wide visibility of data allows logistics planners and operators to make decisions about the logistics chain based on reliable, timely information.</p>
+        <p>Parraid engineers designed, produced, tested, and delivered integrated GCSS-MC suites to support the Government operational test and evaluation. The deployed systems were designed and documented in accordance with DoD information assurance requirements. The Parraid team reviewed the operational requirements; conducted research and development to identify candidate equipment components and material items; generated engineering schematics, diagrams, and models; developed and delivered detailed SL-3 and SL-4 drawings for each suite; applied Human Systems Integration (HSI) principles during production and integration; developed an integrated master plan for the MEF and MEU suites; developed detailed and comprehensive test plans and procedures; conducted testing, captured and submitted the test results to the Government; conducted life-cycle and sustainability analysis to identify and mitigate obsolescence and supportability issues; assisted in the development of the configuration management plan; and documented the configuration baseline during the physical configuration audit.​</p>
+      </>
+    ),
+
   },
 ];

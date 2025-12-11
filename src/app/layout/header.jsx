@@ -10,8 +10,11 @@ import {
   NavIcon,
 } from "@/src/app/app-constants";
 import Link from "next/link";
-import { SearchIcon } from "../app-constants";
+import { SearchIcon } from "@/src/app/app-constants";
 import { usePathname } from "next/navigation";
+import Logo from "media/logo.webp"
+import Image from "next/image";
+
 
 const Header = () => {
   const pathname = usePathname();
@@ -74,7 +77,7 @@ const Header = () => {
               Follow Us :{" "}
               <Link href="https://www.linkedin.com/company/parraid-llc">
                 <Linkedin />
-              </Link>{" "}
+              </Link>
               <Link href="https://www.youtube.com/channel/UCrD_g4MeOeJXhTy21FN4fdA">
                 <Youtube />
               </Link>
@@ -87,7 +90,8 @@ const Header = () => {
           <Col xs={6} md={3} className="my-auto">
             <div className={styles.mainLogo}>
               <Link href="/">
-                <MainLogo />
+                {/* <MainLogo /> */}
+                <Image src={Logo.src} alt="Parraid Logo" width={180} height={50} />
               </Link>
             </div>
           </Col>

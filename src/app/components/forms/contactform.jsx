@@ -5,7 +5,7 @@ const ContactForm = ({ product, blogPage }) => {
   return (
     <div className={`${product ? styles.productBox : ""}`}>
       <div className={styles.divFull}>
-        <h3>Can’t Reach Us?</h3>
+        {/* <h3>Can’t Reach Us?</h3> */}
         <p>
           Powering secure, real-time data transmission across land, sea, and
           sky.
@@ -13,9 +13,8 @@ const ContactForm = ({ product, blogPage }) => {
       </div>
       <form action="">
         <div
-          className={`${styles.contactForm} ${
-            blogPage ? styles.blogPage : ""
-          } ${product ? styles.productForm : ""}`}
+          className={`${styles.contactForm} ${blogPage ? styles.blogPage : ""
+            } ${product ? styles.productForm : ""}`}
         >
           <div className={styles.divField}>
             <input type="text" name="name" placeholder="Full Name" required />

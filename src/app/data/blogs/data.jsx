@@ -629,14 +629,14 @@ export const BlogListingData = [
   },
   {
     title:
-      "BRIDGING THE GAP: HOW DEPLOYABLE COMMUNICATIONS SYSTEMS AND NRG ENHANCE WARFIGHTER CONNECTIVITY",
+      "BRIDGING THE GAP: HOW DEPLOYABLE communications solutions AND NRG ENHANCE WARFIGHTER CONNECTIVITY",
     date: "2025-08-06",
     tit: "How NRG Helps Warfighters Communicate Across Talk Groups",
-    desc: "Learn how Network Radio Gateway (NRG) empowers deployable communications systems, enabling warfighters to communicate seamlessly across diverse radio talk groups and networks.",
+    desc: "Learn how Network Radio Gateway (NRG) empowers deployable communications solutions, enabling warfighters to communicate seamlessly across diverse radio talk groups and networks.",
     img: Post5.src,
     slug: "how-deployable-communications-systems-and-nrg-enhance-warfighter-connectivity",
     tableContent: [
-      { title: "The Role of Deployable Communications Systems" },
+      { title: "The Role of Deployable communications solutions" },
       { title: "Enter the Network Radio Gateway (NRG)" },
       { title: "Key Benefits of NRG for the Warfighte" },
       { title: "Real-World Use Case: Tactical Response Coordination" },
@@ -654,9 +654,9 @@ export const BlogListingData = [
           systems and ensure real-time, cross-domain interoperability.
         </p>
         <div id="Section-1">
-          <h2>The Role of Deployable Communications Systems</h2>
+          <h2>The Role of Deployable communications solutions</h2>
           <p>
-            Deployable communications systems are designed to provide rapid,
+            Deployable communications solutions are designed to provide rapid,
             mobile, and resilient communication capabilities in austere or
             contested environments. Whether mounted in tactical vehicles, housed
             in mobile command centers, or deployed in field kits, these systems
@@ -759,7 +759,7 @@ export const BlogListingData = [
           <h2>Conclusion: Mission-Ready Communication, Anywhere</h2>
           <p>
             In high-stakes environments, communication is not just a tool; it’s
-            a lifeline. Deployable communications systems paired with Network
+            a lifeline. Deployable communications solutions paired with Network
             Radio Gateway technology provide the agility, interoperability, and
             clarity needed for today’s complex missions. NRG doesn’t just
             connect radios; it connects warfighters, enabling them to act as one

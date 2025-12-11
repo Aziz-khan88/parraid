@@ -219,7 +219,7 @@ const Events = ({ page, home }) => {
             <p>
               Parraid actively engages with global aerospace, defense, and
               technology communities to showcase our latest innovations in
-              tactical communications systems, telemetry communication
+              tactical communications solutions, telemetry communication
               solutions, and deployable communication products.
             </p>
           </Col>

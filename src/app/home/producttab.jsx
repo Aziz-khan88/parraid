@@ -18,8 +18,8 @@ const ProductTab = () => {
               At Parraid, LLC, we engineer and deliver mission-ready systems
               that power connectivity, data reliability, and operational
               precision across the world’s most demanding environments. Our
-              portfolio combines cutting-edge telemetry communication solutions,
-              advanced tactical communications systems, and rugged, field-proven
+              portfolio combines cutting-edge telemetry data systems,
+              advanced tactical communications solutions, and rugged, field-proven
               deployable communication products designed for defense, aerospace,
               and government applications.
             </p>

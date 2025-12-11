@@ -1,10 +1,16 @@
 .footerSection {
   padding-top: 100px;
+
   .contactWapper {
     .MianLogo {
+      img {
+        margin-bottom: 20px;
+      }
+
       svg {
         margin-bottom: 20px;
       }
+
       p {
         font-weight: 400;
         font-size: 16px;
@@ -14,6 +20,7 @@
         max-width: 70%;
       }
     }
+
     .serviceStyle {
       h6 {
         font-style: normal;
@@ -24,11 +31,14 @@
         color: #3a3b3e;
         margin-bottom: 30px;
       }
+
       ul {
         display: flex;
         flex-wrap: wrap;
+
         li {
           flex: 0 0 50%;
+
           a {
             font-style: normal;
             font-weight: 400;
@@ -46,6 +56,7 @@
           }
         }
       }
+
       &.servicelast {
         ul {
           li {
@@ -54,14 +65,17 @@
         }
       }
     }
+
     .footerInfo {
       margin-top: 30px;
       display: flex;
       padding: 30px 0px;
       border-top: 1px solid rgb(58 59 62 / 13%);
       border-bottom: 1px solid rgb(58 59 62 / 13%);
+
       .itemInfo {
         flex: 0 0 calc(100% / 4);
+
         .infoName {
           font-style: normal;
           font-weight: 600;
@@ -71,13 +85,16 @@
           text-transform: uppercase;
           color: #0061fe;
           margin-bottom: 10px;
+
           svg {
             margin-right: 10px;
+
             path {
               fill: #0061fe;
             }
           }
         }
+
         .value {
           font-style: normal;
           font-weight: 500;
@@ -85,6 +102,7 @@
           line-height: 24px;
           letter-spacing: -0.45px;
           color: #3a3b3e;
+
           a {
             font-style: normal;
             font-weight: 500;
@@ -92,6 +110,7 @@
             line-height: 24px;
             letter-spacing: -0.45px;
             color: #3a3b3e;
+
             &:hover {
               color: #0061fe;
               font-weight: 500;
@@ -101,10 +120,12 @@
         }
       }
     }
+
     .copyrightSection {
       padding: 230px 0px 0px;
       position: relative;
       overflow: hidden;
+
       .logoTxt {
         position: absolute;
         top: 0px;
@@ -118,27 +139,29 @@
         text-align: center;
         justify-content: center;
         text-transform: uppercase;
-        background: linear-gradient(
-          180deg,
-          rgba(0, 97, 254, 0.1) 22.43%,
-          rgba(255, 255, 255, 0.1) 107.45%
-        );
+        background: linear-gradient(180deg,
+            rgba(0, 97, 254, 0.1) 22.43%,
+            rgba(255, 255, 255, 0.1) 107.45%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
         text-fill-color: transparent;
         z-index: 0;
       }
+
       .copyRightLinks {
         display: flex;
         align-items: center;
         gap: 10px;
+
         li {
           border-right: 1px solid #0061fe;
           padding-right: 10px;
+
           &:last-child {
             border-right: 0px;
           }
+
           a {
             font-style: normal;
             font-weight: 500;
@@ -156,14 +179,17 @@
           }
         }
       }
+
       .copyRightSec {
         position: relative;
         z-index: 2;
+
         &.RightTxt {
           p {
             text-align: right;
           }
         }
+
         p {
           font-style: normal;
           font-weight: 500;
@@ -177,6 +203,7 @@
             font-weight: 600;
             transition: all 0.3s ease;
             text-decoration: underline;
+
             &:hover {
               color: #0061fe;
               transition: all 0.3s ease;
@@ -191,32 +218,38 @@
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   .footerSection {
     padding-top: 100px;
+
     .contactWapper {
       .MianLogo {
         svg {
           margin-bottom: 20px;
         }
+
         p {
           font-size: 15px;
           line-height: 22px;
           max-width: 70%;
         }
       }
+
       .serviceStyle {
         h6 {
           font-size: 18px;
           line-height: 16px;
           margin-bottom: 25px;
         }
+
         ul {
           li {
             flex: 0 0 50%;
+
             a {
               font-size: 14px;
               line-height: 30px;
             }
           }
         }
+
         &.servicelast {
           ul {
             li {
@@ -225,22 +258,28 @@
           }
         }
       }
+
       .footerInfo {
         margin-top: 30px;
         padding: 30px 0px;
+
         .itemInfo {
           flex: 0 0 calc(100% / 4);
+
           .infoName {
             font-size: 13px;
             line-height: 15px;
             margin-bottom: 10px;
+
             svg {
               margin-right: 10px;
             }
           }
+
           .value {
             font-size: 13px;
             line-height: 24px;
+
             a {
               font-size: 13px;
               line-height: 24px;
@@ -248,8 +287,10 @@
           }
         }
       }
+
       .copyrightSection {
         padding: 200px 0px 20px;
+
         .logoTxt {
           position: absolute;
           top: 0px;
@@ -263,27 +304,29 @@
           text-align: center;
           justify-content: center;
           text-transform: uppercase;
-          background: linear-gradient(
-            180deg,
-            rgba(0, 97, 254, 0.1) 22.43%,
-            rgba(255, 255, 255, 0.1) 107.45%
-          );
+          background: linear-gradient(180deg,
+              rgba(0, 97, 254, 0.1) 22.43%,
+              rgba(255, 255, 255, 0.1) 107.45%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           background-clip: text;
           text-fill-color: transparent;
           z-index: 0;
         }
+
         .copyRightLinks {
           gap: 10px;
+
           li {
             padding-right: 10px;
+
             a {
               font-size: 14px;
               line-height: 22px;
             }
           }
         }
+
         .copyRightSec {
           p {
             font-size: 14px;
@@ -294,35 +337,42 @@
     }
   }
 }
+
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
   .footerSection {
     padding-top: 80px;
+
     .contactWapper {
       .MianLogo {
         svg {
           margin-bottom: 20px;
         }
+
         p {
           font-size: 14px;
           line-height: 20px;
           max-width: 80%;
         }
       }
+
       .serviceStyle {
         h6 {
           font-size: 18px;
           line-height: 16px;
           margin-bottom: 20px;
         }
+
         ul {
           li {
             flex: 0 0 50%;
+
             a {
               font-size: 14px;
               line-height: 30px;
             }
           }
         }
+
         &.servicelast {
           ul {
             li {
@@ -331,22 +381,28 @@
           }
         }
       }
+
       .footerInfo {
         margin-top: 25px;
         padding: 25px 0px;
+
         .itemInfo {
           flex: 0 0 calc(100% / 4);
+
           .infoName {
             font-size: 13px;
             line-height: 15px;
             margin-bottom: 10px;
+
             svg {
               margin-right: 5px;
             }
           }
+
           .value {
             font-size: 13px;
             line-height: 20px;
+
             a {
               font-size: 13px;
               line-height: 20px;
@@ -354,8 +410,10 @@
           }
         }
       }
+
       .copyrightSection {
         padding: 200px 0px 20px;
+
         .logoTxt {
           position: absolute;
           top: 0px;
@@ -369,27 +427,29 @@
           text-align: center;
           justify-content: center;
           text-transform: uppercase;
-          background: linear-gradient(
-            180deg,
-            rgba(0, 97, 254, 0.1) 22.43%,
-            rgba(255, 255, 255, 0.1) 107.45%
-          );
+          background: linear-gradient(180deg,
+              rgba(0, 97, 254, 0.1) 22.43%,
+              rgba(255, 255, 255, 0.1) 107.45%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           background-clip: text;
           text-fill-color: transparent;
           z-index: 0;
         }
+
         .copyRightLinks {
           gap: 10px;
+
           li {
             padding-right: 5px;
+
             a {
               font-size: 13px;
               line-height: 20px;
             }
           }
         }
+
         .copyRightSec {
           p {
             font-size: 13px;
@@ -400,9 +460,11 @@
     }
   }
 }
+
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
   .footerSection {
     padding-top: 60px;
+
     .contactWapper {
       .MianLogo {
         svg {
@@ -410,27 +472,32 @@
           width: auto;
           height: 60px;
         }
+
         p {
           font-size: 13px;
           line-height: 20px;
           max-width: 90%;
         }
       }
+
       .serviceStyle {
         h6 {
           font-size: 17px;
           line-height: 16px;
           margin-bottom: 15px;
         }
+
         ul {
           li {
             flex: 0 0 50%;
+
             a {
               font-size: 13px;
               line-height: 26px;
             }
           }
         }
+
         &.servicelast {
           ul {
             li {
@@ -439,22 +506,28 @@
           }
         }
       }
+
       .footerInfo {
         margin-top: 25px;
         padding: 25px 0px;
+
         .itemInfo {
           flex: 0 0 calc(100% / 4);
+
           .infoName {
             font-size: 12px;
             line-height: 15px;
             margin-bottom: 10px;
+
             svg {
               margin-right: 5px;
             }
           }
+
           .value {
             font-size: 12px;
             line-height: 20px;
+
             a {
               font-size: 12px;
               line-height: 20px;
@@ -462,8 +535,10 @@
           }
         }
       }
+
       .copyrightSection {
         padding: 160px 0px 20px;
+
         .logoTxt {
           position: absolute;
           top: 0px;
@@ -477,27 +552,29 @@
           text-align: center;
           justify-content: center;
           text-transform: uppercase;
-          background: linear-gradient(
-            180deg,
-            rgba(0, 97, 254, 0.1) 22.43%,
-            rgba(255, 255, 255, 0.1) 107.45%
-          );
+          background: linear-gradient(180deg,
+              rgba(0, 97, 254, 0.1) 22.43%,
+              rgba(255, 255, 255, 0.1) 107.45%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           background-clip: text;
           text-fill-color: transparent;
           z-index: 0;
         }
+
         .copyRightLinks {
           gap: 10px;
+
           li {
             padding-right: 5px;
+
             a {
               font-size: 12px;
               line-height: 20px;
             }
           }
         }
+
         .copyRightSec {
           p {
             font-size: 12px;
@@ -508,9 +585,11 @@
     }
   }
 }
+
 @media only screen and (min-width: 900px) and (max-width: 1099px) {
   .footerSection {
     padding-top: 60px;
+
     .contactWapper {
       .MianLogo {
         svg {
@@ -518,27 +597,32 @@
           width: auto;
           height: 60px;
         }
+
         p {
           font-size: 13px;
           line-height: 20px;
           max-width: 90%;
         }
       }
+
       .serviceStyle {
         h6 {
           font-size: 17px;
           line-height: 16px;
           margin-bottom: 15px;
         }
+
         ul {
           li {
             flex: 0 0 50%;
+
             a {
               font-size: 13px;
               line-height: 26px;
             }
           }
         }
+
         &.servicelast {
           ul {
             li {
@@ -547,22 +631,28 @@
           }
         }
       }
+
       .footerInfo {
         margin-top: 25px;
         padding: 25px 0px;
+
         .itemInfo {
           flex: 0 0 calc(100% / 4);
+
           .infoName {
             font-size: 12px;
             line-height: 15px;
             margin-bottom: 10px;
+
             svg {
               margin-right: 5px;
             }
           }
+
           .value {
             font-size: 12px;
             line-height: 20px;
+
             a {
               font-size: 12px;
               line-height: 20px;
@@ -570,8 +660,10 @@
           }
         }
       }
+
       .copyrightSection {
         padding: 100px 0px 20px;
+
         .logoTxt {
           position: absolute;
           top: 0px;
@@ -585,27 +677,29 @@
           text-align: center;
           justify-content: center;
           text-transform: uppercase;
-          background: linear-gradient(
-            180deg,
-            rgba(0, 97, 254, 0.1) 22.43%,
-            rgba(255, 255, 255, 0.1) 107.45%
-          );
+          background: linear-gradient(180deg,
+              rgba(0, 97, 254, 0.1) 22.43%,
+              rgba(255, 255, 255, 0.1) 107.45%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           background-clip: text;
           text-fill-color: transparent;
           z-index: 0;
         }
+
         .copyRightLinks {
           gap: 10px;
+
           li {
             padding-right: 5px;
+
             a {
               font-size: 12px;
               line-height: 20px;
             }
           }
         }
+
         .copyRightSec {
           p {
             font-size: 12px;
@@ -616,9 +710,11 @@
     }
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 899px) {
   .footerSection {
     padding-top: 60px;
+
     .contactWapper {
       .MianLogo {
         svg {
@@ -626,12 +722,14 @@
           width: auto;
           height: 60px;
         }
+
         p {
           font-size: 13px;
           line-height: 20px;
           max-width: 90%;
         }
       }
+
       .serviceStyle {
         h6 {
           font-size: 17px;
@@ -639,15 +737,18 @@
           margin-bottom: 15px;
           margin-top: 20px;
         }
+
         ul {
           li {
             flex: 0 0 50%;
+
             a {
               font-size: 13px;
               line-height: 26px;
             }
           }
         }
+
         &.servicelast {
           ul {
             li {
@@ -656,24 +757,30 @@
           }
         }
       }
+
       .footerInfo {
         margin-top: 25px;
         padding: 25px 0px 0px;
         flex-wrap: wrap;
+
         .itemInfo {
           flex: 0 0 calc(100% / 2);
           margin-bottom: 20px;
+
           .infoName {
             font-size: 12px;
             line-height: 15px;
             margin-bottom: 10px;
+
             svg {
               margin-right: 5px;
             }
           }
+
           .value {
             font-size: 12px;
             line-height: 20px;
+
             a {
               font-size: 12px;
               line-height: 20px;
@@ -681,24 +788,30 @@
           }
         }
       }
+
       .copyrightSection {
         padding: 100px 0px 20px;
+
         .logoTxt {
           font-size: 150px;
           line-height: 160px;
         }
+
         .copyRightLinks {
           gap: 10px;
           justify-content: center;
           margin-bottom: 10px;
+
           li {
             padding-right: 5px;
+
             a {
               font-size: 12px;
               line-height: 20px;
             }
           }
         }
+
         .copyRightSec {
           p {
             font-size: 12px;
@@ -709,9 +822,11 @@
     }
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .footerSection {
     padding-top: 60px;
+
     .contactWapper {
       .MianLogo {
         svg {
@@ -719,12 +834,14 @@
           width: auto;
           height: 60px;
         }
+
         p {
           font-size: 13px;
           line-height: 20px;
           max-width: 90%;
         }
       }
+
       .serviceStyle {
         h6 {
           font-size: 17px;
@@ -732,15 +849,18 @@
           margin-bottom: 15px;
           margin-top: 20px;
         }
+
         ul {
           li {
             flex: 0 0 50%;
+
             a {
               font-size: 13px;
               line-height: 26px;
             }
           }
         }
+
         &.servicelast {
           ul {
             li {
@@ -749,24 +869,30 @@
           }
         }
       }
+
       .footerInfo {
         margin-top: 25px;
         padding: 25px 0px 0px;
         flex-wrap: wrap;
+
         .itemInfo {
           flex: 0 0 calc(100% / 2);
           margin-bottom: 20px;
+
           .infoName {
             font-size: 12px;
             line-height: 15px;
             margin-bottom: 10px;
+
             svg {
               margin-right: 5px;
             }
           }
+
           .value {
             font-size: 12px;
             line-height: 20px;
+
             a {
               font-size: 12px;
               line-height: 20px;
@@ -774,30 +900,37 @@
           }
         }
       }
+
       .copyrightSection {
         padding: 60px 0px 20px;
+
         .logoTxt {
           font-size: 120px;
           line-height: 100px;
         }
+
         .copyRightLinks {
           gap: 10px;
           justify-content: center;
           margin-bottom: 10px;
+
           li {
             padding-right: 5px;
+
             a {
               font-size: 12px;
               line-height: 20px;
             }
           }
         }
+
         .copyRightSec {
           &.RightTxt {
             p {
               text-align: center;
             }
           }
+
           p {
             font-size: 12px;
             line-height: 20px;
@@ -808,9 +941,11 @@
     }
   }
 }
+
 @media only screen and (min-width: 0px) and (max-width: 575px) {
   .footerSection {
     padding-top: 60px;
+
     .contactWapper {
       .MianLogo {
         svg {
@@ -818,12 +953,14 @@
           width: auto;
           height: 60px;
         }
+
         p {
           font-size: 13px;
           line-height: 20px;
           max-width: 90%;
         }
       }
+
       .serviceStyle {
         h6 {
           font-size: 17px;
@@ -831,15 +968,18 @@
           margin-bottom: 15px;
           margin-top: 20px;
         }
+
         ul {
           li {
             flex: 0 0 100%;
+
             a {
               font-size: 13px;
               line-height: 26px;
             }
           }
         }
+
         &.servicelast {
           ul {
             li {
@@ -848,24 +988,30 @@
           }
         }
       }
+
       .footerInfo {
         margin-top: 25px;
         padding: 25px 0px 0px;
         flex-wrap: wrap;
+
         .itemInfo {
           flex: 0 0 calc(100%);
           margin-bottom: 20px;
+
           .infoName {
             font-size: 12px;
             line-height: 15px;
             margin-bottom: 10px;
+
             svg {
               margin-right: 5px;
             }
           }
+
           .value {
             font-size: 12px;
             line-height: 20px;
+
             a {
               font-size: 12px;
               line-height: 20px;
@@ -873,30 +1019,37 @@
           }
         }
       }
+
       .copyrightSection {
         padding: 60px 0px 20px;
+
         .logoTxt {
           font-size: 70px;
           line-height: 70px;
         }
+
         .copyRightLinks {
           gap: 10px;
           justify-content: center;
           margin-bottom: 10px;
+
           li {
             padding-right: 5px;
+
             a {
               font-size: 12px;
               line-height: 20px;
             }
           }
         }
+
         .copyRightSec {
           &.RightTxt {
             p {
               text-align: center;
             }
           }
+
           p {
             font-size: 12px;
             line-height: 20px;

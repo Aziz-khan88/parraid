@@ -2,6 +2,8 @@ import styles from "@/styles/layout/footerlinks.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
 import { EmailIcon, LocationIcon, MainLogo, PhoneIcon, TimingIcon } from "@/src/app/app-constants";
 import Link from "next/link";
+import Logo from "media/logo.webp"
+import Image from "next/image";
 
 
 const FooterLinks = () => {
@@ -11,7 +13,7 @@ const FooterLinks = () => {
                 <Row>
                     <Col md={12} lg={4}>
                         <div className={styles.MianLogo}>
-                            <MainLogo />
+                            <Image src={Logo.src} alt="Parraid Logo" width={256} height={70} />
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,</p>
                         </div>
                     </Col>

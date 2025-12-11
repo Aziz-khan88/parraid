@@ -20,7 +20,7 @@ export const faqsData = [
     title: "How do Parraid’s telemetry solutions enhance data operations?",
     txt: (
       <p>
-        Our telemetry communication solutions enable accurate data acquisition,
+        Our telemetry data systems enable accurate data acquisition,
         recording, and playback across test ranges and aerospace applications.
         With IRIG-106 compliance and TMoIP support, we deliver precise insights
         for faster mission validation and system performance analysis.
@@ -31,7 +31,7 @@ export const faqsData = [
     title: "What makes Parraid’s communication systems “tactical”?",
     txt: (
       <p>
-        Parraid’s tactical communications systems are designed for
+        Parraid’s tactical communications solutions are designed for
         interoperability and resilience. They integrate seamlessly with
         multi-band radios, SATCOM, and IP-based networks to maintain command,
         control, and situational awareness in any field condition.
@@ -84,7 +84,7 @@ const Faqs = () => {
           <Col md={6} lg={6} xl={5}>
             <h2>Frequently Asked Questions</h2>
             <p>
-              Parraid provides tactical communications systems, telemetry
+              Parraid provides tactical communications solutions, telemetry
               communication solutions, and deployable communication products
               that support mission-critical operations around the globe. Below
               are some of the most common questions about our technology,
@@ -94,9 +94,8 @@ const Faqs = () => {
           <Col md={6} lg={6} xl={6} className="offset-xl-1">
             {faqsData.map((items, index) => (
               <div
-                className={`${styles.faqsBox} ${
-                  activeIndex === index ? styles.active : ""
-                }`}
+                className={`${styles.faqsBox} ${activeIndex === index ? styles.active : ""
+                  }`}
                 key={index}
               >
                 <div
@@ -105,9 +104,8 @@ const Faqs = () => {
                 >
                   {items.title}
                   <div
-                    className={`${styles.iconBox} ${
-                      activeIndex === index ? styles.active : ""
-                    }`}
+                    className={`${styles.iconBox} ${activeIndex === index ? styles.active : ""
+                      }`}
                   >
                     <PlusIcon />
                   </div>

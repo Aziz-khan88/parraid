@@ -10,12 +10,12 @@ import IMG04 from "media/industries/4.webp";
 const data = [
   {
     title: "Aerospace and aviation",
-    txt: "Parraid supports flight test and aerospace programs with telemetry communication solutions that ensure precise data capture and real-time performance analysis. Our systems integrate seamlessly with existing range instrumentation, enabling faster mission validation and enhanced operational efficiency.",
+    txt: "Parraid supports flight test and aerospace programs with telemetry data systems that ensure precise data capture and real-time performance analysis. Our systems integrate seamlessly with existing range instrumentation, enabling faster mission validation and enhanced operational efficiency.",
     img: IMG01.src,
   },
   {
     title: "Military and defense",
-    txt: "We equip defense forces with tactical communications systems that deliver secure interoperability across multi-band radios and IP networks. From field deployments to command centers, our rugged, compliant, and mission-ready technologies sustain uninterrupted communication and situational awareness.",
+    txt: "We equip defense forces with tactical communications solutions that deliver secure interoperability across multi-band radios and IP networks. From field deployments to command centers, our rugged, MIL-STD compliant, and mission-ready technologies sustain uninterrupted communication and situational awareness.",
     img: IMG02.src,
   },
   {
@@ -25,7 +25,7 @@ const data = [
   },
   {
     title: "R&D organizations",
-    txt: "Research and development institutions trust Parraid’s telemetry communication solutions for data acquisition, testing, and simulation environments. Our high-fidelity systems support experimentation, post-processing, and performance validation critical to innovation and technological advancement.",
+    txt: "Research and development institutions trust Parraid’s telemetry data systems for data acquisition, testing, and simulation environments. Our high-fidelity systems support experimentation, post-processing, and performance validation critical to innovation and technological advancement.",
     img: IMG04.src,
   },
 ];
@@ -40,7 +40,7 @@ const Industries = () => {
             <p>
               Parraid delivers mission-critical technology to organizations
               operating across air, land, sea, and cyber domains. Our tactical
-              communications systems, telemetry communication solutions, and
+              communications solutions, telemetry data systems, and
               deployable communication products empower customers to connect,
               monitor, and command with absolute confidence.
             </p>

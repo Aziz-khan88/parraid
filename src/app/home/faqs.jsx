@@ -28,7 +28,7 @@ export const faqsData = [
     ),
   },
   {
-    title: "What makes Parraid’s communication systems “tactical”?",
+    title: "What makes Parraid’s communications solutions “tactical”?",
     txt: (
       <p>
         Parraid’s tactical communications solutions are designed for

@@ -147,6 +147,12 @@
         background-clip: text;
         text-fill-color: transparent;
         z-index: 0;
+
+        img {
+          width: auto !important;
+          height: 170px !important;
+          margin: 20px auto 0px;
+        }
       }
 
       .copyRightLinks {
@@ -312,6 +318,12 @@
           background-clip: text;
           text-fill-color: transparent;
           z-index: 0;
+
+          img {
+            width: auto !important;
+            height: 150px !important;
+            margin: 20px auto 0px;
+          }
         }
 
         .copyRightLinks {
@@ -435,6 +447,12 @@
           background-clip: text;
           text-fill-color: transparent;
           z-index: 0;
+
+          img {
+            width: auto !important;
+            height: 150px !important;
+            margin: 20px auto 0px;
+          }
         }
 
         .copyRightLinks {
@@ -560,6 +578,12 @@
           background-clip: text;
           text-fill-color: transparent;
           z-index: 0;
+
+          img {
+            width: auto !important;
+            height: 130px !important;
+            margin: 20px auto 0px;
+          }
         }
 
         .copyRightLinks {
@@ -671,7 +695,7 @@
           font-style: normal;
           font-weight: 700;
           font-size: 200px;
-          line-height: 160px;
+          line-height: 220px;
           display: flex;
           align-items: center;
           text-align: center;
@@ -685,6 +709,12 @@
           background-clip: text;
           text-fill-color: transparent;
           z-index: 0;
+
+          img {
+            width: auto !important;
+            height: 80px !important;
+            margin: 20px auto 0px;
+          }
         }
 
         .copyRightLinks {
@@ -795,15 +825,23 @@
         .logoTxt {
           font-size: 150px;
           line-height: 160px;
+
+          img {
+            width: auto !important;
+            height: 80px !important;
+            margin: 20px auto 0px;
+          }
         }
 
         .copyRightLinks {
           gap: 10px;
           justify-content: center;
           margin-bottom: 10px;
+          align-items: center;
 
           li {
             padding-right: 5px;
+            text-align: center;
 
             a {
               font-size: 12px;
@@ -813,8 +851,12 @@
         }
 
         .copyRightSec {
+          text-align: center;
+          margin-top: 20px;
+
           p {
             font-size: 12px;
+            text-align: center !important;
             line-height: 20px;
           }
         }
@@ -907,6 +949,13 @@
         .logoTxt {
           font-size: 120px;
           line-height: 100px;
+
+          img {
+            width: auto !important;
+            height: 80px !important;
+            margin: 20px auto 0px;
+          }
+
         }
 
         .copyRightLinks {
@@ -1021,11 +1070,17 @@
       }
 
       .copyrightSection {
-        padding: 60px 0px 20px;
+        padding: 110px 0 20px;
 
         .logoTxt {
           font-size: 70px;
           line-height: 70px;
+
+          img {
+            width: auto !important;
+            height: 60px !important;
+            margin: 20px auto 20px;
+          }
         }
 
         .copyRightLinks {

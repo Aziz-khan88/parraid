@@ -807,7 +807,7 @@ export const PageData = [
         img: Page11Img01.src,
         maintxt1: (<>
             <h2>Key Features of RoIP</h2>
-            <p>Seamless Integration: RoIP seamlessly integrates with existing communication systems, eliminating the need for costly infrastructure upgrades.</p>
+            <p>Seamless Integration: RoIP seamlessly integrates with existing communication solutions, eliminating the need for costly infrastructure upgrades.</p>
             <ul>
                 <li>
                     <strong>Enhanced Flexibility: </strong> Enjoy greater flexibility with RoIP, allowing for remote communication and interoperability across diverse devices and networks.
@@ -994,7 +994,7 @@ export const PageData = [
         ),
         maintitle: "Understanding Tactical Data Links: What are Tactical Data Links?",
         maintxt: (<>
-            <p>Tactical Data Links are communication systems that allow military platforms to exchange tactical information in real-time. From aircraft to ground troops, these links facilitate the transmission of critical data such as location, identification, and mission status.</p>
+            <p>Tactical Data Links are communication solutions that allow military platforms to exchange tactical information in real-time. From aircraft to ground troops, these links facilitate the transmission of critical data such as location, identification, and mission status.</p>
             <h3>Significance in Modern Warfare</h3>
             <p>Tactical Data Links are essential for maintaining a clear operational picture in an era of complex battlefield environments. By providing commanders with timely and accurate information, these links enhance decision-making capabilities and overall mission success.</p>
 
@@ -1399,7 +1399,7 @@ export const PageData = [
         title: "Parraid: Revolutionizing Tactical Communication Solutions for Military Operations",
         tittxt: (
             <>
-                <p>Welcome to Parraid: Your Trusted Partner in Tactical Communication Solutions. At Parraid, we take satisfaction in offering state-of-the-art tactical communication systems that are adapted to the needs of contemporary military operations. With a focus on innovation, reliability, and interoperability, we provide an extensive array of services to guarantee smooth communication in settings where mission-critical operations are involved.</p>
+                <p>Welcome to Parraid: Your Trusted Partner in Tactical Communication Solutions. At Parraid, we take satisfaction in offering state-of-the-art tactical communication solutions that are adapted to the needs of contemporary military operations. With a focus on innovation, reliability, and interoperability, we provide an extensive array of services to guarantee smooth communication in settings where mission-critical operations are involved.</p>
                 <p>Our commitment to excellence has made us a trusted partner for military organizations worldwide.</p>
             </>
         ),
@@ -1420,7 +1420,7 @@ export const PageData = [
             <h3>Tactical Radio Network</h3>
             <p>Our Tactical Radio Network offers secure and resilient communication for troops deployed in remote or hostile environments.</p>
             <h3>Tactical Radio Bridging</h3>
-            <p>Our Tactical Radio Bridging solutions enable interoperability between disparate communication systems, ensuring seamless connectivity across the battlefield.</p>
+            <p>Our Tactical Radio Bridging solutions enable interoperability between disparate communication solutions, ensuring seamless connectivity across the battlefield.</p>
         </>),
         maintitle2: "Approach",
         maintxt2: (
@@ -1456,7 +1456,7 @@ export const PageData = [
             },
             {
                 question: "What level of technical support does Parraid offer to its clients?",
-                answer: <p>Parraid is committed to providing comprehensive technical support to our clients. Our team of experts is available 24/7 to address any issues or concerns and ensure the smooth operation of our communication systems.</p>
+                answer: <p>Parraid is committed to providing comprehensive technical support to our clients. Our team of experts is available 24/7 to address any issues or concerns and ensure the smooth operation of our communication solutions.</p>
             },
             {
                 question: "How does Parraid prioritize cybersecurity in its communication solutions?",
@@ -1522,8 +1522,8 @@ export const PageData = [
                 answer: <p>Yes, Telemetry Ground Stations can be customized to meet the unique requirements of various industries, including aerospace, defense, and environmental monitoring.</p>
             },
             {
-                question: "How do Telemetry Ground Stations differ from traditional communication systems?",
-                answer: <p>Unlike traditional communication systems, Telemetry Ground Stations are specifically designed for the reception and processing of telemetry data from space vehicles, ensuring reliable communication and control</p>
+                question: "How do Telemetry Ground Stations differ from traditional communication solutions?",
+                answer: <p>Unlike traditional communication solutions, Telemetry Ground Stations are specifically designed for the reception and processing of telemetry data from space vehicles, ensuring reliable communication and control</p>
             },
         ],
         img2: Page20Img02.src,

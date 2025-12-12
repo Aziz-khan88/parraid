@@ -25,8 +25,7 @@ const Banner = () => {
                 ADVANCING TELEMETRY & COMMUNICATIONS FOR CRITICAL MISSIONS
               </h1>
               <p>
-                Delivering dependable, high-performance data and communication
-                systems that connect air, land, sea, and space. Parraid empowers
+                Delivering dependable, high-performance data and communication solutions that connect air, land, sea, and space. Parraid empowers
                 aerospace, defense, and government teams to operate with
                 precision, speed, and confidence.
               </p>

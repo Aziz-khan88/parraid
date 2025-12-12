@@ -350,7 +350,7 @@ export const ProdDetails = [
           infrastructure ensures flawless voice and data support over legacy
           U.S. Military Combat Net Radios (CNR), Joint Tactical Radio Systems
           (JTRS), and commercial Land Mobile Radio (LMR) Systems—delivering
-          unparalleled interoperability across diverse communication systems.
+          unparalleled interoperability across diverse communication solutions.
         </p>
         <h6>Flexible Conferencing with Infinite Scalability</h6>
         <p>

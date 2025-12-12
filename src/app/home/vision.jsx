@@ -25,8 +25,7 @@ const Vision = () => {
                 <h2>Our Mission</h2>
                 <p>
                   At Parraid, our mission is to empower organizations with
-                  the tactical communications solutions and telemetry
-                  communication solutions they need to achieve seamless
+                  the tactical communications solutions and telemetry data systems they need to achieve seamless
                   operational readiness across every domain — air, land, sea,
                   and space.
                 </p>

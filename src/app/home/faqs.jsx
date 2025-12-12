@@ -84,8 +84,7 @@ const Faqs = () => {
           <Col md={6} lg={6} xl={5}>
             <h2>Frequently Asked Questions</h2>
             <p>
-              Parraid provides tactical communications solutions, telemetry
-              communication solutions, and deployable communication products
+              Parraid provides tactical communications solutions, telemetry data systems, and deployable communication products
               that support mission-critical operations around the globe. Below
               are some of the most common questions about our technology,
               services, and support.

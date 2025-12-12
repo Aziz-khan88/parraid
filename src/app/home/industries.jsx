@@ -15,7 +15,7 @@ const data = [
   },
   {
     title: "Military and defense",
-    txt: "We equip defense forces with tactical communications solutions that deliver secure interoperability across multi-band radios and IP networks. From field deployments to command centers, our rugged, MIL-STD compliant, and mission-ready technologies sustain uninterrupted communication and situational awareness.",
+    txt: "We equip defense forces with tactical communications systems that deliver secure interoperability across multi-band radios and IP networks. From field deployments to command centers, our rugged, MIL-STD compliant, and mission-ready technologies sustain uninterrupted communication and situational awareness.",
     img: IMG02.src,
   },
   {

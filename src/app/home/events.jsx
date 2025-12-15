@@ -25,188 +25,160 @@ import Image from "next/image";
 
 const data = [
   {
-    title: "TechNet Augusta",
-    add: "Augusta, GA",
-    link: "https://events.afcea.org/Augusta25/Public/enter.aspx",
+    title: "Booz Allen Tak Pro Am",
+    add: "Burnet, TX",
+    link: "https://web.cvent.com/event/353c74d6-9cd2-4494-939d-18c3759ba1d8/summary",
     img: Event01.src,
-    date: "August 18-21",
-    time: "10:00 AM"
+    date: "February 4-6",
   },
   {
-    title: "NGAFL Adjutant General’s Leadership Summit",
-    add: "Palm Beach, FL",
-    link: "https://engafl.org/ngafl-annual-state-conference/",
+    title: "Special Air Warfare Symposium",
+    add: "Fort Walton Beach, FL",
+    link: "https://saws.gsofsymposium.org",
     img: Event02.src,
-    date: "September 25-28",
-    time: "09:00 AM"
+    date: "February 10-12",
   },
   {
-    title: "Aerospace International Test & Development Show",
-    add: "Toulouse, France",
-    link: "https://www.aerotestdevelopmentshow.com/",
+    title: "SMALLSAT Symposium",
+    add: "Mountain View, CA",
+    link: "https://smallsatshow.com",
     img: Event03.src,
-    date: "September 30 – October 1",
-    time: "07:00 AM"
+    date: "February 10-12",
   },
   {
-    title: "ITC",
-    add: "Las Vegas, NV",
-    link: "https://events.afcea.org/tip25/Public/enter.aspx",
+    title: "AFCEA West",
+    add: "San Diego, CA",
+    link: "https://www.westconference.org/West26/Public/enter.aspx",
     img: Event04.src,
-    date: "October 20-23",
-    time: "11:00 AM"
+    date: "February 10-12",
   },
   {
-    title: "TechNet Indo-Pacifc",
-    add: "Honolulu, HI",
-    link: "https://events.afcea.org/tip25/Public/enter.aspx",
+    title: "AFA Warfare Symposium",
+    add: "Aurora, CO",
+    link: "https://www.afa.org/afa-warfare-symposium/",
     img: Event05.src,
-    date: "October 28-30",
-    time: "09:00 AM"
+    date: "February 23-25",
   },
   {
-    title: "ITEA Annual T&E Symposium",
-    add: "Destin, FL",
-    link: "https://itea.org/annual-te-symposium/",
+    title: "Collaborative EW Symposium",
+    add: "Pt. Mugu, CA",
+    link: "https://crows.org/event/collaborative-ew-2026/",
     img: Event06.src,
-    date: "November 11-14",
-    time: "11:00 AM"
+    date: "March 10-12",
   },
   {
-    title: "WEPTAC",
-    subtitle: "Nellis Airforce Base",
-    add: "Las Vegas, NV",
-    link: "https://www.weptac.com/",
+    title: "Space Symposium",
+    add: "Colorado Springs, CO",
+    link: "https://www.spacesymposium.org",
     img: Event07.src,
-    date: "January 10-11th",
-    time: "11:00 AM"
+    date: "April 13-16",
   },
   {
-    title: "Singapore Airshow",
-    subtitle: "Changi Exhibition Center",
-    add: "Singapore",
-    link: "https://www.singaporeairshow.com/",
+    title: "AAAA Summit",
+    add: "Nashville, TN",
+    link: "https://s7.goeshow.com/aaaa/missionsolutions/2026/",
     img: Event08.src,
-    date: "February 20-25",
-    time: "10:00 AM"
+    date: "April 15-17",
   },
   {
-    title: "TechNet Ft. Liberty",
-    subtitle: "Fort Liberty",
-    add: "Ft. Liberty, NC",
-    link: "https://www.technetfortliberty.com/",
+    title: "Aberdeen Proving Ground Expo",
+    add: "Aberdeen, MD",
+    link: "https://fdaexpo.com/events.php",
     img: Event09.src,
-    date: "February 21-23",
-    time: "09:00 AM"
+    date: "April 15",
   },
   {
-    title: "Shadow Warrior Tech Expo",
-    subtitle: "Fort Liberty",
-    add: "Ft. Liberty, NC",
-    link: "https://www.parraid.com/events/",
+    title: "Sea Air Space",
+    add: "National Harbor, MD",
+    link: "https://seaairspace.org",
     img: Event10.src,
-    date: "April 15-19",
-    time: "09:00 AM"
+    date: "April 19-22",
+  },
+  {
+    title: "TechNet LANPAC Korea",
+    add: "Pyongteak-Shi, South Korea",
+    link: "https://www.eventeny.com/events/lptnk2026-20462/",
+    img: Event11.src,
+    date: "April 20-24",
+  },
+  {
+    title: "ITEA Test Instrumentation Workshop",
+    add: "Las Vegas, NV",
+    link: "https://itea.org/event/2026-test-instrumentation-training-workshop/",
+    img: Event12.src,
+    date: "April 28-30",
+  },
+  {
+    title: "Border Security Expo",
+    add: "Phoenix, AZ",
+    link: "https://www.bordersecurityexpo.com",
+    img: Event13.src,
+    date: "May 5-6",
+  },
+  {
+    title: "Hill AFB Tech Expo",
+    add: "Ogden, UT",
+    link: "https://fdaexpo.com/events.php",
+    img: Event14.src,
+    date: "May 5",
+  },
+  {
+    title: "Peterson AFB Tech Expo",
+    add: "Colorado Springs, CO",
+    link: "https://fdaexpo.com/events.php",
+    img: Event14.src,
+    date: "May 7",
   },
   {
     title: "SOF Week",
-    subtitle: "Tampa Convention Center",
     add: "Tampa, FL",
-    link: "https://www.sofweek.org/about/sof-week",
-    img: Event11.src,
-    date: "May 6-10",
-    time: "08:00 AM"
-  },
-  {
-    title: "ITEA TIW",
-    subtitle: "The Tuscany Hotel",
-    add: "Las Vegas, NV",
-    link: "https://itea.org/event/2024-test-instrumentation-workshop-tiw/",
-    img: Event12.src,
-    date: "May 14-16",
-    time: "11:00 AM"
-  },
-  {
-    title: "ETTC",
-    subtitle: "NCC Nuremberg Convention Center",
-    add: "Nuremberg GER",
-    link: "https://www.telemetry-europe.org/",
-    img: Event13.src,
-    date: "June 11-13",
-    time: "11:00 AM"
-  },
-  {
-    title: "NGAFL Annual Conference",
-    subtitle: "Embassy Suites Orlando",
-    add: "Orlando, FL",
-    link: "https://engafl.org/ngafl-annual-state-conference/",
-    img: Event02.src,
-    date: "June 27-30",
-    time: "11:00 AM"
-  },
-  {
-    title: "ITEA MDO",
-    subtitle: "Hilton at the Mark Center",
-    add: "Alexandria, VA",
-    link: "https://itea.org/event/2024-annual-multi-domain-operations-workshop/",
-    img: Event14.src,
-    date: "July 16-18",
-    time: "11:00 AM"
-  },
-  {
-    title: "GVSETS",
-    subtitle: "Suburban Collection Showplace",
-    add: "Novi, MI",
-    link: "https://www.ndia.org/events/2023/8/15/gvsets",
+    link: "https://sofweek.org",
     img: Event15.src,
-    date: "August 13-15",
-    time: "11:00 AM"
+    date: "May 18-21",
+  },
+  {
+    title: "ITEA UK T&E Summit",
+    add: "Portsmouth, England",
+    link: "https://itea.org/event/2026-uk-te-conference/ ",
+    img: Event12.src,
+    date: "June 9-10",
+  },
+  {
+    title: "NHS Conference",
+    add: "Louisville, KY",
+    link: "https://nationalhomelandsecurity.org",
+    img: Event16.src,
+    date: "August 10-13",
   },
   {
     title: "TechNet Augusta",
-    subtitle: "Augusta Marriott at the Convention Center",
     add: "Augusta, GA",
-    link: "https://events.afcea.org/Augusta24/Public/enter.aspx",
-    img: Event16.src,
-    date: "August 19-24",
-    time: "11:00 AM"
+    link: "https://events.afcea.org/Augusta26/Public/enter.aspx",
+    img: Event17.src,
+    date: "August 17-20",
   },
   {
-    title: "TechNet Indo-Pacific",
-    subtitle: "Hawaii Convention Center",
-    add: "Honolulu, HI",
-    link: "https://events.afcea.org/tip24/public/enter.aspx",
-    img: Event17.src,
-    date: "October 22-24",
-    time: "11:00 AM"
+    title: "IEEE Military Communications Conference",
+    add: "Bethesda, MD",
+    link: "https://milcom2025.ieee-milcom.org ",
+    img: Event18.src,
+    date: "October 12",
   },
   {
     title: "ITC",
-    subtitle: "Renaissance Glendale",
     add: "Glendale, AZ",
-    link: "http://www.telemetry.org/",
-    img: Event18.src,
-    date: "October 21-24",
-    time: "11:00 AM"
-  },
-  {
-    title: "WEPTAC Tucson",
-    subtitle: "Venue TBA",
-    add: "Tucson, AZ",
-    link: "https://arcweptac.com/",
+    link: "https://telemetry.org",
     img: Event19.src,
-    date: "October 21-25",
-    time: "11:00 AM"
+    date: "October 26-29",
   },
   {
-    title: "ITEA East Symposium",
-    subtitle: "Embassy Suites",
-    add: "Huntsville, AL",
-    link: "https://itea.org/event/2024-41st-annual-international-te-symposium/",
+    title: "TechNet Indo-Pacific",
+    add: "Honolulu, HI",
+    link: "https://www.afcea.org/calendar/eventdet.jsp?event_id=69158",
     img: Event20.src,
-    date: "November 4-7",
-    time: "11:00 AM"
-  }
+    date: "November 3-5",
+  },
+
 ]
 
 const Events = ({ page, home }) => {
@@ -232,7 +204,6 @@ const Events = ({ page, home }) => {
                 </div>
                 <div className={styles.eventContent}>
                   <ul>
-                    <li>{event.time}</li>
                     <li>{event.date}</li>
                   </ul>
                   <h2>{event.title}</h2>

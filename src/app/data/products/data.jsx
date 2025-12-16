@@ -207,66 +207,24 @@ export const productsData = {
   ],
   cat2: [
     {
-      extra: "bigImage",
-      id: 1,
-      slug: "best-data-engine-bde",
-      name: "BEST DATA ENGINE BDE",
-      img: C3Pro1_Main.src,
-      txt: "Best Data Engine (BDE) compares multiple PCM input channels and creates a composite output with the best data. Real-time stream selection and error correction for mission-critical telemetry.",
-    },
-    {
-      extra: "bigImage",
-      id: 2,
-      slug: "best-source-reproducer-bsr-100",
-      name: "BEST SOURCE REPRODUCER BSR-100",
-      img: C3Pro2_Main.src,
-      txt: "BSR-100 provides seamless Best Source post-processing, handling up to 32 recorded PCM streams from multiple locations. Includes 2-channel PSIMe output for optimal data reproduction.",
-    },
-    {
       extra: "smallIamge",
-      id: 3,
+      id: 1,
       slug: "edge2-telemetry-reciver",
       name: "EDGE² TELEMETRY NETWORK APPLIANCE",
       img: C3Pro3_Main.src,
       txt: "Edge² delivers network telemetry processing in a compact 2-channel unit. Supports RF-to-Ethernet (200 MHz-5.15 GHz), TMoIP/IRIG 106 Ch10/11 output. Portable or 1U rack-mountable design.",
     },
     {
-      extra: "smallIamge",
-      id: 4,
-      slug: "g3-tmoip-data-processing",
-      name: "G3 TMoIP DATA PROCESSING",
-      img: C3Pro4_Main.src,
-      txt: "The G3 Recorder-Processing system represents the next generation of telemetry data recording and processing platforms.",
-    },
-
-    {
       extra: "bigImage",
-      id: 5,
+      id: 2,
       slug: "imux-g2e-and-g2eh",
       name: "IMUX G2e AND IMUX G2eH",
       img: C3Pro5_Main.src,
       txt: "The IMUX G2e and the IMUX G2e Hybrid (G2eH) have many unique features such as supporting all industry-standard telemetry signal types, the ability to record two Chapter 10 files simultaneously.",
     },
-
-    {
-      extra: "smallIamge",
-      id: 6,
-      slug: "imux-re-con",
-      name: "IMUX RE-CON",
-      img: C3Pro6_Main.src,
-      txt: "IMUX RE/CON is a telemetry ground network recorder for IP ranges. Auto-detects packets, converts formats to IRIG 106 Ch10 on-the-fly, and supports network playback redirection.",
-    },
     {
       extra: "bigImage",
-      id: 7,
-      slug: "omega-data-environment-ode",
-      name: "OMEGA DATA ENVIRONMENT ODE",
-      img: C3Pro7_Main.src,
-      txt: "OMEGA Data Environment (ODE) enables rapid, secure mining of large data sets. Uses OODM technology for fast access, supports collaboration, and provides FIPS-compliant network encryption.",
-    },
-    {
-      extra: "bigImage",
-      id: 8,
+      id: 3,
       slug: "omega-next-real-time-data-processing-software",
       name: "OMEGA NExT",
       img: C3Pro8_Main.src,
@@ -274,20 +232,66 @@ export const productsData = {
     },
     {
       extra: "bigImage",
-      id: 9,
-      slug: "rx2-receiver",
-      name: "RX2 RECEIVER",
-      img: C3Pro9_Main.src,
-      txt: "Rx2 multi-channel receiver: Tri-band (L/S/C) RF-to-Ethernet with AM, PCM/FM, BPSK, SOQPSK-TG demods. Up to 14 receivers per chassis, Chapter 10/11 output, and built-in diversity combining.",
-    },
-    {
-      extra: "bigImage",
-      id: 10,
+      id: 4,
       slug: "series-5000-data-processors",
       name: "S-5000e DATA PROCESSOR",
       img: C3Pro10_Main.src,
       txt: "Series-5000: Real-time telemetry platform with 2-16 PCM inputs, optional Bit Syncs/RF receivers, IRIG time-stamping, and hot mic audio. Available in portable and rack-mount 2U/4U configurations.",
     },
+    {
+      extra: "bigImage",
+      id: 5,
+      slug: "best-data-engine-bde",
+      name: "BEST DATA ENGINE BDE",
+      img: C3Pro1_Main.src,
+      txt: "Best Data Engine (BDE) compares multiple PCM input channels and creates a composite output with the best data. Real-time stream selection and error correction for mission-critical telemetry.",
+    },
+    {
+      extra: "bigImage",
+      id: 6,
+      slug: "best-source-reproducer-bsr-100",
+      name: "BEST SOURCE REPRODUCER BSR-100",
+      img: C3Pro2_Main.src,
+      txt: "BSR-100 provides seamless Best Source post-processing, handling up to 32 recorded PCM streams from multiple locations. Includes 2-channel PSIMe output for optimal data reproduction.",
+    },
+
+    {
+      extra: "smallIamge",
+      id: 7,
+      slug: "g3-tmoip-data-processing",
+      name: "G3 TMoIP DATA PROCESSING",
+      img: C3Pro4_Main.src,
+      txt: "The G3 Recorder-Processing system represents the next generation of telemetry data recording and processing platforms.",
+    },
+
+
+
+    {
+      extra: "smallIamge",
+      id: 8,
+      slug: "imux-re-con",
+      name: "IMUX RE-CON",
+      img: C3Pro6_Main.src,
+      txt: "IMUX RE/CON is a telemetry ground network recorder for IP ranges. Auto-detects packets, converts formats to IRIG 106 Ch10 on-the-fly, and supports network playback redirection.",
+    },
+    {
+      extra: "bigImage",
+      id: 9,
+      slug: "omega-data-environment-ode",
+      name: "OMEGA DATA ENVIRONMENT ODE",
+      img: C3Pro7_Main.src,
+      txt: "OMEGA Data Environment (ODE) enables rapid, secure mining of large data sets. Uses OODM technology for fast access, supports collaboration, and provides FIPS-compliant network encryption.",
+    },
+
+    {
+      extra: "bigImage",
+      id: 10,
+      slug: "rx2-receiver",
+      name: "RX2 RECEIVER",
+      img: C3Pro9_Main.src,
+      txt: "Rx2 multi-channel receiver: Tri-band (L/S/C) RF-to-Ethernet with AM, PCM/FM, BPSK, SOQPSK-TG demods. Up to 14 receivers per chassis, Chapter 10/11 output, and built-in diversity combining.",
+    },
+
   ],
   cat3: [
     {

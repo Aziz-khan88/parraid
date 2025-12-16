@@ -14,7 +14,7 @@ const FooterLinks = () => {
                     <Col md={12} lg={4}>
                         <div className={styles.MianLogo}>
                             <Image src={Logo.src} alt="Parraid Logo" width={256} height={70} />
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,</p>
+                            <p>Parraid delivers mission-critical telemetry and tactical communications solutions designed to perform where failure is not an option.</p>
                         </div>
                     </Col>
                     <Col md={12} lg={6}>

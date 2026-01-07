@@ -11,8 +11,9 @@ const Jobs = ({ data }) => {
                     <Col md={6}>
                         <h2>Current Job Openings</h2>
                         <p>Parraid, based in Hollywood, MD, specializes in telemetry data systems and mission-critical communications, with strong products, a skilled team, and a growing client base.</p>
+                        <a href="https://parraidllc.applicantstack.com/x/openings" target="_blank" className="singleBtn">Open Position</a>
                     </Col>
-                    <Col md={12}>
+                    {/* <Col md={12}>
                         <div className={`${styles.tableResponsive} `}>
                             <div className={styles.headingTable}>
                                 <ul>
@@ -38,7 +39,7 @@ const Jobs = ({ data }) => {
 
                             </div>
                         </div>
-                    </Col>
+                    </Col> */}
                 </Row>
             </Container>
         </section>

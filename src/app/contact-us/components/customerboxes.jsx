@@ -15,7 +15,7 @@ const CustomerBoxes = () => {
                     <Col md={6} lg={4}>
                         <div className={styles.teamItem}>
                             <div className={styles.title}>Training</div>
-                            <div className={styles.txt}>Comprehensive training is offered for both new and experienced users. The depth and breadth of both Operations and Applications training criteria are tailored to the needs of the equipment operators and programmers.</div>
+                            <div className={styles.txt}>Comprehensive training is offered for both new and experienced users. The depth of both Operations and Applications training criteria are tailored to the needs of the equipment operators and programmers.</div>
                         </div>
                     </Col>
                     <Col md={6} lg={4}>

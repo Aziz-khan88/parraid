@@ -41,7 +41,7 @@ const TableOfContents = ({ tableContent }) => {
 
   return (
     <ul className={styles.tableofContent}>
-      <h4>Table Of Content</h4>
+      <h4>Table Of Contents</h4>
       {tableContent.map((item, index) => (
         <li key={index}>
           <a

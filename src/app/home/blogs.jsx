@@ -31,7 +31,7 @@ function getTimeSince(dateString) {
 
 const Blogs = () => {
   return (
-    <section className={`${styles.blogSection} p-100`}>
+    <section className={`${styles.blogSection} p-100 `}>
       <Container className="h-100">
         <Row className="h-100">
           <Col md={10} lg={8} className="my-auto">

@@ -85,7 +85,7 @@ export const PageData = [
         ),
         img: Page01Img01.src,
         maintxt1: (<>
-            <h3>Our ABMS Services</h3>
+            <h2>Our ABMS Services</h2>
             <p>At Parraid, we offer a comprehensive range of ABMS services tailored to meet the unique requirements of each client:</p>
             <h3>ABMS Integration and Deployment</h3>
             <p>Our expert team specializes in seamlessly integrating ABMS solutions into existing infrastructure, ensuring minimal disruption and maximum effectiveness.</p>
@@ -155,7 +155,7 @@ export const PageData = [
         </>),
         img: Page02Img01.src,
         maintxt1: (<>
-            <h3>Key Components and Types</h3>
+            <h2>Key Components and Types</h2>
             <p>Flight test data can be categorized into various types, including</p>
             <ul>
                 <li>Flight dynamics data</li>
@@ -208,7 +208,7 @@ export const PageData = [
         </>),
         img: Page03Img01.src,
         maintxt1: (<>
-            <h3>Parraid’s Proven Process</h3>
+            <h2>Parraid’s Proven Process</h2>
             <p>At Parraid, we pride ourselves on our meticulous approach to delivering unparalleled communication solutions.Our process begins with a thorough assessment of your requirements, followed by customized recommendations tailored to your needs.We adhere to industry standards at every step, ensuring reliability, performance, and user satisfaction.</p>
             <p>Ready to experience seamless communication? Contact us today to get started.</p>
         </>),
@@ -405,7 +405,7 @@ export const PageData = [
         </>),
         img: Page06Img01.src,
         maintxt1: (<>
-            <h3>Understanding Joint Simulation Environment (JSE)</h3>
+            <h2>Understanding Joint Simulation Environment (JSE)</h2>
             <p>Joint Simulation Environment (JSE) stands at the forefront of modern defense and training methodologies. It encompasses a sophisticated system designed to replicate real-world scenarios, allowing organizations to conduct immersive simulations with unparalleled accuracy.</p>
             <p>Contact us to harness the power of JSE for your operations.</p>
             <h3>Parraid’s JSE Process</h3>
@@ -1166,12 +1166,11 @@ export const PageData = [
         maintxt2: (
             <>
                 <p>We specialize in integrating disparate radio networks, allowing seamless communication across multiple platforms. Our team of experts ensures compatibility and interoperability, enabling clients to streamline their communication infrastructure.</p>
-                <h3>Cross-Platform Communication Solutions</h3>
-                <p>Our cross-platform communication solutions enable clients to communicate effortlessly across different radio systems and devices. Whether it’s land mobile radios, satellite phones, or cellular networks, we provide solutions that bridge the communication gap.</p>
-                <h3>Radio Interoperability Enhancement</h3>
-                <p>We enhance radio interoperability by implementing advanced technologies and protocols. Our solutions enable interoperability between different radio systems, ensuring critical information is relayed swiftly and accurately.</p>
-                <h3>Training and Support</h3>
-                <p>At Parraid, we go beyond providing solutions – we offer comprehensive training and support to ensure that clients maximize the benefits of Tactical Radio Bridging. Our team provides hands-on training and ongoing support to help clients navigate complex communication environments.</p>
+                <ul>
+                    <li><strong>Cross-Platform Communication Solutions</strong><br />Our cross-platform communication solutions enable clients to communicate effortlessly across different radio systems and devices. Whether it’s land mobile radios, satellite phones, or cellular networks, we provide solutions that bridge the communication gap.</li>
+                    <li><strong>Radio Interoperability Enhancement</strong><br />We enhance radio interoperability by implementing advanced technologies and protocols. Our solutions enable interoperability between different radio systems, ensuring critical information is relayed swiftly and accurately.</li>
+                    <li><strong>Training and Support</strong><br />At Parraid, we go beyond providing solutions – we offer comprehensive training and support to ensure that clients maximize the benefits of Tactical Radio Bridging. Our team provides hands-on training and ongoing support to help clients navigate complex communication environments.</li>
+                </ul>
             </>
         ),
         maintitle3: "How We Outrank Competitors",

@@ -11,7 +11,7 @@ const Page = () => {
       <Build about={true} />
       <AboutList />
       <Connectivity />
-      <ProjectCounter />
+      {/* <ProjectCounter /> */}
       <Blogs />
       <Faqs />
     </>

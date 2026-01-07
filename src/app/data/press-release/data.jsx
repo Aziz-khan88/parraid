@@ -1,11 +1,35 @@
 import Link from "next/link"
 
 export const PressData = [
+    // {
+    //     slug: "parraid-and-5x-systems-partnership-provides-iridium-data-link",
+    //     date: "October 1, 2020",
+    //     title: "Parraid and 5x Systems Partnership Provides Iridium Data Link",
+    //     para: "HOLLYWOOD, Maryland, 01 October 2020 – We are proud to announce that Parraid, LLC and 5x Systems, LLC have teamed up to offer an exciting new product line that provides secure, available and reliable two-way voice and data to customers who may find themselves in places that have no cellular coverage – communications that connect anyplace in the world.",
+    // },
     {
-        slug: "parraid-and-5x-systems-partnership-provides-iridium-data-link",
-        date: "October 1, 2020",
-        title: "Parraid and 5x Systems Partnership Provides Iridium Data Link",
-        para: "HOLLYWOOD, Maryland, 01 October 2020 – We are proud to announce that Parraid, LLC and 5x Systems, LLC have teamed up to offer an exciting new product line that provides secure, available and reliable two-way voice and data to customers who may find themselves in places that have no cellular coverage – communications that connect anyplace in the world.",
+        slug: "parraid-llc-and-radio-enhancements-program-appraised-at-cmmi-level-3",
+        date: "August 17, 2023",
+        title: "PARRAID, LLC and RADIO ENHANCEMENTS PROGRAM Appraised at CMMI Level 3",
+        para: "HOLLYWOOD, Maryland – On August 17, 2023, Parraid, LLC’s Radio Enhancements Program proudly announces it has been appraised at Development Maturity Level 3 (DEV/ML3) within the CMMI Institute’s Capability Maturity Model Integration (CMMI®). The appraisal was conducted by A1 Independent Consulting.",
+    },
+    {
+        slug: "parraid-wins-2022-astors-award-for-best-disaster-preparedness-disaster-recovery-solution",
+        date: "December 20, 2022",
+        title: "Parraid Wins 2022 Astors Award For Best Disaster Preparedness, Disaster Recovery Solution",
+        para: "HOLLYWOOD, Maryland – (December 20, 2022) – Parraid, LLC is pleased to announce that our Vector Iridium Data Link (VIDL) product has been selected as a Gold Award Winner, “Best Disaster Preparedness, Disaster Recovery Solution”, from the American Security Today (AST) ‘ASTORS’ Homeland Security Awards.",
+    },
+    {
+        slug: "parraid-wins-navy-onr-phase-ii-sbir-award-for-outside-with-linux-owl-development-effort",
+        date: "August 02, 2022",
+        title: "Parraid Wins Navy Onr Phase Ii Sbir Award For Outside With Linux (Owl) Development Effort",
+        para: "HOLLYWOOD, Maryland – (August 02, 2022) – Parraid, LLC, a small products-oriented business, wholly devoted to design, manufacturing, sales, and support of telemetry data systems and tactically oriented mission-critical communications solutions",
+    },
+    {
+        slug: "parraids-vidl-the-most-interoperable-and-affordable-communications-system-for-emergency-response-in-areas-without-cellular-coverage",
+        date: "April 5, 2022",
+        title: "Parraid’s Vidl, The Most Interoperable And Affordable Communications System For Emergency Response In Areas Without Cellular Coverage",
+        para: "HOLLYWOOD, Maryland – (April 5, 2022) –Parraid, LLC, a leading-edge technology innovator that develops next-generation aerospace and ground tactical applications for secure communications, has announced the launch of the Vector Iridium Data Link (VIDL)",
     },
     {
         slug: "parraid-engineering-part-of-successful-mars-mission",
@@ -20,34 +44,10 @@ export const PressData = [
         para: "HOLLYWOOD, MD – (9 December 2019)  — The founders of Smartronix Inc. have formed a new engineering firm located within the Smartronix corporate facility in Hollywood. As of December 9, what was previously known as the products engineering business unit of Smartronix became Parraid LLC.",
     },
     {
-        slug: "parraid-wins-2022-astors-award-for-best-disaster-preparedness-disaster-recovery-solution",
-        date: "December 20, 2022",
-        title: "Parraid Wins 2022 Astors Award For Best Disaster Preparedness, Disaster Recovery Solution",
-        para: "HOLLYWOOD, Maryland – (December 20, 2022) – Parraid, LLC is pleased to announce that our Vector Iridium Data Link (VIDL) product has been selected as a Gold Award Winner, “Best Disaster Preparedness, Disaster Recovery Solution”, from the American Security Today (AST) ‘ASTORS’ Homeland Security Awards.",
-    },
-    {
-        slug: "parraid-llc-and-radio-enhancements-program-appraised-at-cmmi-level-3",
-        date: "August 17, 2023",
-        title: "PARRAID, LLC and RADIO ENHANCEMENTS PROGRAM Appraised at CMMI Level 3",
-        para: "HOLLYWOOD, Maryland – On August 17, 2023, Parraid, LLC’s Radio Enhancements Program proudly announces it has been appraised at Development Maturity Level 3 (DEV/ML3) within the CMMI Institute’s Capability Maturity Model Integration (CMMI®). The appraisal was conducted by A1 Independent Consulting.",
-    },
-    {
         slug: "parraids-radio-enhancements-program-appraised-at-cmmi-level-3",
         date: "19 January 2021",
         title: "Parraid’s Radio Enhancements Program Appraised at CMMI LEVEL 3",
         para: "HOLLYWOOD, Maryland – 19 January 2021 – Parraid, LLC’s Radio Enhancements Program today announced that it has been appraised at level 3 of the CMMI Institute’s Capability Maturity Model Integration (CMMI). The appraisal was performed by A1 Independent Consulting.",
-    },
-    {
-        slug: "parraids-vidl-the-most-interoperable-and-affordable-communications-system-for-emergency-response-in-areas-without-cellular-coverage",
-        date: "April 5, 2022",
-        title: "Parraid’s Vidl, The Most Interoperable And Affordable Communications System For Emergency Response In Areas Without Cellular Coverage",
-        para: "HOLLYWOOD, Maryland – (April 5, 2022) –Parraid, LLC, a leading-edge technology innovator that develops next-generation aerospace and ground tactical applications for secure communications, has announced the launch of the Vector Iridium Data Link (VIDL)",
-    },
-    {
-        slug: "parraid-wins-navy-onr-phase-ii-sbir-award-for-outside-with-linux-owl-development-effort",
-        date: "August 02, 2022",
-        title: "Parraid Wins Navy Onr Phase Ii Sbir Award For Outside With Linux (Owl) Development Effort",
-        para: "HOLLYWOOD, Maryland – (August 02, 2022) – Parraid, LLC, a small products-oriented business, wholly devoted to design, manufacturing, sales, and support of telemetry data systems and tactically oriented mission-critical communications solutions",
     },
 ]
 

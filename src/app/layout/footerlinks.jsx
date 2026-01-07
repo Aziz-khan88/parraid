@@ -5,30 +5,29 @@ import Link from "next/link";
 import Logo from "media/logo.webp"
 import Image from "next/image";
 
-
 const FooterLinks = () => {
     return (
         <section className={`${styles.footerSection} `}>
             <Container className={styles.contactWapper}>
                 <Row>
-                    <Col md={12} lg={4}>
+                    <Col md={12} lg={3}>
                         <div className={styles.MianLogo}>
-                            <Image src={Logo.src} alt="Parraid Logo" width={256} height={70} />
-                            <p>Parraid delivers mission-critical telemetry and tactical communications solutions designed to perform where failure is not an option.</p>
+                            <Image src={Logo.src} alt="Parraid Logo" width={230} height={60} />
+                            <p>Parraid delivers mission-critical telemetry and tactical communications solutions designed to perform when failure is not an option.</p>
                         </div>
                     </Col>
-                    <Col md={12} lg={6}>
+                    <Col md={12} lg={7}>
                         <div className={styles.serviceStyle}>
                             <h6>Our Products</h6>
                             <ul>
-                                <li><Link href="/product/network-radio-gateway-ds-04v3">Network Radio Gateway NRG® DS-04v3</Link></li>
-                                <li><Link href="/product/network-radio-gateway-NRG-deployable-systems">Network Radio Gateway NRG® Rack Mount-XX</Link></li>
-                                <li><Link href="/product/outsource-the-workload-owl">Outsource the Workload (OWL)</Link></li>
-                                <li><Link href="/product/best-data-engine-bde">Best Data Engine BDE</Link></li>
-                                <li><Link href="/product/best-source-reproducer-bsr-100">Best Source Reproducer (BSR-100)</Link></li>
-                                <li><Link href="/product/edge2-telemetry-reciver">Edge2 Telemetry Receiver/Decom</Link></li>
-                                <li><Link href="/product/rugged-usb-hub-2-0">Rugged USB 2.0 Hub</Link></li>
-                                <li><Link href="/product/rugged-usb-hub-3-0">Rugged USB 3.0 Hub</Link></li>
+                                <li><Link href="/product/edge2-telemetry-reciver">EDGE² TELEMETRY NETWORK APPLIANCE</Link></li>
+                                <li><Link href="/product/network-radio-gateway-ds-04v3">NETWORK RADIO GATEWAY NRG® DS-04V3</Link></li>
+                                <li><Link href="/product/imux-g2e-and-g2eh-recorders">IMUX G2e AND IMUX G2eH</Link></li>
+                                <li><Link href="/product/our-featured-network-radio-gateway">PACSTAR® 466 FEATURING PARRAID’S NRG®</Link></li>
+                                <li><Link href="/product/omega-next-real-time-data-processing-software">OMEGA NExT </Link></li>
+                                <li><Link href="/product/outsource-the-workload-owl">OUTSOURCE THE WORKLOAD OWL</Link></li>
+                                <li><Link href="/product/series-5000-data-processors">S-5000e DATA PROCESSOR</Link></li>
+                                <li><Link href="/product/network-radio-gateway-NRG-deployable-systems">NETWORK RADIO GATEWAY RACK MOUNT SYSTEMS</Link></li>
                             </ul>
                         </div>
                     </Col>
@@ -79,7 +78,7 @@ const FooterLinks = () => {
                 <Row className={styles.copyrightSection}>
                     <Col md={12} lg={6}>
                         <div className={styles.copyRightSec}>
-                            <p>Copyright © 2025 all rights reserved.</p>
+                            <p>Copyright © 2026 all rights reserved.</p>
                         </div>
                     </Col>
                     <Col md={12} lg={6}>

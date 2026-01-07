@@ -10,7 +10,7 @@ const Page = () => {
     <>
       <Banner />
       <Team />
-      <Jobs data={CareerData} />
+      {/* <Jobs data={CareerData} /> */}
       <Blogs />
       <Faqs />
     </>

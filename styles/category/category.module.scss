@@ -4,11 +4,29 @@
   padding-top: 100px;
 
   h2 {
-    color: #000;
+    color: #0061fe;
   }
 
   h3 {
     color: #000;
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 30px;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 15px;
+      height: 15px;
+      background: #000;
+      margin-top: 10px;
+      border-radius: 100px;
+      position: absolute;
+      left: 0px;
+      top: 5px;
+    }
   }
 
   p {

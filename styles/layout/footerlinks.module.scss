@@ -13,11 +13,11 @@
 
       p {
         font-weight: 400;
-        font-size: 16px;
-        line-height: 22px;
+        font-size: 14px;
+        line-height: 20px;
         letter-spacing: -0.18px;
         color: #3a3b3e;
-        max-width: 70%;
+        max-width: 90%;
       }
     }
 
@@ -232,9 +232,9 @@
         }
 
         p {
-          font-size: 15px;
-          line-height: 22px;
-          max-width: 70%;
+          font-size: 14px;
+          line-height: 20px;
+          max-width: 90%;
         }
       }
 
@@ -250,7 +250,7 @@
             flex: 0 0 50%;
 
             a {
-              font-size: 14px;
+              font-size: 13px;
               line-height: 30px;
             }
           }
@@ -260,6 +260,11 @@
           ul {
             li {
               flex: 0 0 100%;
+
+              a {
+                font-size: 13px;
+                line-height: 30px;
+              }
             }
           }
         }
@@ -356,14 +361,16 @@
 
     .contactWapper {
       .MianLogo {
-        svg {
+        img {
           margin-bottom: 20px;
+          height: 50px;
+          width: auto;
         }
 
         p {
-          font-size: 14px;
-          line-height: 20px;
-          max-width: 80%;
+          font-size: 13px;
+          line-height: 18px;
+          max-width: 90%;
         }
       }
 
@@ -379,7 +386,7 @@
             flex: 0 0 50%;
 
             a {
-              font-size: 14px;
+              font-size: 13px;
               line-height: 30px;
             }
           }
@@ -389,6 +396,11 @@
           ul {
             li {
               flex: 0 0 100%;
+
+              a {
+                font-size: 13px;
+                line-height: 30px;
+              }
             }
           }
         }
@@ -485,16 +497,17 @@
 
     .contactWapper {
       .MianLogo {
-        svg {
+        img {
           margin-bottom: 20px;
           width: auto;
-          height: 60px;
+          height: 45px;
+          width: auto;
         }
 
         p {
-          font-size: 13px;
+          font-size: 12px;
           line-height: 20px;
-          max-width: 90%;
+          max-width: 100%;
         }
       }
 
@@ -510,8 +523,8 @@
             flex: 0 0 50%;
 
             a {
-              font-size: 13px;
-              line-height: 26px;
+              font-size: 12px;
+              line-height: 24px;
             }
           }
         }
@@ -520,6 +533,11 @@
           ul {
             li {
               flex: 0 0 100%;
+
+              a {
+                font-size: 12px;
+                line-height: 24px;
+              }
             }
           }
         }
@@ -616,16 +634,16 @@
 
     .contactWapper {
       .MianLogo {
-        svg {
+        img {
           margin-bottom: 20px;
           width: auto;
-          height: 60px;
+          height: 45px;
         }
 
         p {
-          font-size: 13px;
-          line-height: 20px;
-          max-width: 90%;
+          font-size: 12px;
+          line-height: 18px;
+          max-width: 100%;
         }
       }
 
@@ -641,8 +659,8 @@
             flex: 0 0 50%;
 
             a {
-              font-size: 13px;
-              line-height: 26px;
+              font-size: 12px;
+              line-height: 22px;
             }
           }
         }
@@ -651,6 +669,11 @@
           ul {
             li {
               flex: 0 0 100%;
+
+              a {
+                font-size: 12px;
+                line-height: 22px;
+              }
             }
           }
         }

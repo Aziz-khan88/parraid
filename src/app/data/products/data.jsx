@@ -217,8 +217,8 @@ export const productsData = {
     {
       extra: "bigImage",
       id: 2,
-      slug: "imux-g2e-and-g2eh",
-      name: "IMUX G2e AND IMUX G2eH",
+      slug: "imux-g2e-and-g2eh-recorders",
+      name: "IMUX G2e AND IMUX G2eH RECORDERS",
       img: C3Pro5_Main.src,
       txt: "The IMUX G2e and the IMUX G2e Hybrid (G2eH) have many unique features such as supporting all industry-standard telemetry signal types, the ability to record two Chapter 10 files simultaneously.",
     },
@@ -226,7 +226,7 @@ export const productsData = {
       extra: "bigImage",
       id: 3,
       slug: "omega-next-real-time-data-processing-software",
-      name: "OMEGA NExT",
+      name: "OMEGA NExT REAL TIME DATA PROCESSING SOFTWARE",
       img: C3Pro8_Main.src,
       txt: "OMEGA-NExT: 64-bit telemetry processing software with intuitive UI. Supports Chapter 10, TMoIP, and Ethernet inputs. Includes Clarity vector display for real-time and playback visualization.",
     },
@@ -269,8 +269,8 @@ export const productsData = {
     {
       extra: "smallIamge",
       id: 8,
-      slug: "imux-re-con",
-      name: "IMUX RE-CON",
+      slug: "imux-re-con-newtwork-recorder",
+      name: "IMUX RE-CON NETWORK RECORDER",
       img: C3Pro6_Main.src,
       txt: "IMUX RE/CON is a telemetry ground network recorder for IP ranges. Auto-detects packets, converts formats to IRIG 106 Ch10 on-the-fly, and supports network playback redirection.",
     },
@@ -280,7 +280,7 @@ export const productsData = {
       slug: "omega-data-environment-ode",
       name: "OMEGA DATA ENVIRONMENT ODE",
       img: C3Pro7_Main.src,
-      txt: "OMEGA Data Environment (ODE) enables rapid, secure mining of large data sets. Uses OODM technology for fast access, supports collaboration, and provides FIPS-compliant network encryption.",
+      txt: "OMEGA Data Environment (ODE) post-processing enables rapid, secure mining of large data sets. Uses OODM technology for fast access, supports collaboration, and provides FIPS-compliant network encryption.",
     },
 
     {
@@ -298,7 +298,7 @@ export const productsData = {
       extra: "smallIamge",
       id: 1,
       slug: "rugged-usb-hub-2-0",
-      name: "PARRAID RUGGED USB HUB (RUH) 2.0",
+      name: "PARRAID RUGGED USB HUB RUH 2.0",
       img: C2Pro1_Main.src,
       txt: "The Parraid Rugged USB Hub 2.0 meets full environmental requirements for mobile/deployed systems. MIL-STD-810F & 461E tested for shock, vibration, temperature, EMI/EMC compliance.",
     },
@@ -306,7 +306,7 @@ export const productsData = {
       extra: "smallIamge",
       id: 2,
       slug: "rugged-usb-hub-3-0",
-      name: "PARRAID RUGGED USB HUB (RUH) 3.0",
+      name: "PARRAID RUGGED USB HUB RUH 3.0",
       img: C2Pro2_Main.src,
       txt: "The Parraid Rugged USB Hub 3.0 is the toughest 4-port hub, designed for extreme environments. MIL-STD-810 & 461 certified for temperature, vibration, pyroshock, and EMI/EMC compliance.",
     },
@@ -314,7 +314,7 @@ export const productsData = {
       extra: "bigImage",
       id: 3,
       slug: "rugged-usb-repeater",
-      name: "PARRAID RUGGED USB REPEATER (RUR)",
+      name: "PARRAID RUGGED USB REPEATER RUR",
       img: C2Pro3_Main.src,
       txt: "Parraid Rugged USB Repeater™ extends USB connections beyond 5m limit. Bus-powered, USB 2.0 high-speed compliant, designed for battlefield conditions. Daisy-chainable for extended distances.",
     },
@@ -1807,9 +1807,9 @@ export const ProdDetails = [
   },
   {
     cat: "cat2",
-    slug: "imux-re-con",
-    name: "IMUX RE/CON",
-    tit: "IMUX RE/CON - Parraid",
+    slug: "imux-re-con-newtwork-recorder",
+    name: "IMUX RE-CON NETWORK RECORDER",
+    tit: "IMUX RE-CON NETWORK RECORDER",
     desc: "Network Recorder The IMUX RE/CON network recorder is a telemetry specific ground network recorder ideally suited for ranges moving to IP telemetry. IP recording capabilities with telemetry specific on-the-fly conversion capability provides automatic format detection record IRIG 106 Ch10 files playback from existing IRIG 106 Ch10 infrastructure",
     images: [C3Pro6_1],
     txt: (
@@ -1967,9 +1967,9 @@ export const ProdDetails = [
           <div className="icon">
             <a
               href="/products/cat3/pro7/IMUX-RE-CON-Network-Recorder_Product-Flyer-Rev-01.pdf"
-              download="IMUX RE-CON"
+              download="IMUX RE-CON NETWORK RECORDER"
             >
-              <PdfIcon /> IMUX RE-CON
+              <PdfIcon /> IMUX RE-CON NETWORK RECORDER
               <Download className="downloadIcon" />
             </a>
           </div>
@@ -2121,8 +2121,8 @@ export const ProdDetails = [
   },
   {
     cat: "cat2",
-    slug: "imux-g2e-and-g2eh",
-    name: "IMUX G2e AND IMUX G2eH",
+    slug: "imux-g2e-and-g2eh-recorders",
+    name: "IMUX G2e AND IMUX G2eH RECORDERS",
     tit: "IMUX G2e AND IMUX G2eH - Parraid",
     desc: "IMUX G2e series: multi-channel telemetry recorders with Chapter 10/11 support. G2eH adds TMoIP input capability. Includes RF receivers, best source selection & decom.",
     images: [C3Pro5_1, C3Pro5_2],
@@ -2230,7 +2230,7 @@ export const ProdDetails = [
     cat: "cat2",
     slug: "omega-next-real-time-data-processing-software",
     name: "OMEGA NExT REAL TIME DATA PROCESSING SOFTWARE",
-    tit: "Omega Data Environment (ODE) - Parraid",
+    tit: "Omega Data Environment ODE - Parraid",
     desc: "The OMEGA Data Environment software is available as a single-user or a multi-user distributed post mission data processing and time-series data mining solution. The OMEGA Data Environment architecture is designed to be data format agnostic. Several formats are included out of the box and programmatic interfaces are provided to accept any data format that you may require for both input and output. ODE provides user controls at the data set level or down to the individual parameter level and can integrate with your existing Active Directory infrastructure to provide customizable security for data access. Multi-user, Post-test Time E-series Data Data Mining with Parametric Value Search Data Format Agnostic Data Sheets Omega Data Environment (ODE) Software Product Flyer",
     images: [C3Pro8_1],
     txt: (
@@ -2413,7 +2413,7 @@ export const ProdDetails = [
   {
     cat: "cat2",
     slug: "omega-data-environment-ode",
-    name: "OMEGA DATA ENVIRONMENT (ODE)",
+    name: "OMEGA DATA ENVIRONMENT ODE",
     tit: "OMEGA NExT Real Time Data Processing Software - Parraid",
     desc: "The OMEGA NExT software suite provides Realtime Processing, EU conversion, Data Distribution, Display, and Chapter 10 compliant Data Recording and is one of the most powerful and easy to use telemetry data processing software ever produced. Developed specifically for IRIG 106 Chapter 10 packet processing on a modern Service Oriented Architecture (SOA), OMEGA NExT provides unparalleled stability, performance, and flexibility. Omega NExT provides EU conversion, data distribution, real-time display, and Chapter 10 compliant data... Data Sheets: OMEGA NExT Software Product Flyer BDE Product Flyer",
     images: [C3Pro7_1],

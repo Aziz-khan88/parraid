@@ -1,16 +1,20 @@
 .connectivitySec {
   background: #fff;
   padding: 100px 0px 50px;
+
   h2 {
     color: #000;
   }
+
   p {
     color: #000;
   }
+
   .connectivityVideo {
     position: relative;
     overflow: hidden;
     height: 680px;
+
     .bannerVideo {
       position: absolute;
       top: 0px;
@@ -19,12 +23,14 @@
       height: 100%;
       border-radius: 40px;
       overflow: hidden;
+
       img {
         object-fit: cover;
         border-radius: 40px;
         width: 100%;
         height: 100%;
       }
+
       video {
         object-fit: cover;
         border-radius: 40px;
@@ -33,23 +39,26 @@
       }
     }
   }
+
   .bgImage {
     height: 100%;
     min-height: 500px;
     overflow: hidden;
     position: relative;
+
     img {
       object-fit: cover;
       border-radius: 20px;
     }
   }
 }
+
 .connectivityPoints {
   background: #0061fe;
   position: relative;
   background-repeat: no-repeat;
   background-position: 100% 0%;
-  background-size: 50% auto;
+  background-size: 50% 100%;
 
   &::after {
     content: "";
@@ -61,14 +70,16 @@
     background: #fff;
     z-index: -1;
   }
+
   .connectivityList {
     height: 100%;
     display: flex;
     flex-direction: column;
     border-radius: 30px;
     text-align: left;
-    padding: 100px 50px 200px;
+    padding: 150px 50px 150px;
     justify-content: center;
+
     &.visionList {
       justify-content: space-between;
     }
@@ -78,10 +89,12 @@
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   .connectivitySec {
     padding: 50px 0px 50px;
+
     .connectivityVideo {
       height: 500px;
     }
   }
+
   .connectivityPoints {
     background-position: 100% 0%;
     background-size: 50% 100%;
@@ -91,13 +104,16 @@
     }
   }
 }
+
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
   .connectivitySec {
     padding: 50px 0px 50px;
+
     .connectivityVideo {
       height: 500px;
     }
   }
+
   .connectivityPoints {
     background-position: 100% 0%;
     background-size: 50% 100%;
@@ -107,13 +123,16 @@
     }
   }
 }
+
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
   .connectivitySec {
     padding: 50px 0px 50px;
+
     .connectivityVideo {
       height: 500px;
     }
   }
+
   .connectivityPoints {
     background-position: 100% 0%;
     background-size: 50% 100%;
@@ -123,19 +142,24 @@
     }
   }
 }
+
 @media only screen and (min-width: 900px) and (max-width: 1099px) {
   .connectivitySec {
     padding: 50px 0px 50px;
+
     .connectivityVideo {
       height: 450px;
+
       .bannerVideo {
         border-radius: 30px;
+
         video {
           border-radius: 30px;
         }
       }
     }
   }
+
   .connectivityPoints {
     background-position: 100% 0%;
     background-size: 50% 100%;
@@ -145,19 +169,24 @@
     }
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 899px) {
   .connectivitySec {
     padding: 50px 0px 50px;
+
     .connectivityVideo {
       height: 350px;
+
       .bannerVideo {
         border-radius: 20px;
+
         video {
           border-radius: 20px;
         }
       }
     }
   }
+
   .connectivityPoints {
     background-image: none !important;
 
@@ -167,20 +196,24 @@
     }
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .connectivitySec {
     padding: 50px 0px 50px;
+
     .connectivityVideo {
       height: 350px;
 
       .bannerVideo {
         border-radius: 20px;
+
         video {
           border-radius: 20px;
         }
       }
     }
   }
+
   .connectivityPoints {
     background-image: none !important;
 
@@ -190,19 +223,24 @@
     }
   }
 }
+
 @media only screen and (min-width: 0px) and (max-width: 575px) {
   .connectivitySec {
     padding: 30px 0px 30px;
+
     .connectivityVideo {
       height: 300px;
+
       .bannerVideo {
         border-radius: 20px;
+
         video {
           border-radius: 20px;
         }
       }
     }
   }
+
   .connectivityPoints {
     background-image: none !important;
 

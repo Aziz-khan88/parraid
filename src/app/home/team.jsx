@@ -1,6 +1,5 @@
 import styles from "@/styles/home/team.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
-import SingleButton from '@/src/app/components/singlebutton'
 import BGIMG from "media/home/team.webp";
 
 const Team = () => {
@@ -15,7 +14,7 @@ const Team = () => {
                     </Col>
                 </Row>
             </Container>
-            <Container className={styles.teamWapper}>
+            <Container className={`${styles.teamWapper} ${styles.carreerTeamWapper}`}>
                 <Row>
                     <Col md={12} lg={12} className="mx-auto">
                         <div className={styles.teamItem}>

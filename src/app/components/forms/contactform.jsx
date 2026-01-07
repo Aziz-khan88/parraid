@@ -35,7 +35,14 @@ const ContactForm = ({ product, blogPage }) => {
               required
             />
           </div>
-
+          <div className={styles.divField}>
+            <input
+              type="text"
+              name="company"
+              placeholder="Company"
+              required
+            />
+          </div>
           <div className={styles.divField}>
             <textarea name="msg" placeholder="Message"></textarea>
           </div>

@@ -8,13 +8,13 @@ const Banner = () => {
         <Row className="h-100">
           <Col className="my-auto">
             <span>Our Careers</span>
-            <div className={styles.paraSec}>
+            {/* <div className={styles.paraSec}>
               <p>
                 Parraid, is a highly regarded, U.S. based technology and
                 engineering company specializing in product solutions for
                 aerospace and ground tactical applications.
               </p>
-            </div>
+            </div> */}
           </Col>
         </Row>
       </Container>

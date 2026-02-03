@@ -10,10 +10,9 @@ const Banner = () => {
             <span>CONTACT Us</span>
             {/* <div className={styles.paraSec}>
               <p>
-                Parraid, is a highly regarded, U.S. based technology and
-                engineering company specializing in product solutions for
-                aerospace and ground tactical applications.
+                At Parraid, we believe communication starts with connection. Whether you’re seeking technical specifications, partnership opportunities, or system integration guidance, our team is ready to assist.
               </p>
+              <p>From initial consultation to post-deployment support, every conversation with Parraid is built on precision, reliability, and trust — the same principles that drive our mission-critical communication systems.</p>
             </div> */}
           </Col>
         </Row>

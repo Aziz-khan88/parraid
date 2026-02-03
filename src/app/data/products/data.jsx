@@ -295,7 +295,7 @@ export const productsData = {
   ],
   cat3: [
     {
-      extra: "smallIamge",
+      extra: "bigImage",
       id: 1,
       slug: "rugged-usb-hub-2-0",
       name: "PARRAID RUGGED USB HUB RUH 2.0",

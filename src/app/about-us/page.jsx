@@ -1,9 +1,10 @@
 import AboutList from "@/src/app/about-us/components/aboutlist"
-import Build from "@/src/app/home/build"
+import Build from "@/src/app/about-us/components/build"
 import Connectivity from "@/src/app/about-us/components/connectivity"
 import Blogs from "@/src/app/home/blogs"
-import Faqs from "@/src/app/home/faqs"
+import Faqs from "@/src/app/about-us/components/faqs"
 import ProjectCounter from "@/src/app/about-us/components/projectcounter"
+import { FaqsMain, faqsData } from "@/src/app/data/about/data"
 
 const Page = () => {
   return (
@@ -13,7 +14,7 @@ const Page = () => {
       <Connectivity />
       {/* <ProjectCounter /> */}
       <Blogs />
-      <Faqs />
+      <Faqs data={faqsData} dataTitle={FaqsMain} />
     </>
   )
 }

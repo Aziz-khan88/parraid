@@ -29,7 +29,7 @@ function getTimeSince(dateString) {
   return "just now";
 }
 
-const Blogs = () => {
+const Blogs = ({ data }) => {
   return (
     <section className={`${styles.blogSection} p-100 `}>
       <Container className="h-100">
@@ -37,12 +37,7 @@ const Blogs = () => {
           <Col md={10} lg={8} className="my-auto">
             <h2>Stay Inspired with Our Latest Insights</h2>
             <p>
-              Explore Parraid’s knowledge hub for expert perspectives, product
-              updates, and industry trends shaping the future of tactical
-              communications solutions and telemetry data systems. From
-              field-tested innovations to advanced deployable communication
-              products, our articles deliver actionable insights for engineers,
-              defense professionals, and mission planners.
+              Explore Parraid’s knowledge hub for expert perspectives, product updates, and industry trends shaping the future of tactical communications systems and telemetry communication solutions. From field-tested innovations to advanced deployable communication products, our articles deliver actionable insights for engineers, defense professionals, and mission planners.
             </p>
           </Col>
           <Col md={12} className="my-auto">

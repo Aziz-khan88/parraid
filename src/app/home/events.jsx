@@ -181,17 +181,15 @@ const data = [
 
 ]
 
-const Events = ({ page, home }) => {
+const Events = ({ page, home, eventData = {} }) => {
   return (
     <section className={`${styles.eventSection} ${page ? "p-100" : ""}`}>
       <Container>
         <Row>
           <Col md={8} lg={7}>
-            <h2>Events</h2>
+            <h2>{eventData.title || "Events"}</h2>
             <p>
-              Parraid actively engages with global aerospace, defense, and
-              technology communities to showcase our latest innovations in
-              tactical communications solutions, telemetry data systems, and deployable communication products.
+              {eventData.txt || " Parraid actively engages with global aerospace, defense, and technology communities to showcase our latest innovations in tactical communications solutions, telemetry data systems, and deployable communication products."}
             </p>
           </Col>
         </Row>

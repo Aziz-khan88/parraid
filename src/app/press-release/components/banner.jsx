@@ -10,9 +10,7 @@ const Banner = () => {
             <span>Press Releases</span>
             {/* <div className={styles.paraSec}>
               <p>
-                Parraid, is a highly regarded, U.S. based technology and
-                engineering company specializing in product solutions for
-                aerospace and ground tactical applications.
+               At Parraid, LLC, we design and engineer advanced telemetry, tactical, and deployable communication systems that shape the future of mission-critical connectivity. Our press releases provide insight into the breakthroughs, partnerships, and technological advancements that continue to drive secure and reliable communication across air, land, sea, and space.
               </p>
             </div> */}
           </Col>

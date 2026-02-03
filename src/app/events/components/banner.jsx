@@ -13,9 +13,7 @@ const Banner = () => {
             </span>
             {/* <div className={styles.paraSec}>
               <p>
-                Parraid, is a highly regarded, U.S. based technology and
-                engineering company specializing in product solutions for
-                aerospace and ground tactical applications.
+               A small, products-oriented business, Parraid is wholly devoted to design, engineering, sales, and support of telemetry data systems and tactically oriented mission-critical communications solutions. We regularly attend industry events where you can find our booth on the exhibition floor. Our event teams include sales leads, field engineers, and product line managers to answer your questions and show off our product portfolio. Please stop by and talk with us! 
               </p>
             </div> */}
           </Col>

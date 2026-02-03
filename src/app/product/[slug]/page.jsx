@@ -18,11 +18,11 @@ export async function generateMetadata({ params }) {
     const ogImage = typeof firstImage === "string" ? firstImage : firstImage?.src;
 
     return {
-        title: product.name,
-        description: product.shortDesc || "",
+        title: product.tit,
+        description: product.desc || "",
         openGraph: {
-            title: product.name,
-            description: product.shortDesc || "",
+            title: product.tit,
+            description: product.desc || "",
             images: ogImage
                 ? [{ url: ogImage, width: 1200, height: 630 }]
                 : [],

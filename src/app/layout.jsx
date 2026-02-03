@@ -4,6 +4,7 @@ import "@/src/app/globals.scss";
 import Footer from "@/src/app/layout/footer";
 import Header from "@/src/app/layout/header";
 import localFont from "next/font/local";
+import Tags from "@/src/app/tags";
 
 const myFont = localFont({
   src: [
@@ -46,6 +47,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <Tags />
+      </head>
       <body className={`${poppins.variable} ${myFont.variable}`}>
         <Header />
         {children}

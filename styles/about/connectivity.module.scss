@@ -83,6 +83,32 @@
     &.visionList {
       justify-content: space-between;
     }
+
+    ul {
+      margin-bottom: 20px;
+
+      li {
+        color: #fff;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 10px;
+        position: relative;
+        padding-left: 20px;
+
+        &::before {
+          content: '';
+          background: #fff;
+          width: 8px;
+          height: 8px;
+          border-radius: 100px;
+          position: absolute;
+          left: 1px;
+          top: 8px;
+        }
+      }
+    }
   }
 }
 
@@ -101,6 +127,22 @@
 
     .connectivityList {
       padding: 50px 50px 150px;
+
+      ul {
+        margin-bottom: 20px;
+
+        li {
+          font-size: 18px;
+          line-height: 24px;
+
+          &::before {
+            width: 8px;
+            height: 8px;
+            left: 1px;
+            top: 8px;
+          }
+        }
+      }
     }
   }
 }
@@ -119,7 +161,23 @@
     background-size: 50% 100%;
 
     .connectivityList {
-      padding: 50px 30px 150px;
+      padding: 50px 30px 50px;
+
+      ul {
+        margin-bottom: 20px;
+
+        li {
+          font-size: 18px;
+          line-height: 24px;
+
+          &::before {
+            width: 8px;
+            height: 8px;
+            left: 1px;
+            top: 8px;
+          }
+        }
+      }
     }
   }
 }
@@ -138,7 +196,23 @@
     background-size: 50% 100%;
 
     .connectivityList {
-      padding: 50px 30px 150px;
+      padding: 50px 30px 50px;
+
+      ul {
+        margin-bottom: 20px;
+
+        li {
+          font-size: 15px;
+          line-height: 22px;
+
+          &::before {
+            width: 8px;
+            height: 8px;
+            left: 1px;
+            top: 8px;
+          }
+        }
+      }
     }
   }
 }
@@ -165,7 +239,24 @@
     background-size: 50% 100%;
 
     .connectivityList {
-      padding: 50px 20px 130px;
+      padding: 50px 10px 50px;
+
+      ul {
+        margin-bottom: 20px;
+
+        li {
+          font-size: 14px;
+          line-height: 21px;
+          padding-left: 18px;
+
+          &::before {
+            width: 8px;
+            height: 8px;
+            left: 1px;
+            top: 6px;
+          }
+        }
+      }
     }
   }
 }
@@ -193,6 +284,24 @@
     .connectivityList {
       padding: 50px 20px 50px;
       justify-content: flex-start;
+
+      ul {
+        margin-bottom: 20px;
+
+        li {
+          font-size: 14px;
+          line-height: 21px;
+          padding-left: 18px;
+
+          &::before {
+            width: 8px;
+            height: 8px;
+            left: 1px;
+            top: 6px;
+          }
+        }
+      }
+
     }
   }
 }
@@ -245,8 +354,26 @@
     background-image: none !important;
 
     .connectivityList {
-      padding: 30px 20px 30px;
+      padding: 20px 0px 20px;
       justify-content: flex-start;
+
+      ul {
+        margin-bottom: 20px;
+
+        li {
+          font-size: 13px;
+          line-height: 20px;
+          padding-left: 18px;
+          margin-bottom: 5px;
+
+          &::before {
+            width: 8px;
+            height: 8px;
+            left: 1px;
+            top: 6px;
+          }
+        }
+      }
     }
   }
 }

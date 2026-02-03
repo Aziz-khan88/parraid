@@ -23,7 +23,7 @@ const ConnectivityVideo = () => {
                         <Col lg={6}>
                             <div className={styles.connectivityTitle}>
                                 <h2>Next-Gen Telemetry & Connectivity.</h2>
-                                <p>Powering secure, real-time data transmission across land, sea, and sky. Our solutions are engineered for precision, reliability, and mission success.</p>
+                                <p>Parraid delivers next-generation telemetry solutions for real-time data transmission across land, air, sea, and space. Our resilient systems ensure secure, uninterrupted communication for mission-critical operations.</p>
                             </div>
                         </Col>
                         <Col md={12}>

@@ -12,7 +12,7 @@ const Connectivity = () => {
                         <Col lg={6}>
                             <div className={styles.connectivityTitle}>
                                 <h2>Next-Gen Telemetry & Connectivity.</h2>
-                                <p>Powering secure, real-time data transmission across land, sea, and sky. Our solutions are engineered for precision, reliability, and mission success.</p>
+                                <p>Parraid delivers next-generation telemetry solutions for real-time data transmission across land, air, sea, and space. Our resilient systems ensure secure, uninterrupted communication for mission-critical operations.</p>
                             </div>
                         </Col>
                     </Row>
@@ -28,8 +28,14 @@ const Connectivity = () => {
                         <Col lg={6}>
                             <div className={styles.connectivityList}>
                                 <h3>Our Mission</h3>
-                                <p>Powering secure, real-time data transmission across land, sea, and sky. Our solutions are engineered for precision, reliability, and mission success. Powering secure, real-time data transmission across land, sea, and sky. Our solutions are engineered for precision, reliability, and mission success.</p>
-                                <p>Powering secure, real-time data transmission across land, sea, and sky.</p>
+                                <p>Sustained excellence in meeting customer requirements for telemetry, data, and communications products by:</p>
+                                <ul>
+                                    <li>Enhancing the reputation and recognition of our company</li>
+                                    <li>Attracting and retaining quality professionals</li>
+                                    <li>Earning a high degree of customer satisfaction and loyalty</li>
+                                    <li>Increasing and diversifying our product portfolio and associated customer base</li>
+                                    <li>Continually improving the way we engineer and manufacture our products</li>
+                                </ul>
                                 <SingleButton link="#" whitebg={true} />
                             </div>
                         </Col>

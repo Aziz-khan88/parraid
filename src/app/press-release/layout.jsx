@@ -1,19 +1,19 @@
 
 export const metadata = {
-  title: "",
-  description: "",
+  title: "Press Releases - Parraid",
+  description: "Stay updated with Parraid's latest press releases on telemetry systems, tactical communications, and defense technology innovations for mission-critical operations.",
   //===== OG Tags =====
   openGraph: {
-    title: "",
-    description: "",
-    url: "/products",
+    title: "Press Releases - Parraid",
+    description: "Stay updated with Parraid's latest press releases on telemetry systems, tactical communications, and defense technology innovations for mission-critical operations.",
+    url: "/press-release",
     siteName: "Parraid",
     locale: "en_US",
     type: "website",
     images: "#",
   },
   //===== Canonical =====
-  alternates: { canonical: "/products" },
+  alternates: { canonical: "/press-release" },
 
 };
 

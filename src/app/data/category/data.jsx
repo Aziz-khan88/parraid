@@ -1,7 +1,12 @@
 
 import img01 from "media/blogs/img1.webp";
 import img02 from "media/blogs/img2.webp";
-import img03 from "media/blogs/img3.webp";
+import Cat1Img1 from "media/category/cat1/img01.webp";
+import Cat1Img2 from "media/category/cat1/img02.webp";
+import Cat2Img1 from "media/category/cat2/img01.webp";
+import Cat2Img2 from "media/category/cat2/img02.webp";
+import Cat3Img1 from "media/category/cat3/img01.webp";
+import Cat3Img2 from "media/category/cat3/img02.webp";
 
 
 export const CategoryData = [
@@ -30,7 +35,7 @@ export const CategoryData = [
                 <li>Remote control operation</li>
             </ul>
         </>),
-        img1: img01.src,
+        img1: Cat3Img1.src,
         maintxt2: (<>
             <h5>Telemetry Receivers, Combiners, and Demodulators</h5>
             <ul>
@@ -55,7 +60,7 @@ export const CategoryData = [
                 <li>Telemetry and Data Systems Heritage</li>
             </ul>
         </>),
-        img2: img02.src,
+        img2: Cat3Img2.src,
         bluebox: (<>
             <p>Parraid is a world-class provider of telemetry receiving, processing, recording, archiving, and mining solutions to government and industry on six continents. Our continued range of applications includes flight test, laboratory test, operational test, simulation, satellite command and control, and launch vehicle command and control.</p>
         </>)
@@ -85,7 +90,7 @@ export const CategoryData = [
                 <li>Reliable rugged tactical communications accessories for uninterrupted performance in critical missions</li>
             </ul>
         </>),
-        img1: img01.src,
+        img1: Cat2Img1.src,
         maintxt2: (<>
             <h5>Rugged USB Hubs (RUH 2.0 & 3.0)</h5>
             <ul>
@@ -102,7 +107,7 @@ export const CategoryData = [
                 <li>Designed for consistent operation in high-temperature, dust, and field-deployed conditions</li>
             </ul>
         </>),
-        img2: img02.src,
+        img2: Cat2Img2.src,
         bluebox: (<>
             <p>Parraid is a trusted developer of rugged enhancements that strengthen tactical-edge communications and mission-critical hardware across the globe. Our rugged tactical communication solutions are field-proven in defense, aerospace, and first responder operations, providing dependable performance in every environment.</p>
         </>)
@@ -132,7 +137,7 @@ export const CategoryData = [
                 <li>Built for resilience, interoperability, and performance under extreme field conditions</li>
             </ul>
         </>),
-        img1: img01.src,
+        img1: Cat1Img1.src,
         maintxt2: (<>
             <h5>Tactical Radio Gateways (NRG DS-04v3 & NRG Rack-Mount-XX)</h5>
             <ul>
@@ -149,7 +154,7 @@ export const CategoryData = [
                 <li>Seamless integration within Parraid’s ecosystem of deployable communications solutions for total mission continuity</li>
             </ul>
         </>),
-        img2: img02.src,
+        img2: Cat1Img2.src,
         bluebox: (<>
             <p>Parraid is a global leader in deployable communications solutions, delivering reliable, secure, and mission-ready systems to defense, aerospace, and government organizations worldwide.From test ranges to combat zones, our deployable communications for military operations empower mission success wherever connectivity is essential.</p>
         </>)

@@ -57,7 +57,7 @@ const Industries = () => {
                   </div>
                   <div className={styles.txt}>
                     <p>{item.txt}</p>
-                    <SingleButton link="#" whitebg={true} />
+                    <SingleButton link="#Contact" whitebg={true} />
                   </div>
                 </div>
               ))}

@@ -17,7 +17,7 @@ const AboutList = () => {
                                     <p>Parraid engineers understand and anticipate customer requirements and we’re committed to designing telemetry, data, and communications products and systems that matter.</p>
                                 </div>
                                 <div className={styles.btn}>
-                                    <Link href="#"><span>Let’s Connect</span> <ArrowICon /></Link>
+                                    <Link href="#Contact"><span>Let’s Connect</span> <ArrowICon /></Link>
                                 </div>
                             </div>
                             <div className={styles.buildItem}>
@@ -27,7 +27,7 @@ const AboutList = () => {
                                     <p>Parraid’s goal is to build and deliver world class telemetry, data, and communications system solutions to our customers.</p>
                                 </div>
                                 <div className={styles.btn}>
-                                    <Link href="#"><span>Let’s Connect</span> <ArrowICon /></Link>
+                                    <Link href="#Contact"><span>Let’s Connect</span> <ArrowICon /></Link>
                                 </div>
                             </div>
                             <div className={styles.buildItem}>
@@ -37,7 +37,7 @@ const AboutList = () => {
                                     <p>We provide rock solid product support with all new software deliveries and warranty our hardware for three years following delivery.</p>
                                 </div>
                                 <div className={styles.btn}>
-                                    <Link href="#"><span>Let’s Connect</span> <ArrowICon /></Link>
+                                    <Link href="#Contact"><span>Let’s Connect</span> <ArrowICon /></Link>
                                 </div>
                             </div>
                         </div>

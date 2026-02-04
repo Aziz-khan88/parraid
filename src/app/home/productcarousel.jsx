@@ -42,7 +42,7 @@ const ProductCarousel = ({ products }) => {
                 <div className={styles.contentSec}>
                   <TwoButton
                     link1={`/product/${item.slug}`}
-                    link2="#"
+                    link2={`/product/${item.slug}/#ContactFrom`}
                     black={true}
                   />
                 </div>

@@ -16,8 +16,10 @@ const ContactFrom = () => {
     }, 1500);
     return () => clearTimeout(timeout);
   }, []);
+
+
   return (
-    <section className={`${styles.contactFormSection}`}>
+    <section className={`${styles.contactFormSection}`} id="Contact">
       <Container className={styles.contactBg}>
         <Row>
           <Col md={12} lg={4}>

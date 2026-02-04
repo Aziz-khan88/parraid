@@ -31,7 +31,7 @@ const Build = ({ about }) => {
               <div className={styles.txt}>
                 <p>
                   Parraid, LLC is a highly regarded, U.S. based technology and engineering company specializing in product solutions for aerospace and ground tactical applications. Our product offerings include Telemetry Data Systems (TDS), deployable tactical systems, and net-centric Everything over IP (EoIP) products. From expedited acquisition to rapid fielding and execution, our mission-critical solutions enable our customers to transform, evolve, and modernize.     </p>
-                <TwoButton link1="#" link2="#" />
+                <TwoButton link1="tel:+1(301)690-0690" txt1="Call Now" link2="#Contact" />
               </div>
             </div>
           </Col>

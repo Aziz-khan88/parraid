@@ -29,7 +29,7 @@ const Vision = () => {
                   operational readiness across every domain — air, land, sea,
                   and space.
                 </p>
-                <SingleButton link="#" txt="Read More" />
+                <SingleButton link="/about-us" txt="Read More" />
               </div>
             </div>
           </Col>

@@ -32,7 +32,7 @@ const Build = ({ about }) => {
                 <p>
                   Parraid’s deployable communication products empower defense, aerospace, and government teams to connect, coordinate, and command with total confidence — whether on the ground, in the air, or across maritime and remote networks. Our telemetry and data systems come from over 25 years of heritage that has grown to provide some of the world’s most feature-rich, ground-based data processing and recording systems for use across all data processing applications.
                 </p>
-                <TwoButton link1="#" link2="#" />
+                <TwoButton link1="/about-us" link2="#Contact" />
               </div>
             </div>
           </Col>

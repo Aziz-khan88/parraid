@@ -36,13 +36,13 @@ const Connectivity = () => {
                                     <li>Increasing and diversifying our product portfolio and associated customer base</li>
                                     <li>Continually improving the way we engineer and manufacture our products</li>
                                 </ul>
-                                <SingleButton link="#" whitebg={true} />
+                                <SingleButton link="#Contact" whitebg={true} />
                             </div>
                         </Col>
                         <Col lg={6}>
                             <div className={`${styles.connectivityList} ${styles.visionList}`}>
                                 <h3>Our Vision</h3>
-                                <SingleButton link="#" whitebg={true} />
+                                <SingleButton link="#Contact" whitebg={true} />
                             </div>
                         </Col>
                     </Row>

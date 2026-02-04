@@ -21,7 +21,7 @@ const ConnectivityForm = () => {
             </Col>
           </Row>
           <Row>
-            <Col md={6}>
+            <Col md={6} id="ContactFrom" className={styles.contactFrom}>
               <ContactForm product={true} />
             </Col>
             <Col md={6}>

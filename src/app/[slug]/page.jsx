@@ -79,7 +79,7 @@ export default async function Page({ params }) {
         return (
             <>
                 <BannerPage data={page} page={true} />
-                <PageContent data={page} />
+                <PageContent data={page} blue={true} />
             </>
         );
     }

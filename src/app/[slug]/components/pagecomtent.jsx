@@ -4,9 +4,9 @@ import { Col, Container, Row } from "react-bootstrap"
 import FaqsBlog from "@/src/app/blogs/components/faqsblog";
 import ClientsPage from "@/src/app/[slug]/components/clientspage";
 
-const PageContent = ({ data }) => {
+const PageContent = ({ data, blue }) => {
     return (
-        <section className={`${styles.categorySection}  borderRadiusTop`}>
+        <section className={`${styles.categorySection} ${blue ? styles.blueHeading : ""} borderRadiusTop`}>
             <Container>
 
                 <Row className="mt-5">
